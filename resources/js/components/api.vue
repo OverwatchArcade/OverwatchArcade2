@@ -162,7 +162,7 @@
                     </tr>
                     <tr>
                         <td>Notes</td>
-                        <td>Be sure to encode the hashtag to %23</td>
+                        <td>The hashtag in the battletag must be encoded. i.e bluedog#21410 -> bluedog%2321410</td>
                     </tr>
                     </tbody>
                 </table>

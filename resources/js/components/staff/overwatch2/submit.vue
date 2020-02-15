@@ -2,7 +2,7 @@
     <div id="cards">
         <div class="row">
             <div class="col">
-                <h2>Overwatch</h2>
+                <h2>Overwatch 2</h2>
             </div>
         </div>
         <div class="row">
@@ -17,21 +17,21 @@
                 <div class="row mb-4">
                     <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4 mb-4">
                         <card :gamemode="daily.modes.tile_2"></card>
-                        <multiselect v-model="value['tile_2']" 
+                        <multiselect v-model="value['tile_2']"
                                      @input="onChange(value['tile_2'], 'tile_2')" :options="options" :searchable="true"
                                      :close-on-select="true" :custom-label="multiSelectLabel"
                                      :show-labels="true" placeholder="Choose gamemode"></multiselect>
                     </div>
                     <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4 mb-4">
                         <card :gamemode="daily.modes.tile_3"></card>
-                        <multiselect v-model="value['tile_3']" 
+                        <multiselect v-model="value['tile_3']"
                                      @input="onChange(value['tile_3'], 'tile_3')" :options="options" :searchable="true"
                                      :close-on-select="true" :custom-label="multiSelectLabel"
                                      :show-labels="true" placeholder="Choose gamemode"></multiselect>
                     </div>
                     <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4 mb-4">
                         <card :gamemode="daily.modes.tile_4"></card>
-                        <multiselect v-model="value['tile_4']" 
+                        <multiselect v-model="value['tile_4']"
                                      @input="onChange(value['tile_4'], 'tile_4')" :options="options" :searchable="true"
                                      :close-on-select="true" :custom-label="multiSelectLabel"
                                      :show-labels="true" placeholder="Choose gamemode"></multiselect>
@@ -40,21 +40,21 @@
                 <div class="row">
                     <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4 mb-4">
                         <card :gamemode="daily.modes.tile_5"></card>
-                        <multiselect v-model="value['tile_5']" 
+                        <multiselect v-model="value['tile_5']"
                                      @input="onChange(value['tile_5'], 'tile_5')" :options="options" :searchable="true"
                                      :close-on-select="true" :custom-label="multiSelectLabel"
                                      :show-labels="true" placeholder="Choose gamemode"></multiselect>
                     </div>
                     <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4 mb-4">
                         <card :gamemode="daily.modes.tile_6"></card>
-                        <multiselect v-model="value['tile_6']" 
+                        <multiselect v-model="value['tile_6']"
                                      @input="onChange(value['tile_6'], 'tile_6')" :options="options" :searchable="true"
                                      :close-on-select="true" :custom-label="multiSelectLabel"
                                      :show-labels="true" placeholder="Choose gamemode"></multiselect>
                     </div>
                     <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4 mb-4">
                         <card :gamemode="daily.modes.tile_7"></card>
-                        <multiselect v-model="value['tile_7']" 
+                        <multiselect v-model="value['tile_7']"
                                      @input="onChange(value['tile_7'], 'tile_7')" :options="options" :searchable="true"
                                      :close-on-select="true" :custom-label="multiSelectLabel"
                                      :show-labels="true" placeholder="Choose gamemode"></multiselect>
@@ -117,7 +117,7 @@
                 })
             },
             getDaily() {
-                return axios.get("/api/overwatch/today").then(response => {
+                return axios.get("/api/overwatch2/today").then(response => {
                     this.daily = response.data;
                 })
             },
@@ -125,7 +125,7 @@
                 let toasted = this.$toasted;
                 let alert = this.$swal;
 
-                axios.post('/staff/overwatch/submit', this.daily.modes).then(response => {
+                axios.post('/staff/overwatch2/submit', this.daily.modes).then(response => {
                     alert.fire({
                         title: 'Success',
                         text: 'Thank you for submitting today\'s arcade! <3. Tweet will be sent out shortly after this message.',
@@ -141,7 +141,7 @@
                             text: 'Today\'s arcade has already been set, sorry!',
                             icon: 'warning',
                             onClose: () => {
-                                location.href = "/overwatch";
+                                location.href = "/overwatch2";
                             }
                         });
                     } else {

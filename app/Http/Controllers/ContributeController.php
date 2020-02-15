@@ -19,9 +19,17 @@ class ContributeController extends Controller
     /**
      * @return \Illuminate\Contracts\View\Factory|\Illuminate\View\View
      */
-    public function index()
+    public function overwatch_submit_index()
     {
         return view('admin.overwatch.submit');
+    }
+
+    /**
+     * @return \Illuminate\Contracts\View\Factory|\Illuminate\View\View
+     */
+    public function overwatch2_submit_index()
+    {
+        return view('admin.overwatch2.submit');
     }
 
     /**
@@ -36,7 +44,7 @@ class ContributeController extends Controller
      * @param ArcadeModePost $request
      * @return \Illuminate\Contracts\Routing\ResponseFactory|\Illuminate\Http\JsonResponse|\Illuminate\Http\Response
      */
-    public function submitTodaysArcade(ArcadeModePost $request)
+    public function submitOverwatchTodaysArcade(ArcadeModePost $request)
     {
         if (Daily::hasGamemodesSetToday(Daily::GAME_KEY_OVERWATCH)) {
             return response('Gamemode has already been set', 409);
@@ -52,6 +60,35 @@ class ContributeController extends Controller
             'tile_7' => $request->get('tile_7')['id'],
             'user_battlenet_id' => Auth::user()->battlenet_id,
             'game' => Daily::GAME_KEY_OVERWATCH
+        ]);
+
+        if (env('APP_ENV') == "Production") {
+            TwitterPost::dispatch();
+        }
+
+        return response()->json($request->all());
+    }
+
+    /**
+     * @param ArcadeModePost $request
+     * @return \Illuminate\Contracts\Routing\ResponseFactory|\Illuminate\Http\JsonResponse|\Illuminate\Http\Response
+     */
+    public function submitOverwatch2TodaysArcade(ArcadeModePost $request)
+    {
+        if (Daily::hasGamemodesSetToday(Daily::GAME_KEY_OVERWATCH2)) {
+            return response('Gamemode has already been set', 409);
+        }
+
+        Daily::create([
+            'tile_1' => $request->get('tile_1')['id'],
+            'tile_2' => $request->get('tile_2')['id'],
+            'tile_3' => $request->get('tile_3')['id'],
+            'tile_4' => $request->get('tile_4')['id'],
+            'tile_5' => $request->get('tile_5')['id'],
+            'tile_6' => $request->get('tile_6')['id'],
+            'tile_7' => $request->get('tile_7')['id'],
+            'user_battlenet_id' => Auth::user()->battlenet_id,
+            'game' => Daily::GAME_KEY_OVERWATCH2
         ]);
 
         if (env('APP_ENV') == "Production") {

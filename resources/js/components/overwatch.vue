@@ -2,8 +2,7 @@
     <div id="overwatch">
         <div class="row mb-lg-2">
             <div class="col">
-                <h3 v-if="outdated"><span class="badge badge-warning">Warning</span> Today's arcade hasn't been updated
-                    yet.</h3>
+                <h3 v-if="outdated"><span class="badge badge-warning">{{$t('message.warning')}}</span> {{$t('overwatch.not_updated_yet')}}</h3>
                 <div v-if="!outdated && daily.user.battletag">
                     <h3 v-if="daily.user.battletag">Contributor</h3>
                     <router-link :to="/profile/+daily.user.battletag.replace(/#/, '%23')">
@@ -18,7 +17,7 @@
                 <div>
                     <countdown :time="timeleft" @end="handleCountdownEnd" :transform="transform">
                         <template slot-scope="props">
-                            <h3>Day resets in {{props.hours}}:{{props.minutes}}:{{props.seconds}}</h3>
+                            <h3>{{$t("overwatch.day_resets_in")}} {{props.hours}}:{{props.minutes}}:{{props.seconds}}</h3>
                         </template>
                     </countdown>
                 </div>
@@ -87,7 +86,7 @@
                         "tile_7": {}
                     }
                 },
-                outdated: false
+                outdated: true
             }
         },
         components: {
@@ -100,13 +99,13 @@
                     case "overwatch":
                         this.gameconfig = {
                             'update_url': '/staff/overwatch',
-                            'api_url': '/api/overwatch/today?fallback=true'
+                            'api_url': '/api/overwatch/today'
                         };
                         return true;
                     case "overwatch2":
                         this.gameconfig = {
-                            'update_url': '/api/overwatch2/today',
-                            'api_url': '/api/overwatch2/today?fallback=true'
+                            'update_url': '/staff/overwatch2',
+                            'api_url': '/api/overwatch2/today'
                         };
                         return true;
                 }
@@ -114,9 +113,8 @@
             getDaily() {
                 return axios.get(this.gameconfig['api_url']).then(response => {
                     this.daily = response.data;
-
-                    if (!this.$moment().utc().isSame(response.data['created_at'], 'day')) {
-                        this.outdated = true;
+                    if (response.data['is_today']) {
+                        this.outdated = false
                     }
                 })
             },

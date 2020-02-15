@@ -101,7 +101,7 @@
                 },
                 overwatch: {
                     arcademodes: [],
-                    arcadeImages: [],
+                    arcadeImages: false,
                 }
             }
         },

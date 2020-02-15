@@ -74,9 +74,6 @@
     <section id="content">
         @yield('content')
     </section>
-    <section id="menu">
-        @include('layout.menu')
-    </section>
     <section id="footer" class="mt-5">
         <div class="row">
             <div class="col-12 col-md-10">

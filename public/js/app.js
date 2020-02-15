@@ -2975,7 +2975,6 @@ function _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
 //
 //
 //
-//
 
 
 /* harmony default export */ __webpack_exports__["default"] = ({
@@ -2998,7 +2997,7 @@ function _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
           "tile_7": {}
         }
       },
-      outdated: false
+      outdated: true
     };
   },
   components: {
@@ -3011,14 +3010,14 @@ function _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
         case "overwatch":
           this.gameconfig = {
             'update_url': '/staff/overwatch',
-            'api_url': '/api/overwatch/today?fallback=true'
+            'api_url': '/api/overwatch/today'
           };
           return true;
 
         case "overwatch2":
           this.gameconfig = {
-            'update_url': '/api/overwatch2/today',
-            'api_url': '/api/overwatch2/today?fallback=true'
+            'update_url': '/staff/overwatch2',
+            'api_url': '/api/overwatch2/today'
           };
           return true;
       }
@@ -3029,8 +3028,8 @@ function _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
       return axios.get(this.gameconfig['api_url']).then(function (response) {
         _this.daily = response.data;
 
-        if (!_this.$moment().utc().isSame(response.data['created_at'], 'day')) {
-          _this.outdated = true;
+        if (response.data['is_today']) {
+          _this.outdated = false;
         }
       });
     },
@@ -3178,7 +3177,7 @@ var _database_data_overwatch_arcademodes__WEBPACK_IMPORTED_MODULE_0___namespace 
       },
       overwatch: {
         arcademodes: [],
-        arcadeImages: []
+        arcadeImages: false
       }
     };
   },
@@ -3285,18 +3284,6 @@ var _database_data_overwatch_arcademodes_json__WEBPACK_IMPORTED_MODULE_4___names
 //
 //
 //
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
 
 
 
@@ -3337,16 +3324,24 @@ var _database_data_overwatch_arcademodes_json__WEBPACK_IMPORTED_MODULE_4___names
       var _this = this;
 
       return axios.post("/api/user/update", this.user_data.profile_data).then(function (response) {
+        console.log(response);
+
         _this.$toasted.show("Profile succesfully updated!", {
           theme: "outline",
           position: "top-right",
           duration: 5000
         });
-      })["catch"](function (response) {
-        _this.$toasted.show(response.errors, {
-          theme: "outline",
-          position: "top-right",
-          duration: 5000
+      })["catch"](function (error) {
+        var toasted = _this.$toasted;
+        console.log(error.response.data.errors);
+        Object.keys(error.response.data.errors).forEach(function (key) {
+          error.response.data.errors[key].forEach(function (element) {
+            toasted.show(element, {
+              theme: "toasted-primary",
+              position: "top-right",
+              duration: 5000
+            });
+          });
         });
       });
     },
@@ -3467,13 +3462,17 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
 
 
 /* harmony default export */ __webpack_exports__["default"] = ({
   name: "ow_submit",
   data: function data() {
     return {
-      gameconfig: false,
       value: {
         'tile_1': false,
         'tile_2': false,
@@ -3497,7 +3496,7 @@ __webpack_require__.r(__webpack_exports__);
           "tile_7": {}
         }
       },
-      outdated: false
+      outdated: true
     };
   },
   components: {
@@ -3505,21 +3504,6 @@ __webpack_require__.r(__webpack_exports__);
     Multiselect: vue_multiselect__WEBPACK_IMPORTED_MODULE_1___default.a
   },
   methods: {
-    getOwConfig: function getOwConfig() {
-      switch (this.$route['name']) {
-        case "overwatch_submit":
-          this.gameconfig = {
-            'api_url': '/api/overwatch/today?fallback=true'
-          };
-          return true;
-
-        case "overwatch2_submit":
-          this.gameconfig = {
-            'api_url': '/api/overwatch2/today?fallback=true'
-          };
-          return true;
-      }
-    },
     getGamemodes: function getGamemodes() {
       var _this = this;
 
@@ -3530,12 +3514,8 @@ __webpack_require__.r(__webpack_exports__);
     getDaily: function getDaily() {
       var _this2 = this;
 
-      return axios.get(this.gameconfig['api_url']).then(function (response) {
+      return axios.get("/api/overwatch/today").then(function (response) {
         _this2.daily = response.data;
-
-        if (!_this2.$moment().utc().isSame(response.data['created_at'], 'day')) {
-          _this2.outdated = true;
-        }
       });
     },
     submitTodayGamemode: function submitTodayGamemode() {
@@ -3577,7 +3557,188 @@ __webpack_require__.r(__webpack_exports__);
     }
   },
   mounted: function mounted() {
-    this.getOwConfig();
+    this.getDaily();
+    this.getGamemodes();
+  }
+});
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/staff/overwatch2/submit.vue?vue&type=script&lang=js&":
+/*!**********************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/staff/overwatch2/submit.vue?vue&type=script&lang=js& ***!
+  \**********************************************************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _elements_gametile__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../elements/gametile */ "./resources/js/components/elements/gametile.vue");
+/* harmony import */ var vue_multiselect__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! vue-multiselect */ "./node_modules/vue-multiselect/dist/vue-multiselect.min.js");
+/* harmony import */ var vue_multiselect__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(vue_multiselect__WEBPACK_IMPORTED_MODULE_1__);
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+
+
+/* harmony default export */ __webpack_exports__["default"] = ({
+  name: "ow_submit",
+  data: function data() {
+    return {
+      value: {
+        'tile_1': false,
+        'tile_2': false,
+        'tile_3': false,
+        'tile_4': false,
+        'tile_5': false,
+        'tile_6': false,
+        'tile_7': false
+      },
+      options: [],
+      daily: {
+        created_at: null,
+        user: {},
+        modes: {
+          "tile_1": {},
+          "tile_2": {},
+          "tile_3": {},
+          "tile_4": {},
+          "tile_5": {},
+          "tile_6": {},
+          "tile_7": {}
+        }
+      },
+      outdated: true
+    };
+  },
+  components: {
+    card: _elements_gametile__WEBPACK_IMPORTED_MODULE_0__["default"],
+    Multiselect: vue_multiselect__WEBPACK_IMPORTED_MODULE_1___default.a
+  },
+  methods: {
+    getGamemodes: function getGamemodes() {
+      var _this = this;
+
+      return axios.get("/api/overwatch/arcademodes").then(function (response) {
+        _this.options = response.data;
+      });
+    },
+    getDaily: function getDaily() {
+      var _this2 = this;
+
+      return axios.get("/api/overwatch2/today").then(function (response) {
+        _this2.daily = response.data;
+      });
+    },
+    submitTodayGamemode: function submitTodayGamemode() {
+      var toasted = this.$toasted;
+      var alert = this.$swal;
+      axios.post('/staff/overwatch2/submit', this.daily.modes).then(function (response) {
+        alert.fire({
+          title: 'Success',
+          text: 'Thank you for submitting today\'s arcade! <3. Tweet will be sent out shortly after this message.',
+          icon: 'success',
+          onClose: function onClose() {
+            location.href = "/overwatch";
+          }
+        });
+      })["catch"](function (error) {
+        if (error.response.status === 409) {
+          alert.fire({
+            title: 'Already been set',
+            text: 'Today\'s arcade has already been set, sorry!',
+            icon: 'warning',
+            onClose: function onClose() {
+              location.href = "/overwatch2";
+            }
+          });
+        } else {
+          toasted.show("Something went wrong, are you sure you've filled in all the modes?");
+        }
+
+        console.log(error.response);
+      });
+    },
+    onChange: function onChange(value, id) {
+      this.daily.modes[id] = value;
+    },
+    multiSelectLabel: function multiSelectLabel(_ref) {
+      var name = _ref.name,
+          players = _ref.players;
+      return "".concat(name, " \u2014 [").concat(players, "]");
+    }
+  },
+  mounted: function mounted() {
     this.getDaily();
     this.getGamemodes();
   }
@@ -3617,6 +3778,25 @@ exports = module.exports = __webpack_require__(/*! ../../../../../node_modules/c
 
 // module
 exports.push([module.i, "\n.card[data-v-4f7c3606] { height: auto;\n}\n", ""]);
+
+// exports
+
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/staff/overwatch2/submit.vue?vue&type=style&index=0&id=de7c78b4&scoped=true&lang=css&":
+/*!*****************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader??ref--6-1!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--6-2!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/staff/overwatch2/submit.vue?vue&type=style&index=0&id=de7c78b4&scoped=true&lang=css& ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(/*! ../../../../../node_modules/css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(false);
+// imports
+
+
+// module
+exports.push([module.i, "\n.card[data-v-de7c78b4] { height: auto;\n}\n", ""]);
 
 // exports
 
@@ -21320,6 +21500,36 @@ if(false) {}
 
 /***/ }),
 
+/***/ "./node_modules/style-loader/index.js!./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/staff/overwatch2/submit.vue?vue&type=style&index=0&id=de7c78b4&scoped=true&lang=css&":
+/*!*********************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/style-loader!./node_modules/css-loader??ref--6-1!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--6-2!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/staff/overwatch2/submit.vue?vue&type=style&index=0&id=de7c78b4&scoped=true&lang=css& ***!
+  \*********************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+
+var content = __webpack_require__(/*! !../../../../../node_modules/css-loader??ref--6-1!../../../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../../../node_modules/postcss-loader/src??ref--6-2!../../../../../node_modules/vue-loader/lib??vue-loader-options!./submit.vue?vue&type=style&index=0&id=de7c78b4&scoped=true&lang=css& */ "./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/staff/overwatch2/submit.vue?vue&type=style&index=0&id=de7c78b4&scoped=true&lang=css&");
+
+if(typeof content === 'string') content = [[module.i, content, '']];
+
+var transform;
+var insertInto;
+
+
+
+var options = {"hmr":true}
+
+options.transform = transform
+options.insertInto = undefined;
+
+var update = __webpack_require__(/*! ../../../../../node_modules/style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
+
+if(content.locals) module.exports = content.locals;
+
+if(false) {}
+
+/***/ }),
+
 /***/ "./node_modules/style-loader/index.js!./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-multiselect/dist/vue-multiselect.min.css?vue&type=style&index=1&lang=css&":
 /*!*************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** ./node_modules/style-loader!./node_modules/css-loader??ref--6-1!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--6-2!./node_modules/vue-multiselect/dist/vue-multiselect.min.css?vue&type=style&index=1&lang=css& ***!
@@ -27675,7 +27885,11 @@ var staticRenderFns = [
               _c("tr", [
                 _c("td", [_vm._v("Notes")]),
                 _vm._v(" "),
-                _c("td", [_vm._v("Be sure to encode the hashtag to %23")])
+                _c("td", [
+                  _vm._v(
+                    "The hashtag in the battletag must be encoded. i.e bluedog#21410 -> bluedog%2321410"
+                  )
+                ])
               ])
             ])
           ])
@@ -28004,7 +28218,7 @@ var render = function() {
         "li",
         [
           _c("router-link", { attrs: { to: "/contributors" } }, [
-            _vm._v("Contributors")
+            _vm._v(_vm._s(_vm.$t("general.contributors")))
           ])
         ],
         1
@@ -28014,7 +28228,7 @@ var render = function() {
         "li",
         [
           _c("router-link", { attrs: { to: "/notifications" } }, [
-            _vm._v("Notifications")
+            _vm._v(_vm._s(_vm.$t("general.notifications")))
           ])
         ],
         1
@@ -28029,7 +28243,7 @@ var render = function() {
       _vm.loggedIn
         ? _c("li", [
             _c("a", { attrs: { href: "/staff/settings" } }, [
-              _vm._v("Settings")
+              _vm._v(_vm._s(_vm.$t("general.settings")))
             ])
           ])
         : _vm._e()
@@ -28208,11 +28422,9 @@ var render = function() {
         _vm.outdated
           ? _c("h3", [
               _c("span", { staticClass: "badge badge-warning" }, [
-                _vm._v("Warning")
+                _vm._v(_vm._s(_vm.$t("message.warning")))
               ]),
-              _vm._v(
-                " Today's arcade hasn't been updated\n                yet."
-              )
+              _vm._v(" " + _vm._s(_vm.$t("overwatch.not_updated_yet")))
             ])
           : _vm._e(),
         _vm._v(" "),
@@ -28266,7 +28478,8 @@ var render = function() {
                     return [
                       _c("h3", [
                         _vm._v(
-                          "Day resets in " +
+                          _vm._s(_vm.$t("overwatch.day_resets_in")) +
+                            " " +
                             _vm._s(props.hours) +
                             ":" +
                             _vm._s(props.minutes) +
@@ -28599,28 +28812,6 @@ var render = function() {
   return _c("div", { staticClass: "row" }, [
     _vm._m(0),
     _vm._v(" "),
-    _c("div", { staticClass: "col-12" }, [
-      _c("div", { staticClass: "row" }, [
-        _c("div", { staticClass: "col-12 col-md-4" }, [
-          _c("div", { staticClass: "form-group" }, [
-            _c("div", { staticClass: "form-group" }, [
-              _c("img", {
-                staticClass: "img-thumbnail",
-                staticStyle: { height: "158px" },
-                attrs: { src: _vm.user_data.avatar }
-              }),
-              _vm._v(" "),
-              _c("input", {
-                staticClass: "form-control-file",
-                attrs: { type: "file", accept: "image/jpeg" },
-                on: { change: _vm.uploadImage }
-              })
-            ])
-          ])
-        ])
-      ])
-    ]),
-    _vm._v(" "),
     _c("div", { staticClass: "col-12 col-md-6" }, [
       _c("h4", [_vm._v("Profile")]),
       _vm._v(" "),
@@ -28828,7 +29019,7 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "col-12" }, [
-      _c("h2", [_vm._v("Profile settings")])
+      _c("h2", [_vm._v("Settings")])
     ])
   }
 ]
@@ -28854,6 +29045,8 @@ var render = function() {
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
   return _c("div", { attrs: { id: "cards" } }, [
+    _vm._m(0),
+    _vm._v(" "),
     _c("div", { staticClass: "row" }, [
       _c(
         "div",
@@ -29104,7 +29297,300 @@ var render = function() {
     ])
   ])
 }
-var staticRenderFns = []
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "row" }, [
+      _c("div", { staticClass: "col" }, [_c("h2", [_vm._v("Overwatch")])])
+    ])
+  }
+]
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/staff/overwatch2/submit.vue?vue&type=template&id=de7c78b4&scoped=true&":
+/*!**************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/staff/overwatch2/submit.vue?vue&type=template&id=de7c78b4&scoped=true& ***!
+  \**************************************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c("div", { attrs: { id: "cards" } }, [
+    _vm._m(0),
+    _vm._v(" "),
+    _c("div", { staticClass: "row" }, [
+      _c(
+        "div",
+        { staticClass: "col-xl-4 col-md-12 largeTile mb-4" },
+        [
+          _c("card", { attrs: { gamemode: _vm.daily.modes.tile_1 } }),
+          _vm._v(" "),
+          _c("multiselect", {
+            attrs: {
+              options: _vm.options,
+              searchable: true,
+              "close-on-select": true,
+              "custom-label": _vm.multiSelectLabel,
+              "show-labels": false,
+              placeholder: "Pick a value"
+            },
+            on: {
+              input: function($event) {
+                return _vm.onChange(_vm.value["tile_1"], "tile_1")
+              }
+            },
+            model: {
+              value: _vm.value["tile_1"],
+              callback: function($$v) {
+                _vm.$set(_vm.value, "tile_1", $$v)
+              },
+              expression: "value['tile_1']"
+            }
+          })
+        ],
+        1
+      ),
+      _vm._v(" "),
+      _c("div", { staticClass: "col-xl-8 col-md-12" }, [
+        _c("div", { staticClass: "row mb-4" }, [
+          _c(
+            "div",
+            { staticClass: "col-sm-12 col-md-6 col-lg-4 col-xl-4 mb-4" },
+            [
+              _c("card", { attrs: { gamemode: _vm.daily.modes.tile_2 } }),
+              _vm._v(" "),
+              _c("multiselect", {
+                attrs: {
+                  options: _vm.options,
+                  searchable: true,
+                  "close-on-select": true,
+                  "custom-label": _vm.multiSelectLabel,
+                  "show-labels": true,
+                  placeholder: "Choose gamemode"
+                },
+                on: {
+                  input: function($event) {
+                    return _vm.onChange(_vm.value["tile_2"], "tile_2")
+                  }
+                },
+                model: {
+                  value: _vm.value["tile_2"],
+                  callback: function($$v) {
+                    _vm.$set(_vm.value, "tile_2", $$v)
+                  },
+                  expression: "value['tile_2']"
+                }
+              })
+            ],
+            1
+          ),
+          _vm._v(" "),
+          _c(
+            "div",
+            { staticClass: "col-sm-12 col-md-6 col-lg-4 col-xl-4 mb-4" },
+            [
+              _c("card", { attrs: { gamemode: _vm.daily.modes.tile_3 } }),
+              _vm._v(" "),
+              _c("multiselect", {
+                attrs: {
+                  options: _vm.options,
+                  searchable: true,
+                  "close-on-select": true,
+                  "custom-label": _vm.multiSelectLabel,
+                  "show-labels": true,
+                  placeholder: "Choose gamemode"
+                },
+                on: {
+                  input: function($event) {
+                    return _vm.onChange(_vm.value["tile_3"], "tile_3")
+                  }
+                },
+                model: {
+                  value: _vm.value["tile_3"],
+                  callback: function($$v) {
+                    _vm.$set(_vm.value, "tile_3", $$v)
+                  },
+                  expression: "value['tile_3']"
+                }
+              })
+            ],
+            1
+          ),
+          _vm._v(" "),
+          _c(
+            "div",
+            { staticClass: "col-sm-12 col-md-6 col-lg-4 col-xl-4 mb-4" },
+            [
+              _c("card", { attrs: { gamemode: _vm.daily.modes.tile_4 } }),
+              _vm._v(" "),
+              _c("multiselect", {
+                attrs: {
+                  options: _vm.options,
+                  searchable: true,
+                  "close-on-select": true,
+                  "custom-label": _vm.multiSelectLabel,
+                  "show-labels": true,
+                  placeholder: "Choose gamemode"
+                },
+                on: {
+                  input: function($event) {
+                    return _vm.onChange(_vm.value["tile_4"], "tile_4")
+                  }
+                },
+                model: {
+                  value: _vm.value["tile_4"],
+                  callback: function($$v) {
+                    _vm.$set(_vm.value, "tile_4", $$v)
+                  },
+                  expression: "value['tile_4']"
+                }
+              })
+            ],
+            1
+          )
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "row" }, [
+          _c(
+            "div",
+            { staticClass: "col-sm-12 col-md-6 col-lg-4 col-xl-4 mb-4" },
+            [
+              _c("card", { attrs: { gamemode: _vm.daily.modes.tile_5 } }),
+              _vm._v(" "),
+              _c("multiselect", {
+                attrs: {
+                  options: _vm.options,
+                  searchable: true,
+                  "close-on-select": true,
+                  "custom-label": _vm.multiSelectLabel,
+                  "show-labels": true,
+                  placeholder: "Choose gamemode"
+                },
+                on: {
+                  input: function($event) {
+                    return _vm.onChange(_vm.value["tile_5"], "tile_5")
+                  }
+                },
+                model: {
+                  value: _vm.value["tile_5"],
+                  callback: function($$v) {
+                    _vm.$set(_vm.value, "tile_5", $$v)
+                  },
+                  expression: "value['tile_5']"
+                }
+              })
+            ],
+            1
+          ),
+          _vm._v(" "),
+          _c(
+            "div",
+            { staticClass: "col-sm-12 col-md-6 col-lg-4 col-xl-4 mb-4" },
+            [
+              _c("card", { attrs: { gamemode: _vm.daily.modes.tile_6 } }),
+              _vm._v(" "),
+              _c("multiselect", {
+                attrs: {
+                  options: _vm.options,
+                  searchable: true,
+                  "close-on-select": true,
+                  "custom-label": _vm.multiSelectLabel,
+                  "show-labels": true,
+                  placeholder: "Choose gamemode"
+                },
+                on: {
+                  input: function($event) {
+                    return _vm.onChange(_vm.value["tile_6"], "tile_6")
+                  }
+                },
+                model: {
+                  value: _vm.value["tile_6"],
+                  callback: function($$v) {
+                    _vm.$set(_vm.value, "tile_6", $$v)
+                  },
+                  expression: "value['tile_6']"
+                }
+              })
+            ],
+            1
+          ),
+          _vm._v(" "),
+          _c(
+            "div",
+            { staticClass: "col-sm-12 col-md-6 col-lg-4 col-xl-4 mb-4" },
+            [
+              _c("card", { attrs: { gamemode: _vm.daily.modes.tile_7 } }),
+              _vm._v(" "),
+              _c("multiselect", {
+                attrs: {
+                  options: _vm.options,
+                  searchable: true,
+                  "close-on-select": true,
+                  "custom-label": _vm.multiSelectLabel,
+                  "show-labels": true,
+                  placeholder: "Choose gamemode"
+                },
+                on: {
+                  input: function($event) {
+                    return _vm.onChange(_vm.value["tile_7"], "tile_7")
+                  }
+                },
+                model: {
+                  value: _vm.value["tile_7"],
+                  callback: function($$v) {
+                    _vm.$set(_vm.value, "tile_7", $$v)
+                  },
+                  expression: "value['tile_7']"
+                }
+              })
+            ],
+            1
+          )
+        ])
+      ])
+    ]),
+    _vm._v(" "),
+    _c("div", { staticClass: "row" }, [
+      _c("div", { staticClass: "col-sm12 col-md-4" }, [
+        _c(
+          "button",
+          {
+            staticClass: "btn btn-warning btn-block",
+            on: {
+              click: function($event) {
+                return _vm.submitTodayGamemode()
+              }
+            }
+          },
+          [_vm._v("Submit")]
+        )
+      ])
+    ])
+  ])
+}
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "row" }, [
+      _c("div", { staticClass: "col" }, [_c("h2", [_vm._v("Overwatch 2")])])
+    ])
+  }
+]
 render._withStripped = true
 
 
@@ -49081,8 +49567,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var vue_moment__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(vue_moment__WEBPACK_IMPORTED_MODULE_4__);
 /* harmony import */ var vue_sweetalert2__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! vue-sweetalert2 */ "./node_modules/vue-sweetalert2/dist/index.js");
 /* harmony import */ var vue_i18n__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! vue-i18n */ "./node_modules/vue-i18n/dist/vue-i18n.esm.js");
-/* harmony import */ var _i18n__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./i18n */ "./resources/js/i18n.js");
-/* harmony import */ var _i18n__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(_i18n__WEBPACK_IMPORTED_MODULE_7__);
+/* harmony import */ var _i18n_index__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./i18n/index */ "./resources/js/i18n/index.js");
 
 
 
@@ -49100,8 +49585,15 @@ vue__WEBPACK_IMPORTED_MODULE_0___default.a.use(vue_toasted__WEBPACK_IMPORTED_MOD
 vue__WEBPACK_IMPORTED_MODULE_0___default.a.use(vue_moment__WEBPACK_IMPORTED_MODULE_4___default.a);
 vue__WEBPACK_IMPORTED_MODULE_0___default.a.use(vue_sweetalert2__WEBPACK_IMPORTED_MODULE_5__["default"]);
 vue__WEBPACK_IMPORTED_MODULE_0___default.a.use(vue_i18n__WEBPACK_IMPORTED_MODULE_6__["default"]);
+var i18n = new vue_i18n__WEBPACK_IMPORTED_MODULE_6__["default"]({
+  locale: "nl",
+  fallbackLocale: "en",
+  translations: _i18n_index__WEBPACK_IMPORTED_MODULE_7__["default"] // set locale messages
+
+});
 var app = new vue__WEBPACK_IMPORTED_MODULE_0___default.a({
   el: '#app',
+  i18n: i18n,
   router: _router__WEBPACK_IMPORTED_MODULE_1__["default"],
   components: {
     alert: _components_elements_alert__WEBPACK_IMPORTED_MODULE_3__["default"]
@@ -50021,21 +50513,166 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./resources/js/i18n.js":
-/*!******************************!*\
-  !*** ./resources/js/i18n.js ***!
-  \******************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
+/***/ "./resources/js/components/staff/overwatch2/submit.vue":
+/*!*************************************************************!*\
+  !*** ./resources/js/components/staff/overwatch2/submit.vue ***!
+  \*************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
-var messages = {
-  en: {
-    message: 'hello world'
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _submit_vue_vue_type_template_id_de7c78b4_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./submit.vue?vue&type=template&id=de7c78b4&scoped=true& */ "./resources/js/components/staff/overwatch2/submit.vue?vue&type=template&id=de7c78b4&scoped=true&");
+/* harmony import */ var _submit_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./submit.vue?vue&type=script&lang=js& */ "./resources/js/components/staff/overwatch2/submit.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _submit_vue_vue_type_style_index_0_id_de7c78b4_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./submit.vue?vue&type=style&index=0&id=de7c78b4&scoped=true&lang=css& */ "./resources/js/components/staff/overwatch2/submit.vue?vue&type=style&index=0&id=de7c78b4&scoped=true&lang=css&");
+/* harmony import */ var vue_multiselect_dist_vue_multiselect_min_css_vue_type_style_index_1_lang_css___WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! vue-multiselect/dist/vue-multiselect.min.css?vue&type=style&index=1&lang=css& */ "./node_modules/vue-multiselect/dist/vue-multiselect.min.css?vue&type=style&index=1&lang=css&");
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_4__["default"])(
+  _submit_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _submit_vue_vue_type_template_id_de7c78b4_scoped_true___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _submit_vue_vue_type_template_id_de7c78b4_scoped_true___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  "de7c78b4",
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/components/staff/overwatch2/submit.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/components/staff/overwatch2/submit.vue?vue&type=script&lang=js&":
+/*!**************************************************************************************!*\
+  !*** ./resources/js/components/staff/overwatch2/submit.vue?vue&type=script&lang=js& ***!
+  \**************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_submit_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../node_modules/vue-loader/lib??vue-loader-options!./submit.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/staff/overwatch2/submit.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_submit_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+
+/***/ }),
+
+/***/ "./resources/js/components/staff/overwatch2/submit.vue?vue&type=style&index=0&id=de7c78b4&scoped=true&lang=css&":
+/*!**********************************************************************************************************************!*\
+  !*** ./resources/js/components/staff/overwatch2/submit.vue?vue&type=style&index=0&id=de7c78b4&scoped=true&lang=css& ***!
+  \**********************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_style_loader_index_js_node_modules_css_loader_index_js_ref_6_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_2_node_modules_vue_loader_lib_index_js_vue_loader_options_submit_vue_vue_type_style_index_0_id_de7c78b4_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../node_modules/style-loader!../../../../../node_modules/css-loader??ref--6-1!../../../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../../../node_modules/postcss-loader/src??ref--6-2!../../../../../node_modules/vue-loader/lib??vue-loader-options!./submit.vue?vue&type=style&index=0&id=de7c78b4&scoped=true&lang=css& */ "./node_modules/style-loader/index.js!./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/staff/overwatch2/submit.vue?vue&type=style&index=0&id=de7c78b4&scoped=true&lang=css&");
+/* harmony import */ var _node_modules_style_loader_index_js_node_modules_css_loader_index_js_ref_6_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_2_node_modules_vue_loader_lib_index_js_vue_loader_options_submit_vue_vue_type_style_index_0_id_de7c78b4_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_index_js_node_modules_css_loader_index_js_ref_6_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_2_node_modules_vue_loader_lib_index_js_vue_loader_options_submit_vue_vue_type_style_index_0_id_de7c78b4_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__);
+/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _node_modules_style_loader_index_js_node_modules_css_loader_index_js_ref_6_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_2_node_modules_vue_loader_lib_index_js_vue_loader_options_submit_vue_vue_type_style_index_0_id_de7c78b4_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__) if(__WEBPACK_IMPORT_KEY__ !== 'default') (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _node_modules_style_loader_index_js_node_modules_css_loader_index_js_ref_6_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_2_node_modules_vue_loader_lib_index_js_vue_loader_options_submit_vue_vue_type_style_index_0_id_de7c78b4_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));
+ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_style_loader_index_js_node_modules_css_loader_index_js_ref_6_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_2_node_modules_vue_loader_lib_index_js_vue_loader_options_submit_vue_vue_type_style_index_0_id_de7c78b4_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0___default.a); 
+
+/***/ }),
+
+/***/ "./resources/js/components/staff/overwatch2/submit.vue?vue&type=template&id=de7c78b4&scoped=true&":
+/*!********************************************************************************************************!*\
+  !*** ./resources/js/components/staff/overwatch2/submit.vue?vue&type=template&id=de7c78b4&scoped=true& ***!
+  \********************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_submit_vue_vue_type_template_id_de7c78b4_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../node_modules/vue-loader/lib??vue-loader-options!./submit.vue?vue&type=template&id=de7c78b4&scoped=true& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/staff/overwatch2/submit.vue?vue&type=template&id=de7c78b4&scoped=true&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_submit_vue_vue_type_template_id_de7c78b4_scoped_true___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_submit_vue_vue_type_template_id_de7c78b4_scoped_true___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ }),
+
+/***/ "./resources/js/i18n/en.js":
+/*!*********************************!*\
+  !*** ./resources/js/i18n/en.js ***!
+  \*********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ({
+  general: {
+    contributors: 'contributors',
+    notifications: 'notifications',
+    settings: 'settings',
+    back: 'back'
   },
-  nl: {
-    message: 'hallo wereld'
+  message: {
+    warning: 'warning'
+  },
+  overwatch: {
+    day_resets_in: "Day resets in",
+    not_updated_yet: 'Today\'s arcade hasn\'t been updated yet.'
   }
-};
+});
+
+/***/ }),
+
+/***/ "./resources/js/i18n/index.js":
+/*!************************************!*\
+  !*** ./resources/js/i18n/index.js ***!
+  \************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _en__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./en */ "./resources/js/i18n/en.js");
+/* harmony import */ var _nl__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./nl */ "./resources/js/i18n/nl.js");
+
+
+/* harmony default export */ __webpack_exports__["default"] = ({
+  en: _en__WEBPACK_IMPORTED_MODULE_0__["default"],
+  nl: _nl__WEBPACK_IMPORTED_MODULE_1__["default"]
+});
+
+/***/ }),
+
+/***/ "./resources/js/i18n/nl.js":
+/*!*********************************!*\
+  !*** ./resources/js/i18n/nl.js ***!
+  \*********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ({
+  general: {
+    contributors: 'bijdrager',
+    notifications: 'notificaties',
+    settings: 'instellingen',
+    back: 'terug'
+  },
+  message: {
+    warning: 'Waarschuwing'
+  },
+  overwatch: {
+    day_resets_in: "Dag loopt af om",
+    not_updated_yet: 'De arcade van vandaag is nog niet geupdate'
+  }
+});
 
 /***/ }),
 
@@ -50060,6 +50697,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_settings__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./components/settings */ "./resources/js/components/settings.vue");
 /* harmony import */ var _components_profile_index__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./components/profile/index */ "./resources/js/components/profile/index.vue");
 /* harmony import */ var _components_staff_overwatch_submit__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./components/staff/overwatch/submit */ "./resources/js/components/staff/overwatch/submit.vue");
+/* harmony import */ var _components_staff_overwatch2_submit__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./components/staff/overwatch2/submit */ "./resources/js/components/staff/overwatch2/submit.vue");
+
 
 
 
@@ -50109,6 +50748,10 @@ vue__WEBPACK_IMPORTED_MODULE_0___default.a.use(vue_router__WEBPACK_IMPORTED_MODU
     path: '/staff/overwatch',
     component: _components_staff_overwatch_submit__WEBPACK_IMPORTED_MODULE_10__["default"],
     name: 'overwatch_submit'
+  }, {
+    path: '/staff/overwatch2',
+    component: _components_staff_overwatch2_submit__WEBPACK_IMPORTED_MODULE_11__["default"],
+    name: 'overwatch2_submit'
   }, {
     path: '*',
     component: _components_notfound__WEBPACK_IMPORTED_MODULE_5__["default"],

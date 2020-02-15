@@ -1,19 +1,7 @@
 <template>
     <div class="row">
         <div class="col-12">
-            <h2>Profile settings</h2>
-        </div>
-        <div class="col-12">
-            <div class="row">
-                <div class="col-12 col-md-4">
-                    <div class="form-group">
-                        <div class="form-group">
-                            <img :src="user_data.avatar" class="img-thumbnail" style="height:158px">
-                            <input type="file" accept="image/jpeg" class="form-control-file" @change=uploadImage>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            <h2>Settings</h2>
         </div>
         <div class="col-12 col-md-6">
             <h4>Profile</h4>
@@ -108,16 +96,23 @@
         methods: {
             updateProfile() {
                 return axios.post("/api/user/update", this.user_data.profile_data).then(response => {
+                    console.log(response);
                     this.$toasted.show("Profile succesfully updated!", {
                         theme: "outline",
                         position: "top-right",
                         duration: 5000
                     });
-                }).catch(response => {
-                    this.$toasted.show(response.errors, {
-                        theme: "outline",
-                        position: "top-right",
-                        duration: 5000
+                }).catch(error => {
+                    let toasted = this.$toasted;
+                    console.log(error.response.data.errors);
+                    Object.keys(error.response.data.errors).forEach(function (key) {
+                        error.response.data.errors[key].forEach(function (element) {
+                            toasted.show(element, {
+                                theme: "toasted-primary",
+                                position: "top-right",
+                                duration: 5000
+                            });
+                        })
                     });
                 })
             },
