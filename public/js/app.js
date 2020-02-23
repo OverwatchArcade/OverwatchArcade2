@@ -2753,6 +2753,119 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/etc/layout.vue?vue&type=script&lang=js&":
+/*!*********************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/etc/layout.vue?vue&type=script&lang=js& ***!
+  \*********************************************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var vue_multiselect__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue-multiselect */ "./node_modules/vue-multiselect/dist/vue-multiselect.min.js");
+/* harmony import */ var vue_multiselect__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(vue_multiselect__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var vue_country_flag__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! vue-country-flag */ "./node_modules/vue-country-flag/dist/country-flag.esm.js");
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+
+
+/* harmony default export */ __webpack_exports__["default"] = ({
+  name: "layout",
+  data: function data() {
+    return {
+      language: {
+        name: 'English',
+        code: 'EN'
+      },
+      options: [{
+        name: 'English',
+        code: 'US'
+      }, {
+        name: 'German',
+        code: 'DE'
+      }, {
+        name: 'Portuguese',
+        code: 'BR'
+      }, {
+        name: 'Spanish',
+        code: 'ES'
+      }, {
+        name: 'French',
+        code: 'FR'
+      }, {
+        name: 'Italian',
+        code: 'IT'
+      }, {
+        name: 'Japanese',
+        code: 'JP'
+      }, {
+        name: 'Korean',
+        code: 'KR'
+      }, {
+        name: 'Polish',
+        code: 'PL'
+      }, {
+        name: 'Russian',
+        code: 'RU'
+      }, {
+        name: 'Taiwanese',
+        code: 'TW'
+      }]
+    };
+  },
+  components: {
+    Multiselect: vue_multiselect__WEBPACK_IMPORTED_MODULE_0___default.a,
+    CountryFlag: vue_country_flag__WEBPACK_IMPORTED_MODULE_1__["default"]
+  },
+  methods: {
+    changeLanguage: function changeLanguage() {
+      if (this.language) {
+        this.$i18n.locale = this.language.code;
+        localStorage.language = JSON.stringify(this.language);
+      }
+    }
+  },
+  mounted: function mounted() {
+    if (localStorage.language) {
+      this.language = JSON.parse(localStorage.getItem('language'));
+      this.$i18n.locale = JSON.parse(localStorage.getItem('language')).code;
+    }
+  }
+});
+
+/***/ }),
+
 /***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/index.vue?vue&type=script&lang=js&":
 /*!****************************************************************************************************************************************************************!*\
   !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/index.vue?vue&type=script&lang=js& ***!
@@ -3797,6 +3910,25 @@ exports = module.exports = __webpack_require__(/*! ../../../../../node_modules/c
 
 // module
 exports.push([module.i, "\n.card[data-v-de7c78b4] { height: auto;\n}\n", ""]);
+
+// exports
+
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-multiselect/dist/vue-multiselect.min.css?vue&type=style&index=0&lang=css&":
+/*!*********************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader??ref--6-1!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--6-2!./node_modules/vue-multiselect/dist/vue-multiselect.min.css?vue&type=style&index=0&lang=css& ***!
+  \*********************************************************************************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(/*! ../../css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(false);
+// imports
+
+
+// module
+exports.push([module.i, "fieldset[disabled] .multiselect{pointer-events:none}.multiselect__spinner{position:absolute;right:1px;top:1px;width:48px;height:35px;background:#fff;display:block}.multiselect__spinner:after,.multiselect__spinner:before{position:absolute;content:\"\";top:50%;left:50%;margin:-8px 0 0 -8px;width:16px;height:16px;border-radius:100%;border:2px solid transparent;border-top-color:#41b883;box-shadow:0 0 0 1px transparent}.multiselect__spinner:before{-webkit-animation:spinning 2.4s cubic-bezier(.41,.26,.2,.62);animation:spinning 2.4s cubic-bezier(.41,.26,.2,.62);-webkit-animation-iteration-count:infinite;animation-iteration-count:infinite}.multiselect__spinner:after{-webkit-animation:spinning 2.4s cubic-bezier(.51,.09,.21,.8);animation:spinning 2.4s cubic-bezier(.51,.09,.21,.8);-webkit-animation-iteration-count:infinite;animation-iteration-count:infinite}.multiselect__loading-enter-active,.multiselect__loading-leave-active{-webkit-transition:opacity .4s ease-in-out;transition:opacity .4s ease-in-out;opacity:1}.multiselect__loading-enter,.multiselect__loading-leave-active{opacity:0}.multiselect,.multiselect__input,.multiselect__single{font-family:inherit;font-size:16px;touch-action:manipulation}.multiselect{box-sizing:content-box;display:block;position:relative;width:100%;min-height:40px;text-align:left;color:#35495e}.multiselect *{box-sizing:border-box}.multiselect:focus{outline:none}.multiselect--disabled{background:#ededed;pointer-events:none;opacity:.6}.multiselect--active{z-index:50}.multiselect--active:not(.multiselect--above) .multiselect__current,.multiselect--active:not(.multiselect--above) .multiselect__input,.multiselect--active:not(.multiselect--above) .multiselect__tags{border-bottom-left-radius:0;border-bottom-right-radius:0}.multiselect--active .multiselect__select{-webkit-transform:rotate(180deg);transform:rotate(180deg)}.multiselect--above.multiselect--active .multiselect__current,.multiselect--above.multiselect--active .multiselect__input,.multiselect--above.multiselect--active .multiselect__tags{border-top-left-radius:0;border-top-right-radius:0}.multiselect__input,.multiselect__single{position:relative;display:inline-block;min-height:20px;line-height:20px;border:none;border-radius:5px;background:#fff;padding:0 0 0 5px;width:100%;-webkit-transition:border .1s ease;transition:border .1s ease;box-sizing:border-box;margin-bottom:8px;vertical-align:top}.multiselect__input:-ms-input-placeholder{color:#35495e}.multiselect__input::-webkit-input-placeholder{color:#35495e}.multiselect__input::-moz-placeholder{color:#35495e}.multiselect__input::-ms-input-placeholder{color:#35495e}.multiselect__input::placeholder{color:#35495e}.multiselect__tag~.multiselect__input,.multiselect__tag~.multiselect__single{width:auto}.multiselect__input:hover,.multiselect__single:hover{border-color:#cfcfcf}.multiselect__input:focus,.multiselect__single:focus{border-color:#a8a8a8;outline:none}.multiselect__single{padding-left:5px;margin-bottom:8px}.multiselect__tags-wrap{display:inline}.multiselect__tags{min-height:40px;display:block;padding:8px 40px 0 8px;border-radius:5px;border:1px solid #e8e8e8;background:#fff;font-size:14px}.multiselect__tag{position:relative;display:inline-block;padding:4px 26px 4px 10px;border-radius:5px;margin-right:10px;color:#fff;line-height:1;background:#41b883;margin-bottom:5px;white-space:nowrap;overflow:hidden;max-width:100%;text-overflow:ellipsis}.multiselect__tag-icon{cursor:pointer;margin-left:7px;position:absolute;right:0;top:0;bottom:0;font-weight:700;font-style:normal;width:22px;text-align:center;line-height:22px;-webkit-transition:all .2s ease;transition:all .2s ease;border-radius:5px}.multiselect__tag-icon:after{content:\"\\D7\";color:#266d4d;font-size:14px}.multiselect__tag-icon:focus,.multiselect__tag-icon:hover{background:#369a6e}.multiselect__tag-icon:focus:after,.multiselect__tag-icon:hover:after{color:#fff}.multiselect__current{min-height:40px;overflow:hidden;padding:8px 30px 0 12px;white-space:nowrap;border-radius:5px;border:1px solid #e8e8e8}.multiselect__current,.multiselect__select{line-height:16px;box-sizing:border-box;display:block;margin:0;text-decoration:none;cursor:pointer}.multiselect__select{position:absolute;width:40px;height:38px;right:1px;top:1px;padding:4px 8px;text-align:center;-webkit-transition:-webkit-transform .2s ease;transition:-webkit-transform .2s ease;transition:transform .2s ease;transition:transform .2s ease, -webkit-transform .2s ease}.multiselect__select:before{position:relative;right:0;top:65%;color:#999;margin-top:4px;border-color:#999 transparent transparent;border-style:solid;border-width:5px 5px 0;content:\"\"}.multiselect__placeholder{color:#adadad;display:inline-block;margin-bottom:10px;padding-top:2px}.multiselect--active .multiselect__placeholder{display:none}.multiselect__content-wrapper{position:absolute;display:block;background:#fff;width:100%;max-height:240px;overflow:auto;border:1px solid #e8e8e8;border-top:none;border-bottom-left-radius:5px;border-bottom-right-radius:5px;z-index:50;-webkit-overflow-scrolling:touch}.multiselect__content{list-style:none;display:inline-block;padding:0;margin:0;min-width:100%;vertical-align:top}.multiselect--above .multiselect__content-wrapper{bottom:100%;border-bottom-left-radius:0;border-bottom-right-radius:0;border-top-left-radius:5px;border-top-right-radius:5px;border-bottom:none;border-top:1px solid #e8e8e8}.multiselect__content::webkit-scrollbar{display:none}.multiselect__element{display:block}.multiselect__option{display:block;padding:12px;min-height:40px;line-height:16px;text-decoration:none;text-transform:none;vertical-align:middle;position:relative;cursor:pointer;white-space:nowrap}.multiselect__option:after{top:0;right:0;position:absolute;line-height:40px;padding-right:12px;padding-left:20px;font-size:13px}.multiselect__option--highlight{background:#41b883;outline:none;color:#fff}.multiselect__option--highlight:after{content:attr(data-select);background:#41b883;color:#fff}.multiselect__option--selected{background:#f3f3f3;color:#35495e;font-weight:700}.multiselect__option--selected:after{content:attr(data-selected);color:silver}.multiselect__option--selected.multiselect__option--highlight{background:#ff6a6a;color:#fff}.multiselect__option--selected.multiselect__option--highlight:after{background:#ff6a6a;content:attr(data-deselect);color:#fff}.multiselect--disabled .multiselect__current,.multiselect--disabled .multiselect__select{background:#ededed;color:#a6a6a6}.multiselect__option--disabled{background:#ededed!important;color:#a6a6a6!important;cursor:text;pointer-events:none}.multiselect__option--group{background:#ededed;color:#35495e}.multiselect__option--group.multiselect__option--highlight{background:#35495e;color:#fff}.multiselect__option--group.multiselect__option--highlight:after{background:#35495e}.multiselect__option--disabled.multiselect__option--highlight{background:#dedede}.multiselect__option--group-selected.multiselect__option--highlight{background:#ff6a6a;color:#fff}.multiselect__option--group-selected.multiselect__option--highlight:after{background:#ff6a6a;content:attr(data-deselect);color:#fff}.multiselect-enter-active,.multiselect-leave-active{-webkit-transition:all .15s ease;transition:all .15s ease}.multiselect-enter,.multiselect-leave-active{opacity:0}.multiselect__strong{margin-bottom:8px;line-height:20px;display:inline-block;vertical-align:top}[dir=rtl] .multiselect{text-align:right}[dir=rtl] .multiselect__select{right:auto;left:1px}[dir=rtl] .multiselect__tags{padding:8px 8px 0 40px}[dir=rtl] .multiselect__content{text-align:right}[dir=rtl] .multiselect__option:after{right:auto;left:0}[dir=rtl] .multiselect__clear{right:auto;left:12px}[dir=rtl] .multiselect__spinner{right:auto;left:1px}@-webkit-keyframes spinning{0%{-webkit-transform:rotate(0);transform:rotate(0)}to{-webkit-transform:rotate(2turn);transform:rotate(2turn)}}@keyframes spinning{0%{-webkit-transform:rotate(0);transform:rotate(0)}to{-webkit-transform:rotate(2turn);transform:rotate(2turn)}}", ""]);
 
 // exports
 
@@ -21530,6 +21662,36 @@ if(false) {}
 
 /***/ }),
 
+/***/ "./node_modules/style-loader/index.js!./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-multiselect/dist/vue-multiselect.min.css?vue&type=style&index=0&lang=css&":
+/*!*************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/style-loader!./node_modules/css-loader??ref--6-1!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--6-2!./node_modules/vue-multiselect/dist/vue-multiselect.min.css?vue&type=style&index=0&lang=css& ***!
+  \*************************************************************************************************************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+
+var content = __webpack_require__(/*! !../../css-loader??ref--6-1!../../vue-loader/lib/loaders/stylePostLoader.js!../../postcss-loader/src??ref--6-2!./vue-multiselect.min.css?vue&type=style&index=0&lang=css& */ "./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-multiselect/dist/vue-multiselect.min.css?vue&type=style&index=0&lang=css&");
+
+if(typeof content === 'string') content = [[module.i, content, '']];
+
+var transform;
+var insertInto;
+
+
+
+var options = {"hmr":true}
+
+options.transform = transform
+options.insertInto = undefined;
+
+var update = __webpack_require__(/*! ../../style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
+
+if(content.locals) module.exports = content.locals;
+
+if(false) {}
+
+/***/ }),
+
 /***/ "./node_modules/style-loader/index.js!./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-multiselect/dist/vue-multiselect.min.css?vue&type=style&index=1&lang=css&":
 /*!*************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** ./node_modules/style-loader!./node_modules/css-loader??ref--6-1!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--6-2!./node_modules/vue-multiselect/dist/vue-multiselect.min.css?vue&type=style&index=1&lang=css& ***!
@@ -27920,7 +28082,11 @@ var render = function() {
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
   return _c("div", [
-    _vm._m(0),
+    _c("div", { staticClass: "row" }, [
+      _c("div", { staticClass: "col-auto" }, [
+        _c("h1", [_vm._v(_vm._s(_vm.$t("general.contributors")))])
+      ])
+    ]),
     _vm._v(" "),
     _c(
       "div",
@@ -27937,18 +28103,7 @@ var render = function() {
     )
   ])
 }
-var staticRenderFns = [
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "row" }, [
-      _c("div", { staticClass: "col-auto" }, [
-        _c("h1", [_vm._v("Contributors")])
-      ])
-    ])
-  }
-]
+var staticRenderFns = []
 render._withStripped = true
 
 
@@ -28003,7 +28158,7 @@ var render = function() {
                 staticClass: "card-ribbon",
                 class: _vm.getLabelColor(_vm.gamemode.label)
               },
-              [_vm._v(_vm._s(_vm.gamemode.label))]
+              [_vm._v(_vm._s(_vm.$t("overwatch.labels." + _vm.gamemode.label)))]
             )
           : _vm._e(),
         _vm._v(" "),
@@ -28019,7 +28174,7 @@ var render = function() {
           _c("h4", [_vm._v(_vm._s(_vm.gamemode.players))]),
           _vm._v(" "),
           _c("p", { staticClass: "card-text" }, [
-            _vm._v(_vm._s(_vm.gamemode.name))
+            _vm._v(_vm._s(_vm.$t("overwatch.arcademodes." + _vm.gamemode.name)))
           ])
         ])
       ])
@@ -28171,6 +28326,100 @@ var render = function() {
       )
 }
 var staticRenderFns = []
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/etc/layout.vue?vue&type=template&id=5b477a10&":
+/*!*************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/etc/layout.vue?vue&type=template&id=5b477a10& ***!
+  \*************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c("div", { attrs: { id: "app" } }, [
+    _c("section", { attrs: { id: "content" } }, [_c("router-view")], 1),
+    _vm._v(" "),
+    _c("section", { staticClass: "mt-4", attrs: { id: "footer" } }, [
+      _c("div", { staticClass: "row" }, [
+        _vm._m(0),
+        _vm._v(" "),
+        _c(
+          "div",
+          { staticClass: "col-12 col-md-2" },
+          [
+            _c("Multiselect", {
+              attrs: {
+                options: _vm.options,
+                label: "name",
+                searchable: true,
+                "close-on-select": true,
+                "show-labels": true
+              },
+              on: { close: _vm.changeLanguage },
+              model: {
+                value: _vm.language,
+                callback: function($$v) {
+                  _vm.language = $$v
+                },
+                expression: "language"
+              }
+            })
+          ],
+          1
+        )
+      ])
+    ])
+  ])
+}
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "col-12 col-md-10" }, [
+      _c("p", { staticClass: "small" }, [
+        _vm._v(
+          "Game content and materials are trademarks and copyrights of their respective\n                    publisher and\n                    its\n                    licensors. All\n                    rights reserved."
+        )
+      ]),
+      _vm._v(" "),
+      _c("p", { staticClass: "small" }, [
+        _vm._v("\n                    This work is licensed under a "),
+        _c(
+          "a",
+          {
+            attrs: {
+              rel: "license",
+              href: "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+            }
+          },
+          [
+            _vm._v(
+              "Creative\n                    Commons Attribution-NonCommercial-ShareAlike 4.0 International License"
+            )
+          ]
+        ),
+        _vm._v("."),
+        _c("br"),
+        _vm._v("\n                    This site is made for fun by "),
+        _c("a", { attrs: { href: "//bluedog.dev" } }, [_vm._v("bluedog")]),
+        _vm._v(" and maintained by the "),
+        _c("a", { attrs: { href: "/contributors" } }, [_vm._v("contributors")])
+      ])
+    ])
+  }
+]
 render._withStripped = true
 
 
@@ -28622,11 +28871,12 @@ var render = function() {
         _vm._v(" "),
         _c("h4", [
           _vm._v(
-            "Contributor since " +
-              _vm._s(_vm.user_data.member_since) +
-              " with " +
-              _vm._s(_vm.user_data.contributions) +
-              " submittions"
+            _vm._s(
+              _vm.$t("profile.contributor_subline", {
+                date: _vm.user_data.member_since,
+                contributions: _vm.user_data.contributions
+              })
+            )
           )
         ])
       ])
@@ -28636,7 +28886,7 @@ var render = function() {
       ? _c("section", { staticClass: "mt-5", attrs: { id: "user-info" } }, [
           _c("div", { staticClass: "row" }, [
             _c("div", { staticClass: "col-lg-4 col-12" }, [
-              _c("h3", [_vm._v("Personal")]),
+              _c("h3", [_vm._v(_vm._s(_vm.$t("profile.about")))]),
               _vm._v(" "),
               _c("div", { staticClass: "row" }, [
                 _c("div", { staticClass: "col-12" }, [
@@ -28701,7 +28951,9 @@ var render = function() {
             _c("div", { staticClass: "col-lg-7 offset-lg-1 col-12" }, [
               _c("div", { staticClass: "row" }, [
                 _c("div", { staticClass: "col-12" }, [
-                  _c("h3", [_vm._v("Favourite Arcade Modes")]),
+                  _c("h3", [
+                    _vm._v(_vm._s(_vm.$t("profile.favourite_arcade_modes")))
+                  ]),
                   _vm._v(" "),
                   _c("div", { staticClass: "text-dark p-2" }, [
                     _c(
@@ -28729,7 +28981,9 @@ var render = function() {
                 ]),
                 _vm._v(" "),
                 _c("div", { staticClass: "col-12 mt-4" }, [
-                  _c("h3", [_vm._v("Favourite Heroes")]),
+                  _c("h3", [
+                    _vm._v(_vm._s(_vm.$t("profile.favourite_arcade_heroes")))
+                  ]),
                   _vm._v(" "),
                   _c("div", { staticClass: "text-dark p-2" }, [
                     _c(
@@ -28756,7 +29010,9 @@ var render = function() {
                 ]),
                 _vm._v(" "),
                 _c("div", { staticClass: "col-12 mt-4" }, [
-                  _c("h3", [_vm._v("Favourite Maps")]),
+                  _c("h3", [
+                    _vm._v(_vm._s(_vm.$t("profile.favourite_arcade_maps")))
+                  ]),
                   _vm._v(" "),
                   _c("div", { staticClass: "text-dark p-2" }, [
                     _c(
@@ -34508,6 +34764,22 @@ Object.defineProperty(exports, '__esModule', { value: true });
 })));
 
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../../webpack/buildin/global.js */ "./node_modules/webpack/buildin/global.js")))
+
+/***/ }),
+
+/***/ "./node_modules/vue-multiselect/dist/vue-multiselect.min.css?vue&type=style&index=0&lang=css&":
+/*!****************************************************************************************************!*\
+  !*** ./node_modules/vue-multiselect/dist/vue-multiselect.min.css?vue&type=style&index=0&lang=css& ***!
+  \****************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _style_loader_index_js_css_loader_index_js_ref_6_1_vue_loader_lib_loaders_stylePostLoader_js_postcss_loader_src_index_js_ref_6_2_vue_multiselect_min_css_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../style-loader!../../css-loader??ref--6-1!../../vue-loader/lib/loaders/stylePostLoader.js!../../postcss-loader/src??ref--6-2!./vue-multiselect.min.css?vue&type=style&index=0&lang=css& */ "./node_modules/style-loader/index.js!./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-multiselect/dist/vue-multiselect.min.css?vue&type=style&index=0&lang=css&");
+/* harmony import */ var _style_loader_index_js_css_loader_index_js_ref_6_1_vue_loader_lib_loaders_stylePostLoader_js_postcss_loader_src_index_js_ref_6_2_vue_multiselect_min_css_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_style_loader_index_js_css_loader_index_js_ref_6_1_vue_loader_lib_loaders_stylePostLoader_js_postcss_loader_src_index_js_ref_6_2_vue_multiselect_min_css_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0__);
+/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _style_loader_index_js_css_loader_index_js_ref_6_1_vue_loader_lib_loaders_stylePostLoader_js_postcss_loader_src_index_js_ref_6_2_vue_multiselect_min_css_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0__) if(__WEBPACK_IMPORT_KEY__ !== 'default') (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _style_loader_index_js_css_loader_index_js_ref_6_1_vue_loader_lib_loaders_stylePostLoader_js_postcss_loader_src_index_js_ref_6_2_vue_multiselect_min_css_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));
+ /* harmony default export */ __webpack_exports__["default"] = (_style_loader_index_js_css_loader_index_js_ref_6_1_vue_loader_lib_loaders_stylePostLoader_js_postcss_loader_src_index_js_ref_6_2_vue_multiselect_min_css_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0___default.a); 
 
 /***/ }),
 
@@ -49567,7 +49839,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var vue_moment__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(vue_moment__WEBPACK_IMPORTED_MODULE_4__);
 /* harmony import */ var vue_sweetalert2__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! vue-sweetalert2 */ "./node_modules/vue-sweetalert2/dist/index.js");
 /* harmony import */ var vue_i18n__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! vue-i18n */ "./node_modules/vue-i18n/dist/vue-i18n.esm.js");
-/* harmony import */ var _i18n_index__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./i18n/index */ "./resources/js/i18n/index.js");
+/* harmony import */ var _components_etc_layout__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./components/etc/layout */ "./resources/js/components/etc/layout.vue");
+/* harmony import */ var _i18n_index_js__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./i18n/index.js */ "./resources/js/i18n/index.js");
 
 
 
@@ -49576,6 +49849,9 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
+
+
+var messages = Object.assign(_i18n_index_js__WEBPACK_IMPORTED_MODULE_8__["languages"]);
 
 __webpack_require__(/*! ./bootstrap */ "./resources/js/bootstrap.js");
 
@@ -49586,17 +49862,17 @@ vue__WEBPACK_IMPORTED_MODULE_0___default.a.use(vue_moment__WEBPACK_IMPORTED_MODU
 vue__WEBPACK_IMPORTED_MODULE_0___default.a.use(vue_sweetalert2__WEBPACK_IMPORTED_MODULE_5__["default"]);
 vue__WEBPACK_IMPORTED_MODULE_0___default.a.use(vue_i18n__WEBPACK_IMPORTED_MODULE_6__["default"]);
 var i18n = new vue_i18n__WEBPACK_IMPORTED_MODULE_6__["default"]({
-  locale: "nl",
-  fallbackLocale: "en",
-  translations: _i18n_index__WEBPACK_IMPORTED_MODULE_7__["default"] // set locale messages
-
+  locale: _i18n_index_js__WEBPACK_IMPORTED_MODULE_8__["defaultLocale"],
+  fallbackLocale: 'US',
+  messages: messages
 });
 var app = new vue__WEBPACK_IMPORTED_MODULE_0___default.a({
   el: '#app',
   i18n: i18n,
   router: _router__WEBPACK_IMPORTED_MODULE_1__["default"],
   components: {
-    alert: _components_elements_alert__WEBPACK_IMPORTED_MODULE_3__["default"]
+    alert: _components_elements_alert__WEBPACK_IMPORTED_MODULE_3__["default"],
+    Layout: _components_etc_layout__WEBPACK_IMPORTED_MODULE_7__["default"]
   }
 });
 
@@ -49987,6 +50263,77 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_playertile_vue_vue_type_template_id_49a860a8_scoped_true___WEBPACK_IMPORTED_MODULE_0__["render"]; });
 
 /* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_playertile_vue_vue_type_template_id_49a860a8_scoped_true___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ }),
+
+/***/ "./resources/js/components/etc/layout.vue":
+/*!************************************************!*\
+  !*** ./resources/js/components/etc/layout.vue ***!
+  \************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _layout_vue_vue_type_template_id_5b477a10___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./layout.vue?vue&type=template&id=5b477a10& */ "./resources/js/components/etc/layout.vue?vue&type=template&id=5b477a10&");
+/* harmony import */ var _layout_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./layout.vue?vue&type=script&lang=js& */ "./resources/js/components/etc/layout.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var vue_multiselect_dist_vue_multiselect_min_css_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! vue-multiselect/dist/vue-multiselect.min.css?vue&type=style&index=0&lang=css& */ "./node_modules/vue-multiselect/dist/vue-multiselect.min.css?vue&type=style&index=0&lang=css&");
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__["default"])(
+  _layout_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _layout_vue_vue_type_template_id_5b477a10___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _layout_vue_vue_type_template_id_5b477a10___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/components/etc/layout.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/components/etc/layout.vue?vue&type=script&lang=js&":
+/*!*************************************************************************!*\
+  !*** ./resources/js/components/etc/layout.vue?vue&type=script&lang=js& ***!
+  \*************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_layout_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/babel-loader/lib??ref--4-0!../../../../node_modules/vue-loader/lib??vue-loader-options!./layout.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/etc/layout.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_layout_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+
+/***/ }),
+
+/***/ "./resources/js/components/etc/layout.vue?vue&type=template&id=5b477a10&":
+/*!*******************************************************************************!*\
+  !*** ./resources/js/components/etc/layout.vue?vue&type=template&id=5b477a10& ***!
+  \*******************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_layout_vue_vue_type_template_id_5b477a10___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../node_modules/vue-loader/lib??vue-loader-options!./layout.vue?vue&type=template&id=5b477a10& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/etc/layout.vue?vue&type=template&id=5b477a10&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_layout_vue_vue_type_template_id_5b477a10___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_layout_vue_vue_type_template_id_5b477a10___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
 
 
 
@@ -50602,30 +50949,47 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./resources/js/i18n/en.js":
-/*!*********************************!*\
-  !*** ./resources/js/i18n/en.js ***!
-  \*********************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/***/ "./resources/js/i18n/br.json":
+/*!***********************************!*\
+  !*** ./resources/js/i18n/br.json ***!
+  \***********************************/
+/*! exports provided: general, message, overwatch, profile, default */
+/***/ (function(module) {
 
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ({
-  general: {
-    contributors: 'contributors',
-    notifications: 'notifications',
-    settings: 'settings',
-    back: 'back'
-  },
-  message: {
-    warning: 'warning'
-  },
-  overwatch: {
-    day_resets_in: "Day resets in",
-    not_updated_yet: 'Today\'s arcade hasn\'t been updated yet.'
-  }
-});
+module.exports = JSON.parse("{\"general\":{\"contributors\":\"contributors\",\"notifications\":\"notifications\",\"settings\":\"settings\"},\"message\":{\"warning\":\"warning\"},\"overwatch\":{\"arcademodes\":{\"Assault\":\"Szturm\",\"Blizzard World\":\"Blizzard World\",\"Busan\":\"Pusan\",\"CTF Blitz\":\"Błyskawiczne Zdobywanie flagi\",\"CTF: Ayutthaya Only\":\"Zdobywanie flagi: Tylko Ayutthaya\",\"CTF: Busan\":\"Zdobywanie flagi: Pusan\",\"Capture the Flag\":\"Zdobywanie flagi\",\"Capture the Rooster\":\"Łap Koguta\",\"Château Deathmatch\":\"Deathmatch w Château\",\"Competitive CTF\":\"Rywalizacja w Zdobywanie flagi\",\"Competitive Deathmatch\":\"Deathmatch w trybie Rywalizacji\",\"Competitive Elimination\":\"Rywalizacja w trybie Eliminacji\",\"Competitive Team Deathmatch\":\"Rywalizacja w Drużynowym Deathmatchu\",\"Copa Lúcioball\":\"Copa Futbolúcio\",\"Deathmatch\":\"Deathmatch\",\"Doomfist Elimination\":\"Eliminacja, Pięść Zagłady\",\"EXPERT\":\"EKSPERCKI\",\"Elimination\":\"Eliminacja\",\"HARD\":\"WYSOKI\",\"Havana\":\"Hawana\",\"Hero Gauntlet <tx0C0000000001FEE9>\":\"Arena bohaterów <tx0C0000000001FEE9>\",\"Horizon Lunar Colony\":\"Kolonia księżycowa Horyzont\",\"Horizon No Limits\":\"Horyzont – Bez ograniczeń\",\"Hybrid\":\"Hybryda\",\"Junkenstein Endless\":\"Wieczna zemsta dr. Złomensteina\",\"Junkenstein's Revenge\":\"Zemsta dr. Złomensteina\",\"Junkertown\":\"Junkertown\",\"Junkertown Mystery Heroes\":\"Tajemniczy bohaterowie Junkertown\",\"LEGENDARY\":\"LEGENDARNY\",\"Limited Duel\":\"Pojedynek z ograniczeniami\",\"Low Gravity\":\"Niska grawitacja\",\"Lúcioball\":\"Futbolúcio\",\"Mei's Snowball Offensive\":\"Śnieżkowa Ofensywa Mei\",\"Mirrored Deathmatch <tx0C0000000001FEE9>\":\"Lustrzany Deathmatch <tx0C0000000001FEE9>\",\"Mission Archives\":\"Archiwa misji\",\"Mystery Deathmatch\":\"Tajemniczy Deathmatch\",\"Mystery Duel\":\"Tajemniczy pojedynek\",\"Mystery Heroes\":\"Tajemniczy bohaterowie\",\"NORMAL\":\"NORMALNY\",\"No Limits\":\"Bez ograniczeń\",\"No Limits Payloads\":\"Brak ograniczeń ładunków\",\"Paris\":\"Paryż\",\"Petra Deathmatch\":\"Deathmatch na Petrze\",\"Prefer Hunter\":\"Preferuj łowcę\",\"Prefer Yeti\":\"Preferuj Yeti\",\"Quick Play Classic\":\"Klasyczna szybka gra\",\"Retribution (All Heroes)\":\"Odwet (wszyscy)\",\"Retribution (Story)\":\"Odwet (fabuła)\",\"Rialto\":\"Rialto\",\"Skirmish\":\"Potyczka\",\"Snowball Deathmatch\":\"Śnieżkowy Deathmatch\",\"Storm RIsing (All Heroes)\":\"Czarne Chmury (wszyscy)\",\"Storm Rising (Story)\":\"Czarne Chmury (fabuła)\",\"Team Deathmatch\":\"Drużynowy Deathmatch\",\"Total Mayhem\":\"Totalna Masakra\",\"Uprising (All Heroes)\":\"Insurekcja (wszyscy)\",\"Uprising (Story)\":\"Insurekcja (fabuła)\",\"Winter Mystery\":\"Zimowa tajemnica\",\"Yeti Hunter\":\"Polowanie na Yeti\"},\"heroes\":{\"Ana\":\"Ana\",\"Ashe\":\"Ashe\",\"Assassin\":\"Zabójczyni\",\"Baptiste\":\"Baptiste\",\"Bastion\":\"Bastion\",\"Boat\":\"Łódź\",\"Bob\":\"Bob\",\"Brigitte\":\"Brigitte\",\"D.Va\":\"D.Va\",\"Detonator\":\"Wybuchacz\",\"Doomfist\":\"Pięść Zagłady\",\"Enforcer\":\"Egzekutor\",\"Eradicator\":\"Eksterminator\",\"Friendly Bot\":\"Przyjazny bot\",\"Genji\":\"Genji\",\"Gunship\":\"Statek powietrzny\",\"Hanzo\":\"Hanzo\",\"Heavy Assault\":\"Szturmowiec\",\"Junkrat\":\"Złomiarz\",\"Lúcio\":\"Lúcio\",\"McCree\":\"McCree\",\"Mei\":\"Mei\",\"Mercy\":\"Łaska\",\"Moira\":\"Moira\",\"Nulltrooper\":\"Szturmownik\",\"Orisa\":\"Orisa\",\"Pharah\":\"Fara\",\"Reaper\":\"Żniwiarz\",\"Reinhardt\":\"Reinhardt\",\"Roadhog\":\"Wieprzu\",\"Shock-Tire\":\"Szok-opona\",\"Sigma\":\"Sigma\",\"Slicer\":\"Siekacz\",\"Sniper\":\"Snajper\",\"Soldier: 76\":\"Żołnierz-76\",\"Sombra\":\"Sombra\",\"Symmetra\":\"Symmetra\",\"Torbjörn\":\"Torbjörn\",\"Tracer\":\"Smuga\",\"Training Bot\":\"Bot treningowy\",\"Trooper\":\"Żołnierz\",\"Widowmaker\":\"Trupia Wdowa\",\"Winston\":\"Winston\",\"Wrecking Ball\":\"Burzyciel\",\"Zarya\":\"Zaria\",\"Zenyatta\":\"Zenyatta\",\"Zombardier\":\"Złombardier\",\"Zomnic\":\"Złomnik\"},\"labels\":{\"Daily\":\"Codziennie\",\"Permanent\":\"Stały\",\"Weekly\":\"Co tydzień\"},\"maps\":{\"Ayutthaya\":\"Ayutthaya\",\"Black Forest\":\"Czarny Las\",\"Blizzard World\":\"Blizzard World\",\"Busan\":\"Pusan\",\"Busan Downtown\":\"Pusan: Centrum\",\"Busan Sanctuary\":\"Pusan: Sanktuarium\",\"Busan Stadium\":\"Stadion Pusan\",\"Castillo\":\"Castillo\",\"Château Guillard\":\"Château Guillard\",\"Dorado\":\"Dorado\",\"Ecopoint: Antarctica\":\"Ekopunkt Antarktyda\",\"Eichenwalde\":\"Eichenwalde\",\"Estádio das Rãs\":\"Estádio das Rãs\",\"Hanamura\":\"Hanamura\",\"Havana\":\"Hawana\",\"Hollywood\":\"Hollywood\",\"Horizon Lunar Colony\":\"Kolonia księżycowa Horyzont\",\"Ilios\":\"Ilios\",\"Ilios Lighthouse\":\"Ilios: Latarnia morska\",\"Ilios Ruins\":\"Ilios: Ruiny\",\"Ilios Well\":\"Ilios: Studnia\",\"Junkenstein's Revenge\":\"Zemsta dr. Złomensteina\",\"Junkertown\":\"Junkertown\",\"King's Row\":\"King's Row\",\"Lijiang Control Center\":\"Wieża Lijiang: Centrum sterowania\",\"Lijiang Garden\":\"Wieża Lijiang: Ogród\",\"Lijiang Night Market\":\"Wieża Lijiang: Nocny bazar\",\"Lijiang Tower\":\"Wieża Lijiang\",\"Necropolis\":\"Nekropolia\",\"Nepal\":\"Nepal\",\"Nepal Sanctum\":\"Nepal: Sanktuarium\",\"Nepal Shrine\":\"Nepal: Kapliczka\",\"Nepal Village\":\"Nepal: Wioska\",\"Nepal Village (Winter)\":\"Nepal: Wioska (zima)\",\"Numbani\":\"Numbani\",\"Oasis\":\"Oaza\",\"Oasis City Center\":\"Oaza: Centrum miasta\",\"Oasis Gardens\":\"Oaza: Ogrody\",\"Oasis University\":\"Oaza: Uniwersytet\",\"Paris\":\"Paryż\",\"Petra\":\"Petra\",\"Practice Range\":\"Obszar treningowy\",\"Rialto\":\"Rialto\",\"Route 66\":\"Droga 66\",\"Sydney Harbour Arena\":\"Sydney Harbour Park\",\"Temple of Anubis\":\"Świątynia Anubisa\",\"Tutorial\":\"Samouczek\",\"VPP Green Room\":\"VPP Green Room\",\"Volskaya Industries\":\"Zakłady Volskaya Industries\",\"Watchpoint: Gibraltar\":\"Posterunek: Gibraltar\"}},\"profile\":{\"about\":\"About\",\"contributor_subline\":\"Contributor since {date} with a total of {contributions} contributions\",\"favourite_arcade_heroes\":\"Favourite heroes\",\"favourite_arcade_maps\":\"Favourite maps\",\"favourite_arcade_modes\":\"Favourite arcade modes\",\"last_submit\":\"Last submit\"}}");
+
+/***/ }),
+
+/***/ "./resources/js/i18n/de.json":
+/*!***********************************!*\
+  !*** ./resources/js/i18n/de.json ***!
+  \***********************************/
+/*! exports provided: general, message, overwatch, profile, default */
+/***/ (function(module) {
+
+module.exports = JSON.parse("{\"general\":{\"contributors\":\"contributors\",\"notifications\":\"notifications\",\"settings\":\"settings\"},\"message\":{\"warning\":\"warning\"},\"overwatch\":{\"arcademodes\":{\"Assault\":\"Angriff\",\"Blizzard World\":\"Blizzard World\",\"Busan\":\"Busan\",\"CTF Blitz\":\"Flaggeneroberung - Blitz\",\"CTF: Ayutthaya Only\":\"Flaggeneroberung: Ayutthaya\",\"CTF: Busan\":\"Flaggeneroberung: Busan\",\"Capture the Flag\":\"Flaggeneroberung\",\"Capture the Rooster\":\"Hol den Hahn\",\"Château Deathmatch\":\"Deathmatch im Château\",\"Competitive CTF\":\"Kompetitive Flaggeneroberung\",\"Competitive Deathmatch\":\"Kompetitives Deathmatch\",\"Competitive Elimination\":\"Kompetitive Eliminierung\",\"Competitive Team Deathmatch\":\"Kompetitives Team-Deathmatch\",\"Copa Lúcioball\":\"Copa Lúcioball\",\"Deathmatch\":\"Deathmatch\",\"Doomfist Elimination\":\"Eliminierung: Doomfist\",\"EXPERT\":\"EXPERTE\",\"Elimination\":\"Eliminierung\",\"HARD\":\"SCHWER\",\"Havana\":\"Havanna\",\"Hero Gauntlet <tx0C0000000001FEE9>\":\"Heldenrotation <tx0C0000000001FEE9>\",\"Horizon Lunar Colony\":\"Mondkolonie Horizon\",\"Horizon No Limits\":\"Keine Beschränkungen: Horizon\",\"Hybrid\":\"Hybrid\",\"Junkenstein Endless\":\"Junkenstein: endlos\",\"Junkenstein's Revenge\":\"Junkensteins Rache\",\"Junkertown\":\"Junkertown\",\"Junkertown Mystery Heroes\":\"Überraschungshelden: Junkertown\",\"LEGENDARY\":\"LEGENDÄR\",\"Limited Duel\":\"Limitiertes Duell\",\"Low Gravity\":\"Geringe Schwerkraft\",\"Lúcioball\":\"Lúcioball\",\"Mei's Snowball Offensive\":\"Meis Schneeballschlacht\",\"Mirrored Deathmatch <tx0C0000000001FEE9>\":\"Gespiegeltes Deathmatch <tx0C0000000001FEE9>\",\"Mission Archives\":\"Missionsarchiv\",\"Mystery Deathmatch\":\"Überraschungs-Deathmatch\",\"Mystery Duel\":\"Überraschungsduell\",\"Mystery Heroes\":\"Überraschungshelden\",\"NORMAL\":\"NORMAL\",\"No Limits\":\"Keine Beschränkungen\",\"No Limits Payloads\":\"Keine Beschränkungen: Fracht\",\"Paris\":\"Paris\",\"Petra Deathmatch\":\"Deathmatch: Petra\",\"Prefer Hunter\":\"Jäger bevorzugt\",\"Prefer Yeti\":\"Yeti bevorzugt\",\"Quick Play Classic\":\"Klassische Schnellsuche\",\"Retribution (All Heroes)\":\"Vergeltung (alle Helden)\",\"Retribution (Story)\":\"Vergeltung (Story)\",\"Rialto\":\"Rialto\",\"Skirmish\":\"Übungsgefecht\",\"Snowball Deathmatch\":\"Schneeball-Deathmatch\",\"Storm RIsing (All Heroes)\":\"Sturmzeichen (alle Helden)\",\"Storm Rising (Story)\":\"Sturmzeichen (Story)\",\"Team Deathmatch\":\"Team-Deathmatch\",\"Total Mayhem\":\"Totales Chaos\",\"Uprising (All Heroes)\":\"Aufstand (alle Helden)\",\"Uprising (Story)\":\"Aufstand (Story)\",\"Winter Mystery\":\"Winterüberraschung\",\"Yeti Hunter\":\"Yetijagd\"},\"heroes\":{\"Ana\":\"Ana\",\"Ashe\":\"Ashe\",\"Assassin\":\"Assassine\",\"Baptiste\":\"Baptiste\",\"Bastion\":\"Bastion\",\"Boat\":\"Boot\",\"Bob\":\"Bob\",\"Brigitte\":\"Brigitte\",\"D.Va\":\"D.Va\",\"Detonator\":\"Detonator\",\"Doomfist\":\"Doomfist\",\"Enforcer\":\"Eliteeinheit\",\"Eradicator\":\"Eradicator\",\"Friendly Bot\":\"Verbündeter Bot\",\"Genji\":\"Genji\",\"Gunship\":\"Transporter\",\"Hanzo\":\"Hanzo\",\"Heavy Assault\":\"Sturmgrenadier\",\"Junkrat\":\"Junkrat\",\"Lúcio\":\"Lúcio\",\"McCree\":\"McCree\",\"Mei\":\"Mei\",\"Mercy\":\"Mercy\",\"Moira\":\"Moira\",\"Nulltrooper\":\"Nulltrooper\",\"Orisa\":\"Orisa\",\"Pharah\":\"Pharah\",\"Reaper\":\"Reaper\",\"Reinhardt\":\"Reinhardt\",\"Roadhog\":\"Roadhog\",\"Shock-Tire\":\"Schockreifen\",\"Sigma\":\"Sigma\",\"Slicer\":\"Slicer\",\"Sniper\":\"Scharfschützin\",\"Soldier: 76\":\"Soldier: 76\",\"Sombra\":\"Sombra\",\"Symmetra\":\"Symmetra\",\"Torbjörn\":\"Torbjörn\",\"Tracer\":\"Tracer\",\"Training Bot\":\"Trainingsbot\",\"Trooper\":\"Soldat\",\"Widowmaker\":\"Widowmaker\",\"Winston\":\"Winston\",\"Wrecking Ball\":\"Wrecking Ball\",\"Zarya\":\"Zarya\",\"Zenyatta\":\"Zenyatta\",\"Zombardier\":\"Zombardier\",\"Zomnic\":\"Zomnic\"},\"labels\":{\"Daily\":\"Täglich\",\"Permanent\":\"dauerhaft\",\"Weekly\":\"Wöchentlich\"},\"maps\":{\"Ayutthaya\":\"Ayutthaya\",\"Black Forest\":\"Schwarzwald\",\"Blizzard World\":\"Blizzard World\",\"Busan\":\"Busan\",\"Busan Downtown\":\"Busan – Stadtzentrum\",\"Busan Sanctuary\":\"Busan – Tempel\",\"Busan Stadium\":\"Stadion von Busan\",\"Castillo\":\"Castillo\",\"Château Guillard\":\"Château Guillard\",\"Dorado\":\"Dorado\",\"Ecopoint: Antarctica\":\"Ecopoint: Antarktis\",\"Eichenwalde\":\"Eichenwalde\",\"Estádio das Rãs\":\"Estádio das Rãs\",\"Hanamura\":\"Hanamura\",\"Havana\":\"Havanna\",\"Hollywood\":\"Hollywood\",\"Horizon Lunar Colony\":\"Mondkolonie Horizon\",\"Ilios\":\"Ilios\",\"Ilios Lighthouse\":\"Ilios – Leuchtturm\",\"Ilios Ruins\":\"Ilios – Ruinen\",\"Ilios Well\":\"Ilios – Brunnen\",\"Junkenstein's Revenge\":\"Junkensteins Rache\",\"Junkertown\":\"Junkertown\",\"King's Row\":\"King's Row\",\"Lijiang Control Center\":\"Lijiang Tower – Kontrollzentrum\",\"Lijiang Garden\":\"Lijiang Tower – Garten\",\"Lijiang Night Market\":\"Lijiang Tower – Nachtmarkt\",\"Lijiang Tower\":\"Lijiang Tower\",\"Necropolis\":\"Nekropole\",\"Nepal\":\"Nepal\",\"Nepal Sanctum\":\"Nepal – Sanktum\",\"Nepal Shrine\":\"Nepal – Schrein\",\"Nepal Village\":\"Nepal – Dorf\",\"Nepal Village (Winter)\":\"Nepal – Dorf (Winter)\",\"Numbani\":\"Numbani\",\"Oasis\":\"Oasis\",\"Oasis City Center\":\"Oasis – Stadtzentrum\",\"Oasis Gardens\":\"Oasis – Gärten\",\"Oasis University\":\"Oasis – Universität\",\"Paris\":\"Paris\",\"Petra\":\"Petra\",\"Practice Range\":\"Trainingsbereich\",\"Rialto\":\"Rialto\",\"Route 66\":\"Route 66\",\"Sydney Harbour Arena\":\"Sydney Harbour Arena\",\"Temple of Anubis\":\"Tempel des Anubis\",\"Tutorial\":\"Tutorial\",\"VPP Green Room\":\"VPP Green Room\",\"Volskaya Industries\":\"Volskaya Industries\",\"Watchpoint: Gibraltar\":\"Watchpoint: Gibraltar\"}},\"profile\":{\"about\":\"About\",\"contributor_subline\":\"Contributor since {date} with a total of {contributions} contributions\",\"favourite_arcade_heroes\":\"Favourite heroes\",\"favourite_arcade_maps\":\"Favourite maps\",\"favourite_arcade_modes\":\"Favourite arcade modes\",\"last_submit\":\"Last submit\"}}");
+
+/***/ }),
+
+/***/ "./resources/js/i18n/es.json":
+/*!***********************************!*\
+  !*** ./resources/js/i18n/es.json ***!
+  \***********************************/
+/*! exports provided: general, message, overwatch, profile, default */
+/***/ (function(module) {
+
+module.exports = JSON.parse("{\"general\":{\"contributors\":\"contributors\",\"notifications\":\"notifications\",\"settings\":\"settings\"},\"message\":{\"warning\":\"warning\"},\"overwatch\":{\"arcademodes\":{\"Assault\":\"Asalto\",\"Blizzard World\":\"Blizzard World\",\"Busan\":\"Busan\",\"CTF Blitz\":\"CLB: Relámpago\",\"CTF: Ayutthaya Only\":\"CLB: Solo Ayutthaya\",\"CTF: Busan\":\"CLB: Busan\",\"Capture the Flag\":\"Captura la bandera\",\"Capture the Rooster\":\"Capturad al gallo\",\"Château Deathmatch\":\"Combate a muerte en el Palacio\",\"Competitive CTF\":\"CLB competitivo\",\"Competitive Deathmatch\":\"Combate a muerte competitivo\",\"Competitive Elimination\":\"Modo competitivo de Eliminación\",\"Competitive Team Deathmatch\":\"Combate a muerte por equipos competitivo\",\"Copa Lúcioball\":\"Copa de Lúciobol\",\"Deathmatch\":\"Combate a muerte\",\"Doomfist Elimination\":\"Eliminación de Doomfist\",\"EXPERT\":\"EXPERTA\",\"Elimination\":\"Eliminación\",\"HARD\":\"DIFÍCIL\",\"Havana\":\"La Habana\",\"Hero Gauntlet <tx0C0000000001FEE9>\":\"Relevos <tx0C0000000001FEE9>\",\"Horizon Lunar Colony\":\"Colonia Lunar Horizon\",\"Horizon No Limits\":\"Horizon: Sin limitaciones\",\"Hybrid\":\"Híbrido\",\"Junkenstein Endless\":\"Junkenstein: venganza infinita\",\"Junkenstein's Revenge\":\"La venganza de Junkenstein\",\"Junkertown\":\"Junkertown\",\"Junkertown Mystery Heroes\":\"Junkertown: Héroes misteriosos\",\"LEGENDARY\":\"LEGENDARIA\",\"Limited Duel\":\"Duelo limitado\",\"Low Gravity\":\"Ingravidez\",\"Lúcioball\":\"Lúciobol\",\"Mei's Snowball Offensive\":\"Mei: Operación Bola de Nieve\",\"Mirrored Deathmatch <tx0C0000000001FEE9>\":\"Combate a muerte: Héroe idéntico <tx0C0000000001FEE9>\",\"Mission Archives\":\"Archivos de misión\",\"Mystery Deathmatch\":\"Combate a muerte misterioso\",\"Mystery Duel\":\"Duelo misterioso\",\"Mystery Heroes\":\"Héroes misteriosos\",\"NORMAL\":\"NORMAL\",\"No Limits\":\"Sin limitaciones\",\"No Limits Payloads\":\"Cargas sin límites\",\"Paris\":\"París\",\"Petra Deathmatch\":\"Combate a muerte en Petra\",\"Prefer Hunter\":\"Prefiero cazadora\",\"Prefer Yeti\":\"Prefiero el yeti\",\"Quick Play Classic\":\"Partida rápida clásica\",\"Retribution (All Heroes)\":\"Ajuste de cuentas (todos los héroes)\",\"Retribution (Story)\":\"Ajuste de cuentas (historia)\",\"Rialto\":\"Rialto\",\"Skirmish\":\"Escaramuza\",\"Snowball Deathmatch\":\"Pelea de bolas de nieve a muerte\",\"Storm RIsing (All Heroes)\":\"Tormenta inminente (todos los héroes)\",\"Storm Rising (Story)\":\"Tormenta inminente (historia)\",\"Team Deathmatch\":\"Combate a muerte por equipos\",\"Total Mayhem\":\"Caos total\",\"Uprising (All Heroes)\":\"Rebelión (todos los héroes)\",\"Uprising (Story)\":\"Rebelión (historia)\",\"Winter Mystery\":\"Misterio invernal\",\"Yeti Hunter\":\"Caza del yeti\"},\"heroes\":{\"Ana\":\"Ana\",\"Ashe\":\"Ashe\",\"Assassin\":\"Asesina\",\"Baptiste\":\"Baptiste\",\"Bastion\":\"Bastion\",\"Boat\":\"Lancha\",\"Bob\":\"Bob\",\"Brigitte\":\"Brigitte\",\"D.Va\":\"D.Va\",\"Detonator\":\"Detonador\",\"Doomfist\":\"Doomfist\",\"Enforcer\":\"Sicario\",\"Eradicator\":\"Erradicador\",\"Friendly Bot\":\"Robot aliado\",\"Genji\":\"Genji\",\"Gunship\":\"Nave armada\",\"Hanzo\":\"Hanzo\",\"Heavy Assault\":\"Unidad pesada\",\"Junkrat\":\"Junkrat\",\"Lúcio\":\"Lúcio\",\"McCree\":\"McCree\",\"Mei\":\"Mei\",\"Mercy\":\"Mercy\",\"Moira\":\"Moira\",\"Nulltrooper\":\"Unidad de Null\",\"Orisa\":\"Orisa\",\"Pharah\":\"Pharah\",\"Reaper\":\"Reaper\",\"Reinhardt\":\"Reinhardt\",\"Roadhog\":\"Roadhog\",\"Shock-Tire\":\"Rueda de choque\",\"Sigma\":\"Sigma\",\"Slicer\":\"Cercenador\",\"Sniper\":\"Francotiradora\",\"Soldier: 76\":\"Soldado: 76\",\"Sombra\":\"Sombra\",\"Symmetra\":\"Symmetra\",\"Torbjörn\":\"Torbjörn\",\"Tracer\":\"Tracer\",\"Training Bot\":\"Robot de entrenamiento\",\"Trooper\":\"Soldado\",\"Widowmaker\":\"Widowmaker\",\"Winston\":\"Winston\",\"Wrecking Ball\":\"Wrecking Ball\",\"Zarya\":\"Zarya\",\"Zenyatta\":\"Zenyatta\",\"Zombardier\":\"Zombardero\",\"Zomnic\":\"Zómnico\"},\"labels\":{\"Daily\":\"Diario\",\"Permanent\":\"Permanente\",\"Weekly\":\"Semanal\"},\"maps\":{\"Ayutthaya\":\"Ayutthaya\",\"Black Forest\":\"Selva Negra\",\"Blizzard World\":\"Blizzard World\",\"Busan\":\"Busan\",\"Busan Downtown\":\"Centro de Busan\",\"Busan Sanctuary\":\"Santuario de Busan\",\"Busan Stadium\":\"Estadio de Busan\",\"Castillo\":\"Castillo\",\"Château Guillard\":\"Palacio Guillard\",\"Dorado\":\"Dorado\",\"Ecopoint: Antarctica\":\"Ecobase: Antártida\",\"Eichenwalde\":\"Eichenwalde\",\"Estádio das Rãs\":\"Estádio das Rãs\",\"Hanamura\":\"Hanamura\",\"Havana\":\"La Habana\",\"Hollywood\":\"Hollywood\",\"Horizon Lunar Colony\":\"Colonia Lunar Horizon\",\"Ilios\":\"Ilios\",\"Ilios Lighthouse\":\"Faro de Ilios\",\"Ilios Ruins\":\"Ruinas de Ilios\",\"Ilios Well\":\"Pozo de Ilios\",\"Junkenstein's Revenge\":\"La venganza de Junkenstein\",\"Junkertown\":\"Junkertown\",\"King's Row\":\"King's Row\",\"Lijiang Control Center\":\"Centro de control de Torre Lijiang\",\"Lijiang Garden\":\"Lijiang: Jardín\",\"Lijiang Night Market\":\"Lijiang: Mercado nocturno\",\"Lijiang Tower\":\"Torre Lijiang\",\"Necropolis\":\"Necrópolis\",\"Nepal\":\"Nepal\",\"Nepal Sanctum\":\"Sagrario de Nepal\",\"Nepal Shrine\":\"Santuario de Nepal\",\"Nepal Village\":\"Aldea de Nepal\",\"Nepal Village (Winter)\":\"Aldea de Nepal (invierno)\",\"Numbani\":\"Numbani\",\"Oasis\":\"Oasis\",\"Oasis City Center\":\"Centro urbano de Oasis\",\"Oasis Gardens\":\"Jardines de Oasis\",\"Oasis University\":\"Universidad de Oasis\",\"Paris\":\"París\",\"Petra\":\"Petra\",\"Practice Range\":\"Práctica de combate\",\"Rialto\":\"Rialto\",\"Route 66\":\"Ruta 66\",\"Sydney Harbour Arena\":\"Sydney Harbour Arena\",\"Temple of Anubis\":\"Templo de Anubis\",\"Tutorial\":\"Tutorial\",\"VPP Green Room\":\"VPP Green Room\",\"Volskaya Industries\":\"Industrias Volskaya\",\"Watchpoint: Gibraltar\":\"Observatorio: Gibraltar\"}},\"profile\":{\"about\":\"About\",\"contributor_subline\":\"Contributor since {date} with a total of {contributions} contributions\",\"favourite_arcade_heroes\":\"Favourite heroes\",\"favourite_arcade_maps\":\"Favourite maps\",\"favourite_arcade_modes\":\"Favourite arcade modes\",\"last_submit\":\"Last submit\"}}");
+
+/***/ }),
+
+/***/ "./resources/js/i18n/fr.json":
+/*!***********************************!*\
+  !*** ./resources/js/i18n/fr.json ***!
+  \***********************************/
+/*! exports provided: general, message, overwatch, profile, default */
+/***/ (function(module) {
+
+module.exports = JSON.parse("{\"general\":{\"contributors\":\"contributors\",\"notifications\":\"notifications\",\"settings\":\"settings\"},\"message\":{\"warning\":\"warning\"},\"overwatch\":{\"arcademodes\":{\"Assault\":\"Attaque\",\"Blizzard World\":\"Blizzard World\",\"Busan\":\"Busan\",\"CTF Blitz\":\"Capture du drapeau Éclair\",\"CTF: Ayutthaya Only\":\"Capture du drapeau : Ayutthaya\",\"CTF: Busan\":\"Capture du drapeau : Busan\",\"Capture the Flag\":\"Capture du drapeau\",\"Capture the Rooster\":\"Capture du coq\",\"Château Deathmatch\":\"Combat à mort dans le château\",\"Competitive CTF\":\"Capture du drapeau en compétitif\",\"Competitive Deathmatch\":\"Combat à mort compétitif\",\"Competitive Elimination\":\"Élimination en mode compétitif\",\"Competitive Team Deathmatch\":\"Combat à mort par équipe compétitif\",\"Copa Lúcioball\":\"Copa Lúcioball\",\"Deathmatch\":\"Combat à mort\",\"Doomfist Elimination\":\"Élimination - Doomfist\",\"EXPERT\":\"EXPERT\",\"Elimination\":\"Élimination\",\"HARD\":\"DIFFICILE\",\"Havana\":\"La Havane\",\"Hero Gauntlet <tx0C0000000001FEE9>\":\"Épreuve des héros <tx0C0000000001FEE9>\",\"Horizon Lunar Colony\":\"Colonie lunaire Horizon\",\"Horizon No Limits\":\"Horizon - Sans limites\",\"Hybrid\":\"Hybride\",\"Junkenstein Endless\":\"Vengeance sans fin\",\"Junkenstein's Revenge\":\"La vengeance du Dr Schakalstein\",\"Junkertown\":\"Junkertown\",\"Junkertown Mystery Heroes\":\"Héros mystère de Junkertown\",\"LEGENDARY\":\"LÉGENDAIRE\",\"Limited Duel\":\"Duel limité\",\"Low Gravity\":\"Faible pesanteur\",\"Lúcioball\":\"Lúcioball\",\"Mei's Snowball Offensive\":\"Opération Boule de neige\",\"Mirrored Deathmatch <tx0C0000000001FEE9>\":\"Combat à mort miroir <tx0C0000000001FEE9>\",\"Mission Archives\":\"Archives de mission\",\"Mystery Deathmatch\":\"Combat à mort mystère\",\"Mystery Duel\":\"Duel mystère\",\"Mystery Heroes\":\"Héros mystère\",\"NORMAL\":\"NORMAL\",\"No Limits\":\"Sans limites\",\"No Limits Payloads\":\"Convois sans limites\",\"Paris\":\"Paris\",\"Petra Deathmatch\":\"Combat à mort à Petra\",\"Prefer Hunter\":\"Chasseur, de préférence\",\"Prefer Yeti\":\"Yéti, de préférence\",\"Quick Play Classic\":\"Partie rapide classique\",\"Retribution (All Heroes)\":\"Représailles (tous les héros)\",\"Retribution (Story)\":\"Représailles (histoire)\",\"Rialto\":\"Rialto\",\"Skirmish\":\"Échauffement\",\"Snowball Deathmatch\":\"Combat à mort de boules de neige\",\"Storm RIsing (All Heroes)\":\"Avis de tempête (tous les héros)\",\"Storm Rising (Story)\":\"Avis de tempête (histoire)\",\"Team Deathmatch\":\"Combat à mort par équipe\",\"Total Mayhem\":\"Chaos jubilatoire\",\"Uprising (All Heroes)\":\"Insurrection (tous les héros)\",\"Uprising (Story)\":\"Insurrection (histoire)\",\"Winter Mystery\":\"Hiver mystère\",\"Yeti Hunter\":\"Chasse au yéti\"},\"heroes\":{\"Ana\":\"Ana\",\"Ashe\":\"Ashe\",\"Assassin\":\"Assassin\",\"Baptiste\":\"Baptiste\",\"Bastion\":\"Bastion\",\"Boat\":\"Hors-bord\",\"Bob\":\"Bob\",\"Brigitte\":\"Brigitte\",\"D.Va\":\"D.Va\",\"Detonator\":\"Détonateur\",\"Doomfist\":\"Doomfist\",\"Enforcer\":\"Légionnaire\",\"Eradicator\":\"Éradicateur\",\"Friendly Bot\":\"Robot allié\",\"Genji\":\"Genji\",\"Gunship\":\"Vaisseau\",\"Hanzo\":\"Hanzo\",\"Heavy Assault\":\"Unité d’assaut lourde\",\"Junkrat\":\"Chacal\",\"Lúcio\":\"Lúcio\",\"McCree\":\"McCree\",\"Mei\":\"Mei\",\"Mercy\":\"Ange\",\"Moira\":\"Moira\",\"Nulltrooper\":\"Unité zéro\",\"Orisa\":\"Orisa\",\"Pharah\":\"Pharah\",\"Reaper\":\"Faucheur\",\"Reinhardt\":\"Reinhardt\",\"Roadhog\":\"Chopper\",\"Shock-Tire\":\"Pneu tesla\",\"Sigma\":\"Sigma\",\"Slicer\":\"Laserateur\",\"Sniper\":\"Sniper\",\"Soldier: 76\":\"Soldat : 76\",\"Sombra\":\"Sombra\",\"Symmetra\":\"Symmetra\",\"Torbjörn\":\"Torbjörn\",\"Tracer\":\"Tracer\",\"Training Bot\":\"Robot d’entraînement\",\"Trooper\":\"Soldat\",\"Widowmaker\":\"Fatale\",\"Winston\":\"Winston\",\"Wrecking Ball\":\"Bouldozer\",\"Zarya\":\"Zarya\",\"Zenyatta\":\"Zenyatta\",\"Zombardier\":\"Zombardier\",\"Zomnic\":\"Zomniaque\"},\"labels\":{\"Daily\":\"du quotidien\",\"Permanent\":\"Permanent\",\"Weekly\":\"Hebdomadaire\"},\"maps\":{\"Ayutthaya\":\"Ayutthaya\",\"Black Forest\":\"Forêt-Noire\",\"Blizzard World\":\"Blizzard World\",\"Busan\":\"Busan\",\"Busan Downtown\":\"Busan - Centre-ville\",\"Busan Sanctuary\":\"Busan - Sanctuaire\",\"Busan Stadium\":\"Stade de Busan\",\"Castillo\":\"Castillo\",\"Château Guillard\":\"Château Guillard\",\"Dorado\":\"Dorado\",\"Ecopoint: Antarctica\":\"Écolab : Antarctique\",\"Eichenwalde\":\"Eichenwalde\",\"Estádio das Rãs\":\"Estádio das Rãs\",\"Hanamura\":\"Hanamura\",\"Havana\":\"La Havane\",\"Hollywood\":\"Hollywood\",\"Horizon Lunar Colony\":\"Colonie lunaire Horizon\",\"Ilios\":\"Ilios\",\"Ilios Lighthouse\":\"Ilios - Phare\",\"Ilios Ruins\":\"Ilios - Ruines\",\"Ilios Well\":\"Ilios - Puits\",\"Junkenstein's Revenge\":\"La vengeance du Dr Schakalstein\",\"Junkertown\":\"Junkertown\",\"King's Row\":\"King’s Row\",\"Lijiang Control Center\":\"Lijiang - Centre de contrôle\",\"Lijiang Garden\":\"Lijiang - Jardin\",\"Lijiang Night Market\":\"Lijiang - Marché de nuit \",\"Lijiang Tower\":\"Tour de Lijiang\",\"Necropolis\":\"Nécropole\",\"Nepal\":\"Népal\",\"Nepal Sanctum\":\"Népal - Sanctuaire\",\"Nepal Shrine\":\"Népal - Autel\",\"Nepal Village\":\"Népal - Village\",\"Nepal Village (Winter)\":\"Népal - Village (hiver)\",\"Numbani\":\"Numbani\",\"Oasis\":\"Oasis\",\"Oasis City Center\":\"Oasis - Centre-ville\",\"Oasis Gardens\":\"Oasis - Jardins\",\"Oasis University\":\"Oasis - Université\",\"Paris\":\"Paris\",\"Petra\":\"Petra\",\"Practice Range\":\"Champ de tir\",\"Rialto\":\"Rialto\",\"Route 66\":\"Route 66\",\"Sydney Harbour Arena\":\"Harbour Arena de Sydney\",\"Temple of Anubis\":\"Temple d’Anubis\",\"Tutorial\":\"Didacticiel\",\"VPP Green Room\":\"VPP Green Room\",\"Volskaya Industries\":\"Usine Volskaya\",\"Watchpoint: Gibraltar\":\"Observatoire : Gibraltar\"}},\"profile\":{\"about\":\"About\",\"contributor_subline\":\"Contributor since {date} with a total of {contributions} contributions\",\"favourite_arcade_heroes\":\"Favourite heroes\",\"favourite_arcade_maps\":\"Favourite maps\",\"favourite_arcade_modes\":\"Favourite arcade modes\",\"last_submit\":\"Last submit\"}}");
 
 /***/ }),
 
@@ -50633,46 +50997,152 @@ __webpack_require__.r(__webpack_exports__);
 /*!************************************!*\
   !*** ./resources/js/i18n/index.js ***!
   \************************************/
-/*! exports provided: default */
+/*! exports provided: defaultLocale, languages */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _en__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./en */ "./resources/js/i18n/en.js");
-/* harmony import */ var _nl__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./nl */ "./resources/js/i18n/nl.js");
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "defaultLocale", function() { return defaultLocale; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "languages", function() { return languages; });
+/* harmony import */ var _br_json__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./br.json */ "./resources/js/i18n/br.json");
+var _br_json__WEBPACK_IMPORTED_MODULE_0___namespace = /*#__PURE__*/__webpack_require__.t(/*! ./br.json */ "./resources/js/i18n/br.json", 1);
+/* harmony import */ var _de_json__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./de.json */ "./resources/js/i18n/de.json");
+var _de_json__WEBPACK_IMPORTED_MODULE_1___namespace = /*#__PURE__*/__webpack_require__.t(/*! ./de.json */ "./resources/js/i18n/de.json", 1);
+/* harmony import */ var _es_json__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./es.json */ "./resources/js/i18n/es.json");
+var _es_json__WEBPACK_IMPORTED_MODULE_2___namespace = /*#__PURE__*/__webpack_require__.t(/*! ./es.json */ "./resources/js/i18n/es.json", 1);
+/* harmony import */ var _fr_json__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./fr.json */ "./resources/js/i18n/fr.json");
+var _fr_json__WEBPACK_IMPORTED_MODULE_3___namespace = /*#__PURE__*/__webpack_require__.t(/*! ./fr.json */ "./resources/js/i18n/fr.json", 1);
+/* harmony import */ var _it_json__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./it.json */ "./resources/js/i18n/it.json");
+var _it_json__WEBPACK_IMPORTED_MODULE_4___namespace = /*#__PURE__*/__webpack_require__.t(/*! ./it.json */ "./resources/js/i18n/it.json", 1);
+/* harmony import */ var _jp_json__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./jp.json */ "./resources/js/i18n/jp.json");
+var _jp_json__WEBPACK_IMPORTED_MODULE_5___namespace = /*#__PURE__*/__webpack_require__.t(/*! ./jp.json */ "./resources/js/i18n/jp.json", 1);
+/* harmony import */ var _kr_json__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./kr.json */ "./resources/js/i18n/kr.json");
+var _kr_json__WEBPACK_IMPORTED_MODULE_6___namespace = /*#__PURE__*/__webpack_require__.t(/*! ./kr.json */ "./resources/js/i18n/kr.json", 1);
+/* harmony import */ var _mx_json__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./mx.json */ "./resources/js/i18n/mx.json");
+var _mx_json__WEBPACK_IMPORTED_MODULE_7___namespace = /*#__PURE__*/__webpack_require__.t(/*! ./mx.json */ "./resources/js/i18n/mx.json", 1);
+/* harmony import */ var _pl_json__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./pl.json */ "./resources/js/i18n/pl.json");
+var _pl_json__WEBPACK_IMPORTED_MODULE_8___namespace = /*#__PURE__*/__webpack_require__.t(/*! ./pl.json */ "./resources/js/i18n/pl.json", 1);
+/* harmony import */ var _ru_json__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./ru.json */ "./resources/js/i18n/ru.json");
+var _ru_json__WEBPACK_IMPORTED_MODULE_9___namespace = /*#__PURE__*/__webpack_require__.t(/*! ./ru.json */ "./resources/js/i18n/ru.json", 1);
+/* harmony import */ var _tw_json__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./tw.json */ "./resources/js/i18n/tw.json");
+var _tw_json__WEBPACK_IMPORTED_MODULE_10___namespace = /*#__PURE__*/__webpack_require__.t(/*! ./tw.json */ "./resources/js/i18n/tw.json", 1);
+/* harmony import */ var _us_json__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./us.json */ "./resources/js/i18n/us.json");
+var _us_json__WEBPACK_IMPORTED_MODULE_11___namespace = /*#__PURE__*/__webpack_require__.t(/*! ./us.json */ "./resources/js/i18n/us.json", 1);
 
 
-/* harmony default export */ __webpack_exports__["default"] = ({
-  en: _en__WEBPACK_IMPORTED_MODULE_0__["default"],
-  nl: _nl__WEBPACK_IMPORTED_MODULE_1__["default"]
-});
+
+
+
+
+
+
+
+
+
+
+var defaultLocale = 'US';
+var languages = {
+  BR: _br_json__WEBPACK_IMPORTED_MODULE_0__,
+  DE: _de_json__WEBPACK_IMPORTED_MODULE_1__,
+  ES: _es_json__WEBPACK_IMPORTED_MODULE_2__,
+  FR: _fr_json__WEBPACK_IMPORTED_MODULE_3__,
+  IT: _it_json__WEBPACK_IMPORTED_MODULE_4__,
+  JP: _jp_json__WEBPACK_IMPORTED_MODULE_5__,
+  KR: _kr_json__WEBPACK_IMPORTED_MODULE_6__,
+  MX: _mx_json__WEBPACK_IMPORTED_MODULE_7__,
+  PL: _pl_json__WEBPACK_IMPORTED_MODULE_8__,
+  RU: _ru_json__WEBPACK_IMPORTED_MODULE_9__,
+  TW: _tw_json__WEBPACK_IMPORTED_MODULE_10__,
+  US: _us_json__WEBPACK_IMPORTED_MODULE_11__
+};
 
 /***/ }),
 
-/***/ "./resources/js/i18n/nl.js":
-/*!*********************************!*\
-  !*** ./resources/js/i18n/nl.js ***!
-  \*********************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/***/ "./resources/js/i18n/it.json":
+/*!***********************************!*\
+  !*** ./resources/js/i18n/it.json ***!
+  \***********************************/
+/*! exports provided: general, message, overwatch, profile, default */
+/***/ (function(module) {
 
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ({
-  general: {
-    contributors: 'bijdrager',
-    notifications: 'notificaties',
-    settings: 'instellingen',
-    back: 'terug'
-  },
-  message: {
-    warning: 'Waarschuwing'
-  },
-  overwatch: {
-    day_resets_in: "Dag loopt af om",
-    not_updated_yet: 'De arcade van vandaag is nog niet geupdate'
-  }
-});
+module.exports = JSON.parse("{\"general\":{\"contributors\":\"contributors\",\"notifications\":\"notifications\",\"settings\":\"settings\"},\"message\":{\"warning\":\"warning\"},\"overwatch\":{\"arcademodes\":{\"Assault\":\"Conquista\",\"Blizzard World\":\"Blizzard World\",\"Busan\":\"Busan\",\"CTF Blitz\":\"Blitz CLB\",\"CTF: Ayutthaya Only\":\"CLB: solo Ayutthaya\",\"CTF: Busan\":\"CLB: Busan\",\"Capture the Flag\":\"Cattura la bandiera\",\"Capture the Rooster\":\"Cattura il Gallo\",\"Château Deathmatch\":\"Deathmatch Château\",\"Competitive CTF\":\"Cattura la Bandiera (competitiva)\",\"Competitive Deathmatch\":\"Deathmatch competitivo\",\"Competitive Elimination\":\"Eliminazione (competitiva)\",\"Competitive Team Deathmatch\":\"Deathmatch a squadre competitivo\",\"Copa Lúcioball\":\"Coppa Lúcioball\",\"Deathmatch\":\"Deathmatch\",\"Doomfist Elimination\":\"Eliminazione Doomfist\",\"EXPERT\":\"ESTREMA\",\"Elimination\":\"Eliminazione\",\"HARD\":\"DIFFICILE\",\"Havana\":\"L'Avana\",\"Hero Gauntlet <tx0C0000000001FEE9>\":\"Gauntlet eroi <tx0C0000000001FEE9>\",\"Horizon Lunar Colony\":\"Colonia Lunare Horizon\",\"Horizon No Limits\":\"Colonia Lunare Horizon - Nessun limite\",\"Hybrid\":\"Ibrida\",\"Junkenstein Endless\":\"Vendetta infinita\",\"Junkenstein's Revenge\":\"La vendetta di Junkenstein\",\"Junkertown\":\"Junkertown\",\"Junkertown Mystery Heroes\":\"Junkertown - Eroi misteriosi\",\"LEGENDARY\":\"LEGGENDARIA\",\"Limited Duel\":\"Duello limitato\",\"Low Gravity\":\"Bassa gravità\",\"Lúcioball\":\"Lúcioball\",\"Mei's Snowball Offensive\":\"Mei: Operazione Palle di Neve\",\"Mirrored Deathmatch <tx0C0000000001FEE9>\":\"Deathmatch speculare <tx0C0000000001FEE9>\",\"Mission Archives\":\"Archivi missioni\",\"Mystery Deathmatch\":\"Deathmatch misterioso\",\"Mystery Duel\":\"Duello misterioso\",\"Mystery Heroes\":\"Eroi misteriosi\",\"NORMAL\":\"NORMALE\",\"No Limits\":\"Nessun limite\",\"No Limits Payloads\":\"Carico senza limiti\",\"Paris\":\"Parigi\",\"Petra Deathmatch\":\"Deathmatch Petra\",\"Prefer Hunter\":\"Preferenza Cacciatrice\",\"Prefer Yeti\":\"Preferenza Yeti\",\"Quick Play Classic\":\"Partita rapida classica\",\"Retribution (All Heroes)\":\"Ritorsione (tutti gli eroi)\",\"Retribution (Story)\":\"Ritorsione (Storia)\",\"Rialto\":\"Rialto\",\"Skirmish\":\"Schermaglia\",\"Snowball Deathmatch\":\"Deathmatch Palle di Neve\",\"Storm RIsing (All Heroes)\":\"Tempesta imminente (Tutti gli eroi)\",\"Storm Rising (Story)\":\"Tempesta imminente (Storia)\",\"Team Deathmatch\":\"Deathmatch a squadre\",\"Total Mayhem\":\"Caos totale\",\"Uprising (All Heroes)\":\"Rivolta (tutti gli eroi)\",\"Uprising (Story)\":\"Rivolta (Storia)\",\"Winter Mystery\":\"Mistero d'Inverno\",\"Yeti Hunter\":\"Caccia allo Yeti\"},\"heroes\":{\"Ana\":\"Ana\",\"Ashe\":\"Ashe\",\"Assassin\":\"Assassino\",\"Baptiste\":\"Baptiste\",\"Bastion\":\"Bastion\",\"Boat\":\"Motoscafo\",\"Bob\":\"B.O.B.\",\"Brigitte\":\"Brigitte\",\"D.Va\":\"D.VA\",\"Detonator\":\"Detonatore\",\"Doomfist\":\"Doomfist\",\"Enforcer\":\"Esecutore\",\"Eradicator\":\"Eliminatore\",\"Friendly Bot\":\"Amico-bot\",\"Genji\":\"Genji\",\"Gunship\":\"Gunship\",\"Hanzo\":\"Hanzo\",\"Heavy Assault\":\"Unità pesante\",\"Junkrat\":\"Junkrat\",\"Lúcio\":\"Lúcio\",\"McCree\":\"McCree\",\"Mei\":\"Mei\",\"Mercy\":\"Mercy\",\"Moira\":\"Moira\",\"Nulltrooper\":\"Assaltatore\",\"Orisa\":\"Orisa\",\"Pharah\":\"Pharah\",\"Reaper\":\"Reaper\",\"Reinhardt\":\"Reinhardt\",\"Roadhog\":\"Roadhog\",\"Shock-Tire\":\"Elettrobomba\",\"Sigma\":\"Sigma\",\"Slicer\":\"Mutilatore\",\"Sniper\":\"Cecchino\",\"Soldier: 76\":\"Soldato-76\",\"Sombra\":\"Sombra\",\"Symmetra\":\"Symmetra\",\"Torbjörn\":\"Torbjörn\",\"Tracer\":\"Tracer\",\"Training Bot\":\"Addestra-bot\",\"Trooper\":\"Soldato\",\"Widowmaker\":\"Widowmaker\",\"Winston\":\"Winston\",\"Wrecking Ball\":\"Wrecking Ball\",\"Zarya\":\"Zarya\",\"Zenyatta\":\"Zenyatta\",\"Zombardier\":\"Zombardiere\",\"Zomnic\":\"Zomnic\"},\"labels\":{\"Daily\":\"Quotidiano\",\"Permanent\":\"Permanente\",\"Weekly\":\"settimanalmente\"},\"maps\":{\"Ayutthaya\":\"Ayutthaya\",\"Black Forest\":\"Foresta Nera\",\"Blizzard World\":\"Blizzard World\",\"Busan\":\"Busan\",\"Busan Downtown\":\"Busan - Centro\",\"Busan Sanctuary\":\"Busan - Santuario\",\"Busan Stadium\":\"Busan - Stadio\",\"Castillo\":\"Castillo\",\"Château Guillard\":\"Château Guillard\",\"Dorado\":\"El Dorado\",\"Ecopoint: Antarctica\":\"Ecobase: Antartide\",\"Eichenwalde\":\"Eichenwalde\",\"Estádio das Rãs\":\"Estádio de Rãs\",\"Hanamura\":\"Hanamura\",\"Havana\":\"L'Avana\",\"Hollywood\":\"HOLLYWOOD\",\"Horizon Lunar Colony\":\"Colonia Lunare Horizon\",\"Ilios\":\"Ilio\",\"Ilios Lighthouse\":\"Ilio - Faro\",\"Ilios Ruins\":\"Ilio - Rovine\",\"Ilios Well\":\"Ilio - Pozzo\",\"Junkenstein's Revenge\":\"La vendetta di Junkenstein\",\"Junkertown\":\"Junkertown\",\"King's Row\":\"King's Row\",\"Lijiang Control Center\":\"Lijiang - Centro di Controllo\",\"Lijiang Garden\":\"Giardino di Lijiang\",\"Lijiang Night Market\":\"Lijiang - Mercato Notturno\",\"Lijiang Tower\":\"Torre di Lijiang\",\"Necropolis\":\"Necropoli\",\"Nepal\":\"Nepal\",\"Nepal Sanctum\":\"Nepal - Santuario\",\"Nepal Shrine\":\"Nepal - Altare\",\"Nepal Village\":\"Nepal - Villaggio\",\"Nepal Village (Winter)\":\"Nepal - Villaggio (Inverno)\",\"Numbani\":\"Numbani\",\"Oasis\":\"Oasi\",\"Oasis City Center\":\"Oasi - Centro Città\",\"Oasis Gardens\":\"Oasi - Giardini\",\"Oasis University\":\"Oasi - Università\",\"Paris\":\"Parigi\",\"Petra\":\"Petra\",\"Practice Range\":\"Zona d'addestramento\",\"Rialto\":\"Rialto\",\"Route 66\":\"ROUTE 66\",\"Sydney Harbour Arena\":\"Sydney Harbour Arena\",\"Temple of Anubis\":\"Tempio di Anubi\",\"Tutorial\":\"Tutorial\",\"VPP Green Room\":\"VPP Green Room\",\"Volskaya Industries\":\"Industrie Volskaya\",\"Watchpoint: Gibraltar\":\"Osservatorio: Gibilterra\"}},\"profile\":{\"about\":\"About\",\"contributor_subline\":\"Contributor since {date} with a total of {contributions} contributions\",\"favourite_arcade_heroes\":\"Favourite heroes\",\"favourite_arcade_maps\":\"Favourite maps\",\"favourite_arcade_modes\":\"Favourite arcade modes\",\"last_submit\":\"Last submit\"}}");
+
+/***/ }),
+
+/***/ "./resources/js/i18n/jp.json":
+/*!***********************************!*\
+  !*** ./resources/js/i18n/jp.json ***!
+  \***********************************/
+/*! exports provided: general, message, overwatch, profile, default */
+/***/ (function(module) {
+
+module.exports = JSON.parse("{\"general\":{\"contributors\":\"contributors\",\"notifications\":\"notifications\",\"settings\":\"settings\"},\"message\":{\"warning\":\"warning\"},\"overwatch\":{\"arcademodes\":{\"Assault\":\"Conquista\",\"Blizzard World\":\"Blizzard World\",\"Busan\":\"Busan\",\"CTF Blitz\":\"Blitz CLB\",\"CTF: Ayutthaya Only\":\"CLB: solo Ayutthaya\",\"CTF: Busan\":\"CLB: Busan\",\"Capture the Flag\":\"Cattura la bandiera\",\"Capture the Rooster\":\"Cattura il Gallo\",\"Château Deathmatch\":\"Deathmatch Château\",\"Competitive CTF\":\"Cattura la Bandiera (competitiva)\",\"Competitive Deathmatch\":\"Deathmatch competitivo\",\"Competitive Elimination\":\"Eliminazione (competitiva)\",\"Competitive Team Deathmatch\":\"Deathmatch a squadre competitivo\",\"Copa Lúcioball\":\"Coppa Lúcioball\",\"Deathmatch\":\"Deathmatch\",\"Doomfist Elimination\":\"Eliminazione Doomfist\",\"EXPERT\":\"ESTREMA\",\"Elimination\":\"Eliminazione\",\"HARD\":\"DIFFICILE\",\"Havana\":\"L'Avana\",\"Hero Gauntlet <tx0C0000000001FEE9>\":\"Gauntlet eroi <tx0C0000000001FEE9>\",\"Horizon Lunar Colony\":\"Colonia Lunare Horizon\",\"Horizon No Limits\":\"Colonia Lunare Horizon - Nessun limite\",\"Hybrid\":\"Ibrida\",\"Junkenstein Endless\":\"Vendetta infinita\",\"Junkenstein's Revenge\":\"La vendetta di Junkenstein\",\"Junkertown\":\"Junkertown\",\"Junkertown Mystery Heroes\":\"Junkertown - Eroi misteriosi\",\"LEGENDARY\":\"LEGGENDARIA\",\"Limited Duel\":\"Duello limitato\",\"Low Gravity\":\"Bassa gravità\",\"Lúcioball\":\"Lúcioball\",\"Mei's Snowball Offensive\":\"Mei: Operazione Palle di Neve\",\"Mirrored Deathmatch <tx0C0000000001FEE9>\":\"Deathmatch speculare <tx0C0000000001FEE9>\",\"Mission Archives\":\"Archivi missioni\",\"Mystery Deathmatch\":\"Deathmatch misterioso\",\"Mystery Duel\":\"Duello misterioso\",\"Mystery Heroes\":\"Eroi misteriosi\",\"NORMAL\":\"NORMALE\",\"No Limits\":\"Nessun limite\",\"No Limits Payloads\":\"Carico senza limiti\",\"Paris\":\"Parigi\",\"Petra Deathmatch\":\"Deathmatch Petra\",\"Prefer Hunter\":\"Preferenza Cacciatrice\",\"Prefer Yeti\":\"Preferenza Yeti\",\"Quick Play Classic\":\"Partita rapida classica\",\"Retribution (All Heroes)\":\"Ritorsione (tutti gli eroi)\",\"Retribution (Story)\":\"Ritorsione (Storia)\",\"Rialto\":\"Rialto\",\"Skirmish\":\"Schermaglia\",\"Snowball Deathmatch\":\"Deathmatch Palle di Neve\",\"Storm RIsing (All Heroes)\":\"Tempesta imminente (Tutti gli eroi)\",\"Storm Rising (Story)\":\"Tempesta imminente (Storia)\",\"Team Deathmatch\":\"Deathmatch a squadre\",\"Total Mayhem\":\"Caos totale\",\"Uprising (All Heroes)\":\"Rivolta (tutti gli eroi)\",\"Uprising (Story)\":\"Rivolta (Storia)\",\"Winter Mystery\":\"Mistero d'Inverno\",\"Yeti Hunter\":\"Caccia allo Yeti\"},\"heroes\":{\"Ana\":\"Ana\",\"Ashe\":\"Ashe\",\"Assassin\":\"Assassino\",\"Baptiste\":\"Baptiste\",\"Bastion\":\"Bastion\",\"Boat\":\"Motoscafo\",\"Bob\":\"B.O.B.\",\"Brigitte\":\"Brigitte\",\"D.Va\":\"D.VA\",\"Detonator\":\"Detonatore\",\"Doomfist\":\"Doomfist\",\"Enforcer\":\"Esecutore\",\"Eradicator\":\"Eliminatore\",\"Friendly Bot\":\"Amico-bot\",\"Genji\":\"Genji\",\"Gunship\":\"Gunship\",\"Hanzo\":\"Hanzo\",\"Heavy Assault\":\"Unità pesante\",\"Junkrat\":\"Junkrat\",\"Lúcio\":\"Lúcio\",\"McCree\":\"McCree\",\"Mei\":\"Mei\",\"Mercy\":\"Mercy\",\"Moira\":\"Moira\",\"Nulltrooper\":\"Assaltatore\",\"Orisa\":\"Orisa\",\"Pharah\":\"Pharah\",\"Reaper\":\"Reaper\",\"Reinhardt\":\"Reinhardt\",\"Roadhog\":\"Roadhog\",\"Shock-Tire\":\"Elettrobomba\",\"Sigma\":\"Sigma\",\"Slicer\":\"Mutilatore\",\"Sniper\":\"Cecchino\",\"Soldier: 76\":\"Soldato-76\",\"Sombra\":\"Sombra\",\"Symmetra\":\"Symmetra\",\"Torbjörn\":\"Torbjörn\",\"Tracer\":\"Tracer\",\"Training Bot\":\"Addestra-bot\",\"Trooper\":\"Soldato\",\"Widowmaker\":\"Widowmaker\",\"Winston\":\"Winston\",\"Wrecking Ball\":\"Wrecking Ball\",\"Zarya\":\"Zarya\",\"Zenyatta\":\"Zenyatta\",\"Zombardier\":\"Zombardiere\",\"Zomnic\":\"Zomnic\"},\"labels\":{\"Daily\":\"Quotidiano\",\"Permanent\":\"Permanente\",\"Weekly\":\"settimanalmente\"},\"maps\":{\"Ayutthaya\":\"Ayutthaya\",\"Black Forest\":\"Foresta Nera\",\"Blizzard World\":\"Blizzard World\",\"Busan\":\"Busan\",\"Busan Downtown\":\"Busan - Centro\",\"Busan Sanctuary\":\"Busan - Santuario\",\"Busan Stadium\":\"Busan - Stadio\",\"Castillo\":\"Castillo\",\"Château Guillard\":\"Château Guillard\",\"Dorado\":\"El Dorado\",\"Ecopoint: Antarctica\":\"Ecobase: Antartide\",\"Eichenwalde\":\"Eichenwalde\",\"Estádio das Rãs\":\"Estádio de Rãs\",\"Hanamura\":\"Hanamura\",\"Havana\":\"L'Avana\",\"Hollywood\":\"HOLLYWOOD\",\"Horizon Lunar Colony\":\"Colonia Lunare Horizon\",\"Ilios\":\"Ilio\",\"Ilios Lighthouse\":\"Ilio - Faro\",\"Ilios Ruins\":\"Ilio - Rovine\",\"Ilios Well\":\"Ilio - Pozzo\",\"Junkenstein's Revenge\":\"La vendetta di Junkenstein\",\"Junkertown\":\"Junkertown\",\"King's Row\":\"King's Row\",\"Lijiang Control Center\":\"Lijiang - Centro di Controllo\",\"Lijiang Garden\":\"Giardino di Lijiang\",\"Lijiang Night Market\":\"Lijiang - Mercato Notturno\",\"Lijiang Tower\":\"Torre di Lijiang\",\"Necropolis\":\"Necropoli\",\"Nepal\":\"Nepal\",\"Nepal Sanctum\":\"Nepal - Santuario\",\"Nepal Shrine\":\"Nepal - Altare\",\"Nepal Village\":\"Nepal - Villaggio\",\"Nepal Village (Winter)\":\"Nepal - Villaggio (Inverno)\",\"Numbani\":\"Numbani\",\"Oasis\":\"Oasi\",\"Oasis City Center\":\"Oasi - Centro Città\",\"Oasis Gardens\":\"Oasi - Giardini\",\"Oasis University\":\"Oasi - Università\",\"Paris\":\"Parigi\",\"Petra\":\"Petra\",\"Practice Range\":\"Zona d'addestramento\",\"Rialto\":\"Rialto\",\"Route 66\":\"ROUTE 66\",\"Sydney Harbour Arena\":\"Sydney Harbour Arena\",\"Temple of Anubis\":\"Tempio di Anubi\",\"Tutorial\":\"Tutorial\",\"VPP Green Room\":\"VPP Green Room\",\"Volskaya Industries\":\"Industrie Volskaya\",\"Watchpoint: Gibraltar\":\"Osservatorio: Gibilterra\"}},\"profile\":{\"about\":\"About\",\"contributor_subline\":\"Contributor since {date} with a total of {contributions} contributions\",\"favourite_arcade_heroes\":\"Favourite heroes\",\"favourite_arcade_maps\":\"Favourite maps\",\"favourite_arcade_modes\":\"Favourite arcade modes\",\"last_submit\":\"Last submit\"}}");
+
+/***/ }),
+
+/***/ "./resources/js/i18n/kr.json":
+/*!***********************************!*\
+  !*** ./resources/js/i18n/kr.json ***!
+  \***********************************/
+/*! exports provided: general, message, overwatch, profile, default */
+/***/ (function(module) {
+
+module.exports = JSON.parse("{\"general\":{\"contributors\":\"contributors\",\"notifications\":\"notifications\",\"settings\":\"settings\"},\"message\":{\"warning\":\"warning\"},\"overwatch\":{\"arcademodes\":{\"Assault\":\"Conquista\",\"Blizzard World\":\"Blizzard World\",\"Busan\":\"Busan\",\"CTF Blitz\":\"Blitz CLB\",\"CTF: Ayutthaya Only\":\"CLB: solo Ayutthaya\",\"CTF: Busan\":\"CLB: Busan\",\"Capture the Flag\":\"Cattura la bandiera\",\"Capture the Rooster\":\"Cattura il Gallo\",\"Château Deathmatch\":\"Deathmatch Château\",\"Competitive CTF\":\"Cattura la Bandiera (competitiva)\",\"Competitive Deathmatch\":\"Deathmatch competitivo\",\"Competitive Elimination\":\"Eliminazione (competitiva)\",\"Competitive Team Deathmatch\":\"Deathmatch a squadre competitivo\",\"Copa Lúcioball\":\"Coppa Lúcioball\",\"Deathmatch\":\"Deathmatch\",\"Doomfist Elimination\":\"Eliminazione Doomfist\",\"EXPERT\":\"ESTREMA\",\"Elimination\":\"Eliminazione\",\"HARD\":\"DIFFICILE\",\"Havana\":\"L'Avana\",\"Hero Gauntlet <tx0C0000000001FEE9>\":\"Gauntlet eroi <tx0C0000000001FEE9>\",\"Horizon Lunar Colony\":\"Colonia Lunare Horizon\",\"Horizon No Limits\":\"Colonia Lunare Horizon - Nessun limite\",\"Hybrid\":\"Ibrida\",\"Junkenstein Endless\":\"Vendetta infinita\",\"Junkenstein's Revenge\":\"La vendetta di Junkenstein\",\"Junkertown\":\"Junkertown\",\"Junkertown Mystery Heroes\":\"Junkertown - Eroi misteriosi\",\"LEGENDARY\":\"LEGGENDARIA\",\"Limited Duel\":\"Duello limitato\",\"Low Gravity\":\"Bassa gravità\",\"Lúcioball\":\"Lúcioball\",\"Mei's Snowball Offensive\":\"Mei: Operazione Palle di Neve\",\"Mirrored Deathmatch <tx0C0000000001FEE9>\":\"Deathmatch speculare <tx0C0000000001FEE9>\",\"Mission Archives\":\"Archivi missioni\",\"Mystery Deathmatch\":\"Deathmatch misterioso\",\"Mystery Duel\":\"Duello misterioso\",\"Mystery Heroes\":\"Eroi misteriosi\",\"NORMAL\":\"NORMALE\",\"No Limits\":\"Nessun limite\",\"No Limits Payloads\":\"Carico senza limiti\",\"Paris\":\"Parigi\",\"Petra Deathmatch\":\"Deathmatch Petra\",\"Prefer Hunter\":\"Preferenza Cacciatrice\",\"Prefer Yeti\":\"Preferenza Yeti\",\"Quick Play Classic\":\"Partita rapida classica\",\"Retribution (All Heroes)\":\"Ritorsione (tutti gli eroi)\",\"Retribution (Story)\":\"Ritorsione (Storia)\",\"Rialto\":\"Rialto\",\"Skirmish\":\"Schermaglia\",\"Snowball Deathmatch\":\"Deathmatch Palle di Neve\",\"Storm RIsing (All Heroes)\":\"Tempesta imminente (Tutti gli eroi)\",\"Storm Rising (Story)\":\"Tempesta imminente (Storia)\",\"Team Deathmatch\":\"Deathmatch a squadre\",\"Total Mayhem\":\"Caos totale\",\"Uprising (All Heroes)\":\"Rivolta (tutti gli eroi)\",\"Uprising (Story)\":\"Rivolta (Storia)\",\"Winter Mystery\":\"Mistero d'Inverno\",\"Yeti Hunter\":\"Caccia allo Yeti\"},\"heroes\":{\"Ana\":\"Ana\",\"Ashe\":\"Ashe\",\"Assassin\":\"Assassino\",\"Baptiste\":\"Baptiste\",\"Bastion\":\"Bastion\",\"Boat\":\"Motoscafo\",\"Bob\":\"B.O.B.\",\"Brigitte\":\"Brigitte\",\"D.Va\":\"D.VA\",\"Detonator\":\"Detonatore\",\"Doomfist\":\"Doomfist\",\"Enforcer\":\"Esecutore\",\"Eradicator\":\"Eliminatore\",\"Friendly Bot\":\"Amico-bot\",\"Genji\":\"Genji\",\"Gunship\":\"Gunship\",\"Hanzo\":\"Hanzo\",\"Heavy Assault\":\"Unità pesante\",\"Junkrat\":\"Junkrat\",\"Lúcio\":\"Lúcio\",\"McCree\":\"McCree\",\"Mei\":\"Mei\",\"Mercy\":\"Mercy\",\"Moira\":\"Moira\",\"Nulltrooper\":\"Assaltatore\",\"Orisa\":\"Orisa\",\"Pharah\":\"Pharah\",\"Reaper\":\"Reaper\",\"Reinhardt\":\"Reinhardt\",\"Roadhog\":\"Roadhog\",\"Shock-Tire\":\"Elettrobomba\",\"Sigma\":\"Sigma\",\"Slicer\":\"Mutilatore\",\"Sniper\":\"Cecchino\",\"Soldier: 76\":\"Soldato-76\",\"Sombra\":\"Sombra\",\"Symmetra\":\"Symmetra\",\"Torbjörn\":\"Torbjörn\",\"Tracer\":\"Tracer\",\"Training Bot\":\"Addestra-bot\",\"Trooper\":\"Soldato\",\"Widowmaker\":\"Widowmaker\",\"Winston\":\"Winston\",\"Wrecking Ball\":\"Wrecking Ball\",\"Zarya\":\"Zarya\",\"Zenyatta\":\"Zenyatta\",\"Zombardier\":\"Zombardiere\",\"Zomnic\":\"Zomnic\"},\"labels\":{\"Daily\":\"Quotidiano\",\"Permanent\":\"Permanente\",\"Weekly\":\"settimanalmente\"},\"maps\":{\"Ayutthaya\":\"Ayutthaya\",\"Black Forest\":\"Foresta Nera\",\"Blizzard World\":\"Blizzard World\",\"Busan\":\"Busan\",\"Busan Downtown\":\"Busan - Centro\",\"Busan Sanctuary\":\"Busan - Santuario\",\"Busan Stadium\":\"Busan - Stadio\",\"Castillo\":\"Castillo\",\"Château Guillard\":\"Château Guillard\",\"Dorado\":\"El Dorado\",\"Ecopoint: Antarctica\":\"Ecobase: Antartide\",\"Eichenwalde\":\"Eichenwalde\",\"Estádio das Rãs\":\"Estádio de Rãs\",\"Hanamura\":\"Hanamura\",\"Havana\":\"L'Avana\",\"Hollywood\":\"HOLLYWOOD\",\"Horizon Lunar Colony\":\"Colonia Lunare Horizon\",\"Ilios\":\"Ilio\",\"Ilios Lighthouse\":\"Ilio - Faro\",\"Ilios Ruins\":\"Ilio - Rovine\",\"Ilios Well\":\"Ilio - Pozzo\",\"Junkenstein's Revenge\":\"La vendetta di Junkenstein\",\"Junkertown\":\"Junkertown\",\"King's Row\":\"King's Row\",\"Lijiang Control Center\":\"Lijiang - Centro di Controllo\",\"Lijiang Garden\":\"Giardino di Lijiang\",\"Lijiang Night Market\":\"Lijiang - Mercato Notturno\",\"Lijiang Tower\":\"Torre di Lijiang\",\"Necropolis\":\"Necropoli\",\"Nepal\":\"Nepal\",\"Nepal Sanctum\":\"Nepal - Santuario\",\"Nepal Shrine\":\"Nepal - Altare\",\"Nepal Village\":\"Nepal - Villaggio\",\"Nepal Village (Winter)\":\"Nepal - Villaggio (Inverno)\",\"Numbani\":\"Numbani\",\"Oasis\":\"Oasi\",\"Oasis City Center\":\"Oasi - Centro Città\",\"Oasis Gardens\":\"Oasi - Giardini\",\"Oasis University\":\"Oasi - Università\",\"Paris\":\"Parigi\",\"Petra\":\"Petra\",\"Practice Range\":\"Zona d'addestramento\",\"Rialto\":\"Rialto\",\"Route 66\":\"ROUTE 66\",\"Sydney Harbour Arena\":\"Sydney Harbour Arena\",\"Temple of Anubis\":\"Tempio di Anubi\",\"Tutorial\":\"Tutorial\",\"VPP Green Room\":\"VPP Green Room\",\"Volskaya Industries\":\"Industrie Volskaya\",\"Watchpoint: Gibraltar\":\"Osservatorio: Gibilterra\"}},\"profile\":{\"about\":\"About\",\"contributor_subline\":\"Contributor since {date} with a total of {contributions} contributions\",\"favourite_arcade_heroes\":\"Favourite heroes\",\"favourite_arcade_maps\":\"Favourite maps\",\"favourite_arcade_modes\":\"Favourite arcade modes\",\"last_submit\":\"Last submit\"}}");
+
+/***/ }),
+
+/***/ "./resources/js/i18n/mx.json":
+/*!***********************************!*\
+  !*** ./resources/js/i18n/mx.json ***!
+  \***********************************/
+/*! exports provided: general, message, overwatch, profile, default */
+/***/ (function(module) {
+
+module.exports = JSON.parse("{\"general\":{\"contributors\":\"contributors\",\"notifications\":\"notifications\",\"settings\":\"settings\"},\"message\":{\"warning\":\"warning\"},\"overwatch\":{\"arcademodes\":{\"Assault\":\"Asalto\",\"Blizzard World\":\"Blizzard World\",\"Busan\":\"Busan\",\"CTF Blitz\":\"CLB: Relámpago\",\"CTF: Ayutthaya Only\":\"CLB: Solo Ayutthaya\",\"CTF: Busan\":\"CLB: Busan\",\"Capture the Flag\":\"Captura la bandera\",\"Capture the Rooster\":\"Capturad al gallo\",\"Château Deathmatch\":\"Combate a muerte en el Palacio\",\"Competitive CTF\":\"CLB competitivo\",\"Competitive Deathmatch\":\"Combate a muerte competitivo\",\"Competitive Elimination\":\"Modo competitivo de Eliminación\",\"Competitive Team Deathmatch\":\"Combate a muerte por equipos competitivo\",\"Copa Lúcioball\":\"Copa de Lúciobol\",\"Deathmatch\":\"Combate a muerte\",\"Doomfist Elimination\":\"Eliminación de Doomfist\",\"EXPERT\":\"EXPERTA\",\"Elimination\":\"Eliminación\",\"HARD\":\"DIFÍCIL\",\"Havana\":\"La Habana\",\"Hero Gauntlet <tx0C0000000001FEE9>\":\"Relevos <tx0C0000000001FEE9>\",\"Horizon Lunar Colony\":\"Colonia Lunar Horizon\",\"Horizon No Limits\":\"Horizon: Sin limitaciones\",\"Hybrid\":\"Híbrido\",\"Junkenstein Endless\":\"Junkenstein: venganza infinita\",\"Junkenstein's Revenge\":\"La venganza de Junkenstein\",\"Junkertown\":\"Junkertown\",\"Junkertown Mystery Heroes\":\"Junkertown: Héroes misteriosos\",\"LEGENDARY\":\"LEGENDARIA\",\"Limited Duel\":\"Duelo limitado\",\"Low Gravity\":\"Ingravidez\",\"Lúcioball\":\"Lúciobol\",\"Mei's Snowball Offensive\":\"Mei: Operación Bola de Nieve\",\"Mirrored Deathmatch <tx0C0000000001FEE9>\":\"Combate a muerte: Héroe idéntico <tx0C0000000001FEE9>\",\"Mission Archives\":\"Archivos de misión\",\"Mystery Deathmatch\":\"Combate a muerte misterioso\",\"Mystery Duel\":\"Duelo misterioso\",\"Mystery Heroes\":\"Héroes misteriosos\",\"NORMAL\":\"NORMAL\",\"No Limits\":\"Sin limitaciones\",\"No Limits Payloads\":\"Cargas sin límites\",\"Paris\":\"París\",\"Petra Deathmatch\":\"Combate a muerte en Petra\",\"Prefer Hunter\":\"Prefiero cazadora\",\"Prefer Yeti\":\"Prefiero el yeti\",\"Quick Play Classic\":\"Partida rápida clásica\",\"Retribution (All Heroes)\":\"Ajuste de cuentas (todos los héroes)\",\"Retribution (Story)\":\"Ajuste de cuentas (historia)\",\"Rialto\":\"Rialto\",\"Skirmish\":\"Escaramuza\",\"Snowball Deathmatch\":\"Pelea de bolas de nieve a muerte\",\"Storm RIsing (All Heroes)\":\"Tormenta inminente (todos los héroes)\",\"Storm Rising (Story)\":\"Tormenta inminente (historia)\",\"Team Deathmatch\":\"Combate a muerte por equipos\",\"Total Mayhem\":\"Caos total\",\"Uprising (All Heroes)\":\"Rebelión (todos los héroes)\",\"Uprising (Story)\":\"Rebelión (historia)\",\"Winter Mystery\":\"Misterio invernal\",\"Yeti Hunter\":\"Caza del yeti\"},\"heroes\":{\"Ana\":\"Ana\",\"Ashe\":\"Ashe\",\"Assassin\":\"Asesina\",\"Baptiste\":\"Baptiste\",\"Bastion\":\"Bastion\",\"Boat\":\"Lancha\",\"Bob\":\"Bob\",\"Brigitte\":\"Brigitte\",\"D.Va\":\"D.Va\",\"Detonator\":\"Detonador\",\"Doomfist\":\"Doomfist\",\"Enforcer\":\"Sicario\",\"Eradicator\":\"Erradicador\",\"Friendly Bot\":\"Robot aliado\",\"Genji\":\"Genji\",\"Gunship\":\"Nave armada\",\"Hanzo\":\"Hanzo\",\"Heavy Assault\":\"Unidad pesada\",\"Junkrat\":\"Junkrat\",\"Lúcio\":\"Lúcio\",\"McCree\":\"McCree\",\"Mei\":\"Mei\",\"Mercy\":\"Mercy\",\"Moira\":\"Moira\",\"Nulltrooper\":\"Unidad de Null\",\"Orisa\":\"Orisa\",\"Pharah\":\"Pharah\",\"Reaper\":\"Reaper\",\"Reinhardt\":\"Reinhardt\",\"Roadhog\":\"Roadhog\",\"Shock-Tire\":\"Rueda de choque\",\"Sigma\":\"Sigma\",\"Slicer\":\"Cercenador\",\"Sniper\":\"Francotiradora\",\"Soldier: 76\":\"Soldado: 76\",\"Sombra\":\"Sombra\",\"Symmetra\":\"Symmetra\",\"Torbjörn\":\"Torbjörn\",\"Tracer\":\"Tracer\",\"Training Bot\":\"Robot de entrenamiento\",\"Trooper\":\"Soldado\",\"Widowmaker\":\"Widowmaker\",\"Winston\":\"Winston\",\"Wrecking Ball\":\"Wrecking Ball\",\"Zarya\":\"Zarya\",\"Zenyatta\":\"Zenyatta\",\"Zombardier\":\"Zombardero\",\"Zomnic\":\"Zómnico\"},\"labels\":{\"Daily\":\"Diario\",\"Permanent\":\"Permanente\",\"Weekly\":\"Semanal\"},\"maps\":{\"Ayutthaya\":\"Ayutthaya\",\"Black Forest\":\"Selva Negra\",\"Blizzard World\":\"Blizzard World\",\"Busan\":\"Busan\",\"Busan Downtown\":\"Centro de Busan\",\"Busan Sanctuary\":\"Santuario de Busan\",\"Busan Stadium\":\"Estadio de Busan\",\"Castillo\":\"Castillo\",\"Château Guillard\":\"Palacio Guillard\",\"Dorado\":\"Dorado\",\"Ecopoint: Antarctica\":\"Ecobase: Antártida\",\"Eichenwalde\":\"Eichenwalde\",\"Estádio das Rãs\":\"Estádio das Rãs\",\"Hanamura\":\"Hanamura\",\"Havana\":\"La Habana\",\"Hollywood\":\"Hollywood\",\"Horizon Lunar Colony\":\"Colonia Lunar Horizon\",\"Ilios\":\"Ilios\",\"Ilios Lighthouse\":\"Faro de Ilios\",\"Ilios Ruins\":\"Ruinas de Ilios\",\"Ilios Well\":\"Pozo de Ilios\",\"Junkenstein's Revenge\":\"La venganza de Junkenstein\",\"Junkertown\":\"Junkertown\",\"King's Row\":\"King's Row\",\"Lijiang Control Center\":\"Centro de control de Torre Lijiang\",\"Lijiang Garden\":\"Lijiang: Jardín\",\"Lijiang Night Market\":\"Lijiang: Mercado nocturno\",\"Lijiang Tower\":\"Torre Lijiang\",\"Necropolis\":\"Necrópolis\",\"Nepal\":\"Nepal\",\"Nepal Sanctum\":\"Sagrario de Nepal\",\"Nepal Shrine\":\"Santuario de Nepal\",\"Nepal Village\":\"Aldea de Nepal\",\"Nepal Village (Winter)\":\"Aldea de Nepal (invierno)\",\"Numbani\":\"Numbani\",\"Oasis\":\"Oasis\",\"Oasis City Center\":\"Centro urbano de Oasis\",\"Oasis Gardens\":\"Jardines de Oasis\",\"Oasis University\":\"Universidad de Oasis\",\"Paris\":\"París\",\"Petra\":\"Petra\",\"Practice Range\":\"Práctica de combate\",\"Rialto\":\"Rialto\",\"Route 66\":\"Ruta 66\",\"Sydney Harbour Arena\":\"Sydney Harbour Arena\",\"Temple of Anubis\":\"Templo de Anubis\",\"Tutorial\":\"Tutorial\",\"VPP Green Room\":\"VPP Green Room\",\"Volskaya Industries\":\"Industrias Volskaya\",\"Watchpoint: Gibraltar\":\"Observatorio: Gibraltar\"}},\"profile\":{\"about\":\"About\",\"contributor_subline\":\"Contributor since {date} with a total of {contributions} contributions\",\"favourite_arcade_heroes\":\"Favourite heroes\",\"favourite_arcade_maps\":\"Favourite maps\",\"favourite_arcade_modes\":\"Favourite arcade modes\",\"last_submit\":\"Last submit\"}}");
+
+/***/ }),
+
+/***/ "./resources/js/i18n/pl.json":
+/*!***********************************!*\
+  !*** ./resources/js/i18n/pl.json ***!
+  \***********************************/
+/*! exports provided: general, message, overwatch, profile, default */
+/***/ (function(module) {
+
+module.exports = JSON.parse("{\"general\":{\"contributors\":\"contributors\",\"notifications\":\"notifications\",\"settings\":\"settings\"},\"message\":{\"warning\":\"warning\"},\"overwatch\":{\"arcademodes\":{\"Assault\":\"Szturm\",\"Blizzard World\":\"Blizzard World\",\"Busan\":\"Pusan\",\"CTF Blitz\":\"Błyskawiczne Zdobywanie flagi\",\"CTF: Ayutthaya Only\":\"Zdobywanie flagi: Tylko Ayutthaya\",\"CTF: Busan\":\"Zdobywanie flagi: Pusan\",\"Capture the Flag\":\"Zdobywanie flagi\",\"Capture the Rooster\":\"Łap Koguta\",\"Château Deathmatch\":\"Deathmatch w Château\",\"Competitive CTF\":\"Rywalizacja w Zdobywanie flagi\",\"Competitive Deathmatch\":\"Deathmatch w trybie Rywalizacji\",\"Competitive Elimination\":\"Rywalizacja w trybie Eliminacji\",\"Competitive Team Deathmatch\":\"Rywalizacja w Drużynowym Deathmatchu\",\"Copa Lúcioball\":\"Copa Futbolúcio\",\"Deathmatch\":\"Deathmatch\",\"Doomfist Elimination\":\"Eliminacja, Pięść Zagłady\",\"EXPERT\":\"EKSPERCKI\",\"Elimination\":\"Eliminacja\",\"HARD\":\"WYSOKI\",\"Havana\":\"Hawana\",\"Hero Gauntlet <tx0C0000000001FEE9>\":\"Arena bohaterów <tx0C0000000001FEE9>\",\"Horizon Lunar Colony\":\"Kolonia księżycowa Horyzont\",\"Horizon No Limits\":\"Horyzont – Bez ograniczeń\",\"Hybrid\":\"Hybryda\",\"Junkenstein Endless\":\"Wieczna zemsta dr. Złomensteina\",\"Junkenstein's Revenge\":\"Zemsta dr. Złomensteina\",\"Junkertown\":\"Junkertown\",\"Junkertown Mystery Heroes\":\"Tajemniczy bohaterowie Junkertown\",\"LEGENDARY\":\"LEGENDARNY\",\"Limited Duel\":\"Pojedynek z ograniczeniami\",\"Low Gravity\":\"Niska grawitacja\",\"Lúcioball\":\"Futbolúcio\",\"Mei's Snowball Offensive\":\"Śnieżkowa Ofensywa Mei\",\"Mirrored Deathmatch <tx0C0000000001FEE9>\":\"Lustrzany Deathmatch <tx0C0000000001FEE9>\",\"Mission Archives\":\"Archiwa misji\",\"Mystery Deathmatch\":\"Tajemniczy Deathmatch\",\"Mystery Duel\":\"Tajemniczy pojedynek\",\"Mystery Heroes\":\"Tajemniczy bohaterowie\",\"NORMAL\":\"NORMALNY\",\"No Limits\":\"Bez ograniczeń\",\"No Limits Payloads\":\"Brak ograniczeń ładunków\",\"Paris\":\"Paryż\",\"Petra Deathmatch\":\"Deathmatch na Petrze\",\"Prefer Hunter\":\"Preferuj łowcę\",\"Prefer Yeti\":\"Preferuj Yeti\",\"Quick Play Classic\":\"Klasyczna szybka gra\",\"Retribution (All Heroes)\":\"Odwet (wszyscy)\",\"Retribution (Story)\":\"Odwet (fabuła)\",\"Rialto\":\"Rialto\",\"Skirmish\":\"Potyczka\",\"Snowball Deathmatch\":\"Śnieżkowy Deathmatch\",\"Storm RIsing (All Heroes)\":\"Czarne Chmury (wszyscy)\",\"Storm Rising (Story)\":\"Czarne Chmury (fabuła)\",\"Team Deathmatch\":\"Drużynowy Deathmatch\",\"Total Mayhem\":\"Totalna Masakra\",\"Uprising (All Heroes)\":\"Insurekcja (wszyscy)\",\"Uprising (Story)\":\"Insurekcja (fabuła)\",\"Winter Mystery\":\"Zimowa tajemnica\",\"Yeti Hunter\":\"Polowanie na Yeti\"},\"heroes\":{\"Ana\":\"Ana\",\"Ashe\":\"Ashe\",\"Assassin\":\"Zabójczyni\",\"Baptiste\":\"Baptiste\",\"Bastion\":\"Bastion\",\"Boat\":\"Łódź\",\"Bob\":\"Bob\",\"Brigitte\":\"Brigitte\",\"D.Va\":\"D.Va\",\"Detonator\":\"Wybuchacz\",\"Doomfist\":\"Pięść Zagłady\",\"Enforcer\":\"Egzekutor\",\"Eradicator\":\"Eksterminator\",\"Friendly Bot\":\"Przyjazny bot\",\"Genji\":\"Genji\",\"Gunship\":\"Statek powietrzny\",\"Hanzo\":\"Hanzo\",\"Heavy Assault\":\"Szturmowiec\",\"Junkrat\":\"Złomiarz\",\"Lúcio\":\"Lúcio\",\"McCree\":\"McCree\",\"Mei\":\"Mei\",\"Mercy\":\"Łaska\",\"Moira\":\"Moira\",\"Nulltrooper\":\"Szturmownik\",\"Orisa\":\"Orisa\",\"Pharah\":\"Fara\",\"Reaper\":\"Żniwiarz\",\"Reinhardt\":\"Reinhardt\",\"Roadhog\":\"Wieprzu\",\"Shock-Tire\":\"Szok-opona\",\"Sigma\":\"Sigma\",\"Slicer\":\"Siekacz\",\"Sniper\":\"Snajper\",\"Soldier: 76\":\"Żołnierz-76\",\"Sombra\":\"Sombra\",\"Symmetra\":\"Symmetra\",\"Torbjörn\":\"Torbjörn\",\"Tracer\":\"Smuga\",\"Training Bot\":\"Bot treningowy\",\"Trooper\":\"Żołnierz\",\"Widowmaker\":\"Trupia Wdowa\",\"Winston\":\"Winston\",\"Wrecking Ball\":\"Burzyciel\",\"Zarya\":\"Zaria\",\"Zenyatta\":\"Zenyatta\",\"Zombardier\":\"Złombardier\",\"Zomnic\":\"Złomnik\"},\"labels\":{\"Daily\":\"Codziennie\",\"Permanent\":\"Stały\",\"Weekly\":\"Co tydzień\"},\"maps\":{\"Ayutthaya\":\"Ayutthaya\",\"Black Forest\":\"Czarny Las\",\"Blizzard World\":\"Blizzard World\",\"Busan\":\"Pusan\",\"Busan Downtown\":\"Pusan: Centrum\",\"Busan Sanctuary\":\"Pusan: Sanktuarium\",\"Busan Stadium\":\"Stadion Pusan\",\"Castillo\":\"Castillo\",\"Château Guillard\":\"Château Guillard\",\"Dorado\":\"Dorado\",\"Ecopoint: Antarctica\":\"Ekopunkt Antarktyda\",\"Eichenwalde\":\"Eichenwalde\",\"Estádio das Rãs\":\"Estádio das Rãs\",\"Hanamura\":\"Hanamura\",\"Havana\":\"Hawana\",\"Hollywood\":\"Hollywood\",\"Horizon Lunar Colony\":\"Kolonia księżycowa Horyzont\",\"Ilios\":\"Ilios\",\"Ilios Lighthouse\":\"Ilios: Latarnia morska\",\"Ilios Ruins\":\"Ilios: Ruiny\",\"Ilios Well\":\"Ilios: Studnia\",\"Junkenstein's Revenge\":\"Zemsta dr. Złomensteina\",\"Junkertown\":\"Junkertown\",\"King's Row\":\"King's Row\",\"Lijiang Control Center\":\"Wieża Lijiang: Centrum sterowania\",\"Lijiang Garden\":\"Wieża Lijiang: Ogród\",\"Lijiang Night Market\":\"Wieża Lijiang: Nocny bazar\",\"Lijiang Tower\":\"Wieża Lijiang\",\"Necropolis\":\"Nekropolia\",\"Nepal\":\"Nepal\",\"Nepal Sanctum\":\"Nepal: Sanktuarium\",\"Nepal Shrine\":\"Nepal: Kapliczka\",\"Nepal Village\":\"Nepal: Wioska\",\"Nepal Village (Winter)\":\"Nepal: Wioska (zima)\",\"Numbani\":\"Numbani\",\"Oasis\":\"Oaza\",\"Oasis City Center\":\"Oaza: Centrum miasta\",\"Oasis Gardens\":\"Oaza: Ogrody\",\"Oasis University\":\"Oaza: Uniwersytet\",\"Paris\":\"Paryż\",\"Petra\":\"Petra\",\"Practice Range\":\"Obszar treningowy\",\"Rialto\":\"Rialto\",\"Route 66\":\"Droga 66\",\"Sydney Harbour Arena\":\"Sydney Harbour Park\",\"Temple of Anubis\":\"Świątynia Anubisa\",\"Tutorial\":\"Samouczek\",\"VPP Green Room\":\"VPP Green Room\",\"Volskaya Industries\":\"Zakłady Volskaya Industries\",\"Watchpoint: Gibraltar\":\"Posterunek: Gibraltar\"}},\"profile\":{\"about\":\"About\",\"contributor_subline\":\"Contributor since {date} with a total of {contributions} contributions\",\"favourite_arcade_heroes\":\"Favourite heroes\",\"favourite_arcade_maps\":\"Favourite maps\",\"favourite_arcade_modes\":\"Favourite arcade modes\",\"last_submit\":\"Last submit\"}}");
+
+/***/ }),
+
+/***/ "./resources/js/i18n/ru.json":
+/*!***********************************!*\
+  !*** ./resources/js/i18n/ru.json ***!
+  \***********************************/
+/*! exports provided: general, message, overwatch, profile, default */
+/***/ (function(module) {
+
+module.exports = JSON.parse("{\"general\":{\"contributors\":\"contributors\",\"notifications\":\"notifications\",\"settings\":\"settings\"},\"message\":{\"warning\":\"warning\"},\"overwatch\":{\"arcademodes\":{\"Assault\":\"Захват точек\",\"Blizzard World\":\"Blizzard World\",\"Busan\":\"Пусан\",\"CTF Blitz\":\"Быстрый захват флага\",\"CTF: Ayutthaya Only\":\"Захват флага: только Аюттайя\",\"CTF: Busan\":\"Захват флага: Пусан\",\"Capture the Flag\":\"Захват флага\",\"Capture the Rooster\":\"Захват Петуха\",\"Château Deathmatch\":\"Схватка в шато\",\"Competitive CTF\":\"Соревновательный захват флага\",\"Competitive Deathmatch\":\"Соревновательная схватка\",\"Competitive Elimination\":\"Соревновательная ликвидация\",\"Competitive Team Deathmatch\":\"Соревновательная командная схватка\",\"Copa Lúcioball\":\"Кубок Лусио\",\"Deathmatch\":\"Схватка\",\"Doomfist Elimination\":\"Ликвидация: Кулак Смерти\",\"EXPERT\":\"ЭКСПЕРТ\",\"Elimination\":\"Ликвидация\",\"HARD\":\"БОЕЦ\",\"Havana\":\"Гавана\",\"Hero Gauntlet <tx0C0000000001FEE9>\":\"Испытание героев <tx0C0000000001FEE9>\",\"Horizon Lunar Colony\":\"Лунная колония «Горизонт»\",\"Horizon No Limits\":\"Горизонт – без ограничений\",\"Hybrid\":\"Гибридный режим\",\"Junkenstein Endless\":\"Бесконечная месть\",\"Junkenstein's Revenge\":\"Месть Крысенштейна\",\"Junkertown\":\"Джанкертаун\",\"Junkertown Mystery Heroes\":\"Загадочные герои Джанкертауна\",\"LEGENDARY\":\"ЛЕГЕНДА\",\"Limited Duel\":\"Дуэль с ограничениями\",\"Low Gravity\":\"Низкая гравитация\",\"Lúcioball\":\"Лусиобол\",\"Mei's Snowball Offensive\":\"Операция «Метелица»\",\"Mirrored Deathmatch <tx0C0000000001FEE9>\":\"Зеркальная схватка <tx0C0000000001FEE9>\",\"Mission Archives\":\"Архив заданий\",\"Mystery Deathmatch\":\"Схватка вслепую\",\"Mystery Duel\":\"Случайная дуэль\",\"Mystery Heroes\":\"Загадочные герои\",\"NORMAL\":\"НОВИЧОК\",\"No Limits\":\"Без ограничений\",\"No Limits Payloads\":\"Без ограничений (сопровождение)\",\"Paris\":\"Париж\",\"Petra Deathmatch\":\"Схватка в Петре\",\"Prefer Hunter\":\"Выбираю охотницу\",\"Prefer Yeti\":\"Выбираю йети\",\"Quick Play Classic\":\"Классическая быстрая игра\",\"Retribution (All Heroes)\":\"Возмездие (все герои)\",\"Retribution (Story)\":\"Возмездие (сюжет)\",\"Rialto\":\"Риальто\",\"Skirmish\":\"Разминка\",\"Snowball Deathmatch\":\"Снежная схватка\",\"Storm RIsing (All Heroes)\":\"Предчувствие бури (все герои)\",\"Storm Rising (Story)\":\"Предчувствие бури (сюжет)\",\"Team Deathmatch\":\"Командная схватка\",\"Total Mayhem\":\"Полный хаос\",\"Uprising (All Heroes)\":\"Мятеж (все герои)\",\"Uprising (Story)\":\"Мятеж (сюжет)\",\"Winter Mystery\":\"Зимняя тайна\",\"Yeti Hunter\":\"Охота на йети\"},\"heroes\":{\"Ana\":\"Ана\",\"Ashe\":\"Эш\",\"Assassin\":\"Ассасин\",\"Baptiste\":\"Батист\",\"Bastion\":\"Бастион\",\"Boat\":\"Лодка\",\"Bob\":\"Боб\",\"Brigitte\":\"Бригитта\",\"D.Va\":\"D.Va\",\"Detonator\":\"«Детонатор»\",\"Doomfist\":\"Кулак Смерти\",\"Enforcer\":\"Каратель\",\"Eradicator\":\"«Ликвидатор»\",\"Friendly Bot\":\"Робот-союзник\",\"Genji\":\"Гэндзи\",\"Gunship\":\"Десантное судно\",\"Hanzo\":\"Хандзо\",\"Heavy Assault\":\"Тяжелый штурмовик\",\"Junkrat\":\"Крысавчик\",\"Lúcio\":\"Лусио\",\"McCree\":\"Маккри\",\"Mei\":\"Мэй\",\"Mercy\":\"Ангел\",\"Moira\":\"Мойра\",\"Nulltrooper\":\"Штурмовик\",\"Orisa\":\"Ориса\",\"Pharah\":\"Фарра\",\"Reaper\":\"Жнец\",\"Reinhardt\":\"Райнхардт\",\"Roadhog\":\"Турбосвин\",\"Shock-Tire\":\"Электрошина\",\"Sigma\":\"Сигма\",\"Slicer\":\"«Ланцет»\",\"Sniper\":\"Снайпер\",\"Soldier: 76\":\"Солдат-76\",\"Sombra\":\"Сомбра\",\"Symmetra\":\"Симметра\",\"Torbjörn\":\"Торбьорн\",\"Tracer\":\"Трейсер\",\"Training Bot\":\"Тренировочный робот\",\"Trooper\":\"Пехотинец\",\"Widowmaker\":\"Роковая Вдова\",\"Winston\":\"Уинстон\",\"Wrecking Ball\":\"Таран\",\"Zarya\":\"Заря\",\"Zenyatta\":\"Дзенъятта\",\"Zombardier\":\"Зомбардир\",\"Zomnic\":\"Зомник\"},\"labels\":{\"Daily\":\"Ежедневно\",\"Permanent\":\"перманентный\",\"Weekly\":\"еженедельно\"},\"maps\":{\"Ayutthaya\":\"Аюттайя\",\"Black Forest\":\"Черный лес\",\"Blizzard World\":\"Blizzard World\",\"Busan\":\"Пусан\",\"Busan Downtown\":\"Центр Пусана\",\"Busan Sanctuary\":\"Святилище Пусана\",\"Busan Stadium\":\"Стадион Пусана\",\"Castillo\":\"Кастильо\",\"Château Guillard\":\"Шато-Гийяр\",\"Dorado\":\"Дорадо\",\"Ecopoint: Antarctica\":\"Экостанция: Антарктика\",\"Eichenwalde\":\"Айхенвальд\",\"Estádio das Rãs\":\"«Эстадиу ди Ранс»\",\"Hanamura\":\"Ханамура\",\"Havana\":\"Гавана\",\"Hollywood\":\"Голливуд\",\"Horizon Lunar Colony\":\"Лунная колония «Горизонт»\",\"Ilios\":\"Илиос\",\"Ilios Lighthouse\":\"Илиос: маяк\",\"Ilios Ruins\":\"Илиос: развалины\",\"Ilios Well\":\"Илиос: колодец\",\"Junkenstein's Revenge\":\"Месть Крысенштейна\",\"Junkertown\":\"Джанкертаун\",\"King's Row\":\"Кингс Роу\",\"Lijiang Control Center\":\"Лицзян: командный центр\",\"Lijiang Garden\":\"Лицзян: сад\",\"Lijiang Night Market\":\"Лицзян: ночной рынок\",\"Lijiang Tower\":\"Башня Лицзян\",\"Necropolis\":\"Некрополь\",\"Nepal\":\"Непал\",\"Nepal Sanctum\":\"Непал: святилище\",\"Nepal Shrine\":\"Непал: алтарь\",\"Nepal Village\":\"Непал: деревня\",\"Nepal Village (Winter)\":\"Непал: деревня (зима)\",\"Numbani\":\"Нумбани\",\"Oasis\":\"Оазис\",\"Oasis City Center\":\"Оазис: центр города\",\"Oasis Gardens\":\"Оазис: сады\",\"Oasis University\":\"Оазис: университет\",\"Paris\":\"Париж\",\"Petra\":\"Петра\",\"Practice Range\":\"УЧЕБНЫЙ ПОЛИГОН\",\"Rialto\":\"Риальто\",\"Route 66\":\"Шоссе 66\",\"Sydney Harbour Arena\":\"«Арена Сидней-Харбор»\",\"Temple of Anubis\":\"Храм Анубиса\",\"Tutorial\":\"Обучение\",\"VPP Green Room\":\"VPP Green Room\",\"Volskaya Industries\":\"КБ Вольской\",\"Watchpoint: Gibraltar\":\"Пост наблюдения: Гибралтар\"}},\"profile\":{\"about\":\"About\",\"contributor_subline\":\"Contributor since {date} with a total of {contributions} contributions\",\"favourite_arcade_heroes\":\"Favourite heroes\",\"favourite_arcade_maps\":\"Favourite maps\",\"favourite_arcade_modes\":\"Favourite arcade modes\",\"last_submit\":\"Last submit\"}}");
+
+/***/ }),
+
+/***/ "./resources/js/i18n/tw.json":
+/*!***********************************!*\
+  !*** ./resources/js/i18n/tw.json ***!
+  \***********************************/
+/*! exports provided: general, message, overwatch, profile, default */
+/***/ (function(module) {
+
+module.exports = JSON.parse("{\"general\":{\"contributors\":\"contributors\",\"notifications\":\"notifications\",\"settings\":\"settings\"},\"message\":{\"warning\":\"warning\"},\"overwatch\":{\"arcademodes\":{\"Assault\":\"Захват точек\",\"Blizzard World\":\"Blizzard World\",\"Busan\":\"Пусан\",\"CTF Blitz\":\"Быстрый захват флага\",\"CTF: Ayutthaya Only\":\"Захват флага: только Аюттайя\",\"CTF: Busan\":\"Захват флага: Пусан\",\"Capture the Flag\":\"Захват флага\",\"Capture the Rooster\":\"Захват Петуха\",\"Château Deathmatch\":\"Схватка в шато\",\"Competitive CTF\":\"Соревновательный захват флага\",\"Competitive Deathmatch\":\"Соревновательная схватка\",\"Competitive Elimination\":\"Соревновательная ликвидация\",\"Competitive Team Deathmatch\":\"Соревновательная командная схватка\",\"Copa Lúcioball\":\"Кубок Лусио\",\"Deathmatch\":\"Схватка\",\"Doomfist Elimination\":\"Ликвидация: Кулак Смерти\",\"EXPERT\":\"ЭКСПЕРТ\",\"Elimination\":\"Ликвидация\",\"HARD\":\"БОЕЦ\",\"Havana\":\"Гавана\",\"Hero Gauntlet <tx0C0000000001FEE9>\":\"Испытание героев <tx0C0000000001FEE9>\",\"Horizon Lunar Colony\":\"Лунная колония «Горизонт»\",\"Horizon No Limits\":\"Горизонт – без ограничений\",\"Hybrid\":\"Гибридный режим\",\"Junkenstein Endless\":\"Бесконечная месть\",\"Junkenstein's Revenge\":\"Месть Крысенштейна\",\"Junkertown\":\"Джанкертаун\",\"Junkertown Mystery Heroes\":\"Загадочные герои Джанкертауна\",\"LEGENDARY\":\"ЛЕГЕНДА\",\"Limited Duel\":\"Дуэль с ограничениями\",\"Low Gravity\":\"Низкая гравитация\",\"Lúcioball\":\"Лусиобол\",\"Mei's Snowball Offensive\":\"Операция «Метелица»\",\"Mirrored Deathmatch <tx0C0000000001FEE9>\":\"Зеркальная схватка <tx0C0000000001FEE9>\",\"Mission Archives\":\"Архив заданий\",\"Mystery Deathmatch\":\"Схватка вслепую\",\"Mystery Duel\":\"Случайная дуэль\",\"Mystery Heroes\":\"Загадочные герои\",\"NORMAL\":\"НОВИЧОК\",\"No Limits\":\"Без ограничений\",\"No Limits Payloads\":\"Без ограничений (сопровождение)\",\"Paris\":\"Париж\",\"Petra Deathmatch\":\"Схватка в Петре\",\"Prefer Hunter\":\"Выбираю охотницу\",\"Prefer Yeti\":\"Выбираю йети\",\"Quick Play Classic\":\"Классическая быстрая игра\",\"Retribution (All Heroes)\":\"Возмездие (все герои)\",\"Retribution (Story)\":\"Возмездие (сюжет)\",\"Rialto\":\"Риальто\",\"Skirmish\":\"Разминка\",\"Snowball Deathmatch\":\"Снежная схватка\",\"Storm RIsing (All Heroes)\":\"Предчувствие бури (все герои)\",\"Storm Rising (Story)\":\"Предчувствие бури (сюжет)\",\"Team Deathmatch\":\"Командная схватка\",\"Total Mayhem\":\"Полный хаос\",\"Uprising (All Heroes)\":\"Мятеж (все герои)\",\"Uprising (Story)\":\"Мятеж (сюжет)\",\"Winter Mystery\":\"Зимняя тайна\",\"Yeti Hunter\":\"Охота на йети\"},\"heroes\":{\"Ana\":\"Ана\",\"Ashe\":\"Эш\",\"Assassin\":\"Ассасин\",\"Baptiste\":\"Батист\",\"Bastion\":\"Бастион\",\"Boat\":\"Лодка\",\"Bob\":\"Боб\",\"Brigitte\":\"Бригитта\",\"D.Va\":\"D.Va\",\"Detonator\":\"«Детонатор»\",\"Doomfist\":\"Кулак Смерти\",\"Enforcer\":\"Каратель\",\"Eradicator\":\"«Ликвидатор»\",\"Friendly Bot\":\"Робот-союзник\",\"Genji\":\"Гэндзи\",\"Gunship\":\"Десантное судно\",\"Hanzo\":\"Хандзо\",\"Heavy Assault\":\"Тяжелый штурмовик\",\"Junkrat\":\"Крысавчик\",\"Lúcio\":\"Лусио\",\"McCree\":\"Маккри\",\"Mei\":\"Мэй\",\"Mercy\":\"Ангел\",\"Moira\":\"Мойра\",\"Nulltrooper\":\"Штурмовик\",\"Orisa\":\"Ориса\",\"Pharah\":\"Фарра\",\"Reaper\":\"Жнец\",\"Reinhardt\":\"Райнхардт\",\"Roadhog\":\"Турбосвин\",\"Shock-Tire\":\"Электрошина\",\"Sigma\":\"Сигма\",\"Slicer\":\"«Ланцет»\",\"Sniper\":\"Снайпер\",\"Soldier: 76\":\"Солдат-76\",\"Sombra\":\"Сомбра\",\"Symmetra\":\"Симметра\",\"Torbjörn\":\"Торбьорн\",\"Tracer\":\"Трейсер\",\"Training Bot\":\"Тренировочный робот\",\"Trooper\":\"Пехотинец\",\"Widowmaker\":\"Роковая Вдова\",\"Winston\":\"Уинстон\",\"Wrecking Ball\":\"Таран\",\"Zarya\":\"Заря\",\"Zenyatta\":\"Дзенъятта\",\"Zombardier\":\"Зомбардир\",\"Zomnic\":\"Зомник\"},\"labels\":{\"Daily\":\"Ежедневно\",\"Permanent\":\"перманентный\",\"Weekly\":\"еженедельно\"},\"maps\":{\"Ayutthaya\":\"Аюттайя\",\"Black Forest\":\"Черный лес\",\"Blizzard World\":\"Blizzard World\",\"Busan\":\"Пусан\",\"Busan Downtown\":\"Центр Пусана\",\"Busan Sanctuary\":\"Святилище Пусана\",\"Busan Stadium\":\"Стадион Пусана\",\"Castillo\":\"Кастильо\",\"Château Guillard\":\"Шато-Гийяр\",\"Dorado\":\"Дорадо\",\"Ecopoint: Antarctica\":\"Экостанция: Антарктика\",\"Eichenwalde\":\"Айхенвальд\",\"Estádio das Rãs\":\"«Эстадиу ди Ранс»\",\"Hanamura\":\"Ханамура\",\"Havana\":\"Гавана\",\"Hollywood\":\"Голливуд\",\"Horizon Lunar Colony\":\"Лунная колония «Горизонт»\",\"Ilios\":\"Илиос\",\"Ilios Lighthouse\":\"Илиос: маяк\",\"Ilios Ruins\":\"Илиос: развалины\",\"Ilios Well\":\"Илиос: колодец\",\"Junkenstein's Revenge\":\"Месть Крысенштейна\",\"Junkertown\":\"Джанкертаун\",\"King's Row\":\"Кингс Роу\",\"Lijiang Control Center\":\"Лицзян: командный центр\",\"Lijiang Garden\":\"Лицзян: сад\",\"Lijiang Night Market\":\"Лицзян: ночной рынок\",\"Lijiang Tower\":\"Башня Лицзян\",\"Necropolis\":\"Некрополь\",\"Nepal\":\"Непал\",\"Nepal Sanctum\":\"Непал: святилище\",\"Nepal Shrine\":\"Непал: алтарь\",\"Nepal Village\":\"Непал: деревня\",\"Nepal Village (Winter)\":\"Непал: деревня (зима)\",\"Numbani\":\"Нумбани\",\"Oasis\":\"Оазис\",\"Oasis City Center\":\"Оазис: центр города\",\"Oasis Gardens\":\"Оазис: сады\",\"Oasis University\":\"Оазис: университет\",\"Paris\":\"Париж\",\"Petra\":\"Петра\",\"Practice Range\":\"УЧЕБНЫЙ ПОЛИГОН\",\"Rialto\":\"Риальто\",\"Route 66\":\"Шоссе 66\",\"Sydney Harbour Arena\":\"«Арена Сидней-Харбор»\",\"Temple of Anubis\":\"Храм Анубиса\",\"Tutorial\":\"Обучение\",\"VPP Green Room\":\"VPP Green Room\",\"Volskaya Industries\":\"КБ Вольской\",\"Watchpoint: Gibraltar\":\"Пост наблюдения: Гибралтар\"}},\"profile\":{\"about\":\"About\",\"contributor_subline\":\"Contributor since {date} with a total of {contributions} contributions\",\"favourite_arcade_heroes\":\"Favourite heroes\",\"favourite_arcade_maps\":\"Favourite maps\",\"favourite_arcade_modes\":\"Favourite arcade modes\",\"last_submit\":\"Last submit\"}}");
+
+/***/ }),
+
+/***/ "./resources/js/i18n/us.json":
+/*!***********************************!*\
+  !*** ./resources/js/i18n/us.json ***!
+  \***********************************/
+/*! exports provided: general, message, overwatch, profile, default */
+/***/ (function(module) {
+
+module.exports = JSON.parse("{\"general\":{\"contributors\":\"contributors\",\"notifications\":\"notifications\",\"settings\":\"settings\"},\"message\":{\"warning\":\"warning\"},\"overwatch\":{\"arcademodes\":{\"Assault\":\"Angriff\",\"Blizzard World\":\"Blizzard World\",\"Busan\":\"Busan\",\"CTF Blitz\":\"Flaggeneroberung - Blitz\",\"CTF: Ayutthaya Only\":\"Flaggeneroberung: Ayutthaya\",\"CTF: Busan\":\"Flaggeneroberung: Busan\",\"Capture the Flag\":\"Flaggeneroberung\",\"Capture the Rooster\":\"Hol den Hahn\",\"Château Deathmatch\":\"Deathmatch im Château\",\"Competitive CTF\":\"Kompetitive Flaggeneroberung\",\"Competitive Deathmatch\":\"Kompetitives Deathmatch\",\"Competitive Elimination\":\"Kompetitive Eliminierung\",\"Competitive Team Deathmatch\":\"Kompetitives Team-Deathmatch\",\"Copa Lúcioball\":\"Copa Lúcioball\",\"Deathmatch\":\"Deathmatch\",\"Doomfist Elimination\":\"Eliminierung: Doomfist\",\"EXPERT\":\"EXPERTE\",\"Elimination\":\"Eliminierung\",\"HARD\":\"SCHWER\",\"Havana\":\"Havanna\",\"Hero Gauntlet <tx0C0000000001FEE9>\":\"Heldenrotation <tx0C0000000001FEE9>\",\"Horizon Lunar Colony\":\"Mondkolonie Horizon\",\"Horizon No Limits\":\"Keine Beschränkungen: Horizon\",\"Hybrid\":\"Hybrid\",\"Junkenstein Endless\":\"Junkenstein: endlos\",\"Junkenstein's Revenge\":\"Junkensteins Rache\",\"Junkertown\":\"Junkertown\",\"Junkertown Mystery Heroes\":\"Überraschungshelden: Junkertown\",\"LEGENDARY\":\"LEGENDÄR\",\"Limited Duel\":\"Limitiertes Duell\",\"Low Gravity\":\"Geringe Schwerkraft\",\"Lúcioball\":\"Lúcioball\",\"Mei's Snowball Offensive\":\"Meis Schneeballschlacht\",\"Mirrored Deathmatch <tx0C0000000001FEE9>\":\"Gespiegeltes Deathmatch <tx0C0000000001FEE9>\",\"Mission Archives\":\"Missionsarchiv\",\"Mystery Deathmatch\":\"Überraschungs-Deathmatch\",\"Mystery Duel\":\"Überraschungsduell\",\"Mystery Heroes\":\"Überraschungshelden\",\"NORMAL\":\"NORMAL\",\"No Limits\":\"Keine Beschränkungen\",\"No Limits Payloads\":\"Keine Beschränkungen: Fracht\",\"Paris\":\"Paris\",\"Petra Deathmatch\":\"Deathmatch: Petra\",\"Prefer Hunter\":\"Jäger bevorzugt\",\"Prefer Yeti\":\"Yeti bevorzugt\",\"Quick Play Classic\":\"Klassische Schnellsuche\",\"Retribution (All Heroes)\":\"Vergeltung (alle Helden)\",\"Retribution (Story)\":\"Vergeltung (Story)\",\"Rialto\":\"Rialto\",\"Skirmish\":\"Übungsgefecht\",\"Snowball Deathmatch\":\"Schneeball-Deathmatch\",\"Storm RIsing (All Heroes)\":\"Sturmzeichen (alle Helden)\",\"Storm Rising (Story)\":\"Sturmzeichen (Story)\",\"Team Deathmatch\":\"Team-Deathmatch\",\"Total Mayhem\":\"Totales Chaos\",\"Uprising (All Heroes)\":\"Aufstand (alle Helden)\",\"Uprising (Story)\":\"Aufstand (Story)\",\"Winter Mystery\":\"Winterüberraschung\",\"Yeti Hunter\":\"Yetijagd\"},\"heroes\":{\"Ana\":\"Ana\",\"Ashe\":\"Ashe\",\"Assassin\":\"Assassine\",\"Baptiste\":\"Baptiste\",\"Bastion\":\"Bastion\",\"Boat\":\"Boot\",\"Bob\":\"Bob\",\"Brigitte\":\"Brigitte\",\"D.Va\":\"D.Va\",\"Detonator\":\"Detonator\",\"Doomfist\":\"Doomfist\",\"Enforcer\":\"Eliteeinheit\",\"Eradicator\":\"Eradicator\",\"Friendly Bot\":\"Verbündeter Bot\",\"Genji\":\"Genji\",\"Gunship\":\"Transporter\",\"Hanzo\":\"Hanzo\",\"Heavy Assault\":\"Sturmgrenadier\",\"Junkrat\":\"Junkrat\",\"Lúcio\":\"Lúcio\",\"McCree\":\"McCree\",\"Mei\":\"Mei\",\"Mercy\":\"Mercy\",\"Moira\":\"Moira\",\"Nulltrooper\":\"Nulltrooper\",\"Orisa\":\"Orisa\",\"Pharah\":\"Pharah\",\"Reaper\":\"Reaper\",\"Reinhardt\":\"Reinhardt\",\"Roadhog\":\"Roadhog\",\"Shock-Tire\":\"Schockreifen\",\"Sigma\":\"Sigma\",\"Slicer\":\"Slicer\",\"Sniper\":\"Scharfschützin\",\"Soldier: 76\":\"Soldier: 76\",\"Sombra\":\"Sombra\",\"Symmetra\":\"Symmetra\",\"Torbjörn\":\"Torbjörn\",\"Tracer\":\"Tracer\",\"Training Bot\":\"Trainingsbot\",\"Trooper\":\"Soldat\",\"Widowmaker\":\"Widowmaker\",\"Winston\":\"Winston\",\"Wrecking Ball\":\"Wrecking Ball\",\"Zarya\":\"Zarya\",\"Zenyatta\":\"Zenyatta\",\"Zombardier\":\"Zombardier\",\"Zomnic\":\"Zomnic\"},\"labels\":{\"Daily\":\"Täglich\",\"Permanent\":\"dauerhaft\",\"Weekly\":\"Wöchentlich\"},\"maps\":{\"Ayutthaya\":\"Ayutthaya\",\"Black Forest\":\"Schwarzwald\",\"Blizzard World\":\"Blizzard World\",\"Busan\":\"Busan\",\"Busan Downtown\":\"Busan – Stadtzentrum\",\"Busan Sanctuary\":\"Busan – Tempel\",\"Busan Stadium\":\"Stadion von Busan\",\"Castillo\":\"Castillo\",\"Château Guillard\":\"Château Guillard\",\"Dorado\":\"Dorado\",\"Ecopoint: Antarctica\":\"Ecopoint: Antarktis\",\"Eichenwalde\":\"Eichenwalde\",\"Estádio das Rãs\":\"Estádio das Rãs\",\"Hanamura\":\"Hanamura\",\"Havana\":\"Havanna\",\"Hollywood\":\"Hollywood\",\"Horizon Lunar Colony\":\"Mondkolonie Horizon\",\"Ilios\":\"Ilios\",\"Ilios Lighthouse\":\"Ilios – Leuchtturm\",\"Ilios Ruins\":\"Ilios – Ruinen\",\"Ilios Well\":\"Ilios – Brunnen\",\"Junkenstein's Revenge\":\"Junkensteins Rache\",\"Junkertown\":\"Junkertown\",\"King's Row\":\"King's Row\",\"Lijiang Control Center\":\"Lijiang Tower – Kontrollzentrum\",\"Lijiang Garden\":\"Lijiang Tower – Garten\",\"Lijiang Night Market\":\"Lijiang Tower – Nachtmarkt\",\"Lijiang Tower\":\"Lijiang Tower\",\"Necropolis\":\"Nekropole\",\"Nepal\":\"Nepal\",\"Nepal Sanctum\":\"Nepal – Sanktum\",\"Nepal Shrine\":\"Nepal – Schrein\",\"Nepal Village\":\"Nepal – Dorf\",\"Nepal Village (Winter)\":\"Nepal – Dorf (Winter)\",\"Numbani\":\"Numbani\",\"Oasis\":\"Oasis\",\"Oasis City Center\":\"Oasis – Stadtzentrum\",\"Oasis Gardens\":\"Oasis – Gärten\",\"Oasis University\":\"Oasis – Universität\",\"Paris\":\"Paris\",\"Petra\":\"Petra\",\"Practice Range\":\"Trainingsbereich\",\"Rialto\":\"Rialto\",\"Route 66\":\"Route 66\",\"Sydney Harbour Arena\":\"Sydney Harbour Arena\",\"Temple of Anubis\":\"Tempel des Anubis\",\"Tutorial\":\"Tutorial\",\"VPP Green Room\":\"VPP Green Room\",\"Volskaya Industries\":\"Volskaya Industries\",\"Watchpoint: Gibraltar\":\"Watchpoint: Gibraltar\"}},\"profile\":{\"about\":\"About\",\"contributor_subline\":\"Contributor since {date} with a total of {contributions} contributions\",\"favourite_arcade_heroes\":\"Favourite heroes\",\"favourite_arcade_maps\":\"Favourite maps\",\"favourite_arcade_modes\":\"Favourite arcade modes\",\"last_submit\":\"Last submit\"}}");
 
 /***/ }),
 

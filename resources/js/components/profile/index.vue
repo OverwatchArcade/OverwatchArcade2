@@ -4,13 +4,13 @@
             <div class="col-12 text-center">
                 <img :src="user_data.avatar" class="img-fluid rounded-circle" style="max-height:128px">
                 <h3 id="username">{{user_data.name}}</h3>
-                <h4>Contributor since {{user_data.member_since}} with {{user_data.contributions}} submittions</h4>
+                <h4>{{$t('profile.contributor_subline', {'date': user_data.member_since, 'contributions': user_data.contributions} ) }}</h4>
             </div>
         </div>
         <section id="user-info" class="mt-5" v-if="Object.keys(user_data.profile_data).length">
             <div class="row">
                 <div class="col-lg-4 col-12">
-                    <h3>Personal</h3>
+                    <h3>{{$t('profile.about')}}</h3>
                     <div class="row">
                         <div class="col-12">
                             <table class="table bg-white table-striped p-2">
@@ -35,7 +35,7 @@
                 <div class="col-lg-7 offset-lg-1 col-12">
                     <div class="row">
                         <div class="col-12">
-                            <h3>Favourite Arcade Modes</h3>
+                            <h3>{{$t('profile.favourite_arcade_modes')}}</h3>
                             <div class="text-dark p-2">
                                 <div class="row">
                                     <div v-if="overwatch.arcadeImages" v-for="mode in user_data.profile_data.game.mode">
@@ -46,7 +46,7 @@
                             </div>
                         </div>
                         <div class="col-12 mt-4">
-                            <h3>Favourite Heroes</h3>
+                            <h3>{{$t('profile.favourite_arcade_heroes')}}</h3>
                             <div class="text-dark p-2">
                                 <div class="row">
                                     <div v-for="character in user_data.profile_data.game.character">
@@ -57,7 +57,7 @@
                             </div>
                         </div>
                         <div class="col-12 mt-4">
-                            <h3>Favourite Maps</h3>
+                            <h3>{{$t('profile.favourite_arcade_maps')}}</h3>
                             <div class="text-dark p-2">
                                 <div class="row">
                                     <div v-for="map in user_data.profile_data.game.map">

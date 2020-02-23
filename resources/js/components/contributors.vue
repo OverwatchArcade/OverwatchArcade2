@@ -2,7 +2,7 @@
     <div>
         <div class="row">
             <div class="col-auto">
-                <h1>Contributors</h1>
+                <h1>{{$t('general.contributors')}}</h1>
             </div>
         </div>
         <div class="row">

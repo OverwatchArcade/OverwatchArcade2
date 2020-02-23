@@ -71,19 +71,8 @@
             @endif
         </div>
     </section>
-    <section id="content">
-        @yield('content')
-    </section>
-    <section id="footer" class="mt-5">
-        <div class="row">
-            <div class="col-12 col-md-10">
-                @include('layout.copyright')
-            </div>
-            <div class="col-12 col-md-2">
-                Language
-            </div>
-        </div>
-    </section>
+    @yield('content')
+
 </div>
 <script defer type="text/javascript" src="{{ mix('/js/app.js') }}"></script>
 </body>

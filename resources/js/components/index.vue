@@ -24,6 +24,7 @@
 </template>
 
 <script>
+
     import card from "./elements/gametile";
 
     export default {
@@ -42,7 +43,7 @@
             }
         },
         mounted() {
-            this.isContributor()
+            this.isContributor();
         }
     }
 </script>

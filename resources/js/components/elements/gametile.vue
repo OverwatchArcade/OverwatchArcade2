@@ -1,11 +1,11 @@
 <template>
     <div class="card" v-if="gamemode.name">
         <span v-if="gamemode.label" class="card-ribbon"
-              :class="getLabelColor(gamemode.label)">{{ gamemode.label }}</span>
+              :class="getLabelColor(gamemode.label)">{{ $t('overwatch.labels.'+gamemode.label) }}</span>
         <div class="card-img-top" :style="{background: 'url('+gamemode.image+') no-repeat 50% 0'}" :alt="gamemode.name + ' Overwatch arcade gamemode'"></div>
         <div class="card-body">
             <h4>{{ gamemode.players }}</h4>
-            <p class="card-text">{{ gamemode.name }}</p>
+            <p class="card-text">{{ $t('overwatch.arcademodes.'+gamemode.name) }}</p>
         </div>
     </div>
     <div class="card" v-else>
