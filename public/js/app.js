@@ -2798,6 +2798,13 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
 
 
 /* harmony default export */ __webpack_exports__["default"] = ({
@@ -28364,9 +28371,49 @@ var render = function() {
                 label: "name",
                 searchable: true,
                 "close-on-select": true,
-                "show-labels": true
+                "show-labels": false
               },
               on: { close: _vm.changeLanguage },
+              scopedSlots: _vm._u([
+                {
+                  key: "singleLabel",
+                  fn: function(props) {
+                    return [
+                      _c("CountryFlag", {
+                        attrs: { country: props.option.code, size: "small" }
+                      }),
+                      _vm._v(
+                        " " +
+                          _vm._s(props.option.name) +
+                          "\n                    "
+                      )
+                    ]
+                  }
+                },
+                {
+                  key: "option",
+                  fn: function(props) {
+                    return [
+                      _c("div", { staticClass: "option__desc" }, [
+                        _c(
+                          "span",
+                          { staticClass: "option__title" },
+                          [
+                            _c("CountryFlag", {
+                              attrs: {
+                                country: props.option.code,
+                                size: "small"
+                              }
+                            }),
+                            _vm._v(" " + _vm._s(props.option.name))
+                          ],
+                          1
+                        )
+                      ])
+                    ]
+                  }
+                }
+              ]),
               model: {
                 value: _vm.language,
                 callback: function($$v) {
@@ -28727,8 +28774,7 @@ var render = function() {
                     return [
                       _c("h3", [
                         _vm._v(
-                          _vm._s(_vm.$t("overwatch.day_resets_in")) +
-                            " " +
+                          "Resets in " +
                             _vm._s(props.hours) +
                             ":" +
                             _vm._s(props.minutes) +

@@ -17,7 +17,7 @@
                 <div>
                     <countdown :time="timeleft" @end="handleCountdownEnd" :transform="transform">
                         <template slot-scope="props">
-                            <h3>{{$t("overwatch.day_resets_in")}} {{props.hours}}:{{props.minutes}}:{{props.seconds}}</h3>
+                            <h3>Resets in {{props.hours}}:{{props.minutes}}:{{props.seconds}}</h3>
                         </template>
                     </countdown>
                 </div>

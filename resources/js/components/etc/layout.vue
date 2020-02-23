@@ -25,7 +25,14 @@
                     <Multiselect v-model="language" :options="options" label="name" :searchable="true"
                                  @close="changeLanguage"
                                  :close-on-select="true"
-                                 :show-labels="true"></Multiselect>
+                                 :show-labels="false">
+                        <template slot="singleLabel" slot-scope="props">
+                            <CountryFlag :country='props.option.code' size='small'/> {{ props.option.name }}
+                        </template>
+                        <template slot="option" slot-scope="props">
+                        <div class="option__desc"><span class="option__title"><CountryFlag :country='props.option.code' size='small'/> {{ props.option.name }}</span></div>
+                        </template>
+                    </Multiselect>
                 </div>
             </div>
         </section>
