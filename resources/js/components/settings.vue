@@ -6,6 +6,17 @@
         <div class="col-12 col-md-6">
             <h4>Profile</h4>
             <div class="p-2 rounded">
+                <div class="form-group d-flex justify-content-center">
+                    <img :src="user_data.avatar" style="max-height:128px; width:auto;" class="rounded-circle">
+                </div>
+                <div class="form-group">
+                    <label for="country" class="font-weight-bold">Avatar</label>
+                    <multiselect v-model="user_data.profile_data.profile.avatar" id="avatar" name="avatar"
+                                 :searchable="true"
+                                 :options="avatars"
+                                 @input="previewAvatar(user_data.profile_data.profile.avatar)"
+                    ></multiselect>
+                </div>
                 <div class="form-group">
                     <label for="country" class="font-weight-bold">Country</label>
                     <multiselect v-model="user_data.profile_data.profile.country" id="country" name="country"
@@ -38,7 +49,7 @@
                     <multiselect v-model="user_data.profile_data.game.mode" id="favourite_game_mode"
                                  name="favourite_game_mode" :searchable="true"
                                  :close-on-select="false"
-                                 :options="overwatch.arcademodes.map(mode => mode.name)"
+                                 :options="overwatch.arcademodes"
                                  :multiple="true" :show-labels="true"></multiselect>
                 </div>
                 <div class="form-group">
@@ -76,6 +87,7 @@
                             "character": []
                         },
                         "profile": {
+                            "avatar": null,
                             "country": null,
                             "about": null,
                         }
@@ -85,9 +97,10 @@
                 overwatch: {
                     maps: this.getTitleValues(maps),
                     characters: this.getTitleValues(characters),
-                    arcademodes: arcademodes
+                    arcademodes: this.getTitleValues(arcademodes)
                 },
-                countries: countries
+                countries: countries,
+                avatars: []
             }
         },
         components: {
@@ -119,27 +132,28 @@
             getTitleValues(array) {
                 let arr = [];
                 array.forEach(element => arr.push(element.title));
+                console.log(array);
                 return arr;
             },
-            uploadImage(e) {
-                const image = e.target.files[0];
-                const reader = new FileReader();
-                reader.readAsDataURL(image);
-                reader.onload = e => {
-                    this.user_data.profile_data.avatar = e.target.result;
-                    this.user_data.avatar = e.target.result;
-                };
+            previewAvatar(val) {
+                this.user_data.avatar = '/img/avatars/'+ val;
+                this.user_data.profile_data.avatar = val;
             }
         },
         mounted() {
             let username = document.getElementById('username').innerHTML.replace(/#/, '%23');
             axios.get('/api/user/' + username).then(response => {
-                if (response.data.profile_data) {
+                if (Object.keys(response.data.profile_data).length) {
                     this.user_data.profile_data = response.data.profile_data
                 }
                 this.user_data.avatar = response.data.avatar;
                 this.user_data.name = response.data.name;
             });
+
+            axios.get('/api/avatars').then(response => {
+                this.avatars = response.data;
+            });
+
         }
     }
 </script>

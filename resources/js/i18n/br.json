@@ -9,172 +9,325 @@
     },
     "overwatch": {
         "arcademodes": {
-            "Assault": "Szturm",
-            "Blizzard World": "Blizzard World",
-            "Busan": "Pusan",
-            "CTF Blitz": "Błyskawiczne Zdobywanie flagi",
-            "CTF: Ayutthaya Only": "Zdobywanie flagi: Tylko Ayutthaya",
-            "CTF: Busan": "Zdobywanie flagi: Pusan",
-            "Capture the Flag": "Zdobywanie flagi",
-            "Capture the Rooster": "Łap Koguta",
-            "Château Deathmatch": "Deathmatch w Château",
-            "Competitive CTF": "Rywalizacja w Zdobywanie flagi",
-            "Competitive Deathmatch": "Deathmatch w trybie Rywalizacji",
-            "Competitive Elimination": "Rywalizacja w trybie Eliminacji",
-            "Competitive Team Deathmatch": "Rywalizacja w Drużynowym Deathmatchu",
-            "Copa Lúcioball": "Copa Futbolúcio",
-            "Deathmatch": "Deathmatch",
-            "Doomfist Elimination": "Eliminacja, Pięść Zagłady",
-            "EXPERT": "EKSPERCKI",
-            "Elimination": "Eliminacja",
-            "HARD": "WYSOKI",
-            "Havana": "Hawana",
-            "Hero Gauntlet <tx0C0000000001FEE9>": "Arena bohaterów <tx0C0000000001FEE9>",
-            "Horizon Lunar Colony": "Kolonia księżycowa Horyzont",
-            "Horizon No Limits": "Horyzont – Bez ograniczeń",
-            "Hybrid": "Hybryda",
-            "Junkenstein Endless": "Wieczna zemsta dr. Złomensteina",
-            "Junkenstein's Revenge": "Zemsta dr. Złomensteina",
-            "Junkertown": "Junkertown",
-            "Junkertown Mystery Heroes": "Tajemniczy bohaterowie Junkertown",
-            "LEGENDARY": "LEGENDARNY",
-            "Limited Duel": "Pojedynek z ograniczeniami",
-            "Low Gravity": "Niska grawitacja",
-            "Lúcioball": "Futbolúcio",
-            "Mei's Snowball Offensive": "Śnieżkowa Ofensywa Mei",
-            "Mirrored Deathmatch <tx0C0000000001FEE9>": "Lustrzany Deathmatch <tx0C0000000001FEE9>",
-            "Mission Archives": "Archiwa misji",
-            "Mystery Deathmatch": "Tajemniczy Deathmatch",
-            "Mystery Duel": "Tajemniczy pojedynek",
-            "Mystery Heroes": "Tajemniczy bohaterowie",
-            "NORMAL": "NORMALNY",
-            "No Limits": "Bez ograniczeń",
-            "No Limits Payloads": "Brak ograniczeń ładunków",
-            "Paris": "Paryż",
-            "Petra Deathmatch": "Deathmatch na Petrze",
-            "Prefer Hunter": "Preferuj łowcę",
-            "Prefer Yeti": "Preferuj Yeti",
-            "Quick Play Classic": "Klasyczna szybka gra",
-            "Retribution (All Heroes)": "Odwet (wszyscy)",
-            "Retribution (Story)": "Odwet (fabuła)",
-            "Rialto": "Rialto",
-            "Skirmish": "Potyczka",
-            "Snowball Deathmatch": "Śnieżkowy Deathmatch",
-            "Storm RIsing (All Heroes)": "Czarne Chmury (wszyscy)",
-            "Storm Rising (Story)": "Czarne Chmury (fabuła)",
-            "Team Deathmatch": "Drużynowy Deathmatch",
-            "Total Mayhem": "Totalna Masakra",
-            "Uprising (All Heroes)": "Insurekcja (wszyscy)",
-            "Uprising (Story)": "Insurekcja (fabuła)",
-            "Winter Mystery": "Zimowa tajemnica",
-            "Yeti Hunter": "Polowanie na Yeti"
+            "Assault": {
+                "Name": "Ataque",
+                "Players": "6v6"
+            },
+            "Blizzard World": {
+                "Name": "Blizzard World",
+                "Players": "6v6"
+            },
+            "Busan": {
+                "Name": "Busan",
+                "Players": "6v6"
+            },
+            "CTF Blitz": {
+                "Name": "Blitz de CaB",
+                "Players": "6v6"
+            },
+            "CTF: Ayutthaya Only": {
+                "Name": "CAB: Ayutthaya Apenas",
+                "Players": "6v6"
+            },
+            "CTF: Busan": {
+                "Name": "CaB: Busan",
+                "Players": "6v6"
+            },
+            "Capture the Flag": {
+                "Name": "Capture a Bandeira",
+                "Players": "6v6"
+            },
+            "Capture the Rooster": {
+                "Name": "Capture o Galo",
+                "Players": "6v6"
+            },
+            "Château Deathmatch": {
+                "Name": "Combate até a Morte no Château Guillard",
+                "Players": "TCT de 8 jogadores"
+            },
+            "Competitive CTF": {
+                "Name": "CaB Competitivo",
+                "Players": "6v6"
+            },
+            "Competitive Deathmatch": {
+                "Name": "Combate até a Morte Competitivo",
+                "Players": "TCT de 8 jogadores"
+            },
+            "Competitive Elimination": {
+                "Name": "Eliminação Competitiva",
+                "Players": "3v3"
+            },
+            "Competitive Team Deathmatch": {
+                "Name": "Combate até a Morte em Equipe Competitivo",
+                "Players": "4v4"
+            },
+            "Copa Lúcioball": {
+                "Name": "Copa de Lúciobol",
+                "Players": "3v3"
+            },
+            "Deathmatch": {
+                "Name": "Combate até a Morte",
+                "Players": "TCT de 8 jogadores"
+            },
+            "Doomfist Elimination": {
+                "Name": "Eliminação Doomfist",
+                "Players": "6v6"
+            },
+            "Elimination": {
+                "Name": "Eliminação",
+                "Players": "6v6"
+            },
+            "Havana": {
+                "Name": "Havana",
+                "Players": "6v6"
+            },
+            "Hero Gauntlet": {
+                "Name": "Desafio de Heróis",
+                "Players": "TCT de 8 jogadores"
+            },
+            "Horizon Lunar Colony": {
+                "Name": "Colônia Lunar Horizon",
+                "Players": "Somente grupos 6x6"
+            },
+            "Horizon No Limits": {
+                "Name": "Horizon Sem Limites",
+                "Players": "6v6"
+            },
+            "Hybrid": {
+                "Name": "Híbrido",
+                "Players": "6v6"
+            },
+            "Junkenstein Endless": {
+                "Name": "Junkenstein Sem Fim",
+                "Players": "Coop"
+            },
+            "Junkenstein`s Revenge": {
+                "Name": "A vingança de Junkenstein",
+                "Players": "Coop"
+            },
+            "Junkertown": {
+                "Name": "Junkertown",
+                "Players": "6v6"
+            },
+            "Junkertown Mystery Heroes": {
+                "Name": "Heróis misteriosos de Junkertown",
+                "Players": "6v6"
+            },
+            "Limited Duel": {
+                "Name": "Duelo Limitado",
+                "Players": "1v1"
+            },
+            "Low Gravity": {
+                "Name": "Baixa Gravidade",
+                "Players": "6v6"
+            },
+            "Lúcioball": {
+                "Name": "Lúciobol",
+                "Players": "3v3"
+            },
+            "Mei`s Snowball Offensive": {
+                "Name": "Ofensiva de Bola de Neve da Mei",
+                "Players": "6v6"
+            },
+            "Mirrored Deathmatch": {
+                "Name": "Combate até a Morte Espelhado",
+                "Players": "TCT de 8 jogadores"
+            },
+            "Mission Archives": {
+                "Name": "Arquivos de missão",
+                "Players": "Coop"
+            },
+            "Mystery Deathmatch": {
+                "Name": "Combate até a Morte Surpresa",
+                "Players": "TCT de 8 jogadores"
+            },
+            "Mystery Duel": {
+                "Name": "Duelo misterioso",
+                "Players": "1v1"
+            },
+            "Mystery Heroes": {
+                "Name": "Heróis misteriosos",
+                "Players": "6v6"
+            },
+            "No Limits": {
+                "Name": "Sem limite",
+                "Players": "6v6"
+            },
+            "No Limits Payloads": {
+                "Name": "Cargas sem limites",
+                "Players": "6v6"
+            },
+            "Paris": {
+                "Name": "Paris",
+                "Players": "6v6"
+            },
+            "Petra Deathmatch": {
+                "Name": "Combate até a Morte em Petra",
+                "Players": "TCT de 8 jogadores"
+            },
+            "Quick Play Classic": {
+                "Name": "Jogo Rápido - Clássico",
+                "Players": "6v6"
+            },
+            "Retribution (All Heroes)": {
+                "Name": "Retaliação (Todos os Heróis)",
+                "Players": "Coop"
+            },
+            "Retribution (Story)": {
+                "Name": "Retaliação (História)",
+                "Players": "Coop"
+            },
+            "Rialto": {
+                "Name": "Rialto",
+                "Players": "6v6"
+            },
+            "Skirmish": {
+                "Name": "Confronto",
+                "Players": "6v6"
+            },
+            "Snowball Deathmatch": {
+                "Name": "Combate até a Morte de Bola de Neve",
+                "Players": "TCT de 8 jogadores"
+            },
+            "Storm RIsing (All Heroes)": {
+                "Name": "Tempestade Iminente (Todos os Heróis)",
+                "Players": "Coop"
+            },
+            "Storm Rising (Story)": {
+                "Name": "Tempestade Iminente (História)",
+                "Players": "Coop"
+            },
+            "Team Deathmatch": {
+                "Name": "Combate até a Morte em Equipe",
+                "Players": "4v4"
+            },
+            "Total Mayhem": {
+                "Name": "Caos Total",
+                "Players": "6v6"
+            },
+            "Uprising (All Heroes)": {
+                "Name": "Insurreição (Todos os Heróis)",
+                "Players": "Coop"
+            },
+            "Uprising (Story)": {
+                "Name": "Insurreição (História)",
+                "Players": "Coop"
+            },
+            "Winter Mystery": {
+                "Name": "Mistério Gelado",
+                "Players": "6v6"
+            },
+            "Yeti Hunter": {
+                "Name": "Caça ao Yeti",
+                "Players": "5v1"
+            }
         },
         "heroes": {
             "Ana": "Ana",
             "Ashe": "Ashe",
-            "Assassin": "Zabójczyni",
+            "Assassin": "Assassina",
             "Baptiste": "Baptiste",
             "Bastion": "Bastion",
-            "Boat": "Łódź",
+            "Boat": "Barco",
             "Bob": "Bob",
             "Brigitte": "Brigitte",
             "D.Va": "D.Va",
-            "Detonator": "Wybuchacz",
-            "Doomfist": "Pięść Zagłady",
-            "Enforcer": "Egzekutor",
-            "Eradicator": "Eksterminator",
-            "Friendly Bot": "Przyjazny bot",
+            "Detonator": "Detonador",
+            "Doomfist": "Doomfist",
+            "Enforcer": "Executor",
+            "Eradicator": "Erradicador",
+            "Friendly Bot": "Bot aliado",
             "Genji": "Genji",
-            "Gunship": "Statek powietrzny",
+            "Gunship": "Aeronave de Ataque",
             "Hanzo": "Hanzo",
-            "Heavy Assault": "Szturmowiec",
-            "Junkrat": "Złomiarz",
+            "Heavy Assault": "Unidade de Assalto Pesado",
+            "Junkrat": "Junkrat",
             "Lúcio": "Lúcio",
             "McCree": "McCree",
             "Mei": "Mei",
-            "Mercy": "Łaska",
+            "Mercy": "Mercy",
             "Moira": "Moira",
-            "Nulltrooper": "Szturmownik",
+            "Nulltrooper": "Combatente",
             "Orisa": "Orisa",
-            "Pharah": "Fara",
-            "Reaper": "Żniwiarz",
+            "Pharah": "Pharah",
+            "Reaper": "Reaper",
             "Reinhardt": "Reinhardt",
-            "Roadhog": "Wieprzu",
-            "Shock-Tire": "Szok-opona",
+            "Roadhog": "Roadhog",
+            "Shock-Tire": "Pneu do Choque",
             "Sigma": "Sigma",
-            "Slicer": "Siekacz",
-            "Sniper": "Snajper",
-            "Soldier: 76": "Żołnierz-76",
+            "Slicer": "Dilacerador",
+            "Sniper": "Franco-atiradora",
+            "Soldier: 76": "Soldado: 76",
             "Sombra": "Sombra",
             "Symmetra": "Symmetra",
             "Torbjörn": "Torbjörn",
-            "Tracer": "Smuga",
-            "Training Bot": "Bot treningowy",
-            "Trooper": "Żołnierz",
-            "Widowmaker": "Trupia Wdowa",
+            "Tracer": "Tracer",
+            "Training Bot": "Bot de treinamento",
+            "Trooper": "Soldado",
+            "Widowmaker": "Widowmaker",
             "Winston": "Winston",
-            "Wrecking Ball": "Burzyciel",
-            "Zarya": "Zaria",
+            "Wrecking Ball": "Wrecking Ball",
+            "Zarya": "Zarya",
             "Zenyatta": "Zenyatta",
-            "Zombardier": "Złombardier",
-            "Zomnic": "Złomnik"
+            "Zombardier": "Zombardeiro",
+            "Zomnic": "Zômnico"
         },
         "labels": {
-            "Daily": "Codziennie",
-            "Permanent": "Stały",
-            "Weekly": "Co tydzień"
+            "Daily": "Daily",
+            "Permanent": "Permanent",
+            "Weekly": "Weekly"
         },
         "maps": {
             "Ayutthaya": "Ayutthaya",
-            "Black Forest": "Czarny Las",
+            "Black Forest": "Floresta Negra",
             "Blizzard World": "Blizzard World",
-            "Busan": "Pusan",
-            "Busan Downtown": "Pusan: Centrum",
-            "Busan Sanctuary": "Pusan: Sanktuarium",
-            "Busan Stadium": "Stadion Pusan",
+            "Busan": "Busan",
+            "Busan Downtown": "Centro de Busan",
+            "Busan Sanctuary": "Santuário de Busan",
+            "Busan Stadium": "Estádio Busan",
             "Castillo": "Castillo",
             "Château Guillard": "Château Guillard",
             "Dorado": "Dorado",
-            "Ecopoint: Antarctica": "Ekopunkt Antarktyda",
+            "Ecopoint: Antarctica": "Ecoponto: Antártica",
             "Eichenwalde": "Eichenwalde",
             "Estádio das Rãs": "Estádio das Rãs",
             "Hanamura": "Hanamura",
-            "Havana": "Hawana",
+            "Havana": "Havana",
             "Hollywood": "Hollywood",
-            "Horizon Lunar Colony": "Kolonia księżycowa Horyzont",
+            "Horizon Lunar Colony": "Colônia Lunar Horizon",
             "Ilios": "Ilios",
-            "Ilios Lighthouse": "Ilios: Latarnia morska",
-            "Ilios Ruins": "Ilios: Ruiny",
-            "Ilios Well": "Ilios: Studnia",
-            "Junkenstein's Revenge": "Zemsta dr. Złomensteina",
+            "Ilios Lighthouse": "Farol de Ilios",
+            "Ilios Ruins": "Ruínas de Ilios",
+            "Ilios Well": "Poço de Ilios",
+            "Junkenstein`s Revenge": "A vingança de Junkenstein",
             "Junkertown": "Junkertown",
-            "King's Row": "King's Row",
-            "Lijiang Control Center": "Wieża Lijiang: Centrum sterowania",
-            "Lijiang Garden": "Wieża Lijiang: Ogród",
-            "Lijiang Night Market": "Wieża Lijiang: Nocny bazar",
-            "Lijiang Tower": "Wieża Lijiang",
-            "Necropolis": "Nekropolia",
+            "King`s Row": "King`s Row",
+            "Lijiang Control Center": "Centro de Controle Lijiang",
+            "Lijiang Garden": "Jardim Lijiang",
+            "Lijiang Night Market": "Mercado Noturno de Lijiang",
+            "Lijiang Tower": "Torre Lijiang",
+            "Necropolis": "Necrópole",
             "Nepal": "Nepal",
-            "Nepal Sanctum": "Nepal: Sanktuarium",
-            "Nepal Shrine": "Nepal: Kapliczka",
-            "Nepal Village": "Nepal: Wioska",
-            "Nepal Village (Winter)": "Nepal: Wioska (zima)",
+            "Nepal Sanctum": "Sacrário de Nepal",
+            "Nepal Shrine": "Templo de Nepal",
+            "Nepal Village": "Vilarejo de Nepal",
+            "Nepal Village (Winter)": "Vilarejo de Nepal (Inverno)",
             "Numbani": "Numbani",
-            "Oasis": "Oaza",
-            "Oasis City Center": "Oaza: Centrum miasta",
-            "Oasis Gardens": "Oaza: Ogrody",
-            "Oasis University": "Oaza: Uniwersytet",
-            "Paris": "Paryż",
+            "Oasis": "Oasis",
+            "Oasis City Center": "Centro da cidade de Oásis",
+            "Oasis Gardens": "Jardins de Oásis",
+            "Oasis University": "Universidade de Oásis",
+            "Paris": "Paris",
             "Petra": "Petra",
-            "Practice Range": "Obszar treningowy",
+            "Practice Range": "Campo de Treinamento",
             "Rialto": "Rialto",
-            "Route 66": "Droga 66",
-            "Sydney Harbour Arena": "Sydney Harbour Park",
-            "Temple of Anubis": "Świątynia Anubisa",
-            "Tutorial": "Samouczek",
+            "Route 66": "Rota 66",
+            "Sydney Harbour Arena": "Arena Sydney Harbour",
+            "Temple of Anubis": "Templo de Anúbis",
+            "Tutorial": "Tutorial",
             "VPP Green Room": "VPP Green Room",
-            "Volskaya Industries": "Zakłady Volskaya Industries",
-            "Watchpoint: Gibraltar": "Posterunek: Gibraltar"
+            "Volskaya Industries": "Indústrias Volskaya",
+            "Watchpoint: Gibraltar": "Observatório: Gibraltar"
         }
     },
     "profile": {

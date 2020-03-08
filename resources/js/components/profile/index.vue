@@ -4,7 +4,8 @@
             <div class="col-12 text-center">
                 <img :src="user_data.avatar" class="img-fluid rounded-circle" style="max-height:128px">
                 <h3 id="username">{{user_data.name}}</h3>
-                <h4>{{$t('profile.contributor_subline', {'date': user_data.member_since, 'contributions': user_data.contributions} ) }}</h4>
+                <h4>{{$t('profile.contributor_subline', {'date': user_data.member_since, 'contributions':
+                    user_data.contributions} ) }}</h4>
             </div>
         </div>
         <section id="user-info" class="mt-5" v-if="Object.keys(user_data.profile_data).length">
@@ -18,7 +19,11 @@
                                 <tr>
                                     <th scope="row">Country</th>
                                     <td>
-                                        <p v-if="user_data.profile_data.profile.country"><CountryFlag :country='user_data.profile_data.profile.country.code' size='small'/> {{user_data.profile_data.profile.country.name}} </p>
+                                        <p v-if="user_data.profile_data.profile.country">
+                                            <CountryFlag :country='user_data.profile_data.profile.country.code'
+                                                         size='small'/>
+                                            {{user_data.profile_data.profile.country.name}}
+                                        </p>
                                     </td>
                                 </tr>
                                 <tr>
@@ -38,9 +43,8 @@
                             <h3>{{$t('profile.favourite_arcade_modes')}}</h3>
                             <div class="text-dark p-2">
                                 <div class="row">
-                                    <div v-if="overwatch.arcadeImages" v-for="mode in user_data.profile_data.game.mode">
-                                        <img  class="border" style="height:128px"
-                                             :src="overwatch.arcadeImages[mode].image" :title="mode">
+                                    <div v-if="Object.keys(overwatch.arcadeImages).length" v-for="mode in user_data.profile_data.game.mode">
+                                        <img class="border" :src="overwatch.arcadeImages[mode].image" :title="mode" style="height:128px">
                                     </div>
                                 </div>
                             </div>
@@ -51,7 +55,8 @@
                                 <div class="row">
                                     <div v-for="character in user_data.profile_data.game.character">
                                         <img class="border" style="height:128px"
-                                             :src="'/img/characters/' + character + '.jpg'" :title="character">
+                                             :src="'/img/characters/' + removeWhiteSpace(character) + '.jpg'"
+                                             :title="character">
                                     </div>
                                 </div>
                             </div>
@@ -62,7 +67,7 @@
                                 <div class="row">
                                     <div v-for="map in user_data.profile_data.game.map">
                                         <img class="border" style="height:100px"
-                                             :src="'/img/maps/' + map + '.jpg'" :title="map">
+                                             :src="'/img/maps/' + map.replace(':', '') + '.jpg'" :title="map">
                                     </div>
                                 </div>
                             </div>
@@ -74,7 +79,6 @@
     </div>
 </template>
 <script>
-    import arcademodes from '../../../../database/data/overwatch/arcademodes';
     import CountryFlag from 'vue-country-flag'
 
     export default {
@@ -100,8 +104,7 @@
                     }
                 },
                 overwatch: {
-                    arcademodes: [],
-                    arcadeImages: false,
+                    arcadeImages: {}
                 }
             }
         },
@@ -109,21 +112,26 @@
             CountryFlag: CountryFlag
         },
         methods: {
+            removeWhiteSpace(val) {
+                return val.replace(" ", "").replace(":", "");
+            },
         },
         mounted() {
             let username = this.$route.params.pathMatch.replace(/#/, '%23');
-            axios.get('/api/user/' + username).then(response => {
-                this.user_data = response.data
-            });
 
             // Image list build
             axios.get('/api/overwatch/arcademodes').then(response => {
                 let arcadelist = {};
-                response.data.forEach(function(element){
-                   arcadelist[element.name] = {"image": element.image}
+                response.data.forEach(function (element) {
+                    arcadelist[element.name] = {"image": element.image}
                 });
                 this.overwatch.arcadeImages = arcadelist;
             });
+
+            axios.get('/api/user/' + username).then(response => {
+                this.user_data = response.data
+            });
+
         }
     }
 </script>

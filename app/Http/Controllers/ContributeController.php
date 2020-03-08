@@ -8,6 +8,8 @@ use App\Models\Game\Daily;
 use App\Models\Game\Gamemode;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\File;
+use Illuminate\Support\Facades\Storage;
 
 class ContributeController extends Controller
 {
@@ -32,12 +34,27 @@ class ContributeController extends Controller
         return view('admin.overwatch2.submit');
     }
 
-    /**
+    /**v
      * @return \Illuminate\Contracts\View\Factory|\Illuminate\View\View
      */
     public function settings()
     {
         return view('settings');
+    }
+
+    /**
+     * Retrieves all available avatars from public folder
+     * builds array with filename and path
+     */
+    public function getAvatars()
+    {
+        $files = Storage::disk('public')->allFiles('avatars');
+        $fileArray = [];
+        foreach($files as $file){
+            $fileArray[] = substr(strrchr($file, '/'), 1);
+        }
+
+        return response()->json($fileArray);
     }
 
     /**

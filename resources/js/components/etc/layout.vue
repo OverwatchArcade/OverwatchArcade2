@@ -46,7 +46,7 @@
         name: "layout",
         data() {
             return {
-                language: {name: 'English', code: 'EN'},
+                language: {name: 'English', code: 'US'},
                 options: [
                     {name: 'English', code: 'US'},
                     {name: 'German', code: 'DE'},

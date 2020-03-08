@@ -7,6 +7,7 @@ use App\Models\Game\Daily;
 use App\Models\Game\Gamemode;
 use Illuminate\Foundation\Http\FormRequest;
 use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\Storage;
 use Illuminate\Validation\Rule;
 
 class ProfileUpdate extends FormRequest
@@ -34,12 +35,13 @@ class ProfileUpdate extends FormRequest
         $mapConfig = Config::where('key', Config::KEY_OVERWATCH_MAPS)->firstOrFail();
         $characterConfig = Config::where('key', Config::KEY_OVERWATCH_CHARACTERS)->firstOrFail();
         $countries = Config::where('key', Config::KEY_COUNTRIES)->firstOrFail();
+        $avatars = Storage::disk('public')->allFiles('avatars');
 
         return [
-            'avatar' => 'nullable|image|dimensions:ratio=1/1,max_width:200|size:100',
             'game.map.*' => ['nullable', Rule::in($mapConfig->value)],
             'game.mode.*' => 'nullable|exists:gamemodes,name',
             'game.character.*' => ['nullable', Rule::in($characterConfig->value)],
+            'avatar' => ['nullable', Rule::in($avatars)],
             'profile.country' => ['nullable'],
             'profile.about' => 'nullable|max:500'
         ];

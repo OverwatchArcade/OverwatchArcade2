@@ -9,65 +9,218 @@
     },
     "overwatch": {
         "arcademodes": {
-            "Assault": "Szturm",
-            "Blizzard World": "Blizzard World",
-            "Busan": "Pusan",
-            "CTF Blitz": "Błyskawiczne Zdobywanie flagi",
-            "CTF: Ayutthaya Only": "Zdobywanie flagi: Tylko Ayutthaya",
-            "CTF: Busan": "Zdobywanie flagi: Pusan",
-            "Capture the Flag": "Zdobywanie flagi",
-            "Capture the Rooster": "Łap Koguta",
-            "Château Deathmatch": "Deathmatch w Château",
-            "Competitive CTF": "Rywalizacja w Zdobywanie flagi",
-            "Competitive Deathmatch": "Deathmatch w trybie Rywalizacji",
-            "Competitive Elimination": "Rywalizacja w trybie Eliminacji",
-            "Competitive Team Deathmatch": "Rywalizacja w Drużynowym Deathmatchu",
-            "Copa Lúcioball": "Copa Futbolúcio",
-            "Deathmatch": "Deathmatch",
-            "Doomfist Elimination": "Eliminacja, Pięść Zagłady",
-            "EXPERT": "EKSPERCKI",
-            "Elimination": "Eliminacja",
-            "HARD": "WYSOKI",
-            "Havana": "Hawana",
-            "Hero Gauntlet <tx0C0000000001FEE9>": "Arena bohaterów <tx0C0000000001FEE9>",
-            "Horizon Lunar Colony": "Kolonia księżycowa Horyzont",
-            "Horizon No Limits": "Horyzont – Bez ograniczeń",
-            "Hybrid": "Hybryda",
-            "Junkenstein Endless": "Wieczna zemsta dr. Złomensteina",
-            "Junkenstein's Revenge": "Zemsta dr. Złomensteina",
-            "Junkertown": "Junkertown",
-            "Junkertown Mystery Heroes": "Tajemniczy bohaterowie Junkertown",
-            "LEGENDARY": "LEGENDARNY",
-            "Limited Duel": "Pojedynek z ograniczeniami",
-            "Low Gravity": "Niska grawitacja",
-            "Lúcioball": "Futbolúcio",
-            "Mei's Snowball Offensive": "Śnieżkowa Ofensywa Mei",
-            "Mirrored Deathmatch <tx0C0000000001FEE9>": "Lustrzany Deathmatch <tx0C0000000001FEE9>",
-            "Mission Archives": "Archiwa misji",
-            "Mystery Deathmatch": "Tajemniczy Deathmatch",
-            "Mystery Duel": "Tajemniczy pojedynek",
-            "Mystery Heroes": "Tajemniczy bohaterowie",
-            "NORMAL": "NORMALNY",
-            "No Limits": "Bez ograniczeń",
-            "No Limits Payloads": "Brak ograniczeń ładunków",
-            "Paris": "Paryż",
-            "Petra Deathmatch": "Deathmatch na Petrze",
-            "Prefer Hunter": "Preferuj łowcę",
-            "Prefer Yeti": "Preferuj Yeti",
-            "Quick Play Classic": "Klasyczna szybka gra",
-            "Retribution (All Heroes)": "Odwet (wszyscy)",
-            "Retribution (Story)": "Odwet (fabuła)",
-            "Rialto": "Rialto",
-            "Skirmish": "Potyczka",
-            "Snowball Deathmatch": "Śnieżkowy Deathmatch",
-            "Storm RIsing (All Heroes)": "Czarne Chmury (wszyscy)",
-            "Storm Rising (Story)": "Czarne Chmury (fabuła)",
-            "Team Deathmatch": "Drużynowy Deathmatch",
-            "Total Mayhem": "Totalna Masakra",
-            "Uprising (All Heroes)": "Insurekcja (wszyscy)",
-            "Uprising (Story)": "Insurekcja (fabuła)",
-            "Winter Mystery": "Zimowa tajemnica",
-            "Yeti Hunter": "Polowanie na Yeti"
+            "Assault": {
+                "Name": "Szturm",
+                "Players": "6 na 6"
+            },
+            "Blizzard World": {
+                "Name": "Blizzard World",
+                "Players": "6 na 6"
+            },
+            "Busan": {
+                "Name": "Pusan",
+                "Players": "6 na 6"
+            },
+            "CTF Blitz": {
+                "Name": "Błyskawiczne Zdobywanie flagi",
+                "Players": "6 na 6"
+            },
+            "CTF: Ayutthaya Only": {
+                "Name": "Zdobywanie flagi: Tylko Ayutthaya",
+                "Players": "6 na 6"
+            },
+            "CTF: Busan": {
+                "Name": "Zdobywanie flagi: Pusan",
+                "Players": "6 na 6"
+            },
+            "Capture the Flag": {
+                "Name": "Zdobywanie flagi",
+                "Players": "6 na 6"
+            },
+            "Capture the Rooster": {
+                "Name": "Łap Koguta",
+                "Players": "6 na 6"
+            },
+            "Château Deathmatch": {
+                "Name": "Deathmatch w Château",
+                "Players": "FFA dla 8 graczy"
+            },
+            "Competitive CTF": {
+                "Name": "Rywalizacja w Zdobywanie flagi",
+                "Players": "6 na 6"
+            },
+            "Competitive Deathmatch": {
+                "Name": "Deathmatch w trybie Rywalizacji",
+                "Players": "FFA dla 8 graczy"
+            },
+            "Competitive Elimination": {
+                "Name": "Rywalizacja w trybie Eliminacji",
+                "Players": "3 na 3"
+            },
+            "Competitive Team Deathmatch": {
+                "Name": "Rywalizacja w Drużynowym Deathmatchu",
+                "Players": "4 na 4"
+            },
+            "Copa Lúcioball": {
+                "Name": "Copa Futbolúcio",
+                "Players": "3 na 3"
+            },
+            "Deathmatch": {
+                "Name": "Deathmatch",
+                "Players": "FFA dla 8 graczy"
+            },
+            "Doomfist Elimination": {
+                "Name": "Eliminacja, Pięść Zagłady",
+                "Players": "6 na 6"
+            },
+            "Elimination": {
+                "Name": "Eliminacja",
+                "Players": "6 na 6"
+            },
+            "Havana": {
+                "Name": "Hawana",
+                "Players": "6 na 6"
+            },
+            "Hero Gauntlet": {
+                "Name": "Arena bohaterów",
+                "Players": "FFA dla 8 graczy"
+            },
+            "Horizon Lunar Colony": {
+                "Name": "Kolonia księżycowa Horyzont",
+                "Players": "Tylko ekipy 6v6"
+            },
+            "Horizon No Limits": {
+                "Name": "Horyzont – Bez ograniczeń",
+                "Players": "6 na 6"
+            },
+            "Hybrid": {
+                "Name": "Hybryda",
+                "Players": "6 na 6"
+            },
+            "Junkenstein Endless": {
+                "Name": "Wieczna zemsta dr. Złomensteina",
+                "Players": "Współpraca"
+            },
+            "Junkenstein`s Revenge": {
+                "Name": "Zemsta dr. Złomensteina",
+                "Players": "Współpraca"
+            },
+            "Junkertown": {
+                "Name": "Junkertown",
+                "Players": "6 na 6"
+            },
+            "Junkertown Mystery Heroes": {
+                "Name": "Tajemniczy bohaterowie Junkertown",
+                "Players": "6 na 6"
+            },
+            "Limited Duel": {
+                "Name": "Pojedynek z ograniczeniami",
+                "Players": "1 na 1"
+            },
+            "Low Gravity": {
+                "Name": "Niska grawitacja",
+                "Players": "6 na 6"
+            },
+            "Lúcioball": {
+                "Name": "Futbolúcio",
+                "Players": "3 na 3"
+            },
+            "Mei`s Snowball Offensive": {
+                "Name": "Śnieżkowa Ofensywa Mei",
+                "Players": "6 na 6"
+            },
+            "Mirrored Deathmatch": {
+                "Name": "Lustrzany Deathmatch",
+                "Players": "FFA dla 8 graczy"
+            },
+            "Mission Archives": {
+                "Name": "Archiwa misji",
+                "Players": "Współpraca"
+            },
+            "Mystery Deathmatch": {
+                "Name": "Tajemniczy Deathmatch",
+                "Players": "FFA dla 8 graczy"
+            },
+            "Mystery Duel": {
+                "Name": "Tajemniczy pojedynek",
+                "Players": "1 na 1"
+            },
+            "Mystery Heroes": {
+                "Name": "Tajemniczy bohaterowie",
+                "Players": "6 na 6"
+            },
+            "No Limits": {
+                "Name": "Bez ograniczeń",
+                "Players": "6 na 6"
+            },
+            "No Limits Payloads": {
+                "Name": "Brak ograniczeń ładunków",
+                "Players": "6 na 6"
+            },
+            "Paris": {
+                "Name": "Paryż",
+                "Players": "6 na 6"
+            },
+            "Petra Deathmatch": {
+                "Name": "Deathmatch na Petrze",
+                "Players": "FFA dla 8 graczy"
+            },
+            "Quick Play Classic": {
+                "Name": "Klasyczna szybka gra",
+                "Players": "6 na 6"
+            },
+            "Retribution (All Heroes)": {
+                "Name": "Odwet (wszyscy)",
+                "Players": "Współpraca"
+            },
+            "Retribution (Story)": {
+                "Name": "Odwet (fabuła)",
+                "Players": "Współpraca"
+            },
+            "Rialto": {
+                "Name": "Rialto",
+                "Players": "6 na 6"
+            },
+            "Skirmish": {
+                "Name": "Potyczka",
+                "Players": "6 na 6"
+            },
+            "Snowball Deathmatch": {
+                "Name": "Śnieżkowy Deathmatch",
+                "Players": "FFA dla 8 graczy"
+            },
+            "Storm RIsing (All Heroes)": {
+                "Name": "Czarne Chmury (wszyscy)",
+                "Players": "Współpraca"
+            },
+            "Storm Rising (Story)": {
+                "Name": "Czarne Chmury (fabuła)",
+                "Players": "Współpraca"
+            },
+            "Team Deathmatch": {
+                "Name": "Drużynowy Deathmatch",
+                "Players": "4 na 4"
+            },
+            "Total Mayhem": {
+                "Name": "Totalna Masakra",
+                "Players": "6 na 6"
+            },
+            "Uprising (All Heroes)": {
+                "Name": "Insurekcja (wszyscy)",
+                "Players": "Współpraca"
+            },
+            "Uprising (Story)": {
+                "Name": "Insurekcja (fabuła)",
+                "Players": "Współpraca"
+            },
+            "Winter Mystery": {
+                "Name": "Zimowa tajemnica",
+                "Players": "6 na 6"
+            },
+            "Yeti Hunter": {
+                "Name": "Polowanie na Yeti",
+                "Players": "5 NA 1"
+            }
         },
         "heroes": {
             "Ana": "Ana",
@@ -120,9 +273,9 @@
             "Zomnic": "Złomnik"
         },
         "labels": {
-            "Daily": "Codziennie",
-            "Permanent": "Stały",
-            "Weekly": "Co tydzień"
+            "Daily": "Daily",
+            "Permanent": "Permanent",
+            "Weekly": "Weekly"
         },
         "maps": {
             "Ayutthaya": "Ayutthaya",
@@ -146,9 +299,9 @@
             "Ilios Lighthouse": "Ilios: Latarnia morska",
             "Ilios Ruins": "Ilios: Ruiny",
             "Ilios Well": "Ilios: Studnia",
-            "Junkenstein's Revenge": "Zemsta dr. Złomensteina",
+            "Junkenstein`s Revenge": "Zemsta dr. Złomensteina",
             "Junkertown": "Junkertown",
-            "King's Row": "King's Row",
+            "King`s Row": "King`s Row",
             "Lijiang Control Center": "Wieża Lijiang: Centrum sterowania",
             "Lijiang Garden": "Wieża Lijiang: Ogród",
             "Lijiang Night Market": "Wieża Lijiang: Nocny bazar",

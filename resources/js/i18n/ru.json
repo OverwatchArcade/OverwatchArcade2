@@ -9,65 +9,218 @@
     },
     "overwatch": {
         "arcademodes": {
-            "Assault": "Захват точек",
-            "Blizzard World": "Blizzard World",
-            "Busan": "Пусан",
-            "CTF Blitz": "Быстрый захват флага",
-            "CTF: Ayutthaya Only": "Захват флага: только Аюттайя",
-            "CTF: Busan": "Захват флага: Пусан",
-            "Capture the Flag": "Захват флага",
-            "Capture the Rooster": "Захват Петуха",
-            "Château Deathmatch": "Схватка в шато",
-            "Competitive CTF": "Соревновательный захват флага",
-            "Competitive Deathmatch": "Соревновательная схватка",
-            "Competitive Elimination": "Соревновательная ликвидация",
-            "Competitive Team Deathmatch": "Соревновательная командная схватка",
-            "Copa Lúcioball": "Кубок Лусио",
-            "Deathmatch": "Схватка",
-            "Doomfist Elimination": "Ликвидация: Кулак Смерти",
-            "EXPERT": "ЭКСПЕРТ",
-            "Elimination": "Ликвидация",
-            "HARD": "БОЕЦ",
-            "Havana": "Гавана",
-            "Hero Gauntlet <tx0C0000000001FEE9>": "Испытание героев <tx0C0000000001FEE9>",
-            "Horizon Lunar Colony": "Лунная колония «Горизонт»",
-            "Horizon No Limits": "Горизонт – без ограничений",
-            "Hybrid": "Гибридный режим",
-            "Junkenstein Endless": "Бесконечная месть",
-            "Junkenstein's Revenge": "Месть Крысенштейна",
-            "Junkertown": "Джанкертаун",
-            "Junkertown Mystery Heroes": "Загадочные герои Джанкертауна",
-            "LEGENDARY": "ЛЕГЕНДА",
-            "Limited Duel": "Дуэль с ограничениями",
-            "Low Gravity": "Низкая гравитация",
-            "Lúcioball": "Лусиобол",
-            "Mei's Snowball Offensive": "Операция «Метелица»",
-            "Mirrored Deathmatch <tx0C0000000001FEE9>": "Зеркальная схватка <tx0C0000000001FEE9>",
-            "Mission Archives": "Архив заданий",
-            "Mystery Deathmatch": "Схватка вслепую",
-            "Mystery Duel": "Случайная дуэль",
-            "Mystery Heroes": "Загадочные герои",
-            "NORMAL": "НОВИЧОК",
-            "No Limits": "Без ограничений",
-            "No Limits Payloads": "Без ограничений (сопровождение)",
-            "Paris": "Париж",
-            "Petra Deathmatch": "Схватка в Петре",
-            "Prefer Hunter": "Выбираю охотницу",
-            "Prefer Yeti": "Выбираю йети",
-            "Quick Play Classic": "Классическая быстрая игра",
-            "Retribution (All Heroes)": "Возмездие (все герои)",
-            "Retribution (Story)": "Возмездие (сюжет)",
-            "Rialto": "Риальто",
-            "Skirmish": "Разминка",
-            "Snowball Deathmatch": "Снежная схватка",
-            "Storm RIsing (All Heroes)": "Предчувствие бури (все герои)",
-            "Storm Rising (Story)": "Предчувствие бури (сюжет)",
-            "Team Deathmatch": "Командная схватка",
-            "Total Mayhem": "Полный хаос",
-            "Uprising (All Heroes)": "Мятеж (все герои)",
-            "Uprising (Story)": "Мятеж (сюжет)",
-            "Winter Mystery": "Зимняя тайна",
-            "Yeti Hunter": "Охота на йети"
+            "Assault": {
+                "Name": "Захват точек",
+                "Players": "6х6"
+            },
+            "Blizzard World": {
+                "Name": "Blizzard World",
+                "Players": "6х6"
+            },
+            "Busan": {
+                "Name": "Пусан",
+                "Players": "6х6"
+            },
+            "CTF Blitz": {
+                "Name": "Быстрый захват флага",
+                "Players": "6х6"
+            },
+            "CTF: Ayutthaya Only": {
+                "Name": "Захват флага: только Аюттайя",
+                "Players": "6х6"
+            },
+            "CTF: Busan": {
+                "Name": "Захват флага: Пусан",
+                "Players": "6х6"
+            },
+            "Capture the Flag": {
+                "Name": "Захват флага",
+                "Players": "6х6"
+            },
+            "Capture the Rooster": {
+                "Name": "Захват Петуха",
+                "Players": "6х6"
+            },
+            "Château Deathmatch": {
+                "Name": "Схватка в шато",
+                "Players": "8 игроков (FFA)"
+            },
+            "Competitive CTF": {
+                "Name": "Соревновательный захват флага",
+                "Players": "6х6"
+            },
+            "Competitive Deathmatch": {
+                "Name": "Соревновательная схватка",
+                "Players": "8 игроков (FFA)"
+            },
+            "Competitive Elimination": {
+                "Name": "Соревновательная ликвидация",
+                "Players": "3х3"
+            },
+            "Competitive Team Deathmatch": {
+                "Name": "Соревновательная командная схватка",
+                "Players": "4х4"
+            },
+            "Copa Lúcioball": {
+                "Name": "Кубок Лусио",
+                "Players": "3х3"
+            },
+            "Deathmatch": {
+                "Name": "Схватка",
+                "Players": "8 игроков (FFA)"
+            },
+            "Doomfist Elimination": {
+                "Name": "Ликвидация: Кулак Смерти",
+                "Players": "6х6"
+            },
+            "Elimination": {
+                "Name": "Ликвидация",
+                "Players": "6х6"
+            },
+            "Havana": {
+                "Name": "Гавана",
+                "Players": "6х6"
+            },
+            "Hero Gauntlet": {
+                "Name": "Испытание героев",
+                "Players": "8 игроков (FFA)"
+            },
+            "Horizon Lunar Colony": {
+                "Name": "Лунная колония «Горизонт»",
+                "Players": "6х6, только группы"
+            },
+            "Horizon No Limits": {
+                "Name": "Горизонт – без ограничений",
+                "Players": "6х6"
+            },
+            "Hybrid": {
+                "Name": "Гибридный режим",
+                "Players": "6х6"
+            },
+            "Junkenstein Endless": {
+                "Name": "Бесконечная месть",
+                "Players": "Совместный режим"
+            },
+            "Junkenstein`s Revenge": {
+                "Name": "Месть Крысенштейна",
+                "Players": "Совместный режим"
+            },
+            "Junkertown": {
+                "Name": "Джанкертаун",
+                "Players": "6х6"
+            },
+            "Junkertown Mystery Heroes": {
+                "Name": "Загадочные герои Джанкертауна",
+                "Players": "6х6"
+            },
+            "Limited Duel": {
+                "Name": "Дуэль с ограничениями",
+                "Players": "1х1"
+            },
+            "Low Gravity": {
+                "Name": "Низкая гравитация",
+                "Players": "6х6"
+            },
+            "Lúcioball": {
+                "Name": "Лусиобол",
+                "Players": "3х3"
+            },
+            "Mei`s Snowball Offensive": {
+                "Name": "Операция «Метелица»",
+                "Players": "6х6"
+            },
+            "Mirrored Deathmatch": {
+                "Name": "Зеркальная схватка",
+                "Players": "8 игроков (FFA)"
+            },
+            "Mission Archives": {
+                "Name": "Архив заданий",
+                "Players": "Совместный режим"
+            },
+            "Mystery Deathmatch": {
+                "Name": "Схватка вслепую",
+                "Players": "8 игроков (FFA)"
+            },
+            "Mystery Duel": {
+                "Name": "Случайная дуэль",
+                "Players": "1х1"
+            },
+            "Mystery Heroes": {
+                "Name": "Загадочные герои",
+                "Players": "6х6"
+            },
+            "No Limits": {
+                "Name": "Без ограничений",
+                "Players": "6х6"
+            },
+            "No Limits Payloads": {
+                "Name": "Без ограничений (сопровождение)",
+                "Players": "6х6"
+            },
+            "Paris": {
+                "Name": "Париж",
+                "Players": "6х6"
+            },
+            "Petra Deathmatch": {
+                "Name": "Схватка в Петре",
+                "Players": "8 игроков (FFA)"
+            },
+            "Quick Play Classic": {
+                "Name": "Классическая быстрая игра",
+                "Players": "6х6"
+            },
+            "Retribution (All Heroes)": {
+                "Name": "Возмездие (все герои)",
+                "Players": "Совместный режим"
+            },
+            "Retribution (Story)": {
+                "Name": "Возмездие (сюжет)",
+                "Players": "Совместный режим"
+            },
+            "Rialto": {
+                "Name": "Риальто",
+                "Players": "6х6"
+            },
+            "Skirmish": {
+                "Name": "Разминка",
+                "Players": "6х6"
+            },
+            "Snowball Deathmatch": {
+                "Name": "Снежная схватка",
+                "Players": "8 игроков (FFA)"
+            },
+            "Storm RIsing (All Heroes)": {
+                "Name": "Предчувствие бури (все герои)",
+                "Players": "Совместный режим"
+            },
+            "Storm Rising (Story)": {
+                "Name": "Предчувствие бури (сюжет)",
+                "Players": "Совместный режим"
+            },
+            "Team Deathmatch": {
+                "Name": "Командная схватка",
+                "Players": "4х4"
+            },
+            "Total Mayhem": {
+                "Name": "Полный хаос",
+                "Players": "6х6"
+            },
+            "Uprising (All Heroes)": {
+                "Name": "Мятеж (все герои)",
+                "Players": "Совместный режим"
+            },
+            "Uprising (Story)": {
+                "Name": "Мятеж (сюжет)",
+                "Players": "Совместный режим"
+            },
+            "Winter Mystery": {
+                "Name": "Зимняя тайна",
+                "Players": "6х6"
+            },
+            "Yeti Hunter": {
+                "Name": "Охота на йети",
+                "Players": "5х1"
+            }
         },
         "heroes": {
             "Ana": "Ана",
@@ -120,9 +273,9 @@
             "Zomnic": "Зомник"
         },
         "labels": {
-            "Daily": "Ежедневно",
-            "Permanent": "перманентный",
-            "Weekly": "еженедельно"
+            "Daily": "Daily",
+            "Permanent": "Permanent",
+            "Weekly": "Weekly"
         },
         "maps": {
             "Ayutthaya": "Аюттайя",
@@ -146,9 +299,9 @@
             "Ilios Lighthouse": "Илиос: маяк",
             "Ilios Ruins": "Илиос: развалины",
             "Ilios Well": "Илиос: колодец",
-            "Junkenstein's Revenge": "Месть Крысенштейна",
+            "Junkenstein`s Revenge": "Месть Крысенштейна",
             "Junkertown": "Джанкертаун",
-            "King's Row": "Кингс Роу",
+            "King`s Row": "Кингс Роу",
             "Lijiang Control Center": "Лицзян: командный центр",
             "Lijiang Garden": "Лицзян: сад",
             "Lijiang Night Market": "Лицзян: ночной рынок",

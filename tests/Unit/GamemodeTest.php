@@ -23,9 +23,5 @@ class GamemodeTest extends TestCase
         self::assertFalse($this->daily->hasGamemodesSetToday(Daily::GAME_KEY_OVERWATCH));
     }
 
-    public function testHasTodaySet()
-    {
-        $daily = new Daily();
-    }
 
 }

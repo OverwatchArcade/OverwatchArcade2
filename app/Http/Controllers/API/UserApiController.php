@@ -37,14 +37,20 @@ class UserApiController extends Controller
      */
     public function updateUserProfile(ProfileUpdate $request)
     {
-        Auth::user()->profile_data = $request->only([
+        $user = Auth::user();
+        $user->profile_data = $request->only([
             'game.map',
             'game.mode',
             'game.character',
             'profile.country',
             'profile.about'
         ]);
-        Auth::user()->save();
+
+        if($request->has('avatar')) {
+            $user->avatar = $request->get('avatar');
+        }
+
+        $user->save();
         return response()->json('success');
     }
 }

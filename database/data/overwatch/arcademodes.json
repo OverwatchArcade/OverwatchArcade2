@@ -1,182 +1,262 @@
 [
-    {
-        "name": "Capture the Flag",
-        "players": "6v6"
-    },
-    {
-        "name": "Château Deathmatch",
-        "players": "8 Player FFA"
-    },
-    {
-        "name": "Competitive CTF",
-        "players": "6v6"
-    },
-    {
-        "name": "Competitive Deathmatch",
-        "players": "8 Player FFA"
-    },
-    {
-        "name": "Competitive Elimination",
-        "players": "3v3"
-    },
-    {
-        "name": "Competitive Elimination",
-        "players": "6v6"
-    },
-    {
-        "name": "Competitive Team Deathmatch",
-        "players": "4v4"
-    },
-    {
-        "name": "Copa Lúcioball",
-        "players": "3v3"
-    },
-    {
-        "name": "CTF: Ayutthaya Only",
-        "players": "6v6"
-    },
-    {
-        "name": "CTF: Busan",
-        "players": "6v6"
-    },
-    {
-        "name": "Deathmatch",
-        "players": "8 Player FFA"
-    },
-    {
-        "name": "Elimination",
-        "players": "3v3"
-    },
-    {
-        "name": "Elimination",
-        "players": "6v6"
-    },
-    {
-        "name": "Junkenstein's Revenge",
-        "players": "Co-op"
-    },
-    {
-        "name": "Limited Duel",
-        "players": "1v1"
-    },
-    {
-        "name": "Lockout Elimination",
-        "players": "3v3"
-    },
-    {
-        "name": "Lockout Elimination",
-        "players": "6v6"
-    },
-    {
-        "name": "Low Gravity",
-        "players": "6v6"
-    },
-    {
-        "name": "Lúcioball",
-        "players": "3v3"
-    },
-    {
-        "name": "Mei's Snowball Offensive",
-        "players": "6v6"
-    },
-    {
-        "name": "Mission Archives",
-        "players": "Co-op"
-    },
-    {
-        "name": "Mystery Deathmatch",
-        "players": "8 Player FFA"
-    },
-    {
-        "name": "Mystery Duel",
-        "players": "1v1"
-    },
-    {
-        "name": "Mystery Heroes",
-        "players": "6v6"
-    },
-    {
-        "name": "No Limits",
-        "players": "6v6"
-    },
-    {
-        "name": "Paris",
-        "players": "6v6"
-    },
-    {
-        "name": "Petra Deathmatch",
-        "players": "8 Player FFA"
-    },
-    {
-        "name": "Retribution",
-        "players": "Co-op"
-    },
-    {
-        "name": "Team Deathmatch",
-        "players": "4v4"
-    },
-    {
-        "name": "Total Mayhem",
-        "players": "6v6"
-    },
-    {
-        "name": "Uprising",
-        "players": "Co-op"
-    },
-    {
-        "name": "Yeti Hunter",
-        "players": "5v1"
-    },
-    {
-        "name": "Havana",
-        "players": "6v6"
-    },
-    {
-        "name": "Hero Gauntlet",
-        "players": "8 Player FFA"
-    },
-    {
-        "name": "Mirrored Deathmatch",
-        "players": "8 Player FFA"
-    },
-    {
-        "name": "Capture the Rooster",
-        "players": "6v6"
-    },
-    {
-        "name": "Junkenstein Endless",
-        "players": "Co-op"
-    },
-    {
-        "name": "Uprising (Story)",
-        "players": "Co-op"
-    },
-    {
-        "name": "Uprising (All Heroes)",
-        "players": "Co-op"
-    },
-    {
-        "name": "Retribution (Story)",
-        "players": "Co-op"
-    },
-    {
-        "name": "Retribution (All Heroes)",
-        "players": "Co-op"
-    },
-    {
-        "name": "Storm Rising (Story)",
-        "players": "Co-op"
-    },
-    {
-        "name": "Storm Rising (All Heroes)",
-        "players": "Co-op"
-    },
-    {
-        "name": "Quick Play Classic",
-        "players": "6v6"
-    },
-    {
-        "name": "Snowball Deathmatch",
-        "players": "8 Player FFA"
-    }
+  {
+    "id": 1,
+    "title": "Assault",
+    "players": "6v6"
+  },
+  {
+    "id": 2,
+    "title": "Blizzard World",
+    "players": "6v6"
+  },
+  {
+    "id": 3,
+    "title": "Busan",
+    "players": "6v6"
+  },
+  {
+    "id": 4,
+    "title": "CTF Blitz",
+    "players": "6v6"
+  },
+  {
+    "id": 5,
+    "title": "CTF: Ayutthaya Only",
+    "players": "6v6"
+  },
+  {
+    "id": 6,
+    "title": "CTF: Busan",
+    "players": "6v6"
+  },
+  {
+    "id": 7,
+    "title": "Capture the Flag",
+    "players": "6v6"
+  },
+  {
+    "id": 8,
+    "title": "Capture the Rooster",
+    "players": "6v6"
+  },
+  {
+    "id": 9,
+    "title": "Ch\u00e2teau Deathmatch",
+    "players": "8 Player FFA"
+  },
+  {
+    "id": 10,
+    "title": "Competitive CTF",
+    "players": "6v6"
+  },
+  {
+    "id": 11,
+    "title": "Competitive Deathmatch",
+    "players": "8 Player FFA"
+  },
+  {
+    "id": 12,
+    "title": "Competitive Elimination",
+    "players": "3v3"
+  },
+  {
+    "id": 13,
+    "title": "Competitive Team Deathmatch",
+    "players": "4v4"
+  },
+  {
+    "id": 14,
+    "title": "Copa L\u00facioball",
+    "players": "3v3"
+  },
+  {
+    "id": 15,
+    "title": "Deathmatch",
+    "players": "8 Player FFA"
+  },
+  {
+    "id": 16,
+    "title": "Doomfist Elimination",
+    "players": "6v6"
+  },
+  {
+    "id": 17,
+    "title": "Elimination",
+    "players": "6v6"
+  },
+  {
+    "id": 18,
+    "title": "Havana",
+    "players": "6v6"
+  },
+  {
+    "id": 19,
+    "title": "Hero Gauntlet",
+    "players": "8 Player FFA"
+  },
+  {
+    "id": 20,
+    "title": "Horizon Lunar Colony",
+    "players": "6v6 Groups Only"
+  },
+  {
+    "id": 21,
+    "title": "Horizon No Limits",
+    "players": "6v6"
+  },
+  {
+    "id": 22,
+    "title": "Hybrid",
+    "players": "6v6"
+  },
+  {
+    "id": 23,
+    "title": "Junkenstein Endless",
+    "players": "Co-op"
+  },
+  {
+    "id": 24,
+    "title": "Junkenstein`s Revenge",
+    "players": "Co-op"
+  },
+  {
+    "id": 25,
+    "title": "Junkertown",
+    "players": "6v6"
+  },
+  {
+    "id": 26,
+    "title": "Junkertown Mystery Heroes",
+    "players": "6v6"
+  },
+  {
+    "id": 27,
+    "title": "Limited Duel",
+    "players": "1v1"
+  },
+  {
+    "id": 28,
+    "title": "Low Gravity",
+    "players": "6v6"
+  },
+  {
+    "id": 29,
+    "title": "L\u00facioball",
+    "players": "3v3"
+  },
+  {
+    "id": 30,
+    "title": "Mei`s Snowball Offensive",
+    "players": "6v6"
+  },
+  {
+    "id": 31,
+    "title": "Mirrored Deathmatch",
+    "players": "8 Player FFA"
+  },
+  {
+    "id": 32,
+    "title": "Mission Archives",
+    "players": "Co-op"
+  },
+  {
+    "id": 33,
+    "title": "Mystery Deathmatch",
+    "players": "8 Player FFA"
+  },
+  {
+    "id": 34,
+    "title": "Mystery Duel",
+    "players": "1v1"
+  },
+  {
+    "id": 35,
+    "title": "Mystery Heroes",
+    "players": "6v6"
+  },
+  {
+    "id": 36,
+    "title": "No Limits",
+    "players": "6v6"
+  },
+  {
+    "id": 37,
+    "title": "No Limits Payloads",
+    "players": "6v6"
+  },
+  {
+    "id": 38,
+    "title": "Paris",
+    "players": "6v6"
+  },
+  {
+    "id": 39,
+    "title": "Petra Deathmatch",
+    "players": "8 Player FFA"
+  },
+  {
+    "id": 40,
+    "title": "Quick Play Classic",
+    "players": "6v6"
+  },
+  {
+    "id": 41,
+    "title": "Retribution (All Heroes)",
+    "players": "Co-op"
+  },
+  {
+    "id": 42,
+    "title": "Retribution (Story)",
+    "players": "Co-op"
+  },
+  {
+    "id": 43,
+    "title": "Rialto",
+    "players": "6v6"
+  },
+  {
+    "id": 45,
+    "title": "Snowball Deathmatch",
+    "players": "8 Player FFA"
+  },
+  {
+    "id": 46,
+    "title": "Storm RIsing (All Heroes)",
+    "players": "Co-op"
+  },
+  {
+    "id": 47,
+    "title": "Storm Rising (Story)",
+    "players": "Co-op"
+  },
+  {
+    "id": 48,
+    "title": "Team Deathmatch",
+    "players": "4v4"
+  },
+  {
+    "id": 49,
+    "title": "Total Mayhem",
+    "players": "6v6"
+  },
+  {
+    "id": 50,
+    "title": "Uprising (All Heroes)",
+    "players": "Co-op"
+  },
+  {
+    "id": 51,
+    "title": "Uprising (Story)",
+    "players": "Co-op"
+  },
+  {
+    "id": 52,
+    "title": "Winter Mystery",
+    "players": "6v6"
+  },
+  {
+    "id": 53,
+    "title": "Yeti Hunter",
+    "players": "5v1"
+  }
 ]
