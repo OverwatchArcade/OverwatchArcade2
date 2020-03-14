@@ -48,7 +48,7 @@
 
 </head>
 <body>
-<div id="app" class="container">
+<div id="app" class="container pb-4">
     <section id="header" class="mt-5 mb-5">
         <div class="row">
             <div class="col-auto">

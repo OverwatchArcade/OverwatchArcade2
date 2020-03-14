@@ -44,7 +44,7 @@
                             <div class="text-dark p-2">
                                 <div class="row">
                                     <div v-if="Object.keys(overwatch.arcadeImages).length" v-for="mode in user_data.profile_data.game.mode">
-                                        <img class="border" :src="overwatch.arcadeImages[mode].image" :title="mode" style="height:128px">
+                                        <img class="border" v-tooltip="{ content: mode }" :src="overwatch.arcadeImages[mode].image" :title="mode" style="height:128px">
                                     </div>
                                 </div>
                             </div>
@@ -55,6 +55,7 @@
                                 <div class="row">
                                     <div v-for="character in user_data.profile_data.game.character">
                                         <img class="border" style="height:128px"
+                                             v-tooltip="{ content: character }"
                                              :src="'/img/characters/' + removeWhiteSpace(character) + '.jpg'"
                                              :title="character">
                                     </div>
@@ -67,6 +68,7 @@
                                 <div class="row">
                                     <div v-for="map in user_data.profile_data.game.map">
                                         <img class="border" style="height:100px"
+                                             v-tooltip="{ content: map }"
                                              :src="'/img/maps/' + map.replace(':', '') + '.jpg'" :title="map">
                                     </div>
                                 </div>
@@ -80,6 +82,7 @@
 </template>
 <script>
     import CountryFlag from 'vue-country-flag'
+    import { VTooltip } from 'v-tooltip'
 
     export default {
         name: "profile_index",
@@ -110,6 +113,9 @@
         },
         components: {
             CountryFlag: CountryFlag
+        },
+        directives: {
+          tooltip: VTooltip
         },
         methods: {
             removeWhiteSpace(val) {

@@ -132,21 +132,22 @@
             getTitleValues(array) {
                 let arr = [];
                 array.forEach(element => arr.push(element.title));
-                console.log(array);
                 return arr;
             },
             previewAvatar(val) {
-                this.user_data.avatar = '/img/avatars/'+ val;
-                this.user_data.profile_data.avatar = val;
+                console.log(val);
+                this.user_data.profile_data.profile.avatar = val;
+                this.user_data.avatar = val;
             }
         },
         mounted() {
             let username = document.getElementById('username').innerHTML.replace(/#/, '%23');
             axios.get('/api/user/' + username).then(response => {
                 if (Object.keys(response.data.profile_data).length) {
-                    this.user_data.profile_data = response.data.profile_data
+                    this.user_data.profile_data = response.data.profile_data;
+                    this.user_data.profile_data.avatar = response.data.avatar;
+                    this.user_data.avatar = response.data.avatar;
                 }
-                this.user_data.avatar = response.data.avatar;
                 this.user_data.name = response.data.name;
             });
 
