@@ -45,7 +45,7 @@ class ProfileUpdate extends FormRequest
             'game.map.*' => ['nullable', Rule::in($mapConfig->value)],
             'game.mode.*' => 'nullable|exists:gamemodes,name',
             'game.character.*' => ['nullable', Rule::in($characterConfig->value)],
-            'avatar' => ['required', Rule::in($avatarArray)],
+            'profile.avatar' => ['required', Rule::in($avatarArray)],
             'profile.country' => ['nullable'],
             'profile.about' => 'nullable|max:500'
         ];

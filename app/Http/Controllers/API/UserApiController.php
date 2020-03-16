@@ -46,8 +46,8 @@ class UserApiController extends Controller
             'profile.about'
         ]);
 
-        if($request->has('avatar')) {
-            $user->avatar = $request->get('avatar');
+        if($request->has('profile.avatar')) {
+            $user->avatar = $request->get('profile.avatar');
         }
 
         $user->save();

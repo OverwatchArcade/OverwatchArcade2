@@ -101,83 +101,6 @@
   transition: opacity 0.15s;
 }
 
-@media (max-width: 768px) {
-  .largeTile .card .card-img-top {
-    height: 400px;
-  }
-
-  .card .card-img-top {
-    height: 200px;
-  }
-
-  .card-ribbon {
-    left: -25px;
-    top: 20px;
-    font-size: 12px;
-    padding: 12px 34px;
-  }
-
-  .card {
-    height: auto;
-    min-height: auto;
-  }
-
-  .largeTile .card .card-img-top {
-    height: 250px;
-  }
-
-  .card .card-img-top {
-    height: 250px;
-  }
-
-  .card-ribbon::after {
-    bottom: -25px;
-    border-width: 25px 0 0 25px;
-  }
-}
-
-@media (min-width: 768px) {
-  .largeTile .card .card-img-top {
-    height: 400px;
-  }
-
-  .card .card-img-top {
-    height: 200px;
-  }
-}
-
-@media (min-width: 992px) {
-  .largeTile .card .card-img-top {
-    height: 400px;
-  }
-
-  .card .card-img-top {
-    height: 200px;
-  }
-}
-
-@media (min-width: 1200px) {
-  .card .card-img-top {
-    height: 150px;
-  }
-
-  .largeTile .card .card-img-top {
-    height: 425px;
-  }
-
-  h1 {
-    font-size: 48pt;
-  }
-
-  h2 {
-    font-size: 32pt;
-  }
-
-  h3 {
-    font-size: 26pt;
-  }
-}
-
 body,
 html {
   color: #FFF;
@@ -232,14 +155,14 @@ h5 {
 .card-ribbon {
   position: absolute;
   left: -0.8vw;
-  top: 0.75vw;
+  top: 0.5vw;
   display: inline-block;
   color: #ffffff;
   font-weight: 700;
   background: #17B113;
   text-transform: uppercase;
-  font-size: 11pt;
-  padding: 0.59vw 0.92vw 0.49vw;
+  font-size: 8pt;
+  padding: 0.49vw 0.62vw 0.29vw;
   border-radius: 0;
 }
 
@@ -315,5 +238,86 @@ a {
 a:hover {
   color: #fad40f;
   text-decoration: none;
+}
+
+@media (max-width: 768px) {
+  .largeTile .card .card-img-top {
+    height: 400px;
+  }
+
+  .card .card-img-top {
+    height: 200px;
+  }
+
+  .card-ribbon {
+    left: -10px;
+    top: 20px;
+    font-size: 12px;
+    padding: 2.59vw 4.92vw 2.49vw;
+  }
+
+  .card-ribbon::after {
+    display: none;
+  }
+
+  .card {
+    height: auto;
+    min-height: auto;
+  }
+
+  .largeTile .card .card-img-top {
+    height: 250px;
+  }
+
+  .card .card-img-top {
+    height: 250px;
+  }
+
+  .card-ribbon::after {
+    bottom: -25px;
+    border-width: 25px 0 0 25px;
+  }
+}
+
+@media (min-width: 768px) {
+  .largeTile .card .card-img-top {
+    height: 400px;
+  }
+
+  .card .card-img-top {
+    height: 200px;
+  }
+}
+
+@media (min-width: 992px) {
+  .largeTile .card .card-img-top {
+    height: 400px;
+  }
+
+  .card .card-img-top {
+    height: 200px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .card .card-img-top {
+    height: 150px;
+  }
+
+  .largeTile .card .card-img-top {
+    height: 425px;
+  }
+
+  h1 {
+    font-size: 48pt;
+  }
+
+  h2 {
+    font-size: 32pt;
+  }
+
+  h3 {
+    font-size: 26pt;
+  }
 }
 

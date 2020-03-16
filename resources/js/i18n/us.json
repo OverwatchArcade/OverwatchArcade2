@@ -273,9 +273,9 @@
             "Zomnic": "Zomnic"
         },
         "labels": {
-            "Daily": "Daily",
+            "Daily": "Changes Daily",
             "Permanent": "Permanent",
-            "Weekly": "Weekly"
+            "Weekly": "Changes Weekly"
         },
         "not_updated_yet": "Not updated yet",
         "maps": {

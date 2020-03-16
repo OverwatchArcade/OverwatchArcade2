@@ -12,8 +12,8 @@
                 <div class="form-group">
                     <label for="country" class="font-weight-bold">Avatar</label>
                     <multiselect v-model="user_data.profile_data.profile.avatar" id="avatar" name="avatar"
-                                 :searchable="true"
                                  :options="avatars"
+                                 :allow-empty="false"
                                  @input="previewAvatar(user_data.profile_data.profile.avatar)"
                     ></multiselect>
                 </div>
@@ -117,7 +117,6 @@
                     });
                 }).catch(error => {
                     let toasted = this.$toasted;
-                    console.log(error.response.data.errors);
                     Object.keys(error.response.data.errors).forEach(function (key) {
                         error.response.data.errors[key].forEach(function (element) {
                             toasted.show(element, {
@@ -137,15 +136,16 @@
             previewAvatar(val) {
                 console.log(val);
                 this.user_data.profile_data.profile.avatar = val;
-                this.user_data.avatar = val;
+                this.user_data.avatar = "/img/avatars/"+val;
             }
         },
         mounted() {
             let username = document.getElementById('username').innerHTML.replace(/#/, '%23');
             axios.get('/api/user/' + username).then(response => {
+                console.log(response.data);
                 if (Object.keys(response.data.profile_data).length) {
                     this.user_data.profile_data = response.data.profile_data;
-                    this.user_data.profile_data.avatar = response.data.avatar;
+                    this.user_data.profile_data.profile.avatar = (response.data.avatar).replace("http://overwatch2.test/img/avatars/", "");
                     this.user_data.avatar = response.data.avatar;
                 }
                 this.user_data.name = response.data.name;

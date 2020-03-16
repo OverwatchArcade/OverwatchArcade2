@@ -37,9 +37,9 @@
         methods: {
             getLabelColor(label) {
                 switch (label.toLowerCase()) {
-                    case 'changes daily':
+                    case 'daily':
                         return '-secondary';
-                    case 'changes weekly':
+                    case 'weekly':
                         return '';
                     case 'permanent':
                         return '';
