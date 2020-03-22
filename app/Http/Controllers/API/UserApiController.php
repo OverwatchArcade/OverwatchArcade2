@@ -31,4 +31,28 @@ class UserApiController extends Controller
         return response()->json(new UserResource($user), 200, [], JSON_PRETTY_PRINT);
     }
 
+
+    /**
+     * @param Request $request
+     * @return \Illuminate\Http\JsonResponse
+     */
+    public function updateUserProfile(ProfileUpdate $request)
+    {
+        $user = Auth::user();
+        $user->profile_data = $request->only([
+            'game.map',
+            'game.mode',
+            'game.character',
+            'profile.country',
+            'profile.about'
+        ]);
+
+        if($request->has('profile.avatar')) {
+            $user->avatar = $request->get('profile')['avatar'];
+        }
+
+        $user->save();
+        return response()->json('success');
+    }
+
 }
