@@ -17,6 +17,10 @@
                 "Name": "BLIZZARD WORLD",
                 "Players": "6vs6"
             },
+            "Blood Moon Rising": {
+                "Name": "ブラッドムーン・ライジング",
+                "Players": "CO-OP"
+            },
             "Busan": {
                 "Name": "BUSAN",
                 "Players": "6vs6"
@@ -41,9 +45,17 @@
                 "Name": "キャプチャー・ザ・ルースター",
                 "Players": "6vs6"
             },
+            "Challenge Missions": {
+                "Name": "チャレンジ任務",
+                "Players": "CO-OP"
+            },
             "Château Deathmatch": {
                 "Name": "シャトー・デスマッチ",
                 "Players": "FFA"
+            },
+            "Close Quarters": {
+                "Name": "クロース・クオーター",
+                "Players": "CO-OP"
             },
             "Competitive CTF": {
                 "Name": "ライバル CTF",
@@ -54,8 +66,8 @@
                 "Players": "FFA"
             },
             "Competitive Elimination": {
-                "Name": "ライバル・エリミネーション",
-                "Players": "3vs3"
+                "Name": "ライバル エリミネーション",
+                "Players": "6vs6"
             },
             "Competitive Team Deathmatch": {
                 "Name": "ライバル チーム・デスマッチ",
@@ -76,6 +88,10 @@
             "Elimination": {
                 "Name": "エリミネーション",
                 "Players": "6vs6"
+            },
+            "Glass Cannon": {
+                "Name": "グラスキャノン",
+                "Players": "CO-OP"
             },
             "Havana": {
                 "Name": "HAVANA",
@@ -137,6 +153,10 @@
                 "Name": "任務アーカイブ",
                 "Players": "CO-OP"
             },
+            "Molten Cores": {
+                "Name": "モルテン・コア",
+                "Players": "CO-OP"
+            },
             "Mystery Deathmatch": {
                 "Name": "ミステリー・デスマッチ",
                 "Players": "FFA"
@@ -193,8 +213,16 @@
                 "Name": "ストーム・ライジング（全ヒーロー）",
                 "Players": "CO-OP"
             },
+            "Storm Raging": {
+                "Name": "ストーム・レイジング",
+                "Players": "CO-OP"
+            },
             "Storm Rising (Story)": {
                 "Name": "ストーム・ライジング（ストーリー）",
+                "Players": "CO-OP"
+            },
+            "Surgical Strike": {
+                "Name": "サージカル・ストライク",
                 "Players": "CO-OP"
             },
             "Team Deathmatch": {
@@ -299,9 +327,9 @@
             "Ilios Lighthouse": "ILIOS LIGHTHOUSE",
             "Ilios Ruins": "ILIOS RUINS",
             "Ilios Well": "ILIOS WELL",
-            "Junkenstein`s Revenge": "ジャンケン<br>シュタインの<br>復讐",
+            "Junkenstein's Revenge": "ジャンケン<br>シュタインの<br>復讐",
             "Junkertown": "JUNKERTOWN",
-            "King`s Row": "KING`S ROW",
+            "King's Row": "KING'S ROW",
             "Lijiang Control Center": "LIJIANG CONTROL CENTER",
             "Lijiang Garden": "LIJIANG GARDEN",
             "Lijiang Night Market": "LIJIANG NIGHT MARKET",
@@ -327,7 +355,10 @@
             "Tutorial": "チュートリアル",
             "VPP Green Room": "VPP Green Room",
             "Volskaya Industries": "VOLSKAYA INDUSTRIES",
-            "Watchpoint: Gibraltar": "WATCHPOINT: GIBRALTAR"
+            "Watchpoint: Gibraltar": "WATCHPOINT: GIBRALTAR",
+            "Workshop Chamber": "WORKSHOP CHAMBER",
+            "Workshop Expanse": "WORKSHOP EXPANSE",
+            "Workshop Island": "WORKSHOP ISLAND"
         }
     },
     "profile": {

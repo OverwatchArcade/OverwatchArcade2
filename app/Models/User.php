@@ -41,7 +41,7 @@ class User extends Authenticatable
 
     public function getAvatarAttribute($value)
     {
-        if ($value != null && Storage::disk('public')->exists("avatars/" . $value)) {
+        if ($value != null && Storage::disk('public')->exists("img/avatars/" . $value)) {
             return asset("img/avatars/" . $value);
         }
         return asset('img/avatars/default.jpg');

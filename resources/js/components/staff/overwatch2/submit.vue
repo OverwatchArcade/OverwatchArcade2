@@ -63,7 +63,7 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-sm12 col-md-4">
+            <div class="col-12">
                 <button v-on:click="submitTodayGamemode()" class="btn btn-warning btn-block">Submit</button>
             </div>
         </div>
@@ -131,7 +131,7 @@
                         text: 'Thank you for submitting today\'s arcade! <3. Tweet will be sent out shortly after this message.',
                         icon: 'success',
                         onClose: () => {
-                            location.href = "/overwatch";
+                            location.href = "/overwatch2";
                         }
                     });
                 }).catch(function (error) {

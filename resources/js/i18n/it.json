@@ -17,6 +17,10 @@
                 "Name": "Blizzard World",
                 "Players": "6v6"
             },
+            "Blood Moon Rising": {
+                "Name": "Luna di sangue",
+                "Players": "Cooperativa"
+            },
             "Busan": {
                 "Name": "Busan",
                 "Players": "6v6"
@@ -41,9 +45,17 @@
                 "Name": "Cattura il Gallo",
                 "Players": "6v6"
             },
+            "Challenge Missions": {
+                "Name": "Missioni Sfida",
+                "Players": "Cooperativa"
+            },
             "Château Deathmatch": {
                 "Name": "Deathmatch Château",
                 "Players": "8 giocatori TCT"
+            },
+            "Close Quarters": {
+                "Name": "Corpo a corpo",
+                "Players": "Cooperativa"
             },
             "Competitive CTF": {
                 "Name": "Cattura la Bandiera (competitiva)",
@@ -55,7 +67,7 @@
             },
             "Competitive Elimination": {
                 "Name": "Eliminazione (competitiva)",
-                "Players": "3v3"
+                "Players": "6v6"
             },
             "Competitive Team Deathmatch": {
                 "Name": "Deathmatch a squadre competitivo",
@@ -76,6 +88,10 @@
             "Elimination": {
                 "Name": "Eliminazione",
                 "Players": "6v6"
+            },
+            "Glass Cannon": {
+                "Name": "Potenza fragile",
+                "Players": "Cooperativa"
             },
             "Havana": {
                 "Name": "L`Avana",
@@ -137,6 +153,10 @@
                 "Name": "Archivi missioni",
                 "Players": "Cooperativa"
             },
+            "Molten Cores": {
+                "Name": "Nuclei ardenti",
+                "Players": "Cooperativa"
+            },
             "Mystery Deathmatch": {
                 "Name": "Deathmatch misterioso",
                 "Players": "8 giocatori TCT"
@@ -193,8 +213,16 @@
                 "Name": "Tempesta imminente (Tutti gli eroi)",
                 "Players": "Cooperativa"
             },
+            "Storm Raging": {
+                "Name": "Tempesta impetuosa",
+                "Players": "Cooperativa"
+            },
             "Storm Rising (Story)": {
                 "Name": "Tempesta imminente (Storia)",
+                "Players": "Cooperativa"
+            },
+            "Surgical Strike": {
+                "Name": "Assalto chirurgico",
                 "Players": "Cooperativa"
             },
             "Team Deathmatch": {
@@ -292,16 +320,16 @@
             "Eichenwalde": "Eichenwalde",
             "Estádio das Rãs": "Estádio de Rãs",
             "Hanamura": "Hanamura",
-            "Havana": "L`Avana",
+            "Havana": "L'Avana",
             "Hollywood": "HOLLYWOOD",
             "Horizon Lunar Colony": "Colonia Lunare Horizon",
             "Ilios": "Ilio",
             "Ilios Lighthouse": "Ilio - Faro",
             "Ilios Ruins": "Ilio - Rovine",
             "Ilios Well": "Ilio - Pozzo",
-            "Junkenstein`s Revenge": "La vendetta di Junkenstein",
+            "Junkenstein's Revenge": "La vendetta di Junkenstein",
             "Junkertown": "Junkertown",
-            "King`s Row": "King`s Row",
+            "King's Row": "King's Row",
             "Lijiang Control Center": "Lijiang - Centro di Controllo",
             "Lijiang Garden": "Giardino di Lijiang",
             "Lijiang Night Market": "Lijiang - Mercato Notturno",
@@ -319,7 +347,7 @@
             "Oasis University": "Oasi - Università",
             "Paris": "Parigi",
             "Petra": "Petra",
-            "Practice Range": "Zona d`addestramento",
+            "Practice Range": "Zona d'addestramento",
             "Rialto": "Rialto",
             "Route 66": "ROUTE 66",
             "Sydney Harbour Arena": "Sydney Harbour Arena",
@@ -327,7 +355,10 @@
             "Tutorial": "Tutorial",
             "VPP Green Room": "VPP Green Room",
             "Volskaya Industries": "Industrie Volskaya",
-            "Watchpoint: Gibraltar": "Osservatorio: Gibilterra"
+            "Watchpoint: Gibraltar": "Osservatorio: Gibilterra",
+            "Workshop Chamber": "Sala del Workshop",
+            "Workshop Expanse": "Distesa del Workshop",
+            "Workshop Island": "Isola del Workshop"
         }
     },
     "profile": {

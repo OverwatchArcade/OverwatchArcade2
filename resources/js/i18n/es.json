@@ -17,6 +17,10 @@
                 "Name": "Blizzard World",
                 "Players": "6 contra 6"
             },
+            "Blood Moon Rising": {
+                "Name": "Luna de sangre inminente",
+                "Players": "Cooperativa"
+            },
             "Busan": {
                 "Name": "Busan",
                 "Players": "6 contra 6"
@@ -41,9 +45,17 @@
                 "Name": "Capturad al gallo",
                 "Players": "6 contra 6"
             },
+            "Challenge Missions": {
+                "Name": "Misiones de desafío",
+                "Players": "Cooperativa"
+            },
             "Château Deathmatch": {
                 "Name": "Combate a muerte en el Palacio",
                 "Players": "TcT: 8 jugadores"
+            },
+            "Close Quarters": {
+                "Name": "Codo con codo",
+                "Players": "Cooperativa"
             },
             "Competitive CTF": {
                 "Name": "CLB competitivo",
@@ -55,7 +67,7 @@
             },
             "Competitive Elimination": {
                 "Name": "Modo competitivo de Eliminación",
-                "Players": "3 contra 3"
+                "Players": "6 contra 6"
             },
             "Competitive Team Deathmatch": {
                 "Name": "Combate a muerte por equipos competitivo",
@@ -76,6 +88,10 @@
             "Elimination": {
                 "Name": "Eliminación",
                 "Players": "6 contra 6"
+            },
+            "Glass Cannon": {
+                "Name": "Mírame y no me toques",
+                "Players": "Cooperativa"
             },
             "Havana": {
                 "Name": "La Habana",
@@ -137,6 +153,10 @@
                 "Name": "Archivos de misión",
                 "Players": "Cooperativa"
             },
+            "Molten Cores": {
+                "Name": "Fusiones nucleares",
+                "Players": "Cooperativa"
+            },
             "Mystery Deathmatch": {
                 "Name": "Combate a muerte misterioso",
                 "Players": "TcT: 8 jugadores"
@@ -193,8 +213,16 @@
                 "Name": "Tormenta inminente (todos los héroes)",
                 "Players": "Cooperativa"
             },
+            "Storm Raging": {
+                "Name": "Tormenta salvaje",
+                "Players": "Cooperativa"
+            },
             "Storm Rising (Story)": {
                 "Name": "Tormenta inminente (historia)",
+                "Players": "Cooperativa"
+            },
+            "Surgical Strike": {
+                "Name": "Ataque preciso",
                 "Players": "Cooperativa"
             },
             "Team Deathmatch": {
@@ -299,9 +327,9 @@
             "Ilios Lighthouse": "Faro de Ilios",
             "Ilios Ruins": "Ruinas de Ilios",
             "Ilios Well": "Pozo de Ilios",
-            "Junkenstein`s Revenge": "La venganza de Junkenstein",
+            "Junkenstein's Revenge": "La venganza de Junkenstein",
             "Junkertown": "Junkertown",
-            "King`s Row": "King`s Row",
+            "King's Row": "King's Row",
             "Lijiang Control Center": "Centro de control de Torre Lijiang",
             "Lijiang Garden": "Lijiang: Jardín",
             "Lijiang Night Market": "Lijiang: Mercado nocturno",
@@ -327,7 +355,10 @@
             "Tutorial": "Tutorial",
             "VPP Green Room": "VPP Green Room",
             "Volskaya Industries": "Industrias Volskaya",
-            "Watchpoint: Gibraltar": "Observatorio: Gibraltar"
+            "Watchpoint: Gibraltar": "Observatorio: Gibraltar",
+            "Workshop Chamber": "Cámara del Taller",
+            "Workshop Expanse": "Terreno del Taller",
+            "Workshop Island": "Isla del Taller"
         }
     },
     "profile": {

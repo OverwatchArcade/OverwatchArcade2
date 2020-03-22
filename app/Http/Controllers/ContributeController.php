@@ -3,9 +3,12 @@
 namespace App\Http\Controllers;
 
 use App\Http\Requests\ArcadeModePost;
+use App\Http\Requests\ProfileUpdate;
 use App\Jobs\TwitterPost;
+use App\Models\Config;
 use App\Models\Game\Daily;
 use App\Models\Game\Gamemode;
+use Carbon\Carbon;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\File;
@@ -42,19 +45,13 @@ class ContributeController extends Controller
         return view('settings');
     }
 
+
     /**
-     * Retrieves all available avatars from public folder
-     * builds array with filename and path
+     * @return \Illuminate\Http\JsonResponse
      */
     public function getAvatars()
     {
-        $files = Storage::disk('public')->allFiles('avatars');
-        $fileArray = [];
-        foreach($files as $file){
-            $fileArray[] = substr(strrchr($file, '/'), 1);
-        }
-
-        return response()->json($fileArray);
+        return response()->json(Config::getAvatars());
     }
 
     /**
@@ -113,5 +110,48 @@ class ContributeController extends Controller
         }
 
         return response()->json($request->all());
+    }
+
+    /**
+     * @param Request $request
+     * @return \Illuminate\Http\JsonResponse
+     */
+    public function updateUserProfile(ProfileUpdate $request)
+    {
+        $user = Auth::user();
+        $user->profile_data = $request->only([
+            'game.map',
+            'game.mode',
+            'game.character',
+            'profile.country',
+            'profile.about'
+        ]);
+
+        if ($request->has('profile.avatar')) {
+            $user->avatar = $request->get('profile')['avatar'];
+        }
+
+        $user->save();
+        return response()->json('success');
+    }
+
+    public function undoOverwatchTodaysArcade(Request $request)
+    {
+        $daily = Daily::hasGamemodesSetToday(Daily::GAME_KEY_OVERWATCH);
+        if ($daily) {
+            $daily->delete();
+            return response()->json(['status' => 'success', 'message' => 'Daily deleted succesfully']);
+        }
+        return response()->json(['status' => 'failed', 'message' => 'Daily not found']);
+    }
+
+    public function undoOverwatch2TodaysArcade(Request $request)
+    {
+        $daily = Daily::hasGamemodesSetToday(Daily::GAME_KEY_OVERWATCH2);
+        if ($daily) {
+            $daily->delete();
+            return response()->json(['status' => 'success', 'message' => 'Daily deleted succesfully']);
+        }
+        return response()->json(['status' => 'failed', 'message' => 'Daily not found']);
     }
 }

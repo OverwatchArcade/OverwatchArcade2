@@ -35,11 +35,7 @@ class ProfileUpdate extends FormRequest
         $mapConfig = Config::where('key', Config::KEY_OVERWATCH_MAPS)->firstOrFail();
         $characterConfig = Config::where('key', Config::KEY_OVERWATCH_CHARACTERS)->firstOrFail();
         $countries = Config::where('key', Config::KEY_COUNTRIES)->firstOrFail();
-
-        $avatarArray = [];
-        foreach(Storage::disk('public')->allFiles('avatars') as $avatar){
-            $avatarArray[] = str_replace("avatars/", "", $avatar);
-        }
+        $avatarArray = Config::getAvatars();
 
         return [
             'game.map.*' => ['nullable', Rule::in($mapConfig->value)],

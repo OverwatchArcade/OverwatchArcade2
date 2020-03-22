@@ -42,7 +42,7 @@ class TwitterPost implements ShouldQueue
         try {
             $params = http_build_query(array(
                 "access_key" => env('APIFLASH_KEY'),
-                "url" => env('APP_URL')."/overwatch",
+                "url" => route('API_SCREENSHOT'),
                 "ttl" => 0,
                 "fresh" => true
             ));
@@ -50,7 +50,7 @@ class TwitterPost implements ShouldQueue
         } catch (\Exception $e) {
             $params = http_build_query(array(
                 "access_key" => env('SCREENSHOT_KEY'),
-                "url" => env('APP_URL')."/overwatch",
+                "url" => route('API_SCREENSHOT'),
                 "ttl" => 0,
                 "force" => 1
             ));

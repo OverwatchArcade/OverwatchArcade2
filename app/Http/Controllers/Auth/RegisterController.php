@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers\Auth;
 
+use App\Models\Config;
 use App\Models\User;
 use App\Http\Controllers\Controller;
 use Illuminate\Support\Facades\Auth;
@@ -64,6 +65,8 @@ class RegisterController extends Controller
      */
     public function loginOrCreate(\SocialiteProviders\Manager\OAuth2\User $user)
     {
+        $this->isAllowedToRegister($user);
+
         return User::firstOrCreate(
             ['battlenet_id' => $user->getId()],
             [
@@ -72,6 +75,17 @@ class RegisterController extends Controller
                 'profile_data' => []
             ]
         );
+    }
+
+    /**
+     * Whitelisting
+     */
+    public function isAllowedToRegister(\SocialiteProviders\Manager\OAuth2\User $user)
+    {
+        $whitelist = Config::where('key', Config::KEY_WHITELISTED_UIDS)->firstOrFail()->value;
+        if (!in_array($user->getId(), $whitelist)) {
+            return abort('403', 'Not whitelisted');
+        };
     }
 
     /**

@@ -17,6 +17,10 @@
                 "Name": "Blizzard World",
                 "Players": "6 na 6"
             },
+            "Blood Moon Rising": {
+                "Name": "Wzejście Krwawego Księżyca",
+                "Players": "Współpraca"
+            },
             "Busan": {
                 "Name": "Pusan",
                 "Players": "6 na 6"
@@ -41,9 +45,17 @@
                 "Name": "Łap Koguta",
                 "Players": "6 na 6"
             },
+            "Challenge Missions": {
+                "Name": "Misje-wyzwania",
+                "Players": "Współpraca"
+            },
             "Château Deathmatch": {
                 "Name": "Deathmatch w Château",
                 "Players": "FFA dla 8 graczy"
+            },
+            "Close Quarters": {
+                "Name": "Walka w zwarciu",
+                "Players": "Współpraca"
             },
             "Competitive CTF": {
                 "Name": "Rywalizacja w Zdobywanie flagi",
@@ -55,7 +67,7 @@
             },
             "Competitive Elimination": {
                 "Name": "Rywalizacja w trybie Eliminacji",
-                "Players": "3 na 3"
+                "Players": "6 na 6"
             },
             "Competitive Team Deathmatch": {
                 "Name": "Rywalizacja w Drużynowym Deathmatchu",
@@ -76,6 +88,10 @@
             "Elimination": {
                 "Name": "Eliminacja",
                 "Players": "6 na 6"
+            },
+            "Glass Cannon": {
+                "Name": "Szklane działo",
+                "Players": "Współpraca"
             },
             "Havana": {
                 "Name": "Hawana",
@@ -137,6 +153,10 @@
                 "Name": "Archiwa misji",
                 "Players": "Współpraca"
             },
+            "Molten Cores": {
+                "Name": "Przygrzanie",
+                "Players": "Współpraca"
+            },
             "Mystery Deathmatch": {
                 "Name": "Tajemniczy Deathmatch",
                 "Players": "FFA dla 8 graczy"
@@ -193,8 +213,16 @@
                 "Name": "Czarne Chmury (wszyscy)",
                 "Players": "Współpraca"
             },
+            "Storm Raging": {
+                "Name": "Wściekłe Chmury",
+                "Players": "Współpraca"
+            },
             "Storm Rising (Story)": {
                 "Name": "Czarne Chmury (fabuła)",
+                "Players": "Współpraca"
+            },
+            "Surgical Strike": {
+                "Name": "Precyzyjne uderzenie",
                 "Players": "Współpraca"
             },
             "Team Deathmatch": {
@@ -299,9 +327,9 @@
             "Ilios Lighthouse": "Ilios: Latarnia morska",
             "Ilios Ruins": "Ilios: Ruiny",
             "Ilios Well": "Ilios: Studnia",
-            "Junkenstein`s Revenge": "Zemsta dr. Złomensteina",
+            "Junkenstein's Revenge": "Zemsta dr. Złomensteina",
             "Junkertown": "Junkertown",
-            "King`s Row": "King`s Row",
+            "King's Row": "King's Row",
             "Lijiang Control Center": "Wieża Lijiang: Centrum sterowania",
             "Lijiang Garden": "Wieża Lijiang: Ogród",
             "Lijiang Night Market": "Wieża Lijiang: Nocny bazar",
@@ -327,7 +355,10 @@
             "Tutorial": "Samouczek",
             "VPP Green Room": "VPP Green Room",
             "Volskaya Industries": "Zakłady Volskaya Industries",
-            "Watchpoint: Gibraltar": "Posterunek: Gibraltar"
+            "Watchpoint: Gibraltar": "Posterunek: Gibraltar",
+            "Workshop Chamber": "Warsztat: Komnata",
+            "Workshop Expanse": "Warsztat: Przestwór",
+            "Workshop Island": "Warsztat: Wyspa"
         }
     },
     "profile": {

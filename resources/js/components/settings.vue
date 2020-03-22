@@ -108,7 +108,7 @@
         },
         methods: {
             updateProfile() {
-                return axios.post("/api/user/update", this.user_data.profile_data).then(response => {
+                return axios.post("/settings/user/update", this.user_data.profile_data).then(response => {
                     console.log(response);
                     this.$toasted.show("Profile succesfully updated!", {
                         theme: "outline",

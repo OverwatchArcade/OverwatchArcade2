@@ -17,6 +17,10 @@
                 "Name": "Blizzard World",
                 "Players": "6v6"
             },
+            "Blood Moon Rising": {
+                "Name": "Blood Moon Rising",
+                "Players": "Co-op"
+            },
             "Busan": {
                 "Name": "Busan",
                 "Players": "6v6"
@@ -41,9 +45,17 @@
                 "Name": "Capture the Rooster",
                 "Players": "6v6"
             },
+            "Challenge Missions": {
+                "Name": "Challenge Missions",
+                "Players": "Co-op"
+            },
             "Château Deathmatch": {
                 "Name": "Château Deathmatch",
                 "Players": "8 Player FFA"
+            },
+            "Close Quarters": {
+                "Name": "Close Quarters",
+                "Players": "Co-op"
             },
             "Competitive CTF": {
                 "Name": "Competitive CTF",
@@ -55,7 +67,7 @@
             },
             "Competitive Elimination": {
                 "Name": "Competitive Elimination",
-                "Players": "3v3"
+                "Players": "6v6"
             },
             "Competitive Team Deathmatch": {
                 "Name": "Competitive Team Deathmatch",
@@ -76,6 +88,10 @@
             "Elimination": {
                 "Name": "Elimination",
                 "Players": "6v6"
+            },
+            "Glass Cannon": {
+                "Name": "Glass Cannon",
+                "Players": "Co-op"
             },
             "Havana": {
                 "Name": "Havana",
@@ -137,6 +153,10 @@
                 "Name": "Mission Archives",
                 "Players": "Co-op"
             },
+            "Molten Cores": {
+                "Name": "Molten Cores",
+                "Players": "Co-op"
+            },
             "Mystery Deathmatch": {
                 "Name": "Mystery Deathmatch",
                 "Players": "8 Player FFA"
@@ -193,8 +213,16 @@
                 "Name": "Storm RIsing (All Heroes)",
                 "Players": "Co-op"
             },
+            "Storm Raging": {
+                "Name": "Storm Raging",
+                "Players": "Co-op"
+            },
             "Storm Rising (Story)": {
                 "Name": "Storm Rising (Story)",
+                "Players": "Co-op"
+            },
+            "Surgical Strike": {
+                "Name": "Surgical Strike",
                 "Players": "Co-op"
             },
             "Team Deathmatch": {
@@ -273,11 +301,10 @@
             "Zomnic": "Zomnic"
         },
         "labels": {
-            "Daily": "Changes Daily",
+            "Daily": "Daily",
             "Permanent": "Permanent",
-            "Weekly": "Changes Weekly"
+            "Weekly": "Weekly"
         },
-        "not_updated_yet": "Not updated yet",
         "maps": {
             "Ayutthaya": "Ayutthaya",
             "Black Forest": "Black Forest",
@@ -300,9 +327,9 @@
             "Ilios Lighthouse": "Ilios Lighthouse",
             "Ilios Ruins": "Ilios Ruins",
             "Ilios Well": "Ilios Well",
-            "Junkenstein`s Revenge": "Junkenstein`s Revenge",
+            "Junkenstein's Revenge": "Junkenstein's Revenge",
             "Junkertown": "Junkertown",
-            "King`s Row": "King`s Row",
+            "King's Row": "King's Row",
             "Lijiang Control Center": "Lijiang Control Center",
             "Lijiang Garden": "Lijiang Garden",
             "Lijiang Night Market": "Lijiang Night Market",
@@ -328,7 +355,10 @@
             "Tutorial": "Tutorial",
             "VPP Green Room": "VPP Green Room",
             "Volskaya Industries": "Volskaya Industries",
-            "Watchpoint: Gibraltar": "Watchpoint: Gibraltar"
+            "Watchpoint: Gibraltar": "Watchpoint: Gibraltar",
+            "Workshop Chamber": "Workshop Chamber",
+            "Workshop Expanse": "Workshop Expanse",
+            "Workshop Island": "Workshop Island"
         }
     },
     "profile": {

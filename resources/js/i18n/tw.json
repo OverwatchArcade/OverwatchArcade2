@@ -17,6 +17,10 @@
                 "Name": "暴雪樂園",
                 "Players": "6v6"
             },
+            "Blood Moon Rising": {
+                "Name": "血月獵殺",
+                "Players": "合作"
+            },
             "Busan": {
                 "Name": "釜山",
                 "Players": "6v6"
@@ -41,9 +45,17 @@
                 "Name": "搶得先雞",
                 "Players": "6v6"
             },
+            "Challenge Missions": {
+                "Name": "挑戰任務",
+                "Players": "合作"
+            },
             "Château Deathmatch": {
                 "Name": "城堡死鬥",
                 "Players": "8人自由混戰"
+            },
+            "Close Quarters": {
+                "Name": "近距搏鬥",
+                "Players": "合作"
             },
             "Competitive CTF": {
                 "Name": "搶旗競技",
@@ -55,7 +67,7 @@
             },
             "Competitive Elimination": {
                 "Name": "鎖定對決競技模式",
-                "Players": "3v3"
+                "Players": "6v6"
             },
             "Competitive Team Deathmatch": {
                 "Name": "團隊死鬥競技模式",
@@ -76,6 +88,10 @@
             "Elimination": {
                 "Name": "鎖定對決",
                 "Players": "6v6"
+            },
+            "Glass Cannon": {
+                "Name": "棄防強攻",
+                "Players": "合作"
             },
             "Havana": {
                 "Name": "哈瓦那",
@@ -137,6 +153,10 @@
                 "Name": "捍衛密令",
                 "Players": "合作"
             },
+            "Molten Cores": {
+                "Name": "熔岩之地",
+                "Players": "合作"
+            },
             "Mystery Deathmatch": {
                 "Name": "神秘客死鬥",
                 "Players": "8人自由混戰"
@@ -193,8 +213,16 @@
                 "Name": "失控倒數（所有英雄）",
                 "Players": "合作"
             },
+            "Storm Raging": {
+                "Name": "失控風暴",
+                "Players": "合作"
+            },
             "Storm Rising (Story)": {
                 "Name": "失控倒數（故事模式）",
+                "Players": "合作"
+            },
+            "Surgical Strike": {
+                "Name": "精準攻擊",
                 "Players": "合作"
             },
             "Team Deathmatch": {
@@ -299,9 +327,9 @@
             "Ilios Lighthouse": "伊利歐斯燈塔",
             "Ilios Ruins": "伊利歐斯廢墟",
             "Ilios Well": "伊利歐斯水井",
-            "Junkenstein`s Revenge": "鼠肯斯坦復仇記",
+            "Junkenstein's Revenge": "鼠肯斯坦復仇記",
             "Junkertown": "垃圾鎮",
-            "King`s Row": "國王大道",
+            "King's Row": "國王大道",
             "Lijiang Control Center": "灕江天塔控制中心",
             "Lijiang Garden": "灕江花園",
             "Lijiang Night Market": "灕江夜市",
@@ -327,7 +355,10 @@
             "Tutorial": "教學模式",
             "VPP Green Room": "VPP Green Room",
             "Volskaya Industries": "伏斯凱亞工業",
-            "Watchpoint: Gibraltar": "捍衛者基地：直布羅陀"
+            "Watchpoint: Gibraltar": "捍衛者基地：直布羅陀",
+            "Workshop Chamber": "工作坊房間",
+            "Workshop Expanse": "工作坊延伸區域",
+            "Workshop Island": "工作坊島嶼"
         }
     },
     "profile": {

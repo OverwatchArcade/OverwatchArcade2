@@ -2,7 +2,8 @@
     <div id="overwatch">
         <div class="row mb-lg-2">
             <div class="col">
-                <h3 v-if="outdated"><span class="badge badge-warning">{{$t('message.warning')}}</span> {{$t('overwatch.not_updated_yet')}}</h3>
+                <h3 v-if="outdated"><span class="badge badge-warning">{{$t('message.warning')}}</span>
+                    {{$t('overwatch.not_updated_yet')}}</h3>
                 <div v-if="!outdated && daily.user.battletag">
                     <h3 v-if="daily.user.battletag">Contributor</h3>
                     <router-link :to="/profile/+daily.user.battletag.replace(/#/, '%23')">
@@ -54,9 +55,12 @@
                 </div>
             </div>
         </div>
-        <div class="row">
-            <div v-if='outdated && loggedIn && gameconfig' class="mt-2 col-sm-12 col-lg-3">
-                <a :href="gameconfig['update_url']" class="btn btn-warning btn-block">Update</a>
+        <div class="row mt-4" v-if='loggedIn && gameconfig'>
+            <div class="col-12 col-md-4 col-lg-2" v-if="outdated">
+                <a :href="gameconfig['update_url']" class="btn btn-light btn-block"><i class="fa fa-wrench"></i> Update</a>
+            </div>
+            <div class="col-12 col-md-4 col-lg-2 mt-2 mt-md-0" v-if="!outdated">
+                <a href="#" v-on:click="undoGamemode" class="btn btn-light btn-block"><i class="fa fa-undo"></i> Undo</a>
             </div>
         </div>
     </div>
@@ -99,12 +103,14 @@
                     case "overwatch":
                         this.gameconfig = {
                             'update_url': '/staff/overwatch',
+                            'undo_url': '/staff/overwatch/undo',
                             'api_url': '/api/overwatch/today'
                         };
                         return true;
                     case "overwatch2":
                         this.gameconfig = {
                             'update_url': '/staff/overwatch2',
+                            'undo_url': '/staff/overwatch2/undo',
                             'api_url': '/api/overwatch2/today'
                         };
                         return true;
@@ -117,6 +123,28 @@
                         this.outdated = false
                     }
                 })
+            },
+            undoGamemode() {
+                let toasted = this.$toasted;
+                let alert = this.$swal;
+
+                alert.fire({
+                    title: 'Are you sure?',
+                    text: "You\re about to undo today\'s gamemode, are you sure?",
+                    icon: 'warning',
+                    showCancelButton: true,
+                    confirmButtonColor: '#3085d6',
+                    cancelButtonColor: '#d33',
+                    confirmButtonText: 'Yes, delete it!'
+                }).then((result) => {
+                    if (result.value) {
+                        axios.post(this.gameconfig['undo_url']).then(response => {
+                            toasted.show('Daily has been deleted!');
+                            this.outdated = true;
+                            this.getDaily();
+                        });
+                    }
+                });
             },
             isContributor() {
                 this.loggedIn = document.getElementById("loggedIn");

@@ -17,6 +17,10 @@
                 "Name": "Blizzard World",
                 "Players": "6v6"
             },
+            "Blood Moon Rising": {
+                "Name": "Aufgehender Blutmond",
+                "Players": "Co-op"
+            },
             "Busan": {
                 "Name": "Busan",
                 "Players": "6v6"
@@ -41,9 +45,17 @@
                 "Name": "Hol den Hahn",
                 "Players": "6v6"
             },
+            "Challenge Missions": {
+                "Name": "Herausforderungsmissionen",
+                "Players": "Co-op"
+            },
             "Château Deathmatch": {
                 "Name": "Deathmatch im Château",
                 "Players": "FFA – 8 Spieler"
+            },
+            "Close Quarters": {
+                "Name": "Auge in Auge",
+                "Players": "Co-op"
             },
             "Competitive CTF": {
                 "Name": "Kompetitive Flaggeneroberung",
@@ -55,7 +67,7 @@
             },
             "Competitive Elimination": {
                 "Name": "Kompetitive Eliminierung",
-                "Players": "3v3"
+                "Players": "6v6"
             },
             "Competitive Team Deathmatch": {
                 "Name": "Kompetitives Team-Deathmatch",
@@ -76,6 +88,10 @@
             "Elimination": {
                 "Name": "Eliminierung",
                 "Players": "6v6"
+            },
+            "Glass Cannon": {
+                "Name": "Glaskanone",
+                "Players": "Co-op"
             },
             "Havana": {
                 "Name": "Havanna",
@@ -137,6 +153,10 @@
                 "Name": "Missionsarchiv",
                 "Players": "Co-op"
             },
+            "Molten Cores": {
+                "Name": "Geschmolzene Kerne",
+                "Players": "Co-op"
+            },
             "Mystery Deathmatch": {
                 "Name": "Überraschungs-Deathmatch",
                 "Players": "FFA – 8 Spieler"
@@ -193,8 +213,16 @@
                 "Name": "Sturmzeichen (alle Helden)",
                 "Players": "Co-op"
             },
+            "Storm Raging": {
+                "Name": "Tobender Sturm",
+                "Players": "Co-op"
+            },
             "Storm Rising (Story)": {
                 "Name": "Sturmzeichen (Story)",
+                "Players": "Co-op"
+            },
+            "Surgical Strike": {
+                "Name": "Präzisionsschlag",
                 "Players": "Co-op"
             },
             "Team Deathmatch": {
@@ -299,9 +327,9 @@
             "Ilios Lighthouse": "Ilios – Leuchtturm",
             "Ilios Ruins": "Ilios – Ruinen",
             "Ilios Well": "Ilios – Brunnen",
-            "Junkenstein`s Revenge": "Junkensteins Rache",
+            "Junkenstein's Revenge": "Junkensteins Rache",
             "Junkertown": "Junkertown",
-            "King`s Row": "King`s Row",
+            "King's Row": "King's Row",
             "Lijiang Control Center": "Lijiang Tower – Kontrollzentrum",
             "Lijiang Garden": "Lijiang Tower – Garten",
             "Lijiang Night Market": "Lijiang Tower – Nachtmarkt",
@@ -327,7 +355,10 @@
             "Tutorial": "Tutorial",
             "VPP Green Room": "VPP Green Room",
             "Volskaya Industries": "Volskaya Industries",
-            "Watchpoint: Gibraltar": "Watchpoint: Gibraltar"
+            "Watchpoint: Gibraltar": "Watchpoint: Gibraltar",
+            "Workshop Chamber": "Workshop-Raum",
+            "Workshop Expanse": "Workshop-Gebiet",
+            "Workshop Island": "Workshop-Insel"
         }
     },
     "profile": {

@@ -63,7 +63,7 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-sm12 col-md-4">
+            <div class="col-12">
                 <button v-on:click="submitTodayGamemode()" class="btn btn-warning btn-block">Submit</button>
             </div>
         </div>

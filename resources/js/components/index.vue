@@ -20,7 +20,7 @@
                 <router-link to="/about">About</router-link>
             </li>
             <li v-if="loggedIn">
-                <a href="/staff/settings">{{ $t("general.settings") }}</a>
+                <a href="/settings">{{ $t("general.settings") }}</a>
             </li>
         </ul>
     </div>

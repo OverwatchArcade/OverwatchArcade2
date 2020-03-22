@@ -17,6 +17,10 @@
                 "Name": "블리자드 월드",
                 "Players": "6대6"
             },
+            "Blood Moon Rising": {
+                "Name": "떠오르는 핏빛 달",
+                "Players": "협동전"
+            },
             "Busan": {
                 "Name": "부산",
                 "Players": "6대6"
@@ -41,9 +45,17 @@
                 "Name": "깃발 들고 후다닭",
                 "Players": "6대6"
             },
+            "Challenge Missions": {
+                "Name": "도전 임무",
+                "Players": "협동전"
+            },
             "Château Deathmatch": {
                 "Name": "샤토 데스매치",
                 "Players": "8인 개별 전투"
+            },
+            "Close Quarters": {
+                "Name": "근접전",
+                "Players": "협동전"
             },
             "Competitive CTF": {
                 "Name": "깃발 뺏기 경쟁전",
@@ -55,7 +67,7 @@
             },
             "Competitive Elimination": {
                 "Name": "섬멸전 경쟁전",
-                "Players": "3대3"
+                "Players": "6대6"
             },
             "Competitive Team Deathmatch": {
                 "Name": "팀 데스매치 경쟁전",
@@ -76,6 +88,10 @@
             "Elimination": {
                 "Name": "섬멸전",
                 "Players": "6대6"
+            },
+            "Glass Cannon": {
+                "Name": "유리 대포",
+                "Players": "협동전"
             },
             "Havana": {
                 "Name": "하바나",
@@ -137,6 +153,10 @@
                 "Name": "임무 기록 보관소",
                 "Players": "협동전"
             },
+            "Molten Cores": {
+                "Name": "초고열 용암",
+                "Players": "협동전"
+            },
             "Mystery Deathmatch": {
                 "Name": "수수께끼의 데스매치",
                 "Players": "8인 개별 전투"
@@ -193,8 +213,16 @@
                 "Name": "폭풍의 서막 (모든 영웅)",
                 "Players": "협동전"
             },
+            "Storm Raging": {
+                "Name": "폭풍의 분노",
+                "Players": "협동전"
+            },
             "Storm Rising (Story)": {
                 "Name": "폭풍의 서막 (스토리)",
+                "Players": "협동전"
+            },
+            "Surgical Strike": {
+                "Name": "정확한 일격",
                 "Players": "협동전"
             },
             "Team Deathmatch": {
@@ -299,9 +327,9 @@
             "Ilios Lighthouse": "일리오스 등대",
             "Ilios Ruins": "일리오스 폐허",
             "Ilios Well": "일리오스 우물",
-            "Junkenstein`s Revenge": "정켄슈타인의 복수",
+            "Junkenstein's Revenge": "정켄슈타인의 복수",
             "Junkertown": "쓰레기촌",
-            "King`s Row": "왕의 길",
+            "King's Row": "왕의 길",
             "Lijiang Control Center": "리장 관제 센터",
             "Lijiang Garden": "리장 정원",
             "Lijiang Night Market": "리장 야시장",
@@ -327,7 +355,10 @@
             "Tutorial": "튜토리얼",
             "VPP Green Room": "VPP Green Room",
             "Volskaya Industries": "볼스카야 인더스트리",
-            "Watchpoint: Gibraltar": "감시 기지: 지브롤터"
+            "Watchpoint: Gibraltar": "감시 기지: 지브롤터",
+            "Workshop Chamber": "워크샵 방",
+            "Workshop Expanse": "워크샵 개활지",
+            "Workshop Island": "워크샵 섬"
         }
     },
     "profile": {

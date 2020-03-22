@@ -17,6 +17,10 @@
                 "Name": "Blizzard World",
                 "Players": "6х6"
             },
+            "Blood Moon Rising": {
+                "Name": "Кровавая луна",
+                "Players": "Совместный"
+            },
             "Busan": {
                 "Name": "Пусан",
                 "Players": "6х6"
@@ -41,9 +45,17 @@
                 "Name": "Захват Петуха",
                 "Players": "6х6"
             },
+            "Challenge Missions": {
+                "Name": "Испытания",
+                "Players": "Совместный"
+            },
             "Château Deathmatch": {
                 "Name": "Схватка в шато",
                 "Players": "8 игроков (FFA)"
+            },
+            "Close Quarters": {
+                "Name": "Ближний бой",
+                "Players": "Совместный"
             },
             "Competitive CTF": {
                 "Name": "Соревновательный захват флага",
@@ -55,7 +67,7 @@
             },
             "Competitive Elimination": {
                 "Name": "Соревновательная ликвидация",
-                "Players": "3х3"
+                "Players": "6х6"
             },
             "Competitive Team Deathmatch": {
                 "Name": "Соревновательная командная схватка",
@@ -76,6 +88,10 @@
             "Elimination": {
                 "Name": "Ликвидация",
                 "Players": "6х6"
+            },
+            "Glass Cannon": {
+                "Name": "Хрупкие разрушители",
+                "Players": "Совместный"
             },
             "Havana": {
                 "Name": "Гавана",
@@ -99,11 +115,11 @@
             },
             "Junkenstein Endless": {
                 "Name": "Бесконечная месть",
-                "Players": "Совместный режим"
+                "Players": "Совместный"
             },
             "Junkenstein`s Revenge": {
                 "Name": "Месть Крысенштейна",
-                "Players": "Совместный режим"
+                "Players": "Совместный"
             },
             "Junkertown": {
                 "Name": "Джанкертаун",
@@ -135,7 +151,11 @@
             },
             "Mission Archives": {
                 "Name": "Архив заданий",
-                "Players": "Совместный режим"
+                "Players": "Совместный"
+            },
+            "Molten Cores": {
+                "Name": "Перегрев",
+                "Players": "Совместный"
             },
             "Mystery Deathmatch": {
                 "Name": "Схватка вслепую",
@@ -171,11 +191,11 @@
             },
             "Retribution (All Heroes)": {
                 "Name": "Возмездие (все герои)",
-                "Players": "Совместный режим"
+                "Players": "Совместный"
             },
             "Retribution (Story)": {
                 "Name": "Возмездие (сюжет)",
-                "Players": "Совместный режим"
+                "Players": "Совместный"
             },
             "Rialto": {
                 "Name": "Риальто",
@@ -191,11 +211,19 @@
             },
             "Storm RIsing (All Heroes)": {
                 "Name": "Предчувствие бури (все герои)",
-                "Players": "Совместный режим"
+                "Players": "Совместный"
+            },
+            "Storm Raging": {
+                "Name": "Ярость бури",
+                "Players": "Совместный"
             },
             "Storm Rising (Story)": {
                 "Name": "Предчувствие бури (сюжет)",
-                "Players": "Совместный режим"
+                "Players": "Совместный"
+            },
+            "Surgical Strike": {
+                "Name": "Хирургическая точность",
+                "Players": "Совместный"
             },
             "Team Deathmatch": {
                 "Name": "Командная схватка",
@@ -207,11 +235,11 @@
             },
             "Uprising (All Heroes)": {
                 "Name": "Мятеж (все герои)",
-                "Players": "Совместный режим"
+                "Players": "Совместный"
             },
             "Uprising (Story)": {
                 "Name": "Мятеж (сюжет)",
-                "Players": "Совместный режим"
+                "Players": "Совместный"
             },
             "Winter Mystery": {
                 "Name": "Зимняя тайна",
@@ -299,9 +327,9 @@
             "Ilios Lighthouse": "Илиос: маяк",
             "Ilios Ruins": "Илиос: развалины",
             "Ilios Well": "Илиос: колодец",
-            "Junkenstein`s Revenge": "Месть Крысенштейна",
+            "Junkenstein's Revenge": "Месть Крысенштейна",
             "Junkertown": "Джанкертаун",
-            "King`s Row": "Кингс Роу",
+            "King's Row": "Кингс Роу",
             "Lijiang Control Center": "Лицзян: командный центр",
             "Lijiang Garden": "Лицзян: сад",
             "Lijiang Night Market": "Лицзян: ночной рынок",
@@ -327,7 +355,10 @@
             "Tutorial": "Обучение",
             "VPP Green Room": "VPP Green Room",
             "Volskaya Industries": "КБ Вольской",
-            "Watchpoint: Gibraltar": "Пост наблюдения: Гибралтар"
+            "Watchpoint: Gibraltar": "Пост наблюдения: Гибралтар",
+            "Workshop Chamber": "Мастерская: комната",
+            "Workshop Expanse": "Мастерская: поле",
+            "Workshop Island": "Мастерская: остров"
         }
     },
     "profile": {

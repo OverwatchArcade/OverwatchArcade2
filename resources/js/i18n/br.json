@@ -17,6 +17,10 @@
                 "Name": "Blizzard World",
                 "Players": "6v6"
             },
+            "Blood Moon Rising": {
+                "Name": "Lua de Sangue Iminente",
+                "Players": "Coop"
+            },
             "Busan": {
                 "Name": "Busan",
                 "Players": "6v6"
@@ -41,9 +45,17 @@
                 "Name": "Capture o Galo",
                 "Players": "6v6"
             },
+            "Challenge Missions": {
+                "Name": "Missões de Desafio",
+                "Players": "Coop"
+            },
             "Château Deathmatch": {
                 "Name": "Combate até a Morte no Château Guillard",
                 "Players": "TCT de 8 jogadores"
+            },
+            "Close Quarters": {
+                "Name": "Proximidade",
+                "Players": "Coop"
             },
             "Competitive CTF": {
                 "Name": "CaB Competitivo",
@@ -55,7 +67,7 @@
             },
             "Competitive Elimination": {
                 "Name": "Eliminação Competitiva",
-                "Players": "3v3"
+                "Players": "6v6"
             },
             "Competitive Team Deathmatch": {
                 "Name": "Combate até a Morte em Equipe Competitivo",
@@ -76,6 +88,10 @@
             "Elimination": {
                 "Name": "Eliminação",
                 "Players": "6v6"
+            },
+            "Glass Cannon": {
+                "Name": "Canhão de Vidro",
+                "Players": "Coop"
             },
             "Havana": {
                 "Name": "Havana",
@@ -137,6 +153,10 @@
                 "Name": "Arquivos de missão",
                 "Players": "Coop"
             },
+            "Molten Cores": {
+                "Name": "Núcleos Fundidos",
+                "Players": "Coop"
+            },
             "Mystery Deathmatch": {
                 "Name": "Combate até a Morte Surpresa",
                 "Players": "TCT de 8 jogadores"
@@ -193,8 +213,16 @@
                 "Name": "Tempestade Iminente (Todos os Heróis)",
                 "Players": "Coop"
             },
+            "Storm Raging": {
+                "Name": "Fúria da Tempestade",
+                "Players": "Coop"
+            },
             "Storm Rising (Story)": {
                 "Name": "Tempestade Iminente (História)",
+                "Players": "Coop"
+            },
+            "Surgical Strike": {
+                "Name": "Ataque Cirúrgico",
                 "Players": "Coop"
             },
             "Team Deathmatch": {
@@ -299,9 +327,9 @@
             "Ilios Lighthouse": "Farol de Ilios",
             "Ilios Ruins": "Ruínas de Ilios",
             "Ilios Well": "Poço de Ilios",
-            "Junkenstein`s Revenge": "A vingança de Junkenstein",
+            "Junkenstein's Revenge": "A vingança de Junkenstein",
             "Junkertown": "Junkertown",
-            "King`s Row": "King`s Row",
+            "King's Row": "King's Row",
             "Lijiang Control Center": "Centro de Controle Lijiang",
             "Lijiang Garden": "Jardim Lijiang",
             "Lijiang Night Market": "Mercado Noturno de Lijiang",
@@ -327,7 +355,10 @@
             "Tutorial": "Tutorial",
             "VPP Green Room": "VPP Green Room",
             "Volskaya Industries": "Indústrias Volskaya",
-            "Watchpoint: Gibraltar": "Observatório: Gibraltar"
+            "Watchpoint: Gibraltar": "Observatório: Gibraltar",
+            "Workshop Chamber": "Câmara do Workshop",
+            "Workshop Expanse": "Expansão do Workshop",
+            "Workshop Island": "Ilha do Workshop"
         }
     },
     "profile": {

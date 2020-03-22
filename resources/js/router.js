@@ -30,7 +30,7 @@ export default new VueRouter({
         {path: '/api/contributors', component: Api_Contributors, name: 'api_contributors'},
         {path: '/about', component: About, name: 'about'},
         {path: '/profile/*', component: ProfileIndex, name: 'profile_index'},
-        {path: '/staff/settings', component: Settings, name: 'settings'},
+        {path: '/settings', component: Settings, name: 'settings'},
         {path: '/staff/overwatch', component: OverwatchSubmit, name: 'overwatch_submit'},
         {path: '/staff/overwatch2', component: Overwatch2Submit, name: 'overwatch2_submit'},
         {path: '*', component: Notfound, name: '404'}

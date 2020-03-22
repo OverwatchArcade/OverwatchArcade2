@@ -10,8 +10,8 @@
                 <div class="card">
                     <div class="card-body">
                         <h5 class="card-title"><i class="fab fa-discord" style="color:#7289DA"></i> Discord</h5>
-                        <p class="card-text">Greatly exaggerated cosmonauts, to the colony.</p>
-                        <a href="#" class="card-link">Join</a>
+                        <p class="card-text">Join our Discord community</p>
+                        <a href="https://discord.gg/RAEyG9w" class="card-link">Link</a>
                     </div>
                 </div>
             </div>
@@ -19,9 +19,8 @@
                 <div class="card">
                     <div class="card-body">
                         <h5 class="card-title"><i class="fab fa-twitter" style="color:#1DA1F2"></i> Twitter</h5>
-                        <p class="card-text">Moon at the universe that is when boldly vogons experiment.
-                            harvest wildly like an evasive teleporter.</p>
-                        <a href="#" class="card-link">Join</a>
+                        <p class="card-text">Daily updates are also posted on Twitter</p>
+                        <a href="//twitter.com/owarcade" class="card-link">Link</a>
                     </div>
                 </div>
             </div>
@@ -29,9 +28,8 @@
                 <div class="card">
                     <div class="card-body">
                         <h5 class="card-title"><i class="fab fa-windows" style="color:#00A4EF"></i> Microsoft store</h5>
-                        <p class="card-text">Moon at the universe that is when boldly vogons experiment.
-                            harvest wildly like an evasive teleporter.</p>
-                        <a href="#" class="card-link">Join</a>
+                        <p class="card-text">Overwatch Arcade Windows application</p>
+                        <a href="https://www.microsoft.com/en-us/p/ow-arcade-today/9njpp10ndsr4?activetab=pivot:overviewtab" class="card-link">Link</a>
                     </div>
                 </div>
             </div>

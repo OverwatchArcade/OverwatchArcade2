@@ -2,6 +2,7 @@
 
 use App\Models\Config;
 use Illuminate\Database\Seeder;
+use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\File;
 
 class ConfigTableSeeder extends Seeder
@@ -63,5 +64,11 @@ class ConfigTableSeeder extends Seeder
             "key" => Config::KEY_COUNTRIES,
             "value" => json_decode(File::get('database/data/general/countries.json'), true)
         ]);
+
+        Config::create([
+           "key" => Config::KEY_WHITELISTED_UIDS,
+           "value" => json_decode(File::get('database/data/general/whitelisted-ids.json'), true)
+        ]);
+
     }
 }
