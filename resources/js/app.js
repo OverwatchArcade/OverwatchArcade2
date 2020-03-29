@@ -2,7 +2,7 @@ import Vue from "vue";
 import router from "./router"
 import Toasted from 'vue-toasted';
 import alert from "./components/elements/alert";
-import vueMoment from 'vue-moment'
+import vueMoment from 'vue-moment';
 import VueSweetalert2 from 'vue-sweetalert2';
 import VueI18n from 'vue-i18n';
 import Layout from "./components/etc/layout";
@@ -14,7 +14,8 @@ const messages = Object.assign(languages);
 require('./bootstrap');
 
 Vue.use(Toasted, {
-    iconPack : 'fontawesome'
+    iconPack : 'fontawesome',
+    duration: 2500
 });
 Vue.use(vueMoment);
 Vue.use(VueSweetalert2);

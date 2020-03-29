@@ -5,6 +5,7 @@ namespace App\Http\Requests;
 use App\Models\Config;
 use App\Models\Game\Daily;
 use App\Models\Game\Gamemode;
+use App\Rules\Countrylist;
 use Illuminate\Foundation\Http\FormRequest;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Storage;
@@ -34,7 +35,7 @@ class ProfileUpdate extends FormRequest
     {
         $mapConfig = Config::where('key', Config::KEY_OVERWATCH_MAPS)->firstOrFail();
         $characterConfig = Config::where('key', Config::KEY_OVERWATCH_CHARACTERS)->firstOrFail();
-        $countries = Config::where('key', Config::KEY_COUNTRIES)->firstOrFail();
+        $countries =
         $avatarArray = Config::getAvatars();
 
         return [
@@ -42,7 +43,7 @@ class ProfileUpdate extends FormRequest
             'game.mode.*' => 'nullable|exists:gamemodes,name',
             'game.character.*' => ['nullable', Rule::in($characterConfig->value)],
             'profile.avatar' => ['required', Rule::in($avatarArray)],
-            'profile.country' => ['nullable'],
+            'profile.country.code' => ['nullable', new Countrylist],
             'profile.about' => 'nullable|max:500'
         ];
     }

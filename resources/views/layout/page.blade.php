@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
 <head>
-    <title>ABC</title>
+    <title>OverwatchArcade.today</title>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <meta charset="UTF-8">
     <meta name="description"
@@ -12,7 +12,7 @@
 
     <meta property="og:title" content="Overwatch arcade gamemodes - daily updated and get notified easily">
     <meta property="og:site_name" content="OverwatchArcade.today">
-    <meta property="og:url" content="https://overwatcharcade.today/">
+    <meta property="og:url" content="{{env('APP_URL')}}">
     <meta property="og:description"
           content="Discover daily Overwatch arcade gamemodes without having to login to Overwatch. Arcade modes are posted daily. Also get notified by following the Overwatch arcade Twitter or Discord server. Overwatch arcade today also provides a free API so you can create your own implementation. Special thanks to all the contributors">
     <meta property="og:type" content="website">
@@ -27,8 +27,8 @@
     <meta property="twitter:image" content="{{env('APP_URL')}}/img/ogimage-twitter.jpg">
 
     <link rel="shortcut icon" href="favicon.ico"/>
-    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/img/favicon-16x16.png">
 
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">

@@ -24,6 +24,7 @@
                                  :options="countries"
                                  label="name"
                                  track-by="name"
+                                 @input=""
                     ></multiselect>
                 </div>
                 <div class="form-group">
@@ -136,7 +137,7 @@
             previewAvatar(val) {
                 console.log(val);
                 this.user_data.profile_data.profile.avatar = val;
-                this.user_data.avatar = "/img/avatars/"+val;
+                this.user_data.avatar = "/img/avatars/" + val;
             }
         },
         mounted() {

@@ -14,8 +14,6 @@ function getRandomBackground()
     return URL::secure(Arr::random($files));
 }
 
-
-
 /** Returns all the available countries that have translatable files
  * @return array
  */
