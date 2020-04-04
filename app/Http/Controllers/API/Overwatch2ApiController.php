@@ -32,4 +32,5 @@ class Overwatch2ApiController extends Controller
         return response()->json(new Overwatch2ArcadeModesCollection(Gamemode::where('game',
             Daily::GAME_KEY_OVERWATCH2)->get()), 200, [], JSON_PRETTY_PRINT);
     }
+
 }

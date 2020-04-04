@@ -8,6 +8,7 @@
         "warning": "warning"
     },
     "overwatch": {
+        "not_updated_yet": "Not updated yet",
         "arcademodes": {
             "Assault": {
                 "Name": "Assault",

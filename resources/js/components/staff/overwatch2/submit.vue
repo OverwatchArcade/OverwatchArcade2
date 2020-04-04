@@ -112,7 +112,7 @@
         },
         methods: {
             getGamemodes() {
-                return axios.get("/api/overwatch/arcademodes").then(response => {
+                return axios.get("/api/overwatch2/arcademodes").then(response => {
                     this.options = response.data;
                 })
             },

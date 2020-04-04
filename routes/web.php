@@ -22,12 +22,9 @@ Route::get('/api/overwatch2/arcademodes', 'API\Overwatch2ApiController@gamemodes
 Route::get('/api/users', 'API\UserApiController@getAllUsers');
 Route::get('/api/user/{battletag}', 'API\UserApiController@getUserProfile');
 
-Route::get('https://google.com')->name('API_SCREENSHOT');
-
 Route::get('/settings', 'ContributeController@settings');
 Route::post('/settings/user/update', 'ContributeController@updateUserProfile');
 Route::get('/api/avatars', 'ContributeController@getAvatars');
-
 
 Route::get('/staff/overwatch', 'ContributeController@overwatch_submit_index');
 Route::get('/staff/overwatch2', 'ContributeController@overwatch2_submit_index');

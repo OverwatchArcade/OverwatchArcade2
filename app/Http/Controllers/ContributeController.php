@@ -2,17 +2,15 @@
 
 namespace App\Http\Controllers;
 
-use App\Http\Requests\ArcadeModePost;
+use App\Http\Requests\Overwatch2ArcadeModeSubmit;
+use App\Http\Requests\OverwatchArcadeModeSubmit;
 use App\Http\Requests\ProfileUpdate;
 use App\Jobs\TwitterPost;
 use App\Models\Config;
 use App\Models\Game\Daily;
-use App\Models\Game\Gamemode;
-use Carbon\Carbon;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
-use Illuminate\Support\Facades\File;
-use Illuminate\Support\Facades\Storage;
+
 
 class ContributeController extends Controller
 {
@@ -58,7 +56,7 @@ class ContributeController extends Controller
      * @param ArcadeModePost $request
      * @return \Illuminate\Contracts\Routing\ResponseFactory|\Illuminate\Http\JsonResponse|\Illuminate\Http\Response
      */
-    public function submitOverwatchTodaysArcade(ArcadeModePost $request)
+    public function submitOverwatchTodaysArcade(OverwatchArcadeModeSubmit $request)
     {
         if (Daily::hasGamemodesSetToday(Daily::GAME_KEY_OVERWATCH)) {
             return response('Gamemode has already been set', 409);
@@ -87,7 +85,7 @@ class ContributeController extends Controller
      * @param ArcadeModePost $request
      * @return \Illuminate\Contracts\Routing\ResponseFactory|\Illuminate\Http\JsonResponse|\Illuminate\Http\Response
      */
-    public function submitOverwatch2TodaysArcade(ArcadeModePost $request)
+    public function submitOverwatch2TodaysArcade(Overwatch2ArcadeModeSubmit $request)
     {
         if (Daily::hasGamemodesSetToday(Daily::GAME_KEY_OVERWATCH2)) {
             return response('Gamemode has already been set', 409);

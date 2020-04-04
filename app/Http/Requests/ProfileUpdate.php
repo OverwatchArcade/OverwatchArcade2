@@ -35,7 +35,6 @@ class ProfileUpdate extends FormRequest
     {
         $mapConfig = Config::where('key', Config::KEY_OVERWATCH_MAPS)->firstOrFail();
         $characterConfig = Config::where('key', Config::KEY_OVERWATCH_CHARACTERS)->firstOrFail();
-        $countries =
         $avatarArray = Config::getAvatars();
 
         return [

@@ -24,6 +24,7 @@
                 <div class="col-12 col-md-2">
                     <Multiselect v-model="language" :options="options" label="name" :searchable="true"
                                  @close="changeLanguage"
+                                 :allow-empty="false"
                                  :close-on-select="true"
                                  :show-labels="false">
                         <template slot="singleLabel" slot-scope="props">

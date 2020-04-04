@@ -17,7 +17,9 @@ class UserApiController extends Controller
      */
     public function getAllUsers()
     {
-        $users = User::all();
+        $users = User::all()->sortByDesc(function ($user) {
+            return $user->getContributedDailies->count();
+        });
         return response()->json(new UserCollection($users), 200, [], JSON_PRETTY_PRINT);
     }
 
