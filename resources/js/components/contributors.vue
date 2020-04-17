@@ -27,7 +27,6 @@
         methods: {
             getContributors() {
                 return axios.get('/api/users').then(response => {
-                    console.log(response.data);
                     this.contributors = response.data;
                 })
             },

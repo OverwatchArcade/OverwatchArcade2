@@ -17,11 +17,11 @@ class GamemodeTableSeeder extends Seeder
     {
         DB::table('gamemodes')->truncate();
 
-        $json = File::get('database/data/overwatch/arcademodes.json');
-        foreach(json_decode($json, true) as $mode){
+        $json = File::get('resources/js/i18n/us.json');
+        foreach(json_decode($json, true)['overwatch']['arcademodes'] as $key => $value){
             $gamemode = new Gamemode();
-            $gamemode->name = $mode['title'];
-            $gamemode->players = $mode['players'];
+            $gamemode->name = $value['Name'];
+            $gamemode->players = $value['Players'];
             $gamemode->game = Daily::GAME_KEY_OVERWATCH;
             $gamemode->save();
         }

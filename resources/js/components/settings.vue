@@ -24,7 +24,6 @@
                                  :options="countries"
                                  label="name"
                                  track-by="name"
-                                 @input=""
                     ></multiselect>
                 </div>
                 <div class="form-group">
@@ -73,14 +72,13 @@
     import countries from '../../../database/data/general/countries.json';
     import maps from '../../../database/data/overwatch/maps.json';
     import characters from '../../../database/data/overwatch/characters.json';
-    import arcademodes from '../../../database/data/overwatch/arcademodes.json';
 
     export default {
         name: "settings",
         data() {
             return {
                 user_data: {
-                    "avatar": "//via.placeholder.com/450x450",
+                    "avatar": "/img/avatars/default.jpg",
                     "profile_data": {
                         "game": {
                             "mode": [],
@@ -98,7 +96,7 @@
                 overwatch: {
                     maps: this.getTitleValues(maps),
                     characters: this.getTitleValues(characters),
-                    arcademodes: this.getTitleValues(arcademodes)
+                    arcademodes: []
                 },
                 countries: countries,
                 avatars: []
@@ -110,7 +108,6 @@
         methods: {
             updateProfile() {
                 return axios.post("/settings/user/update", this.user_data.profile_data).then(response => {
-                    console.log(response);
                     this.$toasted.show("Profile succesfully updated!", {
                         theme: "outline",
                         position: "top-right",
@@ -135,7 +132,6 @@
                 return arr;
             },
             previewAvatar(val) {
-                console.log(val);
                 this.user_data.profile_data.profile.avatar = val;
                 this.user_data.avatar = "/img/avatars/" + val;
             }
@@ -143,10 +139,9 @@
         mounted() {
             let username = document.getElementById('username').innerHTML.replace(/#/, '%23');
             axios.get('/api/user/' + username).then(response => {
-                console.log(response.data);
                 if (Object.keys(response.data.profile_data).length) {
                     this.user_data.profile_data = response.data.profile_data;
-                    this.user_data.profile_data.profile.avatar = (response.data.avatar).replace("http://overwatch2.test/img/avatars/", "");
+                    this.user_data.profile_data.profile.avatar = response.data.avatar.replace(/(.*)img\/avatars\//, "");
                     this.user_data.avatar = response.data.avatar;
                 }
                 this.user_data.name = response.data.name;
@@ -154,6 +149,12 @@
 
             axios.get('/api/avatars').then(response => {
                 this.avatars = response.data;
+            });
+
+            axios.get('/api/overwatch/arcademodes').then(response => {
+                let arr = [];
+                response.data.forEach(element => arr.push(element.name));
+                this.overwatch.arcademodes = arr;
             });
 
         }

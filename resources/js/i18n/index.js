@@ -1,4 +1,5 @@
 import br from "./br.json"
+import cn from "./cn.json"
 import de from "./de.json"
 import es from "./es.json"
 import fr from "./fr.json"
@@ -15,6 +16,7 @@ export const defaultLocale = 'US';
 
 export const languages = {
   BR: br,
+  CN: cn,
   DE: de,
   ES: es,
   FR: fr,

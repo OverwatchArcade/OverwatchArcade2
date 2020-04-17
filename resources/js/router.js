@@ -21,18 +21,18 @@ export default new VueRouter({
     routes: [
         {path: '/', component: Index, name: 'dashboard'},
         {path: '/overwatch', component: Overwatch, name: 'overwatch'},
-        {path: '/overwatch2', component: Overwatch, name: 'overwatch2'},
+        // {path: '/overwatch2', component: Overwatch, name: 'overwatch2'},
         {path: '/contributors', component: Contributors, name: 'contributors'},
         {path: '/notifications', component: Notifications, name: 'notifications'},
         {path: '/api', component: Api_Index, name: 'api'},
         {path: '/api/overwatch', component: Api_Overwatch, name: 'api_overwatch'},
-        {path: '/api/overwatch2', component: Api_Overwatch2, name: 'api_overwatch2'},
+        // {path: '/api/overwatch2', component: Api_Overwatch2, name: 'api_overwatch2'},
         {path: '/api/contributors', component: Api_Contributors, name: 'api_contributors'},
         {path: '/about', component: About, name: 'about'},
         {path: '/profile/*', component: ProfileIndex, name: 'profile_index'},
         {path: '/settings', component: Settings, name: 'settings'},
         {path: '/staff/overwatch', component: OverwatchSubmit, name: 'overwatch_submit'},
-        {path: '/staff/overwatch2', component: Overwatch2Submit, name: 'overwatch2_submit'},
+        // {path: '/staff/overwatch2', component: Overwatch2Submit, name: 'overwatch2_submit'},
         {path: '*', component: Notfound, name: '404'}
     ],
     mode: 'history'

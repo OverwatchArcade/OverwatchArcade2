@@ -5,10 +5,14 @@
         "settings": "settings"
     },
     "message": {
-        "warning": "warning"
+        "warning": "Предупреждение"
     },
     "overwatch": {
         "arcademodes": {
+            "Almost No Limits": {
+                "Name": "Почти без ограничений",
+                "Players": "6х6"
+            },
             "Assault": {
                 "Name": "Захват точек",
                 "Players": "6х6"
@@ -67,6 +71,10 @@
             },
             "Competitive Elimination": {
                 "Name": "Соревновательная ликвидация",
+                "Players": "6х6"
+            },
+            "Competitive Open Queue": {
+                "Name": "Открытый соревновательный режим",
                 "Players": "6х6"
             },
             "Competitive Team Deathmatch": {
@@ -250,6 +258,7 @@
                 "Players": "5х1"
             }
         },
+        "day_resets_in": "День перезагружается в",
         "heroes": {
             "Ana": "Ана",
             "Ashe": "Эш",
@@ -262,6 +271,7 @@
             "D.Va": "D.Va",
             "Detonator": "«Детонатор»",
             "Doomfist": "Кулак Смерти",
+            "Echo": "Эхо",
             "Enforcer": "Каратель",
             "Eradicator": "«Ликвидатор»",
             "Friendly Bot": "Робот-союзник",
@@ -301,9 +311,9 @@
             "Zomnic": "Зомник"
         },
         "labels": {
-            "Daily": "Daily",
-            "Permanent": "Permanent",
-            "Weekly": "Weekly"
+            "Daily": "Ежедневно",
+            "Permanent": "Перманентный",
+            "Weekly": "Еженедельно"
         },
         "maps": {
             "Ayutthaya": "Аюттайя",
@@ -359,14 +369,15 @@
             "Workshop Chamber": "Мастерская: комната",
             "Workshop Expanse": "Мастерская: поле",
             "Workshop Island": "Мастерская: остров"
-        }
+        },
+        "not_updated_yet": "Сегодня аркада еще не обновлен"
     },
     "profile": {
         "about": "About",
         "contributor_subline": "Contributor since {date} with a total of {contributions} contributions",
-        "favourite_arcade_heroes": "Favourite heroes",
-        "favourite_arcade_maps": "Favourite maps",
-        "favourite_arcade_modes": "Favourite arcade modes",
+        "favourite_arcade_heroes": "Любимые герои",
+        "favourite_arcade_maps": "Любимые карты",
+        "favourite_arcade_modes": "Любимые аркады режимы",
         "last_submit": "Last submit"
     }
 }

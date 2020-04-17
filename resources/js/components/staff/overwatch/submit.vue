@@ -17,21 +17,21 @@
                 <div class="row mb-4">
                     <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4 mb-4">
                         <card :gamemode="daily.modes.tile_2"></card>
-                        <multiselect v-model="value['tile_2']" 
+                        <multiselect v-model="value['tile_2']"
                                      @input="onChange(value['tile_2'], 'tile_2')" :options="options" :searchable="true"
                                      :close-on-select="true" :custom-label="multiSelectLabel"
                                      :show-labels="true" placeholder="Choose gamemode"></multiselect>
                     </div>
                     <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4 mb-4">
                         <card :gamemode="daily.modes.tile_3"></card>
-                        <multiselect v-model="value['tile_3']" 
+                        <multiselect v-model="value['tile_3']"
                                      @input="onChange(value['tile_3'], 'tile_3')" :options="options" :searchable="true"
                                      :close-on-select="true" :custom-label="multiSelectLabel"
                                      :show-labels="true" placeholder="Choose gamemode"></multiselect>
                     </div>
                     <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4 mb-4">
                         <card :gamemode="daily.modes.tile_4"></card>
-                        <multiselect v-model="value['tile_4']" 
+                        <multiselect v-model="value['tile_4']"
                                      @input="onChange(value['tile_4'], 'tile_4')" :options="options" :searchable="true"
                                      :close-on-select="true" :custom-label="multiSelectLabel"
                                      :show-labels="true" placeholder="Choose gamemode"></multiselect>
@@ -40,21 +40,21 @@
                 <div class="row">
                     <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4 mb-4">
                         <card :gamemode="daily.modes.tile_5"></card>
-                        <multiselect v-model="value['tile_5']" 
+                        <multiselect v-model="value['tile_5']"
                                      @input="onChange(value['tile_5'], 'tile_5')" :options="options" :searchable="true"
                                      :close-on-select="true" :custom-label="multiSelectLabel"
                                      :show-labels="true" placeholder="Choose gamemode"></multiselect>
                     </div>
                     <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4 mb-4">
                         <card :gamemode="daily.modes.tile_6"></card>
-                        <multiselect v-model="value['tile_6']" 
+                        <multiselect v-model="value['tile_6']"
                                      @input="onChange(value['tile_6'], 'tile_6')" :options="options" :searchable="true"
                                      :close-on-select="true" :custom-label="multiSelectLabel"
                                      :show-labels="true" placeholder="Choose gamemode"></multiselect>
                     </div>
                     <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4 mb-4">
                         <card :gamemode="daily.modes.tile_7"></card>
-                        <multiselect v-model="value['tile_7']" 
+                        <multiselect v-model="value['tile_7']"
                                      @input="onChange(value['tile_7'], 'tile_7')" :options="options" :searchable="true"
                                      :close-on-select="true" :custom-label="multiSelectLabel"
                                      :show-labels="true" placeholder="Choose gamemode"></multiselect>
@@ -147,7 +147,6 @@
                     } else {
                         toasted.show("Something went wrong, are you sure you've filled in all the modes?");
                     }
-                    console.log(error.response);
                 })
             },
             onChange(value, id) {

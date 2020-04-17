@@ -5,10 +5,14 @@
         "settings": "settings"
     },
     "message": {
-        "warning": "warning"
+        "warning": "警告"
     },
     "overwatch": {
         "arcademodes": {
+            "Almost No Limits": {
+                "Name": "幾乎無限制",
+                "Players": "6v6"
+            },
             "Assault": {
                 "Name": "佔領",
                 "Players": "6v6"
@@ -67,6 +71,10 @@
             },
             "Competitive Elimination": {
                 "Name": "鎖定對決競技模式",
+                "Players": "6v6"
+            },
+            "Competitive Open Queue": {
+                "Name": "自由佇列競技對戰",
                 "Players": "6v6"
             },
             "Competitive Team Deathmatch": {
@@ -250,6 +258,7 @@
                 "Players": "5v1"
             }
         },
+        "day_resets_in": "日在復位",
         "heroes": {
             "Ana": "安娜",
             "Ashe": "艾西",
@@ -262,6 +271,7 @@
             "D.Va": "D.Va",
             "Detonator": "炸彈機兵",
             "Doomfist": "毀滅拳王",
+            "Echo": "迴音",
             "Enforcer": "強化兵",
             "Eradicator": "殲滅機兵",
             "Friendly Bot": "我方機器人",
@@ -301,9 +311,9 @@
             "Zomnic": "屍械"
         },
         "labels": {
-            "Daily": "Daily",
-            "Permanent": "Permanent",
-            "Weekly": "Weekly"
+            "Daily": "日常",
+            "Permanent": "常駐",
+            "Weekly": "每週"
         },
         "maps": {
             "Ayutthaya": "大城",
@@ -359,14 +369,15 @@
             "Workshop Chamber": "工作坊房間",
             "Workshop Expanse": "工作坊延伸區域",
             "Workshop Island": "工作坊島嶼"
-        }
+        },
+        "not_updated_yet": "如今的街機尚未更新"
     },
     "profile": {
         "about": "About",
         "contributor_subline": "Contributor since {date} with a total of {contributions} contributions",
-        "favourite_arcade_heroes": "Favourite heroes",
-        "favourite_arcade_maps": "Favourite maps",
-        "favourite_arcade_modes": "Favourite arcade modes",
+        "favourite_arcade_heroes": "最喜歡的英雄",
+        "favourite_arcade_maps": "最喜歡的地圖",
+        "favourite_arcade_modes": "最喜歡的街機模式",
         "last_submit": "Last submit"
     }
 }

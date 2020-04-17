@@ -5,10 +5,14 @@
         "settings": "settings"
     },
     "message": {
-        "warning": "warning"
+        "warning": "Ostrzeżenie"
     },
     "overwatch": {
         "arcademodes": {
+            "Almost No Limits": {
+                "Name": "Prawie bez ograniczeń",
+                "Players": "6 na 6"
+            },
             "Assault": {
                 "Name": "Szturm",
                 "Players": "6 na 6"
@@ -67,6 +71,10 @@
             },
             "Competitive Elimination": {
                 "Name": "Rywalizacja w trybie Eliminacji",
+                "Players": "6 na 6"
+            },
+            "Competitive Open Queue": {
+                "Name": "Otwarta Rywalizacja",
                 "Players": "6 na 6"
             },
             "Competitive Team Deathmatch": {
@@ -250,6 +258,7 @@
                 "Players": "5 NA 1"
             }
         },
+        "day_resets_in": "Resetuje dnia w",
         "heroes": {
             "Ana": "Ana",
             "Ashe": "Ashe",
@@ -262,6 +271,7 @@
             "D.Va": "D.Va",
             "Detonator": "Wybuchacz",
             "Doomfist": "Pięść Zagłady",
+            "Echo": "Echo",
             "Enforcer": "Egzekutor",
             "Eradicator": "Eksterminator",
             "Friendly Bot": "Przyjazny bot",
@@ -301,9 +311,9 @@
             "Zomnic": "Złomnik"
         },
         "labels": {
-            "Daily": "Daily",
-            "Permanent": "Permanent",
-            "Weekly": "Weekly"
+            "Daily": "Codziennie",
+            "Permanent": "Stały",
+            "Weekly": "Co tydzień"
         },
         "maps": {
             "Ayutthaya": "Ayutthaya",
@@ -359,14 +369,15 @@
             "Workshop Chamber": "Warsztat: Komnata",
             "Workshop Expanse": "Warsztat: Przestwór",
             "Workshop Island": "Warsztat: Wyspa"
-        }
+        },
+        "not_updated_yet": "Dzisiejsze zręcznościowa nie została jeszcze zaktualizowana"
     },
     "profile": {
         "about": "About",
         "contributor_subline": "Contributor since {date} with a total of {contributions} contributions",
-        "favourite_arcade_heroes": "Favourite heroes",
-        "favourite_arcade_maps": "Favourite maps",
-        "favourite_arcade_modes": "Favourite arcade modes",
+        "favourite_arcade_heroes": "Ulubione bohaterowie",
+        "favourite_arcade_maps": "Ulubione mapy",
+        "favourite_arcade_modes": "Ulubione zręcznościowe tryby",
         "last_submit": "Last submit"
     }
 }

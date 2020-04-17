@@ -147,7 +147,6 @@
                     } else {
                         toasted.show("Something went wrong, are you sure you've filled in all the modes?");
                     }
-                    console.log(error.response);
                 })
             },
             onChange(value, id) {

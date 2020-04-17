@@ -17,14 +17,14 @@
                         <router-link to="/api/overwatch" class="card-link">View</router-link></div>
                 </div>
             </div>
-            <div class="col-12 col-md-4 mb-2 mb-sm-0">
-                <div class="card">
-                    <div class="card-body">
-                        <h5 class="card-title">Overwatch 2</h5>
-                        <p class="card-text">Featuring Today's arcade and available gamemodes</p>
-                        <router-link to="/api/overwatch2" class="card-link">View</router-link></div>
-                </div>
-            </div>
+<!--            <div class="col-12 col-md-4 mb-2 mb-sm-0">-->
+<!--                <div class="card">-->
+<!--                    <div class="card-body">-->
+<!--                        <h5 class="card-title">Overwatch 2</h5>-->
+<!--                        <p class="card-text">Featuring Today's arcade and available gamemodes</p>-->
+<!--                        <router-link to="/api/overwatch2" class="card-link">View</router-link></div>-->
+<!--                </div>-->
+<!--            </div>-->
             <div class="col-12 col-md-4 mb-2 mb-sm-0">
                 <div class="card">
                     <div class="card-body">

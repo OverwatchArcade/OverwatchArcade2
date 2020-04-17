@@ -50,16 +50,18 @@
                 language: {name: 'English', code: 'US'},
                 options: [
                     {name: 'English', code: 'US'},
-                    {name: 'German', code: 'DE'},
                     {name: 'Portuguese', code: 'BR'},
+                    {name: 'Chinese', code: 'CN'},
+                    {name: 'German', code: 'DE'},
                     {name: 'Spanish', code: 'ES'},
                     {name: 'French', code: 'FR'},
                     {name: 'Italian', code: 'IT'},
                     {name: 'Japanese', code: 'JP'},
                     {name: 'Korean', code: 'KR'},
+                    {name: 'Mexican', code: 'MX'},
                     {name: 'Polish', code: 'PL'},
                     {name: 'Russian', code: 'RU'},
-                    {name: 'Taiwanese', code: 'TW'}
+                    {name: 'Taiwanese', code: 'TW'},
                 ]
             }
         },

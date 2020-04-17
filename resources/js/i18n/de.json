@@ -5,10 +5,14 @@
         "settings": "settings"
     },
     "message": {
-        "warning": "warning"
+        "warning": "Warnung"
     },
     "overwatch": {
         "arcademodes": {
+            "Almost No Limits": {
+                "Name": "Fast keine Beschränkungen",
+                "Players": "6v6"
+            },
             "Assault": {
                 "Name": "Angriff",
                 "Players": "6v6"
@@ -67,6 +71,10 @@
             },
             "Competitive Elimination": {
                 "Name": "Kompetitive Eliminierung",
+                "Players": "6v6"
+            },
+            "Competitive Open Queue": {
+                "Name": "Kompetitiv – Freie Rollenwahl",
                 "Players": "6v6"
             },
             "Competitive Team Deathmatch": {
@@ -250,6 +258,7 @@
                 "Players": "5v1"
             }
         },
+        "day_resets_in": "Tag setzt auf",
         "heroes": {
             "Ana": "Ana",
             "Ashe": "Ashe",
@@ -262,6 +271,7 @@
             "D.Va": "D.Va",
             "Detonator": "Detonator",
             "Doomfist": "Doomfist",
+            "Echo": "Echo",
             "Enforcer": "Eliteeinheit",
             "Eradicator": "Eradicator",
             "Friendly Bot": "Verbündeter Bot",
@@ -301,9 +311,9 @@
             "Zomnic": "Zomnic"
         },
         "labels": {
-            "Daily": "Daily",
-            "Permanent": "Permanent",
-            "Weekly": "Weekly"
+            "Daily": "Täglich",
+            "Permanent": "Dauerhaft",
+            "Weekly": "Wöchentlich"
         },
         "maps": {
             "Ayutthaya": "Ayutthaya",
@@ -359,14 +369,15 @@
             "Workshop Chamber": "Workshop-Raum",
             "Workshop Expanse": "Workshop-Gebiet",
             "Workshop Island": "Workshop-Insel"
-        }
+        },
+        "not_updated_yet": "Die heutige arcade wurde noch nicht aktualisiert"
     },
     "profile": {
         "about": "About",
         "contributor_subline": "Contributor since {date} with a total of {contributions} contributions",
-        "favourite_arcade_heroes": "Favourite heroes",
-        "favourite_arcade_maps": "Favourite maps",
-        "favourite_arcade_modes": "Favourite arcade modes",
+        "favourite_arcade_heroes": "Lieblingshelden",
+        "favourite_arcade_maps": "Lieblingskarten",
+        "favourite_arcade_modes": "Lieblings arcade-modi",
         "last_submit": "Last submit"
     }
 }

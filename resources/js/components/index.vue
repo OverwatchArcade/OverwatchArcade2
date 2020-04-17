@@ -4,9 +4,9 @@
             <li>
                 <router-link to="/overwatch">Overwatch</router-link>
             </li>
-            <li>
-                <router-link to="/overwatch2">Overwatch 2</router-link>
-            </li>
+<!--            <li>-->
+<!--                <router-link to="/overwatch2">Overwatch 2</router-link>-->
+<!--            </li>-->
             <li>
                 <router-link to="/contributors">{{ $t("general.contributors") }}</router-link>
             </li>

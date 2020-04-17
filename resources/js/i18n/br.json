@@ -5,10 +5,14 @@
         "settings": "settings"
     },
     "message": {
-        "warning": "warning"
+        "warning": "Atenção"
     },
     "overwatch": {
         "arcademodes": {
+            "Almost No Limits": {
+                "Name": "Quase Sem Limites",
+                "Players": "6v6"
+            },
             "Assault": {
                 "Name": "Ataque",
                 "Players": "6v6"
@@ -67,6 +71,10 @@
             },
             "Competitive Elimination": {
                 "Name": "Eliminação Competitiva",
+                "Players": "6v6"
+            },
+            "Competitive Open Queue": {
+                "Name": "Competitivo - Fila Aberta",
                 "Players": "6v6"
             },
             "Competitive Team Deathmatch": {
@@ -250,6 +258,7 @@
                 "Players": "5v1"
             }
         },
+        "day_resets_in": "Resets dia no",
         "heroes": {
             "Ana": "Ana",
             "Ashe": "Ashe",
@@ -262,6 +271,7 @@
             "D.Va": "D.Va",
             "Detonator": "Detonador",
             "Doomfist": "Doomfist",
+            "Echo": "Echo",
             "Enforcer": "Executor",
             "Eradicator": "Erradicador",
             "Friendly Bot": "Bot aliado",
@@ -301,9 +311,9 @@
             "Zomnic": "Zômnico"
         },
         "labels": {
-            "Daily": "Daily",
-            "Permanent": "Permanent",
-            "Weekly": "Weekly"
+            "Daily": "Diariamente",
+            "Permanent": "Permanente",
+            "Weekly": "Semanal"
         },
         "maps": {
             "Ayutthaya": "Ayutthaya",
@@ -359,14 +369,15 @@
             "Workshop Chamber": "Câmara do Workshop",
             "Workshop Expanse": "Expansão do Workshop",
             "Workshop Island": "Ilha do Workshop"
-        }
+        },
+        "not_updated_yet": "Arcada de hoje ainda não foi atualizada"
     },
     "profile": {
         "about": "About",
         "contributor_subline": "Contributor since {date} with a total of {contributions} contributions",
-        "favourite_arcade_heroes": "Favourite heroes",
-        "favourite_arcade_maps": "Favourite maps",
-        "favourite_arcade_modes": "Favourite arcade modes",
+        "favourite_arcade_heroes": "Heróis favoritos",
+        "favourite_arcade_maps": "Mapas favoritos",
+        "favourite_arcade_modes": "Modos de arcada favoritos",
         "last_submit": "Last submit"
     }
 }

@@ -1,0 +1,383 @@
+{
+    "general": {
+        "contributors": "contributors",
+        "notifications": "notifications",
+        "settings": "settings"
+    },
+    "message": {
+        "warning": "警告"
+    },
+    "overwatch": {
+        "arcademodes": {
+            "Almost No Limits": {
+                "Name": "几乎没有限制",
+                "Players": "6v6"
+            },
+            "Assault": {
+                "Name": "攻防作战",
+                "Players": "6v6"
+            },
+            "Blizzard World": {
+                "Name": "暴雪世界",
+                "Players": "6v6"
+            },
+            "Blood Moon Rising": {
+                "Name": "血月之夜",
+                "Players": "合作"
+            },
+            "Busan": {
+                "Name": "釜山",
+                "Players": "6v6"
+            },
+            "CTF Blitz": {
+                "Name": "勇夺锦旗闪电赛",
+                "Players": "6v6"
+            },
+            "CTF: Ayutthaya Only": {
+                "Name": "勇夺锦旗：阿育陀耶",
+                "Players": "6v6"
+            },
+            "CTF: Busan": {
+                "Name": "勇夺锦旗：釜山",
+                "Players": "6v6"
+            },
+            "Capture the Flag": {
+                "Name": "勇夺锦旗",
+                "Players": "6v6"
+            },
+            "Capture the Rooster": {
+                "Name": "勇夺金鸡",
+                "Players": "6v6"
+            },
+            "Challenge Missions": {
+                "Name": "挑战任务",
+                "Players": "合作"
+            },
+            "Château Deathmatch": {
+                "Name": "古堡死斗",
+                "Players": "8人自由混战"
+            },
+            "Close Quarters": {
+                "Name": "短兵相接",
+                "Players": "合作"
+            },
+            "Competitive CTF": {
+                "Name": "竞技夺旗",
+                "Players": "6v6"
+            },
+            "Competitive Deathmatch": {
+                "Name": "竞技死斗",
+                "Players": "8人自由混战"
+            },
+            "Competitive Elimination": {
+                "Name": "决斗先锋竞技比赛",
+                "Players": "6v6"
+            },
+            "Competitive Open Queue": {
+                "Name": "开放排位竞技比赛",
+                "Players": "6v6"
+            },
+            "Competitive Team Deathmatch": {
+                "Name": "团队死斗竞技模式",
+                "Players": "4v4"
+            },
+            "Copa Lúcioball": {
+                "Name": "动感斗球杯",
+                "Players": "3v3"
+            },
+            "Deathmatch": {
+                "Name": "死斗",
+                "Players": "8人自由混战"
+            },
+            "Doomfist Elimination": {
+                "Name": "末日决斗",
+                "Players": "6v6"
+            },
+            "Elimination": {
+                "Name": "决斗先锋",
+                "Players": "6v6"
+            },
+            "Glass Cannon": {
+                "Name": "玻璃大炮",
+                "Players": "合作"
+            },
+            "Havana": {
+                "Name": "哈瓦那",
+                "Players": "6v6"
+            },
+            "Hero Gauntlet": {
+                "Name": "英雄对决",
+                "Players": "8人自由混战"
+            },
+            "Horizon Lunar Colony": {
+                "Name": "“地平线”月球基地",
+                "Players": "仅限6v6队伍"
+            },
+            "Horizon No Limits": {
+                "Name": "“地平线”自由乱斗",
+                "Players": "6v6"
+            },
+            "Hybrid": {
+                "Name": "攻击/护送",
+                "Players": "6v6"
+            },
+            "Junkenstein Endless": {
+                "Name": "怪鼠复仇（无尽模式）",
+                "Players": "合作"
+            },
+            "Junkenstein`s Revenge": {
+                "Name": "怪鼠复仇",
+                "Players": "合作"
+            },
+            "Junkertown": {
+                "Name": "渣客镇",
+                "Players": "6v6"
+            },
+            "Junkertown Mystery Heroes": {
+                "Name": "未知英雄：渣客镇",
+                "Players": "6v6"
+            },
+            "Limited Duel": {
+                "Name": "限定对决",
+                "Players": "1v1"
+            },
+            "Low Gravity": {
+                "Name": "失重环境",
+                "Players": "6v6"
+            },
+            "Lúcioball": {
+                "Name": "动感斗球",
+                "Players": "3v3"
+            },
+            "Mei`s Snowball Offensive": {
+                "Name": "雪球攻势",
+                "Players": "6v6"
+            },
+            "Mirrored Deathmatch": {
+                "Name": "镜像死斗",
+                "Players": "8人自由混战"
+            },
+            "Mission Archives": {
+                "Name": "行动档案",
+                "Players": "合作"
+            },
+            "Molten Cores": {
+                "Name": "熔火核心",
+                "Players": "合作"
+            },
+            "Mystery Deathmatch": {
+                "Name": "神秘死斗",
+                "Players": "8人自由混战"
+            },
+            "Mystery Duel": {
+                "Name": "神秘决斗",
+                "Players": "1v1"
+            },
+            "Mystery Heroes": {
+                "Name": "未知英雄",
+                "Players": "6v6"
+            },
+            "No Limits": {
+                "Name": "自由乱斗",
+                "Players": "6v6"
+            },
+            "No Limits Payloads": {
+                "Name": "无限运载目标",
+                "Players": "6v6"
+            },
+            "Paris": {
+                "Name": "巴黎",
+                "Players": "6v6"
+            },
+            "Petra Deathmatch": {
+                "Name": "佩特拉死斗",
+                "Players": "8人自由混战"
+            },
+            "Quick Play Classic": {
+                "Name": "经典快速游戏",
+                "Players": "6v6"
+            },
+            "Retribution (All Heroes)": {
+                "Name": "威尼斯行动（全英雄）",
+                "Players": "合作"
+            },
+            "Retribution (Story)": {
+                "Name": "威尼斯行动（剧情模式）",
+                "Players": "合作"
+            },
+            "Rialto": {
+                "Name": "里阿尔托",
+                "Players": "6v6"
+            },
+            "Skirmish": {
+                "Name": "突击模式",
+                "Players": "6v6"
+            },
+            "Snowball Deathmatch": {
+                "Name": "雪球死斗",
+                "Players": "8人自由混战"
+            },
+            "Storm RIsing (All Heroes)": {
+                "Name": "哈瓦那行动（全英雄）",
+                "Players": "合作"
+            },
+            "Storm Raging": {
+                "Name": "暴风骤雨",
+                "Players": "合作"
+            },
+            "Storm Rising (Story)": {
+                "Name": "哈瓦那行动（剧情模式）",
+                "Players": "合作"
+            },
+            "Surgical Strike": {
+                "Name": "精准打击",
+                "Players": "合作"
+            },
+            "Team Deathmatch": {
+                "Name": "团队死斗",
+                "Players": "4v4"
+            },
+            "Total Mayhem": {
+                "Name": "战斗狂欢",
+                "Players": "6v6"
+            },
+            "Uprising (All Heroes)": {
+                "Name": "国王行动（全英雄）",
+                "Players": "合作"
+            },
+            "Uprising (Story)": {
+                "Name": "国王行动（剧情模式）",
+                "Players": "合作"
+            },
+            "Winter Mystery": {
+                "Name": "神秘圣诞",
+                "Players": "6v6"
+            },
+            "Yeti Hunter": {
+                "Name": "雪域狩猎",
+                "Players": "5v1"
+            }
+        },
+        "day_resets_in": "日在复位",
+        "heroes": {
+            "Ana": "安娜",
+            "Ashe": "艾什",
+            "Assassin": "刺杀者",
+            "Baptiste": "巴蒂斯特",
+            "Bastion": "堡垒",
+            "Boat": "快艇",
+            "Bob": "鲍勃",
+            "Brigitte": "布丽吉塔",
+            "D.Va": "D.Va",
+            "Detonator": "“爆破者”",
+            "Doomfist": "末日铁拳",
+            "Echo": "回声",
+            "Enforcer": "执行者",
+            "Eradicator": "“灭除者”",
+            "Friendly Bot": "友方机器人",
+            "Genji": "源氏",
+            "Gunship": "炮艇",
+            "Hanzo": "半藏",
+            "Heavy Assault": "重装机兵",
+            "Junkrat": "狂鼠",
+            "Lúcio": "卢西奥",
+            "McCree": "麦克雷",
+            "Mei": "美",
+            "Mercy": "天使",
+            "Moira": "莫伊拉",
+            "Nulltrooper": "归零机兵",
+            "Orisa": "奥丽莎",
+            "Pharah": "法老之鹰",
+            "Reaper": "死神",
+            "Reinhardt": "莱因哈特",
+            "Roadhog": "路霸",
+            "Shock-Tire": "电击轮胎",
+            "Sigma": "西格玛",
+            "Slicer": "“切割者”",
+            "Sniper": "狙击手",
+            "Soldier: 76": "士兵：76",
+            "Sombra": "黑影",
+            "Symmetra": "秩序之光",
+            "Torbjörn": "托比昂",
+            "Tracer": "猎空",
+            "Training Bot": "训练机器人",
+            "Trooper": "步兵",
+            "Widowmaker": "黑百合",
+            "Winston": "温斯顿",
+            "Wrecking Ball": "破坏球",
+            "Zarya": "查莉娅",
+            "Zenyatta": "禅雅塔",
+            "Zombardier": "机械僵尸掷弹手",
+            "Zomnic": "机械僵尸"
+        },
+        "labels": {
+            "Daily": "日常",
+            "Permanent": "常驻",
+            "Weekly": "每周"
+        },
+        "maps": {
+            "Ayutthaya": "阿育陀耶",
+            "Black Forest": "黑森林",
+            "Blizzard World": "暴雪世界",
+            "Busan": "釜山",
+            "Busan Downtown": "釜山城区",
+            "Busan Sanctuary": "釜山寺院",
+            "Busan Stadium": "釜山体育场",
+            "Castillo": "城堡",
+            "Château Guillard": "吉拉德堡",
+            "Dorado": "多拉多",
+            "Ecopoint: Antarctica": "生态监测站：南极洲",
+            "Eichenwalde": "艾兴瓦尔德",
+            "Estádio das Rãs": "弗格体育场",
+            "Hanamura": "花村",
+            "Havana": "哈瓦那",
+            "Hollywood": "好莱坞",
+            "Horizon Lunar Colony": "“地平线”月球基地",
+            "Ilios": "伊利奥斯",
+            "Ilios Lighthouse": "伊利奥斯灯塔",
+            "Ilios Ruins": "伊利奥斯废墟",
+            "Ilios Well": "伊利奥斯深井",
+            "Junkenstein's Revenge": "怪鼠复仇",
+            "Junkertown": "渣客镇",
+            "King's Row": "国王大道",
+            "Lijiang Control Center": "漓江塔控制中心",
+            "Lijiang Garden": "漓江塔庭院",
+            "Lijiang Night Market": "漓江塔夜市",
+            "Lijiang Tower": "漓江塔",
+            "Necropolis": "墓园",
+            "Nepal": "尼泊尔",
+            "Nepal Sanctum": "尼泊尔圣所",
+            "Nepal Shrine": "尼泊尔圣坛",
+            "Nepal Village": "尼泊尔村庄",
+            "Nepal Village (Winter)": "圣诞节尼泊尔村庄",
+            "Numbani": "努巴尼",
+            "Oasis": "绿洲城",
+            "Oasis City Center": "绿洲城中心",
+            "Oasis Gardens": "绿洲城花园",
+            "Oasis University": "绿洲城大学",
+            "Paris": "巴黎",
+            "Petra": "佩特拉",
+            "Practice Range": "训练靶场",
+            "Rialto": "里阿尔托",
+            "Route 66": "66号公路",
+            "Sydney Harbour Arena": "悉尼海港竞技场",
+            "Temple of Anubis": "阿努比斯神殿",
+            "Tutorial": "教学模式",
+            "VPP Green Room": "VPP Green Room",
+            "Volskaya Industries": "沃斯卡娅工业区",
+            "Watchpoint: Gibraltar": "监测站：直布罗陀",
+            "Workshop Chamber": "地图工坊室内",
+            "Workshop Expanse": "地图工坊室外",
+            "Workshop Island": "地图工坊岛屿"
+        },
+        "not_updated_yet": "如今的街机尚未更新"
+    },
+    "profile": {
+        "about": "About",
+        "contributor_subline": "Contributor since {date} with a total of {contributions} contributions",
+        "favourite_arcade_heroes": "最喜欢的英雄",
+        "favourite_arcade_maps": "最喜欢的地图",
+        "favourite_arcade_modes": "最喜欢的街机模式",
+        "last_submit": "Last submit"
+    }
+}

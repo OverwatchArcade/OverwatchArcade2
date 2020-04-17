@@ -5,10 +5,14 @@
         "settings": "settings"
     },
     "message": {
-        "warning": "warning"
+        "warning": "Avvertimento"
     },
     "overwatch": {
         "arcademodes": {
+            "Almost No Limits": {
+                "Name": "Quasi nessun limite",
+                "Players": "6v6"
+            },
             "Assault": {
                 "Name": "Conquista",
                 "Players": "6v6"
@@ -67,6 +71,10 @@
             },
             "Competitive Elimination": {
                 "Name": "Eliminazione (competitiva)",
+                "Players": "6v6"
+            },
+            "Competitive Open Queue": {
+                "Name": "Coda aperta competitiva",
                 "Players": "6v6"
             },
             "Competitive Team Deathmatch": {
@@ -250,6 +258,7 @@
                 "Players": "5v1"
             }
         },
+        "day_resets_in": "Reset day al",
         "heroes": {
             "Ana": "Ana",
             "Ashe": "Ashe",
@@ -262,6 +271,7 @@
             "D.Va": "D.VA",
             "Detonator": "Detonatore",
             "Doomfist": "Doomfist",
+            "Echo": "Echo",
             "Enforcer": "Esecutore",
             "Eradicator": "Eliminatore",
             "Friendly Bot": "Amico-bot",
@@ -301,9 +311,9 @@
             "Zomnic": "Zomnic"
         },
         "labels": {
-            "Daily": "Daily",
-            "Permanent": "Permanent",
-            "Weekly": "Weekly"
+            "Daily": "Quotidiano",
+            "Permanent": "Permanente",
+            "Weekly": "Settimanalmente"
         },
         "maps": {
             "Ayutthaya": "Ayutthaya",
@@ -349,7 +359,7 @@
             "Petra": "Petra",
             "Practice Range": "Zona d'addestramento",
             "Rialto": "Rialto",
-            "Route 66": "ROUTE 66",
+            "Route 66": "Route 66",
             "Sydney Harbour Arena": "Sydney Harbour Arena",
             "Temple of Anubis": "Tempio di Anubi",
             "Tutorial": "Tutorial",
@@ -359,14 +369,15 @@
             "Workshop Chamber": "Sala del Workshop",
             "Workshop Expanse": "Distesa del Workshop",
             "Workshop Island": "Isola del Workshop"
-        }
+        },
+        "not_updated_yet": "Arcade di oggi non è stato ancora aggiornato"
     },
     "profile": {
         "about": "About",
         "contributor_subline": "Contributor since {date} with a total of {contributions} contributions",
-        "favourite_arcade_heroes": "Favourite heroes",
-        "favourite_arcade_maps": "Favourite maps",
-        "favourite_arcade_modes": "Favourite arcade modes",
+        "favourite_arcade_heroes": "Eroi preferiti",
+        "favourite_arcade_maps": "Mappe preferite",
+        "favourite_arcade_modes": "Modalità arcade preferiti",
         "last_submit": "Last submit"
     }
 }

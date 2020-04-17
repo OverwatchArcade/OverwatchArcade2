@@ -5,10 +5,14 @@
         "settings": "settings"
     },
     "message": {
-        "warning": "warning"
+        "warning": "경고"
     },
     "overwatch": {
         "arcademodes": {
+            "Almost No Limits": {
+                "Name": "똑같은 영웅도 거의 환영",
+                "Players": "6대6"
+            },
             "Assault": {
                 "Name": "점령",
                 "Players": "6대6"
@@ -67,6 +71,10 @@
             },
             "Competitive Elimination": {
                 "Name": "섬멸전 경쟁전",
+                "Players": "6대6"
+            },
+            "Competitive Open Queue": {
+                "Name": "자유 경쟁전",
                 "Players": "6대6"
             },
             "Competitive Team Deathmatch": {
@@ -250,6 +258,7 @@
                 "Players": "5대1"
             }
         },
+        "day_resets_in": "날 재설정에서",
         "heroes": {
             "Ana": "아나",
             "Ashe": "애쉬",
@@ -262,6 +271,7 @@
             "D.Va": "D.Va",
             "Detonator": "폭탄 로봇",
             "Doomfist": "둠피스트",
+            "Echo": "에코",
             "Enforcer": "정예병",
             "Eradicator": "섬멸 로봇",
             "Friendly Bot": "아군 봇",
@@ -301,9 +311,9 @@
             "Zomnic": "좀닉"
         },
         "labels": {
-            "Daily": "Daily",
-            "Permanent": "Permanent",
-            "Weekly": "Weekly"
+            "Daily": "매일",
+            "Permanent": "영구적 인",
+            "Weekly": "주간"
         },
         "maps": {
             "Ayutthaya": "아유타야",
@@ -359,14 +369,15 @@
             "Workshop Chamber": "워크샵 방",
             "Workshop Expanse": "워크샵 개활지",
             "Workshop Island": "워크샵 섬"
-        }
+        },
+        "not_updated_yet": "오늘의 아케이드는 아직 업데이트되지 않았습니다"
     },
     "profile": {
         "about": "About",
         "contributor_subline": "Contributor since {date} with a total of {contributions} contributions",
-        "favourite_arcade_heroes": "Favourite heroes",
-        "favourite_arcade_maps": "Favourite maps",
-        "favourite_arcade_modes": "Favourite arcade modes",
+        "favourite_arcade_heroes": "좋아하는 영웅",
+        "favourite_arcade_maps": "즐겨 찾기지도",
+        "favourite_arcade_modes": "좋아하는 아케이드 모드",
         "last_submit": "Last submit"
     }
 }

@@ -8,6 +8,7 @@ use App\Http\Requests\ProfileUpdate;
 use App\Jobs\TwitterPost;
 use App\Models\Config;
 use App\Models\Game\Daily;
+use App\Models\Logs;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 
@@ -137,6 +138,11 @@ class ContributeController extends Controller
     {
         $daily = Daily::hasGamemodesSetToday(Daily::GAME_KEY_OVERWATCH);
         if ($daily) {
+            Logs::create([
+                'type' => Logs::UNDO_SUBMIT_OW,
+                'payload' => $daily->attributesToArray(),
+                'user_battlenet_id' => Auth::user()->id
+            ]);
             $daily->delete();
             return response()->json(['status' => 'success', 'message' => 'Daily deleted succesfully']);
         }
@@ -147,6 +153,11 @@ class ContributeController extends Controller
     {
         $daily = Daily::hasGamemodesSetToday(Daily::GAME_KEY_OVERWATCH2);
         if ($daily) {
+            Logs::create([
+                'type' => Logs::UNDO_SUBMIT_OW2,
+                'payload' => $daily->attributesToArray(),
+                'user_battlenet_id' => Auth::user()->id
+            ]);
             $daily->delete();
             return response()->json(['status' => 'success', 'message' => 'Daily deleted succesfully']);
         }

@@ -5,10 +5,14 @@
         "settings": "settings"
     },
     "message": {
-        "warning": "warning"
+        "warning": "警告"
     },
     "overwatch": {
         "arcademodes": {
+            "Almost No Limits": {
+                "Name": "ほぼノーリミット",
+                "Players": "6vs6"
+            },
             "Assault": {
                 "Name": "アサルト",
                 "Players": "6vs6"
@@ -67,6 +71,10 @@
             },
             "Competitive Elimination": {
                 "Name": "ライバル エリミネーション",
+                "Players": "6vs6"
+            },
+            "Competitive Open Queue": {
+                "Name": "ライバル・プレイ オープンキュー",
                 "Players": "6vs6"
             },
             "Competitive Team Deathmatch": {
@@ -250,6 +258,7 @@
                 "Players": "5VS1"
             }
         },
+        "day_resets_in": "デイリセット時",
         "heroes": {
             "Ana": "アナ",
             "Ashe": "アッシュ",
@@ -262,6 +271,7 @@
             "D.Va": "D.Va",
             "Detonator": "デトネーター",
             "Doomfist": "ドゥームフィスト",
+            "Echo": "エコー",
             "Enforcer": "エンフォーサー",
             "Eradicator": "エラジケーター",
             "Friendly Bot": "味方のボット",
@@ -301,9 +311,9 @@
             "Zomnic": "ゾムニック"
         },
         "labels": {
-            "Daily": "Daily",
-            "Permanent": "Permanent",
-            "Weekly": "Weekly"
+            "Daily": "日々",
+            "Permanent": "恒久",
+            "Weekly": "ウィークリー"
         },
         "maps": {
             "Ayutthaya": "AYUTTHAYA",
@@ -359,14 +369,15 @@
             "Workshop Chamber": "WORKSHOP CHAMBER",
             "Workshop Expanse": "WORKSHOP EXPANSE",
             "Workshop Island": "WORKSHOP ISLAND"
-        }
+        },
+        "not_updated_yet": "今日のアーケードは、まだ更新されていません"
     },
     "profile": {
         "about": "About",
         "contributor_subline": "Contributor since {date} with a total of {contributions} contributions",
-        "favourite_arcade_heroes": "Favourite heroes",
-        "favourite_arcade_maps": "Favourite maps",
-        "favourite_arcade_modes": "Favourite arcade modes",
+        "favourite_arcade_heroes": "好きなヒーロー",
+        "favourite_arcade_maps": "好きなマップ",
+        "favourite_arcade_modes": "好きなアーケードモード",
         "last_submit": "Last submit"
     }
 }
