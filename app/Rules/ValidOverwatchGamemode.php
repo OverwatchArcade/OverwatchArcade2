@@ -30,7 +30,7 @@ class ValidOverwatchGamemode implements Rule
      */
     public function passes($attribute, $value)
     {
-        return $this->arcadeModes->has($value);
+        return $this->arcadeModes->contains(Gamemode::find($value));
     }
 
     /**
