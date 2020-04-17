@@ -19,7 +19,7 @@ class OldSiteMigration extends Seeder
         DB::table('dailies')->truncate();
         $this->call(DailyTableSeeder::class);
 
-        $oldSiteDailies = json_decode(File::get('database/data/old_site/todays_202004051021.json'), true);
+        $oldSiteDailies = json_decode(File::get('database/data/old_site/todays.json'), true);
         $oldSiteUsers = json_decode(File::get('database/data/old_site/users.json'), true);
 
         foreach ($oldSiteDailies as $oldDaily) {
