@@ -1,4 +1,10 @@
 {
+    "footer": {
+        "contributors": "상기에 의해 유지",
+        "copyright_materials": "게임 컨텐츠와 자료는 상표 및 해당 게시자 및 그 라이센스 제공자의 저작권입니다. 판권 소유.",
+        "copyright_site": "이 사이트는 하에서 허가 된입니다",
+        "made_by": "이 사이트는에 의해 재미를 위해 만들어"
+    },
     "general": {
         "contributors": "contributors",
         "notifications": "notifications",
@@ -390,7 +396,7 @@
     },
     "profile": {
         "about": "About",
-        "contributor_subline": "Contributor since {date} with a total of {contributions} contributions",
+        "contributor_subline": "{date} 공헌의 총 이후 기여자 {amount}",
         "favourite_arcade_heroes": "좋아하는 영웅",
         "favourite_arcade_maps": "즐겨 찾기지도",
         "favourite_arcade_modes": "좋아하는 아케이드 모드",

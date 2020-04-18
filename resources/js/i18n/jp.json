@@ -1,4 +1,10 @@
 {
+    "footer": {
+        "contributors": "とによって維持",
+        "copyright_materials": "ゲームの内容や材料は商標とそれぞれの出版社およびそのライセンサーの著作権です。全著作権所有。",
+        "copyright_site": "このサイトは、aの下でライセンスされています",
+        "made_by": "このサイトはで楽しみのために作られています"
+    },
     "general": {
         "contributors": "contributors",
         "notifications": "notifications",
@@ -390,7 +396,7 @@
     },
     "profile": {
         "about": "About",
-        "contributor_subline": "Contributor since {date} with a total of {contributions} contributions",
+        "contributor_subline": "{date}寄付の合計以来、コントリビュータ{amount}",
         "favourite_arcade_heroes": "好きなヒーロー",
         "favourite_arcade_maps": "好きなマップ",
         "favourite_arcade_modes": "好きなアーケードモード",

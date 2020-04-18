@@ -1,4 +1,10 @@
 {
+    "footer": {
+        "contributors": "And maintained by the",
+        "copyright_materials": "Game content and materials are trademarks and copyrights of their respective publisher and its licensors. all rights reserved.",
+        "copyright_site": "This site is licensed under a",
+        "made_by": "This site is made for fun by"
+    },
     "general": {
         "contributors": "contributors",
         "notifications": "notifications",
@@ -274,7 +280,7 @@
                 "Players": "5v1"
             }
         },
-        "day_resets_in": "Day resets at",
+        "day_resets_in": "Day resets in",
         "heroes": {
             "Ana": "Ana",
             "Ashe": "Ashe",
@@ -390,7 +396,7 @@
     },
     "profile": {
         "about": "About",
-        "contributor_subline": "Contributor since {date} with a total of {contributions} contributions",
+        "contributor_subline": "Contributor since {date} with a total of {amount} contributions",
         "favourite_arcade_heroes": "Favourite heroes",
         "favourite_arcade_maps": "Favourite maps",
         "favourite_arcade_modes": "Favourite arcade modes",

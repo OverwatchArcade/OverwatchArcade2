@@ -1,4 +1,10 @@
 {
+    "footer": {
+        "contributors": "并通过维持",
+        "copyright_materials": "游戏内容和材料是商标和它们各自的发行商和其授权的版权。版权所有。",
+        "copyright_site": "这个网站是下一个许可",
+        "made_by": "这个网站是由为了好玩做"
+    },
     "general": {
         "contributors": "contributors",
         "notifications": "notifications",
@@ -390,7 +396,7 @@
     },
     "profile": {
         "about": "About",
-        "contributor_subline": "Contributor since {date} with a total of {contributions} contributions",
+        "contributor_subline": "因为贡献者{date}总的贡献{amount}",
         "favourite_arcade_heroes": "最喜欢的英雄",
         "favourite_arcade_maps": "最喜欢的地图",
         "favourite_arcade_modes": "最喜欢的街机模式",

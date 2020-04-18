@@ -1,4 +1,10 @@
 {
+    "footer": {
+        "contributors": "I utrzymuje",
+        "copyright_materials": "Zawartość gry i materiały są znakami towarowymi i prawami autorskimi ich odpowiednich wydawcy i jej licencjodawców. wszelkie prawa zastrzeżone.",
+        "copyright_site": "Ta strona jest na licencji",
+        "made_by": "Ta strona jest dla zabawy przez"
+    },
     "general": {
         "contributors": "contributors",
         "notifications": "notifications",
@@ -390,7 +396,7 @@
     },
     "profile": {
         "about": "About",
-        "contributor_subline": "Contributor since {date} with a total of {contributions} contributions",
+        "contributor_subline": "Specjalista od {date} w sumie {amount} składek",
         "favourite_arcade_heroes": "Ulubione bohaterowie",
         "favourite_arcade_maps": "Ulubione mapy",
         "favourite_arcade_modes": "Ulubione zręcznościowe tryby",

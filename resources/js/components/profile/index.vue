@@ -55,7 +55,7 @@
                                 <div class="row">
                                     <div v-for="character in user_data.profile_data.game.character">
                                         <img class="border" style="height:128px"
-                                             v-tooltip="{ content: character }"
+                                             v-tooltip="{ content: $t('overwatch.heroes.'+character) }"
                                              :src="'/img/characters/' + removeWhiteSpace(character) + '.jpg'"
                                              :title="character">
                                     </div>
@@ -68,7 +68,7 @@
                                 <div class="row">
                                     <div v-for="map in user_data.profile_data.game.map">
                                         <img class="border" style="height:100px"
-                                             v-tooltip="{ content: map }"
+                                             v-tooltip="{ content: $t('overwatch.maps.'+map) }"
                                              :src="'/img/maps/' + map.replace(':', '') + '.jpg'" :title="map">
                                     </div>
                                 </div>

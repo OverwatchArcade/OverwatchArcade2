@@ -1,4 +1,10 @@
 {
+    "footer": {
+        "contributors": "И поддерживается",
+        "copyright_materials": "Содержание игры и материалы являются товарными знаками и авторскими правами соответствующих издателя и ее лицензиаров. все права защищены.",
+        "copyright_site": "Этот сайт под лицензией",
+        "made_by": "Этот сайт сделан для удовольствия от"
+    },
     "general": {
         "contributors": "contributors",
         "notifications": "notifications",
@@ -390,7 +396,7 @@
     },
     "profile": {
         "about": "About",
-        "contributor_subline": "Contributor since {date} with a total of {contributions} contributions",
+        "contributor_subline": "Автор так {date} в общей сложности {amount} взносов",
         "favourite_arcade_heroes": "Любимые герои",
         "favourite_arcade_maps": "Любимые карты",
         "favourite_arcade_modes": "Любимые аркады режимы",

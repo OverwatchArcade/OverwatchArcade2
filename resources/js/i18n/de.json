@@ -1,4 +1,10 @@
 {
+    "footer": {
+        "contributors": "Und gehalten, indem die",
+        "copyright_materials": "Spielinhalte und materialien sind warenzeichen und urheberrechte ihrer jeweiligen verlag und seine lizenzgeber. alle rechte vorbehalten.",
+        "copyright_site": "Diese seite ist unter einem lizenzierten",
+        "made_by": "Diese seite ist für spaß gemacht durch"
+    },
     "general": {
         "contributors": "contributors",
         "notifications": "notifications",
@@ -274,7 +280,7 @@
                 "Players": "5v1"
             }
         },
-        "day_resets_in": "Tag setzt auf",
+        "day_resets_in": "Tag wird zurückgesetzt in",
         "heroes": {
             "Ana": "Ana",
             "Ashe": "Ashe",
@@ -390,7 +396,7 @@
     },
     "profile": {
         "about": "About",
-        "contributor_subline": "Contributor since {date} with a total of {contributions} contributions",
+        "contributor_subline": "Profi seit {date} mit insgesamt {amount} beiträge",
         "favourite_arcade_heroes": "Lieblingshelden",
         "favourite_arcade_maps": "Lieblingskarten",
         "favourite_arcade_modes": "Lieblings arcade-modi",
