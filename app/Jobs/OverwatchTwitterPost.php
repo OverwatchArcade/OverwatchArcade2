@@ -70,7 +70,7 @@ class OverwatchTwitterPost implements ShouldQueue
         $twitter = new TwitterOAuth(env('TWITTER_CONSUMER_KEY'), env('TWITTER_CONSUMER_SECRET'),
             env('TWITTER_ACCESS_TOKEN'), env('TWITTER_ACCESS_TOKEN_SECRET'));
         $media = $twitter->upload('media/upload',
-            ['media' => Storage::disk('public')->get(self::SCREENSHOT_FILE)]);
+            ['media' => Storage::disk('public')->path(self::SCREENSHOT_FILE)]);
         $parameters = [
             'status' => $this->getTwitterText(),
             'media_ids' => implode(',', [$media->media_id_string])
