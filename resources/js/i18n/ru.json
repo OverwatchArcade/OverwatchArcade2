@@ -9,251 +9,267 @@
     },
     "overwatch": {
         "arcademodes": {
-            "Almost No Limits": {
+            "Almost No Limits6v6": {
                 "Name": "Почти без ограничений",
                 "Players": "6х6"
             },
-            "Assault": {
+            "Assault6v6": {
                 "Name": "Захват точек",
                 "Players": "6х6"
             },
-            "Blizzard World": {
+            "Blizzard World6v6": {
                 "Name": "Blizzard World",
                 "Players": "6х6"
             },
-            "Blood Moon Rising": {
+            "Blood Moon RisingCo-op": {
                 "Name": "Кровавая луна",
                 "Players": "Совместный"
             },
-            "Busan": {
+            "Busan6v6": {
                 "Name": "Пусан",
                 "Players": "6х6"
             },
-            "CTF Blitz": {
+            "CTF Blitz6v6": {
                 "Name": "Быстрый захват флага",
                 "Players": "6х6"
             },
-            "CTF: Ayutthaya Only": {
+            "CTF: Ayutthaya Only6v6": {
                 "Name": "Захват флага: только Аюттайя",
                 "Players": "6х6"
             },
-            "CTF: Busan": {
+            "CTF: Busan6v6": {
                 "Name": "Захват флага: Пусан",
                 "Players": "6х6"
             },
-            "Capture the Flag": {
+            "Capture the Flag6v6": {
                 "Name": "Захват флага",
                 "Players": "6х6"
             },
-            "Capture the Rooster": {
+            "Capture the Rooster6v6": {
                 "Name": "Захват Петуха",
                 "Players": "6х6"
             },
-            "Challenge Missions": {
+            "Challenge MissionsCo-op": {
                 "Name": "Испытания",
                 "Players": "Совместный"
             },
-            "Château Deathmatch": {
+            "Château Deathmatch8 Player FFA": {
                 "Name": "Схватка в шато",
                 "Players": "8 игроков (FFA)"
             },
-            "Close Quarters": {
+            "Close QuartersCo-op": {
                 "Name": "Ближний бой",
                 "Players": "Совместный"
             },
-            "Competitive CTF": {
+            "Competitive CTF6v6": {
                 "Name": "Соревновательный захват флага",
                 "Players": "6х6"
             },
-            "Competitive Deathmatch": {
+            "Competitive Deathmatch8 Player FFA": {
                 "Name": "Соревновательная схватка",
                 "Players": "8 игроков (FFA)"
             },
-            "Competitive Elimination": {
+            "Competitive Elimination3v3": {
+                "Name": "Соревновательная ликвидация",
+                "Players": "3х3"
+            },
+            "Competitive Elimination3v3 Groups Only": {
+                "Name": "Соревновательная ликвидация",
+                "Players": "3х3, только группы"
+            },
+            "Competitive Elimination6v6": {
                 "Name": "Соревновательная ликвидация",
                 "Players": "6х6"
             },
-            "Competitive Open Queue": {
+            "Competitive Open Queue6v6": {
                 "Name": "Открытый соревновательный режим",
                 "Players": "6х6"
             },
-            "Competitive Team Deathmatch": {
+            "Competitive Team Deathmatch4v4": {
                 "Name": "Соревновательная командная схватка",
                 "Players": "4х4"
             },
-            "Copa Lúcioball": {
+            "Copa Lúcioball3v3": {
                 "Name": "Кубок Лусио",
                 "Players": "3х3"
             },
-            "Deathmatch": {
+            "Deathmatch8 Player FFA": {
                 "Name": "Схватка",
                 "Players": "8 игроков (FFA)"
             },
-            "Doomfist Elimination": {
+            "Doomfist Elimination6v6": {
                 "Name": "Ликвидация: Кулак Смерти",
                 "Players": "6х6"
             },
-            "Elimination": {
+            "Elimination3v3": {
+                "Name": "Ликвидация",
+                "Players": "3х3"
+            },
+            "Elimination6v6": {
                 "Name": "Ликвидация",
                 "Players": "6х6"
             },
-            "Glass Cannon": {
+            "Glass CannonCo-op": {
                 "Name": "Хрупкие разрушители",
                 "Players": "Совместный"
             },
-            "Havana": {
+            "Havana6v6": {
                 "Name": "Гавана",
                 "Players": "6х6"
             },
-            "Hero Gauntlet": {
+            "Hero Gauntlet8 Player FFA": {
                 "Name": "Испытание героев",
                 "Players": "8 игроков (FFA)"
             },
-            "Horizon Lunar Colony": {
+            "Horizon Lunar Colony6v6": {
+                "Name": "Лунная колония «Горизонт»",
+                "Players": "6х6"
+            },
+            "Horizon Lunar Colony6v6 Groups Only": {
                 "Name": "Лунная колония «Горизонт»",
                 "Players": "6х6, только группы"
             },
-            "Horizon No Limits": {
+            "Horizon No Limits6v6": {
                 "Name": "Горизонт – без ограничений",
                 "Players": "6х6"
             },
-            "Hybrid": {
+            "Hybrid6v6": {
                 "Name": "Гибридный режим",
                 "Players": "6х6"
             },
-            "Junkenstein Endless": {
+            "Junkenstein EndlessCo-op": {
                 "Name": "Бесконечная месть",
                 "Players": "Совместный"
             },
-            "Junkenstein`s Revenge": {
+            "Junkenstein`s RevengeCo-op": {
                 "Name": "Месть Крысенштейна",
                 "Players": "Совместный"
             },
-            "Junkertown": {
-                "Name": "Джанкертаун",
-                "Players": "6х6"
-            },
-            "Junkertown Mystery Heroes": {
+            "Junkertown Mystery Heroes6v6": {
                 "Name": "Загадочные герои Джанкертауна",
                 "Players": "6х6"
             },
-            "Limited Duel": {
+            "Junkertown6v6": {
+                "Name": "Джанкертаун",
+                "Players": "6х6"
+            },
+            "Limited Duel1v1": {
                 "Name": "Дуэль с ограничениями",
                 "Players": "1х1"
             },
-            "Low Gravity": {
+            "Low Gravity6v6": {
                 "Name": "Низкая гравитация",
                 "Players": "6х6"
             },
-            "Lúcioball": {
+            "Lúcioball3v3": {
                 "Name": "Лусиобол",
                 "Players": "3х3"
             },
-            "Mei`s Snowball Offensive": {
+            "Mei`s Snowball Offensive6v6": {
                 "Name": "Операция «Метелица»",
                 "Players": "6х6"
             },
-            "Mirrored Deathmatch": {
+            "Mirrored Deathmatch8 Player FFA": {
                 "Name": "Зеркальная схватка",
                 "Players": "8 игроков (FFA)"
             },
-            "Mission Archives": {
+            "Mission ArchivesCo-op": {
                 "Name": "Архив заданий",
                 "Players": "Совместный"
             },
-            "Molten Cores": {
+            "Molten CoresCo-op": {
                 "Name": "Перегрев",
                 "Players": "Совместный"
             },
-            "Mystery Deathmatch": {
+            "Mystery Deathmatch8 Player FFA": {
                 "Name": "Схватка вслепую",
                 "Players": "8 игроков (FFA)"
             },
-            "Mystery Duel": {
+            "Mystery Duel1v1": {
                 "Name": "Случайная дуэль",
                 "Players": "1х1"
             },
-            "Mystery Heroes": {
+            "Mystery Heroes6v6": {
                 "Name": "Загадочные герои",
                 "Players": "6х6"
             },
-            "No Limits": {
-                "Name": "Без ограничений",
-                "Players": "6х6"
-            },
-            "No Limits Payloads": {
+            "No Limits Payloads6v6": {
                 "Name": "Без ограничений (сопровождение)",
                 "Players": "6х6"
             },
-            "Paris": {
+            "No Limits6v6": {
+                "Name": "Без ограничений",
+                "Players": "6х6"
+            },
+            "Paris6v6": {
                 "Name": "Париж",
                 "Players": "6х6"
             },
-            "Petra Deathmatch": {
+            "Petra Deathmatch8 Player FFA": {
                 "Name": "Схватка в Петре",
                 "Players": "8 игроков (FFA)"
             },
-            "Quick Play Classic": {
+            "Quick Play Classic6v6": {
                 "Name": "Классическая быстрая игра",
                 "Players": "6х6"
             },
-            "Retribution (All Heroes)": {
+            "Retribution (All Heroes)Co-op": {
                 "Name": "Возмездие (все герои)",
                 "Players": "Совместный"
             },
-            "Retribution (Story)": {
+            "Retribution (Story)Co-op": {
                 "Name": "Возмездие (сюжет)",
                 "Players": "Совместный"
             },
-            "Rialto": {
+            "Rialto6v6": {
                 "Name": "Риальто",
                 "Players": "6х6"
             },
-            "Skirmish": {
+            "Skirmish6v6": {
                 "Name": "Разминка",
                 "Players": "6х6"
             },
-            "Snowball Deathmatch": {
+            "Snowball Deathmatch8 Player FFA": {
                 "Name": "Снежная схватка",
                 "Players": "8 игроков (FFA)"
             },
-            "Storm RIsing (All Heroes)": {
+            "Storm RIsing (All Heroes)Co-op": {
                 "Name": "Предчувствие бури (все герои)",
                 "Players": "Совместный"
             },
-            "Storm Raging": {
+            "Storm RagingCo-op": {
                 "Name": "Ярость бури",
                 "Players": "Совместный"
             },
-            "Storm Rising (Story)": {
+            "Storm Rising (Story)Co-op": {
                 "Name": "Предчувствие бури (сюжет)",
                 "Players": "Совместный"
             },
-            "Surgical Strike": {
+            "Surgical StrikeCo-op": {
                 "Name": "Хирургическая точность",
                 "Players": "Совместный"
             },
-            "Team Deathmatch": {
+            "Team Deathmatch4v4": {
                 "Name": "Командная схватка",
                 "Players": "4х4"
             },
-            "Total Mayhem": {
+            "Total Mayhem6v6": {
                 "Name": "Полный хаос",
                 "Players": "6х6"
             },
-            "Uprising (All Heroes)": {
+            "Uprising (All Heroes)Co-op": {
                 "Name": "Мятеж (все герои)",
                 "Players": "Совместный"
             },
-            "Uprising (Story)": {
+            "Uprising (Story)Co-op": {
                 "Name": "Мятеж (сюжет)",
                 "Players": "Совместный"
             },
-            "Winter Mystery": {
+            "Winter Mystery6v6": {
                 "Name": "Зимняя тайна",
                 "Players": "6х6"
             },
-            "Yeti Hunter": {
+            "Yeti Hunter5v1": {
                 "Name": "Охота на йети",
                 "Players": "5х1"
             }

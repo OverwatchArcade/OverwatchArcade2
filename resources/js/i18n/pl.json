@@ -9,251 +9,267 @@
     },
     "overwatch": {
         "arcademodes": {
-            "Almost No Limits": {
+            "Almost No Limits6v6": {
                 "Name": "Prawie bez ograniczeń",
                 "Players": "6 na 6"
             },
-            "Assault": {
+            "Assault6v6": {
                 "Name": "Szturm",
                 "Players": "6 na 6"
             },
-            "Blizzard World": {
+            "Blizzard World6v6": {
                 "Name": "Blizzard World",
                 "Players": "6 na 6"
             },
-            "Blood Moon Rising": {
+            "Blood Moon RisingCo-op": {
                 "Name": "Wzejście Krwawego Księżyca",
                 "Players": "Współpraca"
             },
-            "Busan": {
+            "Busan6v6": {
                 "Name": "Pusan",
                 "Players": "6 na 6"
             },
-            "CTF Blitz": {
+            "CTF Blitz6v6": {
                 "Name": "Błyskawiczne Zdobywanie flagi",
                 "Players": "6 na 6"
             },
-            "CTF: Ayutthaya Only": {
+            "CTF: Ayutthaya Only6v6": {
                 "Name": "Zdobywanie flagi: Tylko Ayutthaya",
                 "Players": "6 na 6"
             },
-            "CTF: Busan": {
+            "CTF: Busan6v6": {
                 "Name": "Zdobywanie flagi: Pusan",
                 "Players": "6 na 6"
             },
-            "Capture the Flag": {
+            "Capture the Flag6v6": {
                 "Name": "Zdobywanie flagi",
                 "Players": "6 na 6"
             },
-            "Capture the Rooster": {
+            "Capture the Rooster6v6": {
                 "Name": "Łap Koguta",
                 "Players": "6 na 6"
             },
-            "Challenge Missions": {
+            "Challenge MissionsCo-op": {
                 "Name": "Misje-wyzwania",
                 "Players": "Współpraca"
             },
-            "Château Deathmatch": {
+            "Château Deathmatch8 Player FFA": {
                 "Name": "Deathmatch w Château",
                 "Players": "FFA dla 8 graczy"
             },
-            "Close Quarters": {
+            "Close QuartersCo-op": {
                 "Name": "Walka w zwarciu",
                 "Players": "Współpraca"
             },
-            "Competitive CTF": {
+            "Competitive CTF6v6": {
                 "Name": "Rywalizacja w Zdobywanie flagi",
                 "Players": "6 na 6"
             },
-            "Competitive Deathmatch": {
+            "Competitive Deathmatch8 Player FFA": {
                 "Name": "Deathmatch w trybie Rywalizacji",
                 "Players": "FFA dla 8 graczy"
             },
-            "Competitive Elimination": {
+            "Competitive Elimination3v3": {
+                "Name": "Rywalizacja w trybie Eliminacji",
+                "Players": "3 na 3"
+            },
+            "Competitive Elimination3v3 Groups Only": {
+                "Name": "Rywalizacja w trybie Eliminacji",
+                "Players": "Tylko ekipy 3v3"
+            },
+            "Competitive Elimination6v6": {
                 "Name": "Rywalizacja w trybie Eliminacji",
                 "Players": "6 na 6"
             },
-            "Competitive Open Queue": {
+            "Competitive Open Queue6v6": {
                 "Name": "Otwarta Rywalizacja",
                 "Players": "6 na 6"
             },
-            "Competitive Team Deathmatch": {
+            "Competitive Team Deathmatch4v4": {
                 "Name": "Rywalizacja w Drużynowym Deathmatchu",
                 "Players": "4 na 4"
             },
-            "Copa Lúcioball": {
+            "Copa Lúcioball3v3": {
                 "Name": "Copa Futbolúcio",
                 "Players": "3 na 3"
             },
-            "Deathmatch": {
+            "Deathmatch8 Player FFA": {
                 "Name": "Deathmatch",
                 "Players": "FFA dla 8 graczy"
             },
-            "Doomfist Elimination": {
+            "Doomfist Elimination6v6": {
                 "Name": "Eliminacja, Pięść Zagłady",
                 "Players": "6 na 6"
             },
-            "Elimination": {
+            "Elimination3v3": {
+                "Name": "Eliminacja",
+                "Players": "3 na 3"
+            },
+            "Elimination6v6": {
                 "Name": "Eliminacja",
                 "Players": "6 na 6"
             },
-            "Glass Cannon": {
+            "Glass CannonCo-op": {
                 "Name": "Szklane działo",
                 "Players": "Współpraca"
             },
-            "Havana": {
+            "Havana6v6": {
                 "Name": "Hawana",
                 "Players": "6 na 6"
             },
-            "Hero Gauntlet": {
+            "Hero Gauntlet8 Player FFA": {
                 "Name": "Arena bohaterów",
                 "Players": "FFA dla 8 graczy"
             },
-            "Horizon Lunar Colony": {
+            "Horizon Lunar Colony6v6": {
+                "Name": "Kolonia księżycowa Horyzont",
+                "Players": "6 na 6"
+            },
+            "Horizon Lunar Colony6v6 Groups Only": {
                 "Name": "Kolonia księżycowa Horyzont",
                 "Players": "Tylko ekipy 6v6"
             },
-            "Horizon No Limits": {
+            "Horizon No Limits6v6": {
                 "Name": "Horyzont – Bez ograniczeń",
                 "Players": "6 na 6"
             },
-            "Hybrid": {
+            "Hybrid6v6": {
                 "Name": "Hybryda",
                 "Players": "6 na 6"
             },
-            "Junkenstein Endless": {
+            "Junkenstein EndlessCo-op": {
                 "Name": "Wieczna zemsta dr. Złomensteina",
                 "Players": "Współpraca"
             },
-            "Junkenstein`s Revenge": {
+            "Junkenstein`s RevengeCo-op": {
                 "Name": "Zemsta dr. Złomensteina",
                 "Players": "Współpraca"
             },
-            "Junkertown": {
-                "Name": "Junkertown",
-                "Players": "6 na 6"
-            },
-            "Junkertown Mystery Heroes": {
+            "Junkertown Mystery Heroes6v6": {
                 "Name": "Tajemniczy bohaterowie Junkertown",
                 "Players": "6 na 6"
             },
-            "Limited Duel": {
+            "Junkertown6v6": {
+                "Name": "Junkertown",
+                "Players": "6 na 6"
+            },
+            "Limited Duel1v1": {
                 "Name": "Pojedynek z ograniczeniami",
                 "Players": "1 na 1"
             },
-            "Low Gravity": {
+            "Low Gravity6v6": {
                 "Name": "Niska grawitacja",
                 "Players": "6 na 6"
             },
-            "Lúcioball": {
+            "Lúcioball3v3": {
                 "Name": "Futbolúcio",
                 "Players": "3 na 3"
             },
-            "Mei`s Snowball Offensive": {
+            "Mei`s Snowball Offensive6v6": {
                 "Name": "Śnieżkowa Ofensywa Mei",
                 "Players": "6 na 6"
             },
-            "Mirrored Deathmatch": {
+            "Mirrored Deathmatch8 Player FFA": {
                 "Name": "Lustrzany Deathmatch",
                 "Players": "FFA dla 8 graczy"
             },
-            "Mission Archives": {
+            "Mission ArchivesCo-op": {
                 "Name": "Archiwa misji",
                 "Players": "Współpraca"
             },
-            "Molten Cores": {
+            "Molten CoresCo-op": {
                 "Name": "Przygrzanie",
                 "Players": "Współpraca"
             },
-            "Mystery Deathmatch": {
+            "Mystery Deathmatch8 Player FFA": {
                 "Name": "Tajemniczy Deathmatch",
                 "Players": "FFA dla 8 graczy"
             },
-            "Mystery Duel": {
+            "Mystery Duel1v1": {
                 "Name": "Tajemniczy pojedynek",
                 "Players": "1 na 1"
             },
-            "Mystery Heroes": {
+            "Mystery Heroes6v6": {
                 "Name": "Tajemniczy bohaterowie",
                 "Players": "6 na 6"
             },
-            "No Limits": {
-                "Name": "Bez ograniczeń",
-                "Players": "6 na 6"
-            },
-            "No Limits Payloads": {
+            "No Limits Payloads6v6": {
                 "Name": "Brak ograniczeń ładunków",
                 "Players": "6 na 6"
             },
-            "Paris": {
+            "No Limits6v6": {
+                "Name": "Bez ograniczeń",
+                "Players": "6 na 6"
+            },
+            "Paris6v6": {
                 "Name": "Paryż",
                 "Players": "6 na 6"
             },
-            "Petra Deathmatch": {
+            "Petra Deathmatch8 Player FFA": {
                 "Name": "Deathmatch na Petrze",
                 "Players": "FFA dla 8 graczy"
             },
-            "Quick Play Classic": {
+            "Quick Play Classic6v6": {
                 "Name": "Klasyczna szybka gra",
                 "Players": "6 na 6"
             },
-            "Retribution (All Heroes)": {
+            "Retribution (All Heroes)Co-op": {
                 "Name": "Odwet (wszyscy)",
                 "Players": "Współpraca"
             },
-            "Retribution (Story)": {
+            "Retribution (Story)Co-op": {
                 "Name": "Odwet (fabuła)",
                 "Players": "Współpraca"
             },
-            "Rialto": {
+            "Rialto6v6": {
                 "Name": "Rialto",
                 "Players": "6 na 6"
             },
-            "Skirmish": {
+            "Skirmish6v6": {
                 "Name": "Potyczka",
                 "Players": "6 na 6"
             },
-            "Snowball Deathmatch": {
+            "Snowball Deathmatch8 Player FFA": {
                 "Name": "Śnieżkowy Deathmatch",
                 "Players": "FFA dla 8 graczy"
             },
-            "Storm RIsing (All Heroes)": {
+            "Storm RIsing (All Heroes)Co-op": {
                 "Name": "Czarne Chmury (wszyscy)",
                 "Players": "Współpraca"
             },
-            "Storm Raging": {
+            "Storm RagingCo-op": {
                 "Name": "Wściekłe Chmury",
                 "Players": "Współpraca"
             },
-            "Storm Rising (Story)": {
+            "Storm Rising (Story)Co-op": {
                 "Name": "Czarne Chmury (fabuła)",
                 "Players": "Współpraca"
             },
-            "Surgical Strike": {
+            "Surgical StrikeCo-op": {
                 "Name": "Precyzyjne uderzenie",
                 "Players": "Współpraca"
             },
-            "Team Deathmatch": {
+            "Team Deathmatch4v4": {
                 "Name": "Drużynowy Deathmatch",
                 "Players": "4 na 4"
             },
-            "Total Mayhem": {
+            "Total Mayhem6v6": {
                 "Name": "Totalna Masakra",
                 "Players": "6 na 6"
             },
-            "Uprising (All Heroes)": {
+            "Uprising (All Heroes)Co-op": {
                 "Name": "Insurekcja (wszyscy)",
                 "Players": "Współpraca"
             },
-            "Uprising (Story)": {
+            "Uprising (Story)Co-op": {
                 "Name": "Insurekcja (fabuła)",
                 "Players": "Współpraca"
             },
-            "Winter Mystery": {
+            "Winter Mystery6v6": {
                 "Name": "Zimowa tajemnica",
                 "Players": "6 na 6"
             },
-            "Yeti Hunter": {
+            "Yeti Hunter5v1": {
                 "Name": "Polowanie na Yeti",
                 "Players": "5 NA 1"
             }

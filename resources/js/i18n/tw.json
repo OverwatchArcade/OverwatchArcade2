@@ -9,251 +9,267 @@
     },
     "overwatch": {
         "arcademodes": {
-            "Almost No Limits": {
+            "Almost No Limits6v6": {
                 "Name": "幾乎無限制",
                 "Players": "6v6"
             },
-            "Assault": {
+            "Assault6v6": {
                 "Name": "佔領",
                 "Players": "6v6"
             },
-            "Blizzard World": {
+            "Blizzard World6v6": {
                 "Name": "暴雪樂園",
                 "Players": "6v6"
             },
-            "Blood Moon Rising": {
+            "Blood Moon RisingCo-op": {
                 "Name": "血月獵殺",
                 "Players": "合作"
             },
-            "Busan": {
+            "Busan6v6": {
                 "Name": "釜山",
                 "Players": "6v6"
             },
-            "CTF Blitz": {
+            "CTF Blitz6v6": {
                 "Name": "搶旗閃擊戰",
                 "Players": "6v6"
             },
-            "CTF: Ayutthaya Only": {
+            "CTF: Ayutthaya Only6v6": {
                 "Name": "大城搶旗戰",
                 "Players": "6v6"
             },
-            "CTF: Busan": {
+            "CTF: Busan6v6": {
                 "Name": "釜山搶旗戰",
                 "Players": "6v6"
             },
-            "Capture the Flag": {
+            "Capture the Flag6v6": {
                 "Name": "搶旗",
                 "Players": "6v6"
             },
-            "Capture the Rooster": {
+            "Capture the Rooster6v6": {
                 "Name": "搶得先雞",
                 "Players": "6v6"
             },
-            "Challenge Missions": {
+            "Challenge MissionsCo-op": {
                 "Name": "挑戰任務",
                 "Players": "合作"
             },
-            "Château Deathmatch": {
+            "Château Deathmatch8 Player FFA": {
                 "Name": "城堡死鬥",
                 "Players": "8人自由混戰"
             },
-            "Close Quarters": {
+            "Close QuartersCo-op": {
                 "Name": "近距搏鬥",
                 "Players": "合作"
             },
-            "Competitive CTF": {
+            "Competitive CTF6v6": {
                 "Name": "搶旗競技",
                 "Players": "6v6"
             },
-            "Competitive Deathmatch": {
+            "Competitive Deathmatch8 Player FFA": {
                 "Name": "死鬥競技模式",
                 "Players": "8人自由混戰"
             },
-            "Competitive Elimination": {
+            "Competitive Elimination3v3": {
+                "Name": "鎖定對決競技模式",
+                "Players": "3v3"
+            },
+            "Competitive Elimination3v3 Groups Only": {
+                "Name": "鎖定對決競技模式",
+                "Players": "僅限3v3團隊"
+            },
+            "Competitive Elimination6v6": {
                 "Name": "鎖定對決競技模式",
                 "Players": "6v6"
             },
-            "Competitive Open Queue": {
+            "Competitive Open Queue6v6": {
                 "Name": "自由佇列競技對戰",
                 "Players": "6v6"
             },
-            "Competitive Team Deathmatch": {
+            "Competitive Team Deathmatch4v4": {
                 "Name": "團隊死鬥競技模式",
                 "Players": "4v4"
             },
-            "Copa Lúcioball": {
+            "Copa Lúcioball3v3": {
                 "Name": "路西歐競球盃",
                 "Players": "3v3"
             },
-            "Deathmatch": {
+            "Deathmatch8 Player FFA": {
                 "Name": "死鬥",
                 "Players": "8人自由混戰"
             },
-            "Doomfist Elimination": {
+            "Doomfist Elimination6v6": {
                 "Name": "毀滅拳王鬥陣對決",
                 "Players": "6v6"
             },
-            "Elimination": {
+            "Elimination3v3": {
+                "Name": "鎖定對決",
+                "Players": "3v3"
+            },
+            "Elimination6v6": {
                 "Name": "鎖定對決",
                 "Players": "6v6"
             },
-            "Glass Cannon": {
+            "Glass CannonCo-op": {
                 "Name": "棄防強攻",
                 "Players": "合作"
             },
-            "Havana": {
+            "Havana6v6": {
                 "Name": "哈瓦那",
                 "Players": "6v6"
             },
-            "Hero Gauntlet": {
+            "Hero Gauntlet8 Player FFA": {
                 "Name": "英雄交鋒<tx0C0000000001FEE9>",
                 "Players": "8人自由混戰"
             },
-            "Horizon Lunar Colony": {
+            "Horizon Lunar Colony6v6": {
+                "Name": "地平線月球殖民地",
+                "Players": "6v6"
+            },
+            "Horizon Lunar Colony6v6 Groups Only": {
                 "Name": "地平線月球殖民地",
                 "Players": "僅限6v6團隊"
             },
-            "Horizon No Limits": {
+            "Horizon No Limits6v6": {
                 "Name": "地平線（無限制）",
                 "Players": "6v6"
             },
-            "Hybrid": {
+            "Hybrid6v6": {
                 "Name": "混合",
                 "Players": "6v6"
             },
-            "Junkenstein Endless": {
+            "Junkenstein EndlessCo-op": {
                 "Name": "鼠肯斯坦無盡復仇",
                 "Players": "合作"
             },
-            "Junkenstein`s Revenge": {
+            "Junkenstein`s RevengeCo-op": {
                 "Name": "鼠肯斯坦復仇記",
                 "Players": "合作"
             },
-            "Junkertown": {
-                "Name": "垃圾鎮",
-                "Players": "6v6"
-            },
-            "Junkertown Mystery Heroes": {
+            "Junkertown Mystery Heroes6v6": {
                 "Name": "垃圾鎮神秘客",
                 "Players": "6v6"
             },
-            "Limited Duel": {
+            "Junkertown6v6": {
+                "Name": "垃圾鎮",
+                "Players": "6v6"
+            },
+            "Limited Duel1v1": {
                 "Name": "限定單挑",
                 "Players": "1v1"
             },
-            "Low Gravity": {
+            "Low Gravity6v6": {
                 "Name": "低重力",
                 "Players": "6v6"
             },
-            "Lúcioball": {
+            "Lúcioball3v3": {
                 "Name": "路西歐競球",
                 "Players": "3v3"
             },
-            "Mei`s Snowball Offensive": {
+            "Mei`s Snowball Offensive6v6": {
                 "Name": "小美的雪球大作戰",
                 "Players": "6v6"
             },
-            "Mirrored Deathmatch": {
+            "Mirrored Deathmatch8 Player FFA": {
                 "Name": "同英雄對決死鬥<tx0C0000000001FEE9>",
                 "Players": "8人自由混戰"
             },
-            "Mission Archives": {
+            "Mission ArchivesCo-op": {
                 "Name": "捍衛密令",
                 "Players": "合作"
             },
-            "Molten Cores": {
+            "Molten CoresCo-op": {
                 "Name": "熔岩之地",
                 "Players": "合作"
             },
-            "Mystery Deathmatch": {
+            "Mystery Deathmatch8 Player FFA": {
                 "Name": "神秘客死鬥",
                 "Players": "8人自由混戰"
             },
-            "Mystery Duel": {
+            "Mystery Duel1v1": {
                 "Name": "神秘客大對決",
                 "Players": "1v1"
             },
-            "Mystery Heroes": {
+            "Mystery Heroes6v6": {
                 "Name": "神秘客",
                 "Players": "6v6"
             },
-            "No Limits": {
-                "Name": "全面開戰",
-                "Players": "6v6"
-            },
-            "No Limits Payloads": {
+            "No Limits Payloads6v6": {
                 "Name": "沒有限定目標",
                 "Players": "6v6"
             },
-            "Paris": {
+            "No Limits6v6": {
+                "Name": "全面開戰",
+                "Players": "6v6"
+            },
+            "Paris6v6": {
                 "Name": "巴黎",
                 "Players": "6v6"
             },
-            "Petra Deathmatch": {
+            "Petra Deathmatch8 Player FFA": {
                 "Name": "佩特拉死鬥",
                 "Players": "8人自由混戰"
             },
-            "Quick Play Classic": {
+            "Quick Play Classic6v6": {
                 "Name": "經典快速對戰",
                 "Players": "6v6"
             },
-            "Retribution (All Heroes)": {
+            "Retribution (All Heroes)Co-op": {
                 "Name": "制裁行動（所有英雄）",
                 "Players": "合作"
             },
-            "Retribution (Story)": {
+            "Retribution (Story)Co-op": {
                 "Name": "制裁行動（故事模式）",
                 "Players": "合作"
             },
-            "Rialto": {
+            "Rialto6v6": {
                 "Name": "里亞爾托",
                 "Players": "6v6"
             },
-            "Skirmish": {
+            "Skirmish6v6": {
                 "Name": "衝突戰",
                 "Players": "6v6"
             },
-            "Snowball Deathmatch": {
+            "Snowball Deathmatch8 Player FFA": {
                 "Name": "雪球死鬥大作戰",
                 "Players": "8人自由混戰"
             },
-            "Storm RIsing (All Heroes)": {
+            "Storm RIsing (All Heroes)Co-op": {
                 "Name": "失控倒數（所有英雄）",
                 "Players": "合作"
             },
-            "Storm Raging": {
+            "Storm RagingCo-op": {
                 "Name": "失控風暴",
                 "Players": "合作"
             },
-            "Storm Rising (Story)": {
+            "Storm Rising (Story)Co-op": {
                 "Name": "失控倒數（故事模式）",
                 "Players": "合作"
             },
-            "Surgical Strike": {
+            "Surgical StrikeCo-op": {
                 "Name": "精準攻擊",
                 "Players": "合作"
             },
-            "Team Deathmatch": {
+            "Team Deathmatch4v4": {
                 "Name": "團隊死鬥",
                 "Players": "4v4"
             },
-            "Total Mayhem": {
+            "Total Mayhem6v6": {
                 "Name": "全面破壞",
                 "Players": "6v6"
             },
-            "Uprising (All Heroes)": {
+            "Uprising (All Heroes)Co-op": {
                 "Name": "零度叛亂（所有英雄）",
                 "Players": "合作"
             },
-            "Uprising (Story)": {
+            "Uprising (Story)Co-op": {
                 "Name": "零度叛亂（故事模式）",
                 "Players": "合作"
             },
-            "Winter Mystery": {
+            "Winter Mystery6v6": {
                 "Name": "冬境神秘客",
                 "Players": "6v6"
             },
-            "Yeti Hunter": {
+            "Yeti Hunter5v1": {
                 "Name": "雪怪大作戰",
                 "Players": "5v1"
             }

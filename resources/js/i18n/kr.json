@@ -9,251 +9,267 @@
     },
     "overwatch": {
         "arcademodes": {
-            "Almost No Limits": {
+            "Almost No Limits6v6": {
                 "Name": "똑같은 영웅도 거의 환영",
                 "Players": "6대6"
             },
-            "Assault": {
+            "Assault6v6": {
                 "Name": "점령",
                 "Players": "6대6"
             },
-            "Blizzard World": {
+            "Blizzard World6v6": {
                 "Name": "블리자드 월드",
                 "Players": "6대6"
             },
-            "Blood Moon Rising": {
+            "Blood Moon RisingCo-op": {
                 "Name": "떠오르는 핏빛 달",
                 "Players": "협동전"
             },
-            "Busan": {
+            "Busan6v6": {
                 "Name": "부산",
                 "Players": "6대6"
             },
-            "CTF Blitz": {
+            "CTF Blitz6v6": {
                 "Name": "깃발 뺏기 속공전",
                 "Players": "6대6"
             },
-            "CTF: Ayutthaya Only": {
+            "CTF: Ayutthaya Only6v6": {
                 "Name": "깃발 뺏기: 아유타야",
                 "Players": "6대6"
             },
-            "CTF: Busan": {
+            "CTF: Busan6v6": {
                 "Name": "깃발 뺏기: 부산",
                 "Players": "6대6"
             },
-            "Capture the Flag": {
+            "Capture the Flag6v6": {
                 "Name": "깃발 뺏기",
                 "Players": "6대6"
             },
-            "Capture the Rooster": {
+            "Capture the Rooster6v6": {
                 "Name": "깃발 들고 후다닭",
                 "Players": "6대6"
             },
-            "Challenge Missions": {
+            "Challenge MissionsCo-op": {
                 "Name": "도전 임무",
                 "Players": "협동전"
             },
-            "Château Deathmatch": {
+            "Château Deathmatch8 Player FFA": {
                 "Name": "샤토 데스매치",
                 "Players": "8인 개별 전투"
             },
-            "Close Quarters": {
+            "Close QuartersCo-op": {
                 "Name": "근접전",
                 "Players": "협동전"
             },
-            "Competitive CTF": {
+            "Competitive CTF6v6": {
                 "Name": "깃발 뺏기 경쟁전",
                 "Players": "6대6"
             },
-            "Competitive Deathmatch": {
+            "Competitive Deathmatch8 Player FFA": {
                 "Name": "데스매치 경쟁전",
                 "Players": "8인 개별 전투"
             },
-            "Competitive Elimination": {
+            "Competitive Elimination3v3": {
+                "Name": "섬멸전 경쟁전",
+                "Players": "3대3"
+            },
+            "Competitive Elimination3v3 Groups Only": {
+                "Name": "섬멸전 경쟁전",
+                "Players": "3대3 그룹만"
+            },
+            "Competitive Elimination6v6": {
                 "Name": "섬멸전 경쟁전",
                 "Players": "6대6"
             },
-            "Competitive Open Queue": {
+            "Competitive Open Queue6v6": {
                 "Name": "자유 경쟁전",
                 "Players": "6대6"
             },
-            "Competitive Team Deathmatch": {
+            "Competitive Team Deathmatch4v4": {
                 "Name": "팀 데스매치 경쟁전",
                 "Players": "4대4"
             },
-            "Copa Lúcioball": {
+            "Copa Lúcioball3v3": {
                 "Name": "코파 루시우볼",
                 "Players": "3대3"
             },
-            "Deathmatch": {
+            "Deathmatch8 Player FFA": {
                 "Name": "데스매치",
                 "Players": "8인 개별 전투"
             },
-            "Doomfist Elimination": {
+            "Doomfist Elimination6v6": {
                 "Name": "둠피스트 섬멸전",
                 "Players": "6대6"
             },
-            "Elimination": {
+            "Elimination3v3": {
+                "Name": "섬멸전",
+                "Players": "3대3"
+            },
+            "Elimination6v6": {
                 "Name": "섬멸전",
                 "Players": "6대6"
             },
-            "Glass Cannon": {
+            "Glass CannonCo-op": {
                 "Name": "유리 대포",
                 "Players": "협동전"
             },
-            "Havana": {
+            "Havana6v6": {
                 "Name": "하바나",
                 "Players": "6대6"
             },
-            "Hero Gauntlet": {
+            "Hero Gauntlet8 Player FFA": {
                 "Name": "영웅 건틀릿",
                 "Players": "8인 개별 전투"
             },
-            "Horizon Lunar Colony": {
+            "Horizon Lunar Colony6v6": {
+                "Name": "호라이즌 달 기지",
+                "Players": "6대6"
+            },
+            "Horizon Lunar Colony6v6 Groups Only": {
                 "Name": "호라이즌 달 기지",
                 "Players": "6대6 그룹만"
             },
-            "Horizon No Limits": {
+            "Horizon No Limits6v6": {
                 "Name": "호라이즌 똑같은 영웅도 환영",
                 "Players": "6대6"
             },
-            "Hybrid": {
+            "Hybrid6v6": {
                 "Name": "혼합",
                 "Players": "6대6"
             },
-            "Junkenstein Endless": {
+            "Junkenstein EndlessCo-op": {
                 "Name": "정켄슈타인 무한 모드",
                 "Players": "협동전"
             },
-            "Junkenstein`s Revenge": {
+            "Junkenstein`s RevengeCo-op": {
                 "Name": "정켄슈타인의 복수",
                 "Players": "협동전"
             },
-            "Junkertown": {
-                "Name": "쓰레기촌",
-                "Players": "6대6"
-            },
-            "Junkertown Mystery Heroes": {
+            "Junkertown Mystery Heroes6v6": {
                 "Name": "쓰레기촌 수수께끼의 영웅",
                 "Players": "6대6"
             },
-            "Limited Duel": {
+            "Junkertown6v6": {
+                "Name": "쓰레기촌",
+                "Players": "6대6"
+            },
+            "Limited Duel1v1": {
                 "Name": "진검승부",
                 "Players": "1대1"
             },
-            "Low Gravity": {
+            "Low Gravity6v6": {
                 "Name": "저중력",
                 "Players": "6대6"
             },
-            "Lúcioball": {
+            "Lúcioball3v3": {
                 "Name": "루시우볼",
                 "Players": "3대3"
             },
-            "Mei`s Snowball Offensive": {
+            "Mei`s Snowball Offensive6v6": {
                 "Name": "메이의 눈싸움 대작전",
                 "Players": "6대6"
             },
-            "Mirrored Deathmatch": {
+            "Mirrored Deathmatch8 Player FFA": {
                 "Name": "미러전 데스매치\n<tx0C0000000001FEE9>",
                 "Players": "8인 개별 전투"
             },
-            "Mission Archives": {
+            "Mission ArchivesCo-op": {
                 "Name": "임무 기록 보관소",
                 "Players": "협동전"
             },
-            "Molten Cores": {
+            "Molten CoresCo-op": {
                 "Name": "초고열 용암",
                 "Players": "협동전"
             },
-            "Mystery Deathmatch": {
+            "Mystery Deathmatch8 Player FFA": {
                 "Name": "수수께끼의 데스매치",
                 "Players": "8인 개별 전투"
             },
-            "Mystery Duel": {
+            "Mystery Duel1v1": {
                 "Name": "수수께끼의 결투",
                 "Players": "1대1"
             },
-            "Mystery Heroes": {
+            "Mystery Heroes6v6": {
                 "Name": "수수께끼의 영웅",
                 "Players": "6대6"
             },
-            "No Limits": {
-                "Name": "똑같은 영웅도 환영",
-                "Players": "6대6"
-            },
-            "No Limits Payloads": {
+            "No Limits Payloads6v6": {
                 "Name": "똑같은 영웅도 환영 호위",
                 "Players": "6대6"
             },
-            "Paris": {
+            "No Limits6v6": {
+                "Name": "똑같은 영웅도 환영",
+                "Players": "6대6"
+            },
+            "Paris6v6": {
                 "Name": "파리",
                 "Players": "6대6"
             },
-            "Petra Deathmatch": {
+            "Petra Deathmatch8 Player FFA": {
                 "Name": "페트라 데스매치",
                 "Players": "8인 개별 전투"
             },
-            "Quick Play Classic": {
+            "Quick Play Classic6v6": {
                 "Name": "빠른 대전 클래식",
                 "Players": "6대6"
             },
-            "Retribution (All Heroes)": {
+            "Retribution (All Heroes)Co-op": {
                 "Name": "응징의 날 (모든 영웅)",
                 "Players": "협동전"
             },
-            "Retribution (Story)": {
+            "Retribution (Story)Co-op": {
                 "Name": "응징의 날 (스토리)",
                 "Players": "협동전"
             },
-            "Rialto": {
+            "Rialto6v6": {
                 "Name": "리알토",
                 "Players": "6대6"
             },
-            "Skirmish": {
+            "Skirmish6v6": {
                 "Name": "연습 전투",
                 "Players": "6대6"
             },
-            "Snowball Deathmatch": {
+            "Snowball Deathmatch8 Player FFA": {
                 "Name": "눈싸움 데스매치",
                 "Players": "8인 개별 전투"
             },
-            "Storm RIsing (All Heroes)": {
+            "Storm RIsing (All Heroes)Co-op": {
                 "Name": "폭풍의 서막 (모든 영웅)",
                 "Players": "협동전"
             },
-            "Storm Raging": {
+            "Storm RagingCo-op": {
                 "Name": "폭풍의 분노",
                 "Players": "협동전"
             },
-            "Storm Rising (Story)": {
+            "Storm Rising (Story)Co-op": {
                 "Name": "폭풍의 서막 (스토리)",
                 "Players": "협동전"
             },
-            "Surgical Strike": {
+            "Surgical StrikeCo-op": {
                 "Name": "정확한 일격",
                 "Players": "협동전"
             },
-            "Team Deathmatch": {
+            "Team Deathmatch4v4": {
                 "Name": "팀 데스매치",
                 "Players": "4대4"
             },
-            "Total Mayhem": {
+            "Total Mayhem6v6": {
                 "Name": "완전 난장판",
                 "Players": "6대6"
             },
-            "Uprising (All Heroes)": {
+            "Uprising (All Heroes)Co-op": {
                 "Name": "옴닉의 반란 (모든 영웅)",
                 "Players": "협동전"
             },
-            "Uprising (Story)": {
+            "Uprising (Story)Co-op": {
                 "Name": "옴닉의 반란 (스토리)",
                 "Players": "협동전"
             },
-            "Winter Mystery": {
+            "Winter Mystery6v6": {
                 "Name": "수수께끼의 겨울",
                 "Players": "6대6"
             },
-            "Yeti Hunter": {
+            "Yeti Hunter5v1": {
                 "Name": "예티 사냥꾼",
                 "Players": "5대1"
             }
