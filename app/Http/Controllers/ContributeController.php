@@ -5,7 +5,7 @@ namespace App\Http\Controllers;
 use App\Http\Requests\Overwatch2ArcadeModeSubmit;
 use App\Http\Requests\OverwatchArcadeModeSubmit;
 use App\Http\Requests\ProfileUpdate;
-use App\Jobs\TwitterPost;
+use App\Jobs\OverwatchTwitterPost;
 use App\Models\Config;
 use App\Models\Game\Daily;
 use App\Models\Logs;
@@ -76,7 +76,7 @@ class ContributeController extends Controller
         ]);
 
         if (env('APP_ENV') == "Production") {
-            TwitterPost::dispatch();
+            OverwatchTwitterPost::dispatch();
         }
 
         return response()->json($request->all());
@@ -105,7 +105,7 @@ class ContributeController extends Controller
         ]);
 
         if (env('APP_ENV') == "Production") {
-            TwitterPost::dispatch();
+            OverwatchTwitterPost::dispatch();
         }
 
         return response()->json($request->all());

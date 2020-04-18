@@ -15,6 +15,8 @@
 Route::get('/login', 'Auth\RegisterController@redirectAuthenticationPage')->name('login');
 Route::get('/login/callback', 'Auth\RegisterController@callback');
 
+Route::view('/overwatch', 'index')->name('API_OW_SCREENSHOT');
+
 Route::get('/api/overwatch/today', 'API\OverwatchApiController@today');
 Route::get('/api/overwatch/arcademodes', 'API\OverwatchApiController@gamemodes');
 Route::get('/api/overwatch2/today', 'API\Overwatch2ApiController@today');
