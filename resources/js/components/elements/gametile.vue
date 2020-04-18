@@ -4,8 +4,8 @@
               :class="getLabelColor(gamemode.label)">{{ $t('overwatch.labels.'+gamemode.label) }}</span>
         <div class="card-img-top" :style="{background: 'url('+gamemode.image+') no-repeat 50% 0'}" :alt="gamemode.name + ' Overwatch arcade gamemode'"></div>
         <div class="card-body">
-            <h5 class="text-players">{{ $t('overwatch.arcademodes.'+gamemode.name+'.Players') }}</h5>
-            <h4 class="text-gamemode">{{ $t('overwatch.arcademodes.'+gamemode.name+'.Name') }}</h4>
+            <h5 class="text-players">{{ $t('overwatch.arcademodes.'+gamemode.name+gamemode.players+'.Players') }}</h5>
+            <h4 class="text-gamemode">{{ $t('overwatch.arcademodes.'+gamemode.name+gamemode.players+'.Name') }}</h4>
         </div>
     </div>
     <div class="card" v-else>
