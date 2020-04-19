@@ -28,7 +28,7 @@
                     </tr>
                     <tr>
                         <td>Notes</td>
-                        <td>There is a is_today property to determine if it's today's arcarcade.</td>
+                        <td>There is a is_today property to determine if it's today's arcade.</td>
                     </tr>
                     </tbody>
                 </table>

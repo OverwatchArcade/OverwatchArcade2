@@ -34,7 +34,7 @@ class OverwatchTwitterPost implements ShouldQueue
 
     private function getTwitterText()
     {
-        return "Today's Overwatch arcade modes - " . Carbon::now()->format('D, d M') . "#overwatch #owarcade";
+        return "Today's Overwatch arcade modes - " . Carbon::now()->format('D, d M') . " #overwatch #owarcade";
     }
 
     public function createScreenshot()
