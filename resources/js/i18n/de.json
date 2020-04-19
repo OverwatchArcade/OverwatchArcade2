@@ -1,0 +1,405 @@
+{
+    "footer": {
+        "contributors": "Und gehalten, indem die",
+        "copyright_materials": "Spielinhalte und materialien sind warenzeichen und urheberrechte ihrer jeweiligen verlag und seine lizenzgeber. alle rechte vorbehalten.",
+        "copyright_site": "Diese seite ist unter einem lizenzierten",
+        "made_by": "Diese seite ist für spaß gemacht durch"
+    },
+    "general": {
+        "contributors": "contributors",
+        "notifications": "notifications",
+        "settings": "settings"
+    },
+    "message": {
+        "warning": "Warnung"
+    },
+    "overwatch": {
+        "arcademodes": {
+            "Almost No Limits6v6": {
+                "Name": "Fast keine Beschränkungen",
+                "Players": "6v6"
+            },
+            "Assault6v6": {
+                "Name": "Angriff",
+                "Players": "6v6"
+            },
+            "Blizzard World6v6": {
+                "Name": "Blizzard World",
+                "Players": "6v6"
+            },
+            "Blood Moon RisingCo-op": {
+                "Name": "Aufgehender Blutmond",
+                "Players": "Co-op"
+            },
+            "Busan6v6": {
+                "Name": "Busan",
+                "Players": "6v6"
+            },
+            "CTF Blitz6v6": {
+                "Name": "Flaggeneroberung - Blitz",
+                "Players": "6v6"
+            },
+            "CTF: Ayutthaya Only6v6": {
+                "Name": "Flaggeneroberung: Ayutthaya",
+                "Players": "6v6"
+            },
+            "CTF: Busan6v6": {
+                "Name": "Flaggeneroberung: Busan",
+                "Players": "6v6"
+            },
+            "Capture the Flag6v6": {
+                "Name": "Flaggeneroberung",
+                "Players": "6v6"
+            },
+            "Capture the Rooster6v6": {
+                "Name": "Hol den Hahn",
+                "Players": "6v6"
+            },
+            "Challenge MissionsCo-op": {
+                "Name": "Herausforderungsmissionen",
+                "Players": "Co-op"
+            },
+            "Château Deathmatch8 Player FFA": {
+                "Name": "Deathmatch im Château",
+                "Players": "FFA – 8 Spieler"
+            },
+            "Close QuartersCo-op": {
+                "Name": "Auge in Auge",
+                "Players": "Co-op"
+            },
+            "Competitive CTF6v6": {
+                "Name": "Kompetitive Flaggeneroberung",
+                "Players": "6v6"
+            },
+            "Competitive Deathmatch8 Player FFA": {
+                "Name": "Kompetitives Deathmatch",
+                "Players": "FFA – 8 Spieler"
+            },
+            "Competitive Elimination3v3": {
+                "Name": "Kompetitive Eliminierung",
+                "Players": "3v3"
+            },
+            "Competitive Elimination3v3 Groups Only": {
+                "Name": "Kompetitive Eliminierung",
+                "Players": "Nur 3v3-Gruppen"
+            },
+            "Competitive Elimination6v6": {
+                "Name": "Kompetitive Eliminierung",
+                "Players": "6v6"
+            },
+            "Competitive Open Queue6v6": {
+                "Name": "Kompetitiv – Freie Rollenwahl",
+                "Players": "6v6"
+            },
+            "Competitive Team Deathmatch4v4": {
+                "Name": "Kompetitives Team-Deathmatch",
+                "Players": "4v4"
+            },
+            "Copa Lúcioball3v3": {
+                "Name": "Copa Lúcioball",
+                "Players": "3v3"
+            },
+            "Deathmatch8 Player FFA": {
+                "Name": "Deathmatch",
+                "Players": "FFA – 8 Spieler"
+            },
+            "Doomfist Elimination6v6": {
+                "Name": "Eliminierung: Doomfist",
+                "Players": "6v6"
+            },
+            "Elimination3v3": {
+                "Name": "Eliminierung",
+                "Players": "3v3"
+            },
+            "Elimination6v6": {
+                "Name": "Eliminierung",
+                "Players": "6v6"
+            },
+            "Glass CannonCo-op": {
+                "Name": "Glaskanone",
+                "Players": "Co-op"
+            },
+            "Havana6v6": {
+                "Name": "Havanna",
+                "Players": "6v6"
+            },
+            "Hero Gauntlet8 Player FFA": {
+                "Name": "Heldenrotation",
+                "Players": "FFA – 8 Spieler"
+            },
+            "Horizon Lunar Colony6v6": {
+                "Name": "Mondkolonie Horizon",
+                "Players": "6v6"
+            },
+            "Horizon Lunar Colony6v6 Groups Only": {
+                "Name": "Mondkolonie Horizon",
+                "Players": "Nur 6v6-Gruppen"
+            },
+            "Horizon No Limits6v6": {
+                "Name": "Keine Beschränkungen: Horizon",
+                "Players": "6v6"
+            },
+            "Hybrid6v6": {
+                "Name": "Hybrid",
+                "Players": "6v6"
+            },
+            "Junkenstein EndlessCo-op": {
+                "Name": "Junkenstein: endlos",
+                "Players": "Co-op"
+            },
+            "Junkenstein`s RevengeCo-op": {
+                "Name": "Junkensteins Rache",
+                "Players": "Co-op"
+            },
+            "Junkertown Mystery Heroes6v6": {
+                "Name": "Überraschungshelden: Junkertown",
+                "Players": "6v6"
+            },
+            "Junkertown6v6": {
+                "Name": "Junkertown",
+                "Players": "6v6"
+            },
+            "Limited Duel1v1": {
+                "Name": "Limitiertes Duell",
+                "Players": "1v1"
+            },
+            "Low Gravity6v6": {
+                "Name": "Geringe Schwerkraft",
+                "Players": "6v6"
+            },
+            "Lúcioball3v3": {
+                "Name": "Lúcioball",
+                "Players": "3v3"
+            },
+            "Mei`s Snowball Offensive6v6": {
+                "Name": "Meis Schneeballschlacht",
+                "Players": "6v6"
+            },
+            "Mirrored Deathmatch8 Player FFA": {
+                "Name": "Gespiegeltes Deathmatch",
+                "Players": "FFA – 8 Spieler"
+            },
+            "Mission ArchivesCo-op": {
+                "Name": "Missionsarchiv",
+                "Players": "Co-op"
+            },
+            "Molten CoresCo-op": {
+                "Name": "Geschmolzene Kerne",
+                "Players": "Co-op"
+            },
+            "Mystery Deathmatch8 Player FFA": {
+                "Name": "Überraschungs-Deathmatch",
+                "Players": "FFA – 8 Spieler"
+            },
+            "Mystery Duel1v1": {
+                "Name": "Überraschungsduell",
+                "Players": "1v1"
+            },
+            "Mystery Heroes6v6": {
+                "Name": "Überraschungshelden",
+                "Players": "6v6"
+            },
+            "No Limits Payloads6v6": {
+                "Name": "Keine Beschränkungen: Fracht",
+                "Players": "6v6"
+            },
+            "No Limits6v6": {
+                "Name": "Keine Beschränkungen",
+                "Players": "6v6"
+            },
+            "Paris6v6": {
+                "Name": "Paris",
+                "Players": "6v6"
+            },
+            "Petra Deathmatch8 Player FFA": {
+                "Name": "Deathmatch: Petra",
+                "Players": "FFA – 8 Spieler"
+            },
+            "Quick Play Classic6v6": {
+                "Name": "Klassische Schnellsuche",
+                "Players": "6v6"
+            },
+            "Retribution (All Heroes)Co-op": {
+                "Name": "Vergeltung (alle Helden)",
+                "Players": "Co-op"
+            },
+            "Retribution (Story)Co-op": {
+                "Name": "Vergeltung (Story)",
+                "Players": "Co-op"
+            },
+            "Rialto6v6": {
+                "Name": "Rialto",
+                "Players": "6v6"
+            },
+            "Skirmish6v6": {
+                "Name": "Übungsgefecht",
+                "Players": "6v6"
+            },
+            "Snowball Deathmatch8 Player FFA": {
+                "Name": "Schneeball-Deathmatch",
+                "Players": "FFA – 8 Spieler"
+            },
+            "Storm RIsing (All Heroes)Co-op": {
+                "Name": "Sturmzeichen (alle Helden)",
+                "Players": "Co-op"
+            },
+            "Storm RagingCo-op": {
+                "Name": "Tobender Sturm",
+                "Players": "Co-op"
+            },
+            "Storm Rising (Story)Co-op": {
+                "Name": "Sturmzeichen (Story)",
+                "Players": "Co-op"
+            },
+            "Surgical StrikeCo-op": {
+                "Name": "Präzisionsschlag",
+                "Players": "Co-op"
+            },
+            "Team Deathmatch4v4": {
+                "Name": "Team-Deathmatch",
+                "Players": "4v4"
+            },
+            "Total Mayhem6v6": {
+                "Name": "Totales Chaos",
+                "Players": "6v6"
+            },
+            "Uprising (All Heroes)Co-op": {
+                "Name": "Aufstand (alle Helden)",
+                "Players": "Co-op"
+            },
+            "Uprising (Story)Co-op": {
+                "Name": "Aufstand (Story)",
+                "Players": "Co-op"
+            },
+            "Winter Mystery6v6": {
+                "Name": "Winterüberraschung",
+                "Players": "6v6"
+            },
+            "Yeti Hunter5v1": {
+                "Name": "Yetijagd",
+                "Players": "5v1"
+            }
+        },
+        "day_resets_in": "Tag wird zurückgesetzt in",
+        "heroes": {
+            "Ana": "Ana",
+            "Ashe": "Ashe",
+            "Assassin": "Assassine",
+            "Baptiste": "Baptiste",
+            "Bastion": "Bastion",
+            "Boat": "Boot",
+            "Bob": "Bob",
+            "Brigitte": "Brigitte",
+            "D.Va": "D.Va",
+            "Detonator": "Detonator",
+            "Doomfist": "Doomfist",
+            "Echo": "Echo",
+            "Enforcer": "Eliteeinheit",
+            "Eradicator": "Eradicator",
+            "Friendly Bot": "Verbündeter Bot",
+            "Genji": "Genji",
+            "Gunship": "Transporter",
+            "Hanzo": "Hanzo",
+            "Heavy Assault": "Sturmgrenadier",
+            "Junkrat": "Junkrat",
+            "Lúcio": "Lúcio",
+            "McCree": "McCree",
+            "Mei": "Mei",
+            "Mercy": "Mercy",
+            "Moira": "Moira",
+            "Nulltrooper": "Nulltrooper",
+            "Orisa": "Orisa",
+            "Pharah": "Pharah",
+            "Reaper": "Reaper",
+            "Reinhardt": "Reinhardt",
+            "Roadhog": "Roadhog",
+            "Shock-Tire": "Schockreifen",
+            "Sigma": "Sigma",
+            "Slicer": "Slicer",
+            "Sniper": "Scharfschützin",
+            "Soldier: 76": "Soldier: 76",
+            "Sombra": "Sombra",
+            "Symmetra": "Symmetra",
+            "Torbjörn": "Torbjörn",
+            "Tracer": "Tracer",
+            "Training Bot": "Trainingsbot",
+            "Trooper": "Soldat",
+            "Widowmaker": "Widowmaker",
+            "Winston": "Winston",
+            "Wrecking Ball": "Wrecking Ball",
+            "Zarya": "Zarya",
+            "Zenyatta": "Zenyatta",
+            "Zombardier": "Zombardier",
+            "Zomnic": "Zomnic"
+        },
+        "labels": {
+            "Daily": "Täglich",
+            "Permanent": "Dauerhaft",
+            "Weekly": "Wöchentlich"
+        },
+        "maps": {
+            "Ayutthaya": "Ayutthaya",
+            "Black Forest": "Schwarzwald",
+            "Blizzard World": "Blizzard World",
+            "Busan": "Busan",
+            "Busan Downtown": "Busan – Stadtzentrum",
+            "Busan Sanctuary": "Busan – Tempel",
+            "Busan Stadium": "Stadion von Busan",
+            "Castillo": "Castillo",
+            "Château Guillard": "Château Guillard",
+            "Dorado": "Dorado",
+            "Ecopoint: Antarctica": "Ecopoint: Antarktis",
+            "Eichenwalde": "Eichenwalde",
+            "Estádio das Rãs": "Estádio das Rãs",
+            "Hanamura": "Hanamura",
+            "Havana": "Havanna",
+            "Hollywood": "Hollywood",
+            "Horizon Lunar Colony": "Mondkolonie Horizon",
+            "Ilios": "Ilios",
+            "Ilios Lighthouse": "Ilios – Leuchtturm",
+            "Ilios Ruins": "Ilios – Ruinen",
+            "Ilios Well": "Ilios – Brunnen",
+            "Junkenstein's Revenge": "Junkensteins Rache",
+            "Junkertown": "Junkertown",
+            "King's Row": "King's Row",
+            "Lijiang Control Center": "Lijiang Tower – Kontrollzentrum",
+            "Lijiang Garden": "Lijiang Tower – Garten",
+            "Lijiang Night Market": "Lijiang Tower – Nachtmarkt",
+            "Lijiang Tower": "Lijiang Tower",
+            "Necropolis": "Nekropole",
+            "Nepal": "Nepal",
+            "Nepal Sanctum": "Nepal – Sanktum",
+            "Nepal Shrine": "Nepal – Schrein",
+            "Nepal Village": "Nepal – Dorf",
+            "Nepal Village (Winter)": "Nepal – Dorf (Winter)",
+            "Numbani": "Numbani",
+            "Oasis": "Oasis",
+            "Oasis City Center": "Oasis – Stadtzentrum",
+            "Oasis Gardens": "Oasis – Gärten",
+            "Oasis University": "Oasis – Universität",
+            "Paris": "Paris",
+            "Petra": "Petra",
+            "Practice Range": "Trainingsbereich",
+            "Rialto": "Rialto",
+            "Route 66": "Route 66",
+            "Sydney Harbour Arena": "Sydney Harbour Arena",
+            "Temple of Anubis": "Tempel des Anubis",
+            "Tutorial": "Tutorial",
+            "VPP Green Room": "VPP Green Room",
+            "Volskaya Industries": "Volskaya Industries",
+            "Watchpoint: Gibraltar": "Watchpoint: Gibraltar",
+            "Workshop Chamber": "Workshop-Raum",
+            "Workshop Expanse": "Workshop-Gebiet",
+            "Workshop Island": "Workshop-Insel"
+        },
+        "not_updated_yet": "Die heutige arcade wurde noch nicht aktualisiert"
+    },
+    "profile": {
+        "about": "About",
+        "contributor_subline": "Profi seit {date} mit insgesamt {amount} beiträge",
+        "favourite_arcade_heroes": "Lieblingshelden",
+        "favourite_arcade_maps": "Lieblingskarten",
+        "favourite_arcade_modes": "Lieblings arcade-modi",
+        "last_submit": "Last submit"
+    }
+}

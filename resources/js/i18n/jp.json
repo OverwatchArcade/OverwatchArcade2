@@ -1,0 +1,405 @@
+{
+    "footer": {
+        "contributors": "とによって維持",
+        "copyright_materials": "ゲームの内容や材料は商標とそれぞれの出版社およびそのライセンサーの著作権です。全著作権所有。",
+        "copyright_site": "このサイトは、aの下でライセンスされています",
+        "made_by": "このサイトはで楽しみのために作られています"
+    },
+    "general": {
+        "contributors": "contributors",
+        "notifications": "notifications",
+        "settings": "settings"
+    },
+    "message": {
+        "warning": "警告"
+    },
+    "overwatch": {
+        "arcademodes": {
+            "Almost No Limits6v6": {
+                "Name": "ほぼノーリミット",
+                "Players": "6vs6"
+            },
+            "Assault6v6": {
+                "Name": "アサルト",
+                "Players": "6vs6"
+            },
+            "Blizzard World6v6": {
+                "Name": "BLIZZARD WORLD",
+                "Players": "6vs6"
+            },
+            "Blood Moon RisingCo-op": {
+                "Name": "ブラッドムーン・ライジング",
+                "Players": "CO-OP"
+            },
+            "Busan6v6": {
+                "Name": "BUSAN",
+                "Players": "6vs6"
+            },
+            "CTF Blitz6v6": {
+                "Name": "CTF ブリッツ",
+                "Players": "6vs6"
+            },
+            "CTF: Ayutthaya Only6v6": {
+                "Name": "CTF: AYUTTHAYA限定",
+                "Players": "6vs6"
+            },
+            "CTF: Busan6v6": {
+                "Name": "CTF: BUSAN",
+                "Players": "6vs6"
+            },
+            "Capture the Flag6v6": {
+                "Name": "キャプチャー・ザ・フラッグ",
+                "Players": "6vs6"
+            },
+            "Capture the Rooster6v6": {
+                "Name": "キャプチャー・ザ・ルースター",
+                "Players": "6vs6"
+            },
+            "Challenge MissionsCo-op": {
+                "Name": "チャレンジ任務",
+                "Players": "CO-OP"
+            },
+            "Château Deathmatch8 Player FFA": {
+                "Name": "シャトー・デスマッチ",
+                "Players": "FFA"
+            },
+            "Close QuartersCo-op": {
+                "Name": "クロース・クオーター",
+                "Players": "CO-OP"
+            },
+            "Competitive CTF6v6": {
+                "Name": "ライバル CTF",
+                "Players": "6vs6"
+            },
+            "Competitive Deathmatch8 Player FFA": {
+                "Name": "ライバル・デスマッチ",
+                "Players": "FFA"
+            },
+            "Competitive Elimination3v3": {
+                "Name": "ライバル・エリミネーション",
+                "Players": "3vs3"
+            },
+            "Competitive Elimination3v3 Groups Only": {
+                "Name": "ライバル エリミネーション",
+                "Players": "3VS3 グループのみ"
+            },
+            "Competitive Elimination6v6": {
+                "Name": "ライバル エリミネーション",
+                "Players": "6vs6"
+            },
+            "Competitive Open Queue6v6": {
+                "Name": "ライバル・プレイ オープンキュー",
+                "Players": "6vs6"
+            },
+            "Competitive Team Deathmatch4v4": {
+                "Name": "ライバル チーム・デスマッチ",
+                "Players": "4VS4"
+            },
+            "Copa Lúcioball3v3": {
+                "Name": "コパ・ルシオボール",
+                "Players": "3vs3"
+            },
+            "Deathmatch8 Player FFA": {
+                "Name": "デスマッチ",
+                "Players": "FFA"
+            },
+            "Doomfist Elimination6v6": {
+                "Name": "ドゥームフィスト・エリミネーション",
+                "Players": "6vs6"
+            },
+            "Elimination3v3": {
+                "Name": "エリミネーション",
+                "Players": "3vs3"
+            },
+            "Elimination6v6": {
+                "Name": "エリミネーション",
+                "Players": "6vs6"
+            },
+            "Glass CannonCo-op": {
+                "Name": "グラスキャノン",
+                "Players": "CO-OP"
+            },
+            "Havana6v6": {
+                "Name": "HAVANA",
+                "Players": "6vs6"
+            },
+            "Hero Gauntlet8 Player FFA": {
+                "Name": "ヒーロー・ガントレット<tx0C0000000001FEE9>",
+                "Players": "FFA"
+            },
+            "Horizon Lunar Colony6v6": {
+                "Name": "HORIZON LUNAR COLONY",
+                "Players": "6vs6"
+            },
+            "Horizon Lunar Colony6v6 Groups Only": {
+                "Name": "HORIZON LUNAR COLONY",
+                "Players": "6VS6 グループのみ"
+            },
+            "Horizon No Limits6v6": {
+                "Name": "HORIZON ノーリミット",
+                "Players": "6vs6"
+            },
+            "Hybrid6v6": {
+                "Name": "ハイブリッド",
+                "Players": "6vs6"
+            },
+            "Junkenstein EndlessCo-op": {
+                "Name": "ジャンケン<br>シュタインの<br>復讐 （エンドレス）",
+                "Players": "CO-OP"
+            },
+            "Junkenstein`s RevengeCo-op": {
+                "Name": "ジャンケン<br>シュタインの<br>復讐",
+                "Players": "CO-OP"
+            },
+            "Junkertown Mystery Heroes6v6": {
+                "Name": "JUNKERTOWN ミステリー・ヒーロー",
+                "Players": "6vs6"
+            },
+            "Junkertown6v6": {
+                "Name": "JUNKERTOWN",
+                "Players": "6vs6"
+            },
+            "Limited Duel1v1": {
+                "Name": "リミテッド・<br>デュエル",
+                "Players": "1vs1"
+            },
+            "Low Gravity6v6": {
+                "Name": "低重力",
+                "Players": "6vs6"
+            },
+            "Lúcioball3v3": {
+                "Name": "ルシオボール",
+                "Players": "3vs3"
+            },
+            "Mei`s Snowball Offensive6v6": {
+                "Name": "メイの雪合戦",
+                "Players": "6vs6"
+            },
+            "Mirrored Deathmatch8 Player FFA": {
+                "Name": "ミラー・デスマッチ<tx0C0000000001FEE9>",
+                "Players": "FFA"
+            },
+            "Mission ArchivesCo-op": {
+                "Name": "任務アーカイブ",
+                "Players": "CO-OP"
+            },
+            "Molten CoresCo-op": {
+                "Name": "モルテン・コア",
+                "Players": "CO-OP"
+            },
+            "Mystery Deathmatch8 Player FFA": {
+                "Name": "ミステリー・デスマッチ",
+                "Players": "FFA"
+            },
+            "Mystery Duel1v1": {
+                "Name": "ミステリー・デュエル",
+                "Players": "1vs1"
+            },
+            "Mystery Heroes6v6": {
+                "Name": "ミステリー・ヒーロー",
+                "Players": "6vs6"
+            },
+            "No Limits Payloads6v6": {
+                "Name": "ノーリミット・ペイロード",
+                "Players": "6vs6"
+            },
+            "No Limits6v6": {
+                "Name": "ノーリミット",
+                "Players": "6vs6"
+            },
+            "Paris6v6": {
+                "Name": "PARIS",
+                "Players": "6vs6"
+            },
+            "Petra Deathmatch8 Player FFA": {
+                "Name": "PETRA デスマッチ",
+                "Players": "FFA"
+            },
+            "Quick Play Classic6v6": {
+                "Name": "クイック・プレイ クラシック",
+                "Players": "6vs6"
+            },
+            "Retribution (All Heroes)Co-op": {
+                "Name": "レトリビューション（全ヒーロー）",
+                "Players": "CO-OP"
+            },
+            "Retribution (Story)Co-op": {
+                "Name": "レトリビューション（ストーリー）",
+                "Players": "CO-OP"
+            },
+            "Rialto6v6": {
+                "Name": "RIALTO",
+                "Players": "6vs6"
+            },
+            "Skirmish6v6": {
+                "Name": "スカーミッシュ",
+                "Players": "6vs6"
+            },
+            "Snowball Deathmatch8 Player FFA": {
+                "Name": "雪合戦（デスマッチ）",
+                "Players": "FFA"
+            },
+            "Storm RIsing (All Heroes)Co-op": {
+                "Name": "ストーム・ライジング（全ヒーロー）",
+                "Players": "CO-OP"
+            },
+            "Storm RagingCo-op": {
+                "Name": "ストーム・レイジング",
+                "Players": "CO-OP"
+            },
+            "Storm Rising (Story)Co-op": {
+                "Name": "ストーム・ライジング（ストーリー）",
+                "Players": "CO-OP"
+            },
+            "Surgical StrikeCo-op": {
+                "Name": "サージカル・ストライク",
+                "Players": "CO-OP"
+            },
+            "Team Deathmatch4v4": {
+                "Name": "チーム・デスマッチ",
+                "Players": "4VS4"
+            },
+            "Total Mayhem6v6": {
+                "Name": "トータル・メイヘム",
+                "Players": "6vs6"
+            },
+            "Uprising (All Heroes)Co-op": {
+                "Name": "アップライジング（全ヒーロー）",
+                "Players": "CO-OP"
+            },
+            "Uprising (Story)Co-op": {
+                "Name": "アップライジング（ストーリー）",
+                "Players": "CO-OP"
+            },
+            "Winter Mystery6v6": {
+                "Name": "ウィンター・ミステリー",
+                "Players": "6vs6"
+            },
+            "Yeti Hunter5v1": {
+                "Name": "イエティ・ハント",
+                "Players": "5VS1"
+            }
+        },
+        "day_resets_in": "デイリセット時",
+        "heroes": {
+            "Ana": "アナ",
+            "Ashe": "アッシュ",
+            "Assassin": "アサシン",
+            "Baptiste": "バティスト",
+            "Bastion": "バスティオン",
+            "Boat": "ボート",
+            "Bob": "ボブ",
+            "Brigitte": "ブリギッテ",
+            "D.Va": "D.Va",
+            "Detonator": "デトネーター",
+            "Doomfist": "ドゥームフィスト",
+            "Echo": "エコー",
+            "Enforcer": "エンフォーサー",
+            "Eradicator": "エラジケーター",
+            "Friendly Bot": "味方のボット",
+            "Genji": "ゲンジ",
+            "Gunship": "ガンシップ",
+            "Hanzo": "ハンゾー",
+            "Heavy Assault": "ヘビー・アサルト",
+            "Junkrat": "ジャンクラット",
+            "Lúcio": "ルシオ",
+            "McCree": "マクリー",
+            "Mei": "メイ",
+            "Mercy": "マーシー",
+            "Moira": "モイラ",
+            "Nulltrooper": "ヌルトルーパー",
+            "Orisa": "オリーサ",
+            "Pharah": "ファラ",
+            "Reaper": "リーパー",
+            "Reinhardt": "ラインハルト",
+            "Roadhog": "ロードホッグ",
+            "Shock-Tire": "ショック・タイヤ",
+            "Sigma": "シグマ",
+            "Slicer": "スライサー",
+            "Sniper": "スナイパー",
+            "Soldier: 76": "ソルジャー76",
+            "Sombra": "ソンブラ",
+            "Symmetra": "シンメトラ",
+            "Torbjörn": "トールビョーン",
+            "Tracer": "トレーサー",
+            "Training Bot": "トレーニング・ボット",
+            "Trooper": "トルーパー",
+            "Widowmaker": "ウィドウメイカー",
+            "Winston": "ウィンストン",
+            "Wrecking Ball": "レッキング・ボール",
+            "Zarya": "ザリア",
+            "Zenyatta": "ゼニヤッタ",
+            "Zombardier": "ゾンバルディア",
+            "Zomnic": "ゾムニック"
+        },
+        "labels": {
+            "Daily": "日々",
+            "Permanent": "恒久",
+            "Weekly": "ウィークリー"
+        },
+        "maps": {
+            "Ayutthaya": "AYUTTHAYA",
+            "Black Forest": "BLACK FOREST",
+            "Blizzard World": "BLIZZARD WORLD",
+            "Busan": "BUSAN",
+            "Busan Downtown": "BUSAN DOWNTOWN",
+            "Busan Sanctuary": "BUSAN SANCTUARY",
+            "Busan Stadium": "BUSAN STADIUM",
+            "Castillo": "CASTILLO",
+            "Château Guillard": "CHATEAU GUILLARD",
+            "Dorado": "DORADO",
+            "Ecopoint: Antarctica": "ECOPOINT: ANTARCTICA",
+            "Eichenwalde": "EICHENWALDE",
+            "Estádio das Rãs": "ESTADIO DAS RAS",
+            "Hanamura": "HANAMURA",
+            "Havana": "HAVANA",
+            "Hollywood": "HOLLYWOOD",
+            "Horizon Lunar Colony": "HORIZON LUNAR COLONY",
+            "Ilios": "ILIOS",
+            "Ilios Lighthouse": "ILIOS LIGHTHOUSE",
+            "Ilios Ruins": "ILIOS RUINS",
+            "Ilios Well": "ILIOS WELL",
+            "Junkenstein's Revenge": "ジャンケン<br>シュタインの<br>復讐",
+            "Junkertown": "JUNKERTOWN",
+            "King's Row": "KING'S ROW",
+            "Lijiang Control Center": "LIJIANG CONTROL CENTER",
+            "Lijiang Garden": "LIJIANG GARDEN",
+            "Lijiang Night Market": "LIJIANG NIGHT MARKET",
+            "Lijiang Tower": "LIJIANG TOWER",
+            "Necropolis": "NECROPOLIS",
+            "Nepal": "NEPAL",
+            "Nepal Sanctum": "NEPAL SANCTUM",
+            "Nepal Shrine": "NEPAL SHRINE",
+            "Nepal Village": "NEPAL VILLAGE",
+            "Nepal Village (Winter)": "NEPAL VILLAGE （ウィンター）",
+            "Numbani": "NUMBANI",
+            "Oasis": "OASIS",
+            "Oasis City Center": "OASIS CITY CENTER",
+            "Oasis Gardens": "OASIS GARDENS",
+            "Oasis University": "OASIS UNIVERSITY",
+            "Paris": "PARIS",
+            "Petra": "PETRA",
+            "Practice Range": "練習場",
+            "Rialto": "RIALTO",
+            "Route 66": "ROUTE 66",
+            "Sydney Harbour Arena": "SYDNEY HARBOUR ARENA",
+            "Temple of Anubis": "TEMPLE OF ANUBIS",
+            "Tutorial": "チュートリアル",
+            "VPP Green Room": "VPP Green Room",
+            "Volskaya Industries": "VOLSKAYA INDUSTRIES",
+            "Watchpoint: Gibraltar": "WATCHPOINT: GIBRALTAR",
+            "Workshop Chamber": "WORKSHOP CHAMBER",
+            "Workshop Expanse": "WORKSHOP EXPANSE",
+            "Workshop Island": "WORKSHOP ISLAND"
+        },
+        "not_updated_yet": "今日のアーケードは、まだ更新されていません"
+    },
+    "profile": {
+        "about": "About",
+        "contributor_subline": "{date}寄付の合計以来、コントリビュータ{amount}",
+        "favourite_arcade_heroes": "好きなヒーロー",
+        "favourite_arcade_maps": "好きなマップ",
+        "favourite_arcade_modes": "好きなアーケードモード",
+        "last_submit": "Last submit"
+    }
+}

@@ -1,0 +1,225 @@
+@import '~bootstrap/dist/css/bootstrap.min.css';
+@import '~@fortawesome/fontawesome-free/css/all.min.css';
+@import '~sweetalert2/dist/sweetalert2.min.css';
+@import 'tooltip';
+
+body, html {
+    color: #FFF;
+    background: none;
+    font-family: 'Open Sans', sans-serif;
+    cursor: url(/overwatch.cur), auto;
+}
+
+@font-face {
+    font-family: 'overwatch';
+    src: url('/fonts/overwatch.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'overwatch-italic';
+    src: url('/fonts/overwatch-italic.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'overwatch-serif';
+    src: url('/fonts/overwatch-serif.woff') format('woff');
+}
+
+html {
+    background: #000000;
+}
+
+h1, h2, h3 {
+    font-family: overwatch;
+}
+h4, h5 {
+    font-family: overwatch-italic;
+}
+
+.text-players {
+    color:#1c75bc;
+}
+
+.text-gamemode {
+    color:#28354f;
+}
+
+#playertile {
+    color: #FFF;
+    text-shadow: 1px 0px 1px #000;
+}
+
+
+.card-ribbon {
+    position: absolute;
+    left: -0.8vw;
+    top: 0.50vw;
+    display: inline-block;
+    color: #ffffff;
+    font-weight: 700;
+    background: #17B113;
+    text-transform: uppercase;
+    font-size: 8pt;
+    padding: 0.49vw 0.62vw 0.29vw;
+    border-radius: 0;
+}
+
+.card-ribbon::after {
+    content: "";
+    bottom: -0.8vw;
+    position: absolute;
+    display: block;
+    border-style: solid;
+    border-color: #0C590A transparent transparent transparent;
+    left: 0;
+    width: 0;
+    border-width: 0.8vw 0 0 0.8vw;
+}
+
+.card-ribbon.-secondary {
+    background: #F89E1B;
+}
+
+.card-ribbon.-secondary::after {
+    border-color: #7C4F0E transparent transparent transparent;
+}
+
+ul.owarcade-menu li {
+    font-family: overwatch-italic;
+    font-size: 24pt;
+    list-style: none;
+    transition: all 250ms;
+}
+
+ul.owarcade-menu li:hover {
+    padding-left: 10px;
+    transition: all 250ms;
+}
+
+ul.owarcade-menu {
+    padding: 0;
+    margin: 0;
+}
+
+.card {
+    color: #222222;
+    background-color: #FFFFFF;
+    height: 100%;
+}
+
+.card:hover {
+    background-color: #ebebeb;
+    transition: all 250ms;
+}
+
+.logo {
+    max-height: 64px;
+    height: auto;
+}
+
+div#playertile {
+    color: #FFF;
+    max-width: 250px;
+    text-shadow: 1px 0px 1px #000;
+}
+
+.card .card-img-top {
+    width: auto;
+    background: url(http://overwatcharcade.test/img/modes_large/competitivectf.jpg) no-repeat 50% 0;
+    -webkit-background-size: cover !important;
+    -moz-background-size: cover !important;
+    -o-background-size: cover !important;
+    background-size: cover !important;
+}
+
+a {
+    color: #FA9C1D
+}
+
+a:hover {
+    color: #fad40f;
+    text-decoration: none;
+}
+
+
+// Small devices (landscape phones, 576px and up)
+@media (max-width: 768px) {
+    .largeTile .card .card-img-top {
+        height: 400px;
+    }
+    .card .card-img-top {
+        height: 200px;
+    }
+
+    .card-ribbon {
+        left: -10px;
+        top: 20px;
+        font-size: 12px;
+        padding: 2.59vw 4.92vw 2.49vw;
+    }
+
+    .card-ribbon::after {
+        display: none;
+    }
+
+    .card {
+        height: auto;
+        min-height: auto;
+    }
+
+    .largeTile .card .card-img-top {
+        height: 250px;
+    }
+
+    .card .card-img-top {
+        height: 250px;
+    }
+
+    .card-ribbon::after {
+        bottom: -25px;
+        border-width: 25px 0 0 25px;
+    }
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+    .largeTile .card .card-img-top {
+        height: 400px;
+    }
+    .card .card-img-top {
+        height: 200px;
+    }
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+    .largeTile .card .card-img-top {
+        height: 400px;
+    }
+    .card .card-img-top {
+        height: 200px;
+    }
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+    .card .card-img-top {
+        height: 150px;
+    }
+
+    .largeTile .card .card-img-top {
+        height: 425px;
+    }
+
+    h1 {
+        font-size: 48pt;
+    }
+
+    h2 {
+        font-size: 32pt
+    }
+
+    h3 {
+        font-size: 26pt;
+    }
+}

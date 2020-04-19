@@ -1,0 +1,405 @@
+{
+    "footer": {
+        "contributors": "並通過維持",
+        "copyright_materials": "遊戲內容和材料是商標和它們各自的發行商和其授權的版權。版權所有。",
+        "copyright_site": "這個網站是下一個許可",
+        "made_by": "這個網站是由為了好玩做"
+    },
+    "general": {
+        "contributors": "contributors",
+        "notifications": "notifications",
+        "settings": "settings"
+    },
+    "message": {
+        "warning": "警告"
+    },
+    "overwatch": {
+        "arcademodes": {
+            "Almost No Limits6v6": {
+                "Name": "幾乎無限制",
+                "Players": "6v6"
+            },
+            "Assault6v6": {
+                "Name": "佔領",
+                "Players": "6v6"
+            },
+            "Blizzard World6v6": {
+                "Name": "暴雪樂園",
+                "Players": "6v6"
+            },
+            "Blood Moon RisingCo-op": {
+                "Name": "血月獵殺",
+                "Players": "合作"
+            },
+            "Busan6v6": {
+                "Name": "釜山",
+                "Players": "6v6"
+            },
+            "CTF Blitz6v6": {
+                "Name": "搶旗閃擊戰",
+                "Players": "6v6"
+            },
+            "CTF: Ayutthaya Only6v6": {
+                "Name": "大城搶旗戰",
+                "Players": "6v6"
+            },
+            "CTF: Busan6v6": {
+                "Name": "釜山搶旗戰",
+                "Players": "6v6"
+            },
+            "Capture the Flag6v6": {
+                "Name": "搶旗",
+                "Players": "6v6"
+            },
+            "Capture the Rooster6v6": {
+                "Name": "搶得先雞",
+                "Players": "6v6"
+            },
+            "Challenge MissionsCo-op": {
+                "Name": "挑戰任務",
+                "Players": "合作"
+            },
+            "Château Deathmatch8 Player FFA": {
+                "Name": "城堡死鬥",
+                "Players": "8人自由混戰"
+            },
+            "Close QuartersCo-op": {
+                "Name": "近距搏鬥",
+                "Players": "合作"
+            },
+            "Competitive CTF6v6": {
+                "Name": "搶旗競技",
+                "Players": "6v6"
+            },
+            "Competitive Deathmatch8 Player FFA": {
+                "Name": "死鬥競技模式",
+                "Players": "8人自由混戰"
+            },
+            "Competitive Elimination3v3": {
+                "Name": "鎖定對決競技模式",
+                "Players": "3v3"
+            },
+            "Competitive Elimination3v3 Groups Only": {
+                "Name": "鎖定對決競技模式",
+                "Players": "僅限3v3團隊"
+            },
+            "Competitive Elimination6v6": {
+                "Name": "鎖定對決競技模式",
+                "Players": "6v6"
+            },
+            "Competitive Open Queue6v6": {
+                "Name": "自由佇列競技對戰",
+                "Players": "6v6"
+            },
+            "Competitive Team Deathmatch4v4": {
+                "Name": "團隊死鬥競技模式",
+                "Players": "4v4"
+            },
+            "Copa Lúcioball3v3": {
+                "Name": "路西歐競球盃",
+                "Players": "3v3"
+            },
+            "Deathmatch8 Player FFA": {
+                "Name": "死鬥",
+                "Players": "8人自由混戰"
+            },
+            "Doomfist Elimination6v6": {
+                "Name": "毀滅拳王鬥陣對決",
+                "Players": "6v6"
+            },
+            "Elimination3v3": {
+                "Name": "鎖定對決",
+                "Players": "3v3"
+            },
+            "Elimination6v6": {
+                "Name": "鎖定對決",
+                "Players": "6v6"
+            },
+            "Glass CannonCo-op": {
+                "Name": "棄防強攻",
+                "Players": "合作"
+            },
+            "Havana6v6": {
+                "Name": "哈瓦那",
+                "Players": "6v6"
+            },
+            "Hero Gauntlet8 Player FFA": {
+                "Name": "英雄交鋒<tx0C0000000001FEE9>",
+                "Players": "8人自由混戰"
+            },
+            "Horizon Lunar Colony6v6": {
+                "Name": "地平線月球殖民地",
+                "Players": "6v6"
+            },
+            "Horizon Lunar Colony6v6 Groups Only": {
+                "Name": "地平線月球殖民地",
+                "Players": "僅限6v6團隊"
+            },
+            "Horizon No Limits6v6": {
+                "Name": "地平線（無限制）",
+                "Players": "6v6"
+            },
+            "Hybrid6v6": {
+                "Name": "混合",
+                "Players": "6v6"
+            },
+            "Junkenstein EndlessCo-op": {
+                "Name": "鼠肯斯坦無盡復仇",
+                "Players": "合作"
+            },
+            "Junkenstein`s RevengeCo-op": {
+                "Name": "鼠肯斯坦復仇記",
+                "Players": "合作"
+            },
+            "Junkertown Mystery Heroes6v6": {
+                "Name": "垃圾鎮神秘客",
+                "Players": "6v6"
+            },
+            "Junkertown6v6": {
+                "Name": "垃圾鎮",
+                "Players": "6v6"
+            },
+            "Limited Duel1v1": {
+                "Name": "限定單挑",
+                "Players": "1v1"
+            },
+            "Low Gravity6v6": {
+                "Name": "低重力",
+                "Players": "6v6"
+            },
+            "Lúcioball3v3": {
+                "Name": "路西歐競球",
+                "Players": "3v3"
+            },
+            "Mei`s Snowball Offensive6v6": {
+                "Name": "小美的雪球大作戰",
+                "Players": "6v6"
+            },
+            "Mirrored Deathmatch8 Player FFA": {
+                "Name": "同英雄對決死鬥<tx0C0000000001FEE9>",
+                "Players": "8人自由混戰"
+            },
+            "Mission ArchivesCo-op": {
+                "Name": "捍衛密令",
+                "Players": "合作"
+            },
+            "Molten CoresCo-op": {
+                "Name": "熔岩之地",
+                "Players": "合作"
+            },
+            "Mystery Deathmatch8 Player FFA": {
+                "Name": "神秘客死鬥",
+                "Players": "8人自由混戰"
+            },
+            "Mystery Duel1v1": {
+                "Name": "神秘客大對決",
+                "Players": "1v1"
+            },
+            "Mystery Heroes6v6": {
+                "Name": "神秘客",
+                "Players": "6v6"
+            },
+            "No Limits Payloads6v6": {
+                "Name": "沒有限定目標",
+                "Players": "6v6"
+            },
+            "No Limits6v6": {
+                "Name": "全面開戰",
+                "Players": "6v6"
+            },
+            "Paris6v6": {
+                "Name": "巴黎",
+                "Players": "6v6"
+            },
+            "Petra Deathmatch8 Player FFA": {
+                "Name": "佩特拉死鬥",
+                "Players": "8人自由混戰"
+            },
+            "Quick Play Classic6v6": {
+                "Name": "經典快速對戰",
+                "Players": "6v6"
+            },
+            "Retribution (All Heroes)Co-op": {
+                "Name": "制裁行動（所有英雄）",
+                "Players": "合作"
+            },
+            "Retribution (Story)Co-op": {
+                "Name": "制裁行動（故事模式）",
+                "Players": "合作"
+            },
+            "Rialto6v6": {
+                "Name": "里亞爾托",
+                "Players": "6v6"
+            },
+            "Skirmish6v6": {
+                "Name": "衝突戰",
+                "Players": "6v6"
+            },
+            "Snowball Deathmatch8 Player FFA": {
+                "Name": "雪球死鬥大作戰",
+                "Players": "8人自由混戰"
+            },
+            "Storm RIsing (All Heroes)Co-op": {
+                "Name": "失控倒數（所有英雄）",
+                "Players": "合作"
+            },
+            "Storm RagingCo-op": {
+                "Name": "失控風暴",
+                "Players": "合作"
+            },
+            "Storm Rising (Story)Co-op": {
+                "Name": "失控倒數（故事模式）",
+                "Players": "合作"
+            },
+            "Surgical StrikeCo-op": {
+                "Name": "精準攻擊",
+                "Players": "合作"
+            },
+            "Team Deathmatch4v4": {
+                "Name": "團隊死鬥",
+                "Players": "4v4"
+            },
+            "Total Mayhem6v6": {
+                "Name": "全面破壞",
+                "Players": "6v6"
+            },
+            "Uprising (All Heroes)Co-op": {
+                "Name": "零度叛亂（所有英雄）",
+                "Players": "合作"
+            },
+            "Uprising (Story)Co-op": {
+                "Name": "零度叛亂（故事模式）",
+                "Players": "合作"
+            },
+            "Winter Mystery6v6": {
+                "Name": "冬境神秘客",
+                "Players": "6v6"
+            },
+            "Yeti Hunter5v1": {
+                "Name": "雪怪大作戰",
+                "Players": "5v1"
+            }
+        },
+        "day_resets_in": "日在復位",
+        "heroes": {
+            "Ana": "安娜",
+            "Ashe": "艾西",
+            "Assassin": "刺客",
+            "Baptiste": "巴帝斯特",
+            "Bastion": "壁壘機兵",
+            "Boat": "快艇",
+            "Bob": "鮑伯",
+            "Brigitte": "碧姬",
+            "D.Va": "D.Va",
+            "Detonator": "炸彈機兵",
+            "Doomfist": "毀滅拳王",
+            "Echo": "迴音",
+            "Enforcer": "強化兵",
+            "Eradicator": "殲滅機兵",
+            "Friendly Bot": "我方機器人",
+            "Genji": "源氏",
+            "Gunship": "砲艇",
+            "Hanzo": "半藏",
+            "Heavy Assault": "重裝突擊兵",
+            "Junkrat": "炸彈鼠",
+            "Lúcio": "路西歐",
+            "McCree": "麥卡利",
+            "Mei": "小美",
+            "Mercy": "慈悲",
+            "Moira": "莫伊拉",
+            "Nulltrooper": "步槍機兵",
+            "Orisa": "歐瑞莎",
+            "Pharah": "法拉",
+            "Reaper": "死神",
+            "Reinhardt": "萊因哈特",
+            "Roadhog": "攔路豬",
+            "Shock-Tire": "電流飛輪",
+            "Sigma": "席格馬",
+            "Slicer": "切割機兵",
+            "Sniper": "狙擊兵",
+            "Soldier: 76": "士兵76",
+            "Sombra": "駭影",
+            "Symmetra": "辛梅塔",
+            "Torbjörn": "托比昂",
+            "Tracer": "閃光",
+            "Training Bot": "訓練機器人",
+            "Trooper": "步兵",
+            "Widowmaker": "奪命女",
+            "Winston": "溫斯頓",
+            "Wrecking Ball": "火爆鋼球",
+            "Zarya": "札莉雅",
+            "Zenyatta": "禪亞塔",
+            "Zombardier": "屍械砲兵",
+            "Zomnic": "屍械"
+        },
+        "labels": {
+            "Daily": "日常",
+            "Permanent": "常駐",
+            "Weekly": "每週"
+        },
+        "maps": {
+            "Ayutthaya": "大城",
+            "Black Forest": "黑森林",
+            "Blizzard World": "暴雪樂園",
+            "Busan": "釜山",
+            "Busan Downtown": "釜山市區",
+            "Busan Sanctuary": "釜山寺院",
+            "Busan Stadium": "釜山運動場",
+            "Castillo": "城塞",
+            "Château Guillard": "蓋亞爾城堡",
+            "Dorado": "多拉多",
+            "Ecopoint: Antarctica": "南極洲生態觀測站",
+            "Eichenwalde": "愛西瓦德",
+            "Estádio das Rãs": "青蛙體育場",
+            "Hanamura": "花村",
+            "Havana": "哈瓦那",
+            "Hollywood": "好萊塢",
+            "Horizon Lunar Colony": "地平線月球殖民地",
+            "Ilios": "伊利歐斯",
+            "Ilios Lighthouse": "伊利歐斯燈塔",
+            "Ilios Ruins": "伊利歐斯廢墟",
+            "Ilios Well": "伊利歐斯水井",
+            "Junkenstein's Revenge": "鼠肯斯坦復仇記",
+            "Junkertown": "垃圾鎮",
+            "King's Row": "國王大道",
+            "Lijiang Control Center": "灕江天塔控制中心",
+            "Lijiang Garden": "灕江花園",
+            "Lijiang Night Market": "灕江夜市",
+            "Lijiang Tower": "灕江天塔",
+            "Necropolis": "墓室",
+            "Nepal": "尼泊爾",
+            "Nepal Sanctum": "尼泊爾聖所",
+            "Nepal Shrine": "尼泊爾聖壇",
+            "Nepal Village": "尼泊爾村落",
+            "Nepal Village (Winter)": "尼泊爾村落（冬境）",
+            "Numbani": "努巴尼",
+            "Oasis": "綠洲城",
+            "Oasis City Center": "綠洲城市都心",
+            "Oasis Gardens": "綠洲城公園",
+            "Oasis University": "綠洲城大學",
+            "Paris": "巴黎",
+            "Petra": "佩特拉",
+            "Practice Range": "訓練中心",
+            "Rialto": "里亞爾托",
+            "Route 66": "66號公路",
+            "Sydney Harbour Arena": "雪梨海港運動公園",
+            "Temple of Anubis": "阿努比斯神廟",
+            "Tutorial": "教學模式",
+            "VPP Green Room": "VPP Green Room",
+            "Volskaya Industries": "伏斯凱亞工業",
+            "Watchpoint: Gibraltar": "捍衛者基地：直布羅陀",
+            "Workshop Chamber": "工作坊房間",
+            "Workshop Expanse": "工作坊延伸區域",
+            "Workshop Island": "工作坊島嶼"
+        },
+        "not_updated_yet": "如今的街機尚未更新"
+    },
+    "profile": {
+        "about": "About",
+        "contributor_subline": "因為貢獻者{date}總的貢獻{amount}",
+        "favourite_arcade_heroes": "最喜歡的英雄",
+        "favourite_arcade_maps": "最喜歡的地圖",
+        "favourite_arcade_modes": "最喜歡的街機模式",
+        "last_submit": "Last submit"
+    }
+}

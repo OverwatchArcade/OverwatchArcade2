@@ -1,0 +1,405 @@
+{
+    "footer": {
+        "contributors": "И поддерживается",
+        "copyright_materials": "Содержание игры и материалы являются товарными знаками и авторскими правами соответствующих издателя и ее лицензиаров. все права защищены.",
+        "copyright_site": "Этот сайт под лицензией",
+        "made_by": "Этот сайт сделан для удовольствия от"
+    },
+    "general": {
+        "contributors": "contributors",
+        "notifications": "notifications",
+        "settings": "settings"
+    },
+    "message": {
+        "warning": "Предупреждение"
+    },
+    "overwatch": {
+        "arcademodes": {
+            "Almost No Limits6v6": {
+                "Name": "Почти без ограничений",
+                "Players": "6х6"
+            },
+            "Assault6v6": {
+                "Name": "Захват точек",
+                "Players": "6х6"
+            },
+            "Blizzard World6v6": {
+                "Name": "Blizzard World",
+                "Players": "6х6"
+            },
+            "Blood Moon RisingCo-op": {
+                "Name": "Кровавая луна",
+                "Players": "Совместный"
+            },
+            "Busan6v6": {
+                "Name": "Пусан",
+                "Players": "6х6"
+            },
+            "CTF Blitz6v6": {
+                "Name": "Быстрый захват флага",
+                "Players": "6х6"
+            },
+            "CTF: Ayutthaya Only6v6": {
+                "Name": "Захват флага: только Аюттайя",
+                "Players": "6х6"
+            },
+            "CTF: Busan6v6": {
+                "Name": "Захват флага: Пусан",
+                "Players": "6х6"
+            },
+            "Capture the Flag6v6": {
+                "Name": "Захват флага",
+                "Players": "6х6"
+            },
+            "Capture the Rooster6v6": {
+                "Name": "Захват Петуха",
+                "Players": "6х6"
+            },
+            "Challenge MissionsCo-op": {
+                "Name": "Испытания",
+                "Players": "Совместный"
+            },
+            "Château Deathmatch8 Player FFA": {
+                "Name": "Схватка в шато",
+                "Players": "8 игроков (FFA)"
+            },
+            "Close QuartersCo-op": {
+                "Name": "Ближний бой",
+                "Players": "Совместный"
+            },
+            "Competitive CTF6v6": {
+                "Name": "Соревновательный захват флага",
+                "Players": "6х6"
+            },
+            "Competitive Deathmatch8 Player FFA": {
+                "Name": "Соревновательная схватка",
+                "Players": "8 игроков (FFA)"
+            },
+            "Competitive Elimination3v3": {
+                "Name": "Соревновательная ликвидация",
+                "Players": "3х3"
+            },
+            "Competitive Elimination3v3 Groups Only": {
+                "Name": "Соревновательная ликвидация",
+                "Players": "3х3, только группы"
+            },
+            "Competitive Elimination6v6": {
+                "Name": "Соревновательная ликвидация",
+                "Players": "6х6"
+            },
+            "Competitive Open Queue6v6": {
+                "Name": "Открытый соревновательный режим",
+                "Players": "6х6"
+            },
+            "Competitive Team Deathmatch4v4": {
+                "Name": "Соревновательная командная схватка",
+                "Players": "4х4"
+            },
+            "Copa Lúcioball3v3": {
+                "Name": "Кубок Лусио",
+                "Players": "3х3"
+            },
+            "Deathmatch8 Player FFA": {
+                "Name": "Схватка",
+                "Players": "8 игроков (FFA)"
+            },
+            "Doomfist Elimination6v6": {
+                "Name": "Ликвидация: Кулак Смерти",
+                "Players": "6х6"
+            },
+            "Elimination3v3": {
+                "Name": "Ликвидация",
+                "Players": "3х3"
+            },
+            "Elimination6v6": {
+                "Name": "Ликвидация",
+                "Players": "6х6"
+            },
+            "Glass CannonCo-op": {
+                "Name": "Хрупкие разрушители",
+                "Players": "Совместный"
+            },
+            "Havana6v6": {
+                "Name": "Гавана",
+                "Players": "6х6"
+            },
+            "Hero Gauntlet8 Player FFA": {
+                "Name": "Испытание героев",
+                "Players": "8 игроков (FFA)"
+            },
+            "Horizon Lunar Colony6v6": {
+                "Name": "Лунная колония «Горизонт»",
+                "Players": "6х6"
+            },
+            "Horizon Lunar Colony6v6 Groups Only": {
+                "Name": "Лунная колония «Горизонт»",
+                "Players": "6х6, только группы"
+            },
+            "Horizon No Limits6v6": {
+                "Name": "Горизонт – без ограничений",
+                "Players": "6х6"
+            },
+            "Hybrid6v6": {
+                "Name": "Гибридный режим",
+                "Players": "6х6"
+            },
+            "Junkenstein EndlessCo-op": {
+                "Name": "Бесконечная месть",
+                "Players": "Совместный"
+            },
+            "Junkenstein`s RevengeCo-op": {
+                "Name": "Месть Крысенштейна",
+                "Players": "Совместный"
+            },
+            "Junkertown Mystery Heroes6v6": {
+                "Name": "Загадочные герои Джанкертауна",
+                "Players": "6х6"
+            },
+            "Junkertown6v6": {
+                "Name": "Джанкертаун",
+                "Players": "6х6"
+            },
+            "Limited Duel1v1": {
+                "Name": "Дуэль с ограничениями",
+                "Players": "1х1"
+            },
+            "Low Gravity6v6": {
+                "Name": "Низкая гравитация",
+                "Players": "6х6"
+            },
+            "Lúcioball3v3": {
+                "Name": "Лусиобол",
+                "Players": "3х3"
+            },
+            "Mei`s Snowball Offensive6v6": {
+                "Name": "Операция «Метелица»",
+                "Players": "6х6"
+            },
+            "Mirrored Deathmatch8 Player FFA": {
+                "Name": "Зеркальная схватка",
+                "Players": "8 игроков (FFA)"
+            },
+            "Mission ArchivesCo-op": {
+                "Name": "Архив заданий",
+                "Players": "Совместный"
+            },
+            "Molten CoresCo-op": {
+                "Name": "Перегрев",
+                "Players": "Совместный"
+            },
+            "Mystery Deathmatch8 Player FFA": {
+                "Name": "Схватка вслепую",
+                "Players": "8 игроков (FFA)"
+            },
+            "Mystery Duel1v1": {
+                "Name": "Случайная дуэль",
+                "Players": "1х1"
+            },
+            "Mystery Heroes6v6": {
+                "Name": "Загадочные герои",
+                "Players": "6х6"
+            },
+            "No Limits Payloads6v6": {
+                "Name": "Без ограничений (сопровождение)",
+                "Players": "6х6"
+            },
+            "No Limits6v6": {
+                "Name": "Без ограничений",
+                "Players": "6х6"
+            },
+            "Paris6v6": {
+                "Name": "Париж",
+                "Players": "6х6"
+            },
+            "Petra Deathmatch8 Player FFA": {
+                "Name": "Схватка в Петре",
+                "Players": "8 игроков (FFA)"
+            },
+            "Quick Play Classic6v6": {
+                "Name": "Классическая быстрая игра",
+                "Players": "6х6"
+            },
+            "Retribution (All Heroes)Co-op": {
+                "Name": "Возмездие (все герои)",
+                "Players": "Совместный"
+            },
+            "Retribution (Story)Co-op": {
+                "Name": "Возмездие (сюжет)",
+                "Players": "Совместный"
+            },
+            "Rialto6v6": {
+                "Name": "Риальто",
+                "Players": "6х6"
+            },
+            "Skirmish6v6": {
+                "Name": "Разминка",
+                "Players": "6х6"
+            },
+            "Snowball Deathmatch8 Player FFA": {
+                "Name": "Снежная схватка",
+                "Players": "8 игроков (FFA)"
+            },
+            "Storm RIsing (All Heroes)Co-op": {
+                "Name": "Предчувствие бури (все герои)",
+                "Players": "Совместный"
+            },
+            "Storm RagingCo-op": {
+                "Name": "Ярость бури",
+                "Players": "Совместный"
+            },
+            "Storm Rising (Story)Co-op": {
+                "Name": "Предчувствие бури (сюжет)",
+                "Players": "Совместный"
+            },
+            "Surgical StrikeCo-op": {
+                "Name": "Хирургическая точность",
+                "Players": "Совместный"
+            },
+            "Team Deathmatch4v4": {
+                "Name": "Командная схватка",
+                "Players": "4х4"
+            },
+            "Total Mayhem6v6": {
+                "Name": "Полный хаос",
+                "Players": "6х6"
+            },
+            "Uprising (All Heroes)Co-op": {
+                "Name": "Мятеж (все герои)",
+                "Players": "Совместный"
+            },
+            "Uprising (Story)Co-op": {
+                "Name": "Мятеж (сюжет)",
+                "Players": "Совместный"
+            },
+            "Winter Mystery6v6": {
+                "Name": "Зимняя тайна",
+                "Players": "6х6"
+            },
+            "Yeti Hunter5v1": {
+                "Name": "Охота на йети",
+                "Players": "5х1"
+            }
+        },
+        "day_resets_in": "День перезагружается в",
+        "heroes": {
+            "Ana": "Ана",
+            "Ashe": "Эш",
+            "Assassin": "Ассасин",
+            "Baptiste": "Батист",
+            "Bastion": "Бастион",
+            "Boat": "Лодка",
+            "Bob": "Боб",
+            "Brigitte": "Бригитта",
+            "D.Va": "D.Va",
+            "Detonator": "«Детонатор»",
+            "Doomfist": "Кулак Смерти",
+            "Echo": "Эхо",
+            "Enforcer": "Каратель",
+            "Eradicator": "«Ликвидатор»",
+            "Friendly Bot": "Робот-союзник",
+            "Genji": "Гэндзи",
+            "Gunship": "Десантное судно",
+            "Hanzo": "Хандзо",
+            "Heavy Assault": "Тяжелый штурмовик",
+            "Junkrat": "Крысавчик",
+            "Lúcio": "Лусио",
+            "McCree": "Маккри",
+            "Mei": "Мэй",
+            "Mercy": "Ангел",
+            "Moira": "Мойра",
+            "Nulltrooper": "Штурмовик",
+            "Orisa": "Ориса",
+            "Pharah": "Фарра",
+            "Reaper": "Жнец",
+            "Reinhardt": "Райнхардт",
+            "Roadhog": "Турбосвин",
+            "Shock-Tire": "Электрошина",
+            "Sigma": "Сигма",
+            "Slicer": "«Ланцет»",
+            "Sniper": "Снайпер",
+            "Soldier: 76": "Солдат-76",
+            "Sombra": "Сомбра",
+            "Symmetra": "Симметра",
+            "Torbjörn": "Торбьорн",
+            "Tracer": "Трейсер",
+            "Training Bot": "Тренировочный робот",
+            "Trooper": "Пехотинец",
+            "Widowmaker": "Роковая Вдова",
+            "Winston": "Уинстон",
+            "Wrecking Ball": "Таран",
+            "Zarya": "Заря",
+            "Zenyatta": "Дзенъятта",
+            "Zombardier": "Зомбардир",
+            "Zomnic": "Зомник"
+        },
+        "labels": {
+            "Daily": "Ежедневно",
+            "Permanent": "Перманентный",
+            "Weekly": "Еженедельно"
+        },
+        "maps": {
+            "Ayutthaya": "Аюттайя",
+            "Black Forest": "Черный лес",
+            "Blizzard World": "Blizzard World",
+            "Busan": "Пусан",
+            "Busan Downtown": "Центр Пусана",
+            "Busan Sanctuary": "Святилище Пусана",
+            "Busan Stadium": "Стадион Пусана",
+            "Castillo": "Кастильо",
+            "Château Guillard": "Шато-Гийяр",
+            "Dorado": "Дорадо",
+            "Ecopoint: Antarctica": "Экостанция: Антарктика",
+            "Eichenwalde": "Айхенвальд",
+            "Estádio das Rãs": "«Эстадиу ди Ранс»",
+            "Hanamura": "Ханамура",
+            "Havana": "Гавана",
+            "Hollywood": "Голливуд",
+            "Horizon Lunar Colony": "Лунная колония «Горизонт»",
+            "Ilios": "Илиос",
+            "Ilios Lighthouse": "Илиос: маяк",
+            "Ilios Ruins": "Илиос: развалины",
+            "Ilios Well": "Илиос: колодец",
+            "Junkenstein's Revenge": "Месть Крысенштейна",
+            "Junkertown": "Джанкертаун",
+            "King's Row": "Кингс Роу",
+            "Lijiang Control Center": "Лицзян: командный центр",
+            "Lijiang Garden": "Лицзян: сад",
+            "Lijiang Night Market": "Лицзян: ночной рынок",
+            "Lijiang Tower": "Башня Лицзян",
+            "Necropolis": "Некрополь",
+            "Nepal": "Непал",
+            "Nepal Sanctum": "Непал: святилище",
+            "Nepal Shrine": "Непал: алтарь",
+            "Nepal Village": "Непал: деревня",
+            "Nepal Village (Winter)": "Непал: деревня (зима)",
+            "Numbani": "Нумбани",
+            "Oasis": "Оазис",
+            "Oasis City Center": "Оазис: центр города",
+            "Oasis Gardens": "Оазис: сады",
+            "Oasis University": "Оазис: университет",
+            "Paris": "Париж",
+            "Petra": "Петра",
+            "Practice Range": "УЧЕБНЫЙ ПОЛИГОН",
+            "Rialto": "Риальто",
+            "Route 66": "Шоссе 66",
+            "Sydney Harbour Arena": "«Арена Сидней-Харбор»",
+            "Temple of Anubis": "Храм Анубиса",
+            "Tutorial": "Обучение",
+            "VPP Green Room": "VPP Green Room",
+            "Volskaya Industries": "КБ Вольской",
+            "Watchpoint: Gibraltar": "Пост наблюдения: Гибралтар",
+            "Workshop Chamber": "Мастерская: комната",
+            "Workshop Expanse": "Мастерская: поле",
+            "Workshop Island": "Мастерская: остров"
+        },
+        "not_updated_yet": "Сегодня аркада еще не обновлен"
+    },
+    "profile": {
+        "about": "About",
+        "contributor_subline": "Автор так {date} в общей сложности {amount} взносов",
+        "favourite_arcade_heroes": "Любимые герои",
+        "favourite_arcade_maps": "Любимые карты",
+        "favourite_arcade_modes": "Любимые аркады режимы",
+        "last_submit": "Last submit"
+    }
+}

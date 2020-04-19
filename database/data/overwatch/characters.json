@@ -1,0 +1,126 @@
+[
+  {
+    "title": "Ana",
+    "image": "https://d1u1mce87gyfbn.cloudfront.net/hero/ana/hero-select-portrait.png"
+  },
+  {
+    "title": "Ashe",
+    "image": "https://d1u1mce87gyfbn.cloudfront.net/hero/ashe/hero-select-portrait.png"
+  },
+  {
+    "title": "Baptiste",
+    "image": "https://d1u1mce87gyfbn.cloudfront.net/hero/baptiste/hero-select-portrait.png"
+  },
+  {
+    "title": "Bastion",
+    "image": "https://d1u1mce87gyfbn.cloudfront.net/hero/bastion/hero-select-portrait.png"
+  },
+  {
+    "title": "Brigitte",
+    "image": "https://d1u1mce87gyfbn.cloudfront.net/hero/brigitte/hero-select-portrait.png"
+  },
+  {
+    "title": "D.Va",
+    "image": "https://d1u1mce87gyfbn.cloudfront.net/hero/dva/hero-select-portrait.png"
+  },
+  {
+    "title": "Doomfist",
+    "image": "https://d1u1mce87gyfbn.cloudfront.net/hero/doomfist/hero-select-portrait.png"
+  },
+  {
+    "title": "Genji",
+    "image": "https://d1u1mce87gyfbn.cloudfront.net/hero/genji/hero-select-portrait.png"
+  },
+  {
+    "title": "Hanzo",
+    "image": "https://d1u1mce87gyfbn.cloudfront.net/hero/hanzo/hero-select-portrait.png"
+  },
+  {
+    "title": "Junkrat",
+    "image": "https://d1u1mce87gyfbn.cloudfront.net/hero/junkrat/hero-select-portrait.png"
+  },
+  {
+    "title": "Lúcio",
+    "image": "https://d1u1mce87gyfbn.cloudfront.net/hero/lucio/hero-select-portrait.png"
+  },
+  {
+    "title": "McCree",
+    "image": "https://d1u1mce87gyfbn.cloudfront.net/hero/mccree/hero-select-portrait.png"
+  },
+  {
+    "title": "Mei",
+    "image": "https://d1u1mce87gyfbn.cloudfront.net/hero/mei/hero-select-portrait.png"
+  },
+  {
+    "title": "Mercy",
+    "image": "https://d1u1mce87gyfbn.cloudfront.net/hero/mercy/hero-select-portrait.png"
+  },
+  {
+    "title": "Moira",
+    "image": "https://d1u1mce87gyfbn.cloudfront.net/hero/moira/hero-select-portrait.png"
+  },
+  {
+    "title": "Orisa",
+    "image": "https://d1u1mce87gyfbn.cloudfront.net/hero/orisa/hero-select-portrait.png"
+  },
+  {
+    "title": "Pharah",
+    "image": "https://d1u1mce87gyfbn.cloudfront.net/hero/pharah/hero-select-portrait.png"
+  },
+  {
+    "title": "Reaper",
+    "image": "https://d1u1mce87gyfbn.cloudfront.net/hero/reaper/hero-select-portrait.png"
+  },
+  {
+    "title": "Reinhardt",
+    "image": "https://d1u1mce87gyfbn.cloudfront.net/hero/reinhardt/hero-select-portrait.png"
+  },
+  {
+    "title": "Roadhog",
+    "image": "https://d1u1mce87gyfbn.cloudfront.net/hero/roadhog/hero-select-portrait.png"
+  },
+  {
+    "title": "Sigma",
+    "image": "https://d1u1mce87gyfbn.cloudfront.net/hero/sigma/hero-select-portrait.png"
+  },
+  {
+    "title": "Soldier: 76",
+    "image": "https://d1u1mce87gyfbn.cloudfront.net/hero/soldier-76/hero-select-portrait.png"
+  },
+  {
+    "title": "Sombra",
+    "image": "https://d1u1mce87gyfbn.cloudfront.net/hero/sombra/hero-select-portrait.png"
+  },
+  {
+    "title": "Symmetra",
+    "image": "https://d1u1mce87gyfbn.cloudfront.net/hero/symmetra/hero-select-portrait.png"
+  },
+  {
+    "title": "Torbjörn",
+    "image": "https://d1u1mce87gyfbn.cloudfront.net/hero/torbjorn/hero-select-portrait.png"
+  },
+  {
+    "title": "Tracer",
+    "image": "https://d1u1mce87gyfbn.cloudfront.net/hero/tracer/hero-select-portrait.png"
+  },
+  {
+    "title": "Widowmaker",
+    "image": "https://d1u1mce87gyfbn.cloudfront.net/hero/widowmaker/hero-select-portrait.png"
+  },
+  {
+    "title": "Winston",
+    "image": "https://d1u1mce87gyfbn.cloudfront.net/hero/winston/hero-select-portrait.png"
+  },
+  {
+    "title": "Wrecking Ball",
+    "image": "https://d1u1mce87gyfbn.cloudfront.net/hero/wrecking-ball/hero-select-portrait.png"
+  },
+  {
+    "title": "Zarya",
+    "image": "https://d1u1mce87gyfbn.cloudfront.net/hero/zarya/hero-select-portrait.png"
+  },
+  {
+    "title": "Zenyatta",
+    "image": "https://d1u1mce87gyfbn.cloudfront.net/hero/zenyatta/hero-select-portrait.png"
+  }
+]
