@@ -75,7 +75,7 @@ class ContributeController extends Controller
             'game' => Daily::GAME_KEY_OVERWATCH
         ]);
 
-        if (env('APP_ENV') == "Production") {
+        if (strtolower(env('APP_ENV')) == "production") {
             OverwatchTwitterPost::dispatch();
         }
 
@@ -103,10 +103,6 @@ class ContributeController extends Controller
             'user_battlenet_id' => Auth::user()->battlenet_id,
             'game' => Daily::GAME_KEY_OVERWATCH2
         ]);
-
-        if (env('APP_ENV') == "Production") {
-            OverwatchTwitterPost::dispatch();
-        }
 
         return response()->json($request->all());
     }
