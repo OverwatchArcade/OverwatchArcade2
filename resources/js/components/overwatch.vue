@@ -130,7 +130,7 @@
 
                 alert.fire({
                     title: 'Are you sure?',
-                    text: "You\re about to undo today\'s gamemode, are you sure?",
+                    text: "You\'re about to undo today\'s gamemode, are you sure?",
                     icon: 'warning',
                     showCancelButton: true,
                     confirmButtonColor: '#3085d6',

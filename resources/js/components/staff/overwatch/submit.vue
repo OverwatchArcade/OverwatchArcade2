@@ -117,9 +117,12 @@
                 })
             },
             getDaily() {
+                let toasted = this.$toasted;
                 return axios.get("/api/overwatch/today").then(response => {
                     this.daily = response.data;
-                })
+                    this.value = response.data.modes;
+                    toasted.info("Arcademodes prefilled from last submit");
+                });
             },
             submitTodayGamemode() {
                 let toasted = this.$toasted;
@@ -164,6 +167,8 @@
 </script>
 
 <style scoped>
-    .card { height: auto; }
+    .card {
+        height: auto;
+    }
 </style>
 <style src="vue-multiselect/dist/vue-multiselect.min.css"></style>

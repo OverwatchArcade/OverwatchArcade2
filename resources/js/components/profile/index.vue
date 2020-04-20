@@ -4,7 +4,7 @@
             <div class="col-12 text-center">
                 <img :src="user_data.avatar" class="img-fluid rounded-circle" style="max-height:128px">
                 <h3 id="username">{{user_data.name}}</h3>
-                <h4>{{$t('profile.contributor_subline', {'date': user_data.member_since, 'contributions':
+                <h4>{{$t('profile.contributor_subline', {'date': user_data.member_since, 'amount':
                     user_data.contributions} ) }}</h4>
             </div>
         </div>
