@@ -1,0 +1,15 @@
+{
+  "background_color": "orange",
+  "description": "Discover daily Overwatch arcade gamemodes without having to login to Overwatch.",
+  "display": "fullscreen",
+  "icons": [
+    {
+      "src": "/img/ow-arcade-115.png",
+      "sizes": "86x115",
+      "type": "image/png"
+    }
+  ],
+  "name": "OverwatchArcade.today",
+  "short_name": "OWArcade",
+  "start_url": "/overwatch"
+}
