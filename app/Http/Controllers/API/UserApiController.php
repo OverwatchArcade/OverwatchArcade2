@@ -7,6 +7,7 @@ use App\Http\Requests\ProfileUpdate;
 use App\Http\Resources\User\UserCollection;
 use App\Http\Resources\User\UserResource;
 use App\Models\User;
+use Carbon\Carbon;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 
@@ -19,6 +20,8 @@ class UserApiController extends Controller
     {
         $users = User::all()->sortByDesc(function ($user) {
             return $user->getContributedDailies->count();
+        })->filter(function ($user) {
+            return Carbon::parse($user->getLastContributed(), 'utc') >= Carbon::now('utc')->subMonths(3);
         });
         return response()->json(new UserCollection($users), 200, [], JSON_PRETTY_PRINT);
     }
@@ -49,7 +52,7 @@ class UserApiController extends Controller
             'profile.about'
         ]);
 
-        if($request->has('profile.avatar')) {
+        if ($request->has('profile.avatar')) {
             $user->avatar = $request->get('profile')['avatar'];
         }
 

@@ -123,6 +123,10 @@ div#playertile {
     text-shadow: 1px 0px 1px #000;
 }
 
+.card#playertile .card-img-overlay {
+    background-color: rgba(0,0,0,.40);
+}
+
 .card .card-img-top {
     width: auto;
     background: url(http://overwatcharcade.test/img/modes_large/competitivectf.jpg) no-repeat 50% 0;
