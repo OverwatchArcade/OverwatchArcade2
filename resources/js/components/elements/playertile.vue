@@ -13,7 +13,6 @@
                     <li>Last submit: {{contributor.last_submit}}</li>
                 </ul>
             </div>
-
         </div>
     </router-link>
     <div class="card" v-else>
