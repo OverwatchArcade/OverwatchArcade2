@@ -9,6 +9,7 @@
     <meta name="keywords"
           content="Overwatch, arcade, today, gamemode, modes, arcademodes, daily, gamemodes, discord, twitter, ow">
     <meta name="author" content="bluedog">
+    <link rel="manifest" href="/owarcade.manifest">
 
     <meta property="og:title" content="Overwatch arcade gamemodes - daily updated and get notified easily">
     <meta property="og:site_name" content="OverwatchArcade.today">
@@ -74,6 +75,7 @@
     @yield('content')
 
 </div>
+<script type="text/javascript" src="/service-worker.js"></script>
 <script defer type="text/javascript" src="{{ mix('/js/app.js') }}"></script>
 </body>
 </html>
