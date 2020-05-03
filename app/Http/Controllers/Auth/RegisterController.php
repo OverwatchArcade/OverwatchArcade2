@@ -5,11 +5,14 @@ namespace App\Http\Controllers\Auth;
 use App\Models\Config;
 use App\Models\User;
 use App\Http\Controllers\Controller;
+use http\Exception;
+use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Facades\Validator;
 use Illuminate\Foundation\Auth\RegistersUsers;
 use Laravel\Socialite\Facades\Socialite;
+use Laravel\Socialite\Two\InvalidStateException;
 
 class RegisterController extends Controller
 {
@@ -84,7 +87,7 @@ class RegisterController extends Controller
     {
         $whitelist = Config::where('key', Config::KEY_WHITELISTED_UIDS)->firstOrFail()->value;
         if (!in_array($user->getId(), $whitelist)) {
-            return abort('403', 'Not whitelisted');
+            return abort('403', 'Not whitelisted - #'.$user->getId());
         };
     }
 
@@ -101,9 +104,14 @@ class RegisterController extends Controller
     /** Battlenet callback
      * @return \Illuminate\Http\RedirectResponse|\Illuminate\Routing\Redirector
      */
-    public function callback()
+    public function callback(Request $request)
     {
-        $user = Socialite::with('battlenet')->user();
+        try {
+            $user = Socialite::with('battlenet')->user();
+        }
+        catch (InvalidStateException $exception){
+            return redirect('/');
+        }
         Auth::login($this->loginOrCreate($user), true);
         return redirect('/')->with(['logged_in' => true]);
     }
