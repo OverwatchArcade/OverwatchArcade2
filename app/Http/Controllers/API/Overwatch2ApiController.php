@@ -12,7 +12,7 @@ use Illuminate\Http\Request;
 class Overwatch2ApiController extends Controller
 {
     /**
-     * Return daily in json format or empty array if no modes have been set unless fallback is given as paramater
+     * Return daily in json format
      * @param Request $request
      * @return \Illuminate\Http\JsonResponse
      */
