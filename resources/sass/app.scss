@@ -32,23 +32,23 @@ html {
 h1, h2, h3 {
     font-family: overwatch;
 }
+
 h4, h5 {
     font-family: overwatch-italic;
 }
 
 .text-players {
-    color:#1c75bc;
+    color: #1c75bc;
 }
 
 .text-gamemode {
-    color:#28354f;
+    color: #28354f;
 }
 
 #playertile {
     color: #FFF;
     text-shadow: 1px 0px 1px #000;
 }
-
 
 .card-ribbon {
     position: absolute;
@@ -124,7 +124,7 @@ div#playertile {
 }
 
 .card#playertile .card-img-overlay {
-    background-color: rgba(0,0,0,.40);
+    background-color: rgba(0, 0, 0, .40);
 }
 
 .card .card-img-top {
@@ -145,6 +145,9 @@ a:hover {
     text-decoration: none;
 }
 
+span.flag.small-flag {
+    margin: -15px;
+}
 
 // Small devices (landscape phones, 576px and up)
 @media (max-width: 768px) {

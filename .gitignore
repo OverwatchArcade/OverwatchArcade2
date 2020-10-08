@@ -1,5 +1,6 @@
 .idea/
 /vendor/
+laradock/
 node_modules/
 npm-debug.log
 yarn-error.log

@@ -29,7 +29,7 @@
                             <CountryFlag :country='props.option.code' size='small'/> {{ props.option.name }}
                         </template>
                         <template slot="option" slot-scope="props">
-                        <div class="option__desc"><span class="option__title"><CountryFlag :country='props.option.code' size='small'/> {{ props.option.name }}</span></div>
+                        <div class="option__desc"><span class="option__title"><CountryFlag :country='props.option.code' size='small'/>{{ props.option.name }}</span></div>
                         </template>
                     </Multiselect>
                 </div>
