@@ -6,7 +6,7 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-sm-12 col-lg-3 mb-4" v-for="contributor in contributors">
+            <div class="col-sm-12 col-lg-4 mb-4" v-for="contributor in contributors">
                 <playertile :contributor="contributor"></playertile>
             </div>
         </div>

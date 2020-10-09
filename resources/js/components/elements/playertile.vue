@@ -7,11 +7,7 @@
         <div class="card-img-overlay">
             <h4>{{contributor.name}}</h4>
             <div class="small">
-                <ul class="list-group" style="list-style:none;">
-                    <li>{{contributor.contributions}} contributions</li>
-                    <li>Since: {{contributor.member_since}}</li>
-                    <li>Last submit: {{contributor.last_submit}}</li>
-                </ul>
+                <p>Contributor since <b>{{contributor.member_since}}</b> with currently <b>{{contributor.contributions}}</b> contributions. {{contributor.name}}'s last submit was <b>{{contributor.last_submit}}</b></p>
             </div>
         </div>
     </router-link>

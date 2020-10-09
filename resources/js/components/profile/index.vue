@@ -68,7 +68,7 @@
                                 <div class="row">
                                     <div v-for="map in user_data.profile_data.game.map">
                                         <img class="border" style="height:100px"
-                                             v-tooltip="{ content: $t('overwatch.maps.'+map) }"
+                                             v-tooltip="map"
                                              :src="'/img/maps/' + map.replace(':', '') + '.jpg'" :title="map">
                                     </div>
                                 </div>

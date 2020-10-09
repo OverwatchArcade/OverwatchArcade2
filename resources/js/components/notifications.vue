@@ -24,15 +24,6 @@
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-md-4 mb-2 mb-sm-0">
-                <div class="card">
-                    <div class="card-body">
-                        <h5 class="card-title"><i class="fab fa-windows" style="color:#00A4EF"></i> Microsoft store</h5>
-                        <p class="card-text">Overwatch Arcade Windows application</p>
-                        <a href="https://www.microsoft.com/en-us/p/ow-arcade-today/9njpp10ndsr4?activetab=pivot:overviewtab" class="card-link">Link</a>
-                    </div>
-                </div>
-            </div>
         </div>
     </div>
 </template>
