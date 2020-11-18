@@ -7,22 +7,27 @@
 
 <url>
   <loc>https://overwatcharcade.today/</loc>
-  <lastmod>2019-05-25T22:09:19+00:00</lastmod>
+  <lastmod>2020-11-02T22:09:19+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
-  <loc>https://overwatcharcade.today/api</loc>
-  <lastmod>2019-05-25T22:09:19+00:00</lastmod>
-  <priority>0.2</priority>
-</url>
-<url>
-  <loc>https://overwatcharcade.today/notify</loc>
-  <lastmod>2019-05-25T22:09:19+00:00</lastmod>
-  <priority>0.2</priority>
-</url>
-<url>
   <loc>https://overwatcharcade.today/contributors</loc>
-  <lastmod>2019-05-25T22:09:19+00:00</lastmod>
+  <lastmod>2020-11-02T22:09:19+00:00</lastmod>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>https://overwatcharcade.today/api</loc>
+  <lastmod>2020-11-02T22:09:19+00:00</lastmod>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>https://overwatcharcade.today/notifications</loc>
+  <lastmod>2020-11-02T22:09:19+00:00</lastmod>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>https://overwatcharcade.today/about</loc>
+  <lastmod>2020-11-02T22:09:19+00:00</lastmod>
   <priority>0.5</priority>
 </url>
 
