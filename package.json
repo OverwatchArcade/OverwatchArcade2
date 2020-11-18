@@ -29,6 +29,7 @@
         "bootstrap": "^4.5.2",
         "install": "^0.13.0",
         "moment-timezone": "^0.5.31",
+        "object-path": ">=0.11.5",
         "v-tooltip": "^2.0.3",
         "vue-content-loader": "^0.2.3",
         "vue-country-flag": "^2.0.1",
@@ -37,5 +38,6 @@
         "vue-multiselect": "^2.1.6",
         "vue-sweetalert2": "^3.0.8",
         "vue-toasted": "^1.1.28"
-    }
+    },
+    "name": "OverwatchArcade2"
 }
