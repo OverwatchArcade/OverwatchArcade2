@@ -1,9 +1,9 @@
 {
     "footer": {
-        "contributors": "とによって維持",
-        "copyright_materials": "ゲームの内容や材料は商標とそれぞれの出版社およびそのライセンサーの著作権です。全著作権所有。",
-        "copyright_site": "このサイトは、aの下でライセンスされています",
-        "made_by": "このサイトはで楽しみのために作られています"
+        "contributors": "によって維持されます",
+        "copyright_materials": "ゲームのコンテンツと素材は、それぞれの発行元とそのライセンサーの商標と著作権です。全著作権所有。",
+        "copyright_site": "このサイトは、",
+        "made_by": "このサイトはによって楽しみのために作られています"
     },
     "general": {
         "contributors": "contributors",
@@ -17,6 +17,10 @@
         "arcademodes": {
             "Almost No Limits6v6": {
                 "Name": "ほぼノーリミット",
+                "Players": "6vs6"
+            },
+            "Assault Test6v6": {
+                "Name": "アサルト・テスト",
                 "Players": "6vs6"
             },
             "Assault6v6": {
@@ -87,6 +91,10 @@
                 "Name": "ライバル エリミネーション",
                 "Players": "6vs6"
             },
+            "Competitive No Limits6v6": {
+                "Name": "ライバル・ノーリミット",
+                "Players": "6vs6"
+            },
             "Competitive Open Queue6v6": {
                 "Name": "ライバル・プレイ オープンキュー",
                 "Players": "6vs6"
@@ -114,6 +122,10 @@
             "Elimination6v6": {
                 "Name": "エリミネーション",
                 "Players": "6vs6"
+            },
+            "Frenzied StampedeCo-op": {
+                "Name": "怒れる群衆の襲撃",
+                "Players": "CO-OP"
             },
             "Glass CannonCo-op": {
                 "Name": "グラスキャノン",
@@ -167,6 +179,10 @@
                 "Name": "低重力",
                 "Players": "6vs6"
             },
+            "Lúcioball Remix3v3": {
+                "Name": "ルシオボール・リミックス",
+                "Players": "3vs3"
+            },
             "Lúcioball3v3": {
                 "Name": "ルシオボール",
                 "Players": "3vs3"
@@ -199,6 +215,10 @@
                 "Name": "ミステリー・ヒーロー",
                 "Players": "6vs6"
             },
+            "Mystery SwapCo-op": {
+                "Name": "奇妙な夜",
+                "Players": "CO-OP"
+            },
             "No Limits Payloads6v6": {
                 "Name": "ノーリミット・ペイロード",
                 "Players": "6vs6"
@@ -227,9 +247,17 @@
                 "Name": "レトリビューション（ストーリー）",
                 "Players": "CO-OP"
             },
+            "RetributionCo-op": {
+                "Name": "レトリビューション",
+                "Players": "CO-OP"
+            },
             "Rialto6v6": {
                 "Name": "RIALTO",
                 "Players": "6vs6"
+            },
+            "Shocking SurpriseCo-op": {
+                "Name": "衝撃のサプライズ",
+                "Players": "CO-OP"
             },
             "Skirmish6v6": {
                 "Name": "スカーミッシュ",
@@ -251,6 +279,10 @@
                 "Name": "ストーム・ライジング（ストーリー）",
                 "Players": "CO-OP"
             },
+            "Storm RisingCo-op": {
+                "Name": "ストーム・ライジング",
+                "Players": "CO-OP"
+            },
             "Surgical StrikeCo-op": {
                 "Name": "サージカル・ストライク",
                 "Players": "CO-OP"
@@ -258,6 +290,10 @@
             "Team Deathmatch4v4": {
                 "Name": "チーム・デスマッチ",
                 "Players": "4VS4"
+            },
+            "Three They WereCo-op": {
+                "Name": "3人の英雄",
+                "Players": "CO-OP"
             },
             "Total Mayhem6v6": {
                 "Name": "トータル・メイヘム",
@@ -271,6 +307,18 @@
                 "Name": "アップライジング（ストーリー）",
                 "Players": "CO-OP"
             },
+            "UprisingCo-op": {
+                "Name": "アップライジング",
+                "Players": "CO-OP"
+            },
+            "Vengeful GhostCo-op": {
+                "Name": "怨霊の恨み",
+                "Players": "CO-OP"
+            },
+            "Volatile ZomnicsCo-op": {
+                "Name": "呪いのゾムニック",
+                "Players": "CO-OP"
+            },
             "Winter Mystery6v6": {
                 "Name": "ウィンター・ミステリー",
                 "Players": "6vs6"
@@ -280,7 +328,7 @@
                 "Players": "5VS1"
             }
         },
-        "day_resets_in": "デイリセット時",
+        "day_resets_in": "日はでリセットされます",
         "heroes": {
             "Ana": "アナ",
             "Ashe": "アッシュ",
@@ -333,9 +381,9 @@
             "Zomnic": "ゾムニック"
         },
         "labels": {
-            "Daily": "日々",
-            "Permanent": "恒久",
-            "Weekly": "ウィークリー"
+            "Daily": "毎日",
+            "Permanent": "パーマネント",
+            "Weekly": "毎週"
         },
         "maps": {
             "Ayutthaya": "AYUTTHAYA",
@@ -345,6 +393,7 @@
             "Busan Downtown": "BUSAN DOWNTOWN",
             "Busan Sanctuary": "BUSAN SANCTUARY",
             "Busan Stadium": "BUSAN STADIUM",
+            "Busan Stadium Classic": "BUSAN STADIUM CLASSIC",
             "Castillo": "CASTILLO",
             "Château Guillard": "CHATEAU GUILLARD",
             "Dorado": "DORADO",
@@ -366,6 +415,36 @@
             "Lijiang Garden": "LIJIANG GARDEN",
             "Lijiang Night Market": "LIJIANG NIGHT MARKET",
             "Lijiang Tower": "LIJIANG TOWER",
+            "Menu/Anniversary": "Menu/Anniversary",
+            "Menu/Black Forest (Winter) (Day)": "Menu/Black Forest (Winter) (Day)",
+            "Menu/Black Forest (Winter) (Night)": "Menu/Black Forest (Winter) (Night)",
+            "Menu/Busan (Lucioball)": "Menu/Busan (Lucioball)",
+            "Menu/Busan (Lunar)": "Menu/Busan (Lunar)",
+            "Menu/Chateau (Halloween)": "Menu/Chateau (Halloween)",
+            "Menu/Eichenwalde (Alt)": "Menu/Eichenwalde (Alt)",
+            "Menu/Eichenwalde (Halloween)": "Menu/Eichenwalde (Halloween)",
+            "Menu/Gibraltar": "Menu/Gibraltar",
+            "Menu/Hanamura": "Menu/Hanamura",
+            "Menu/Havana": "Menu/Havana",
+            "Menu/Havana (Archives)": "Menu/Havana (Archives)",
+            "Menu/Hollywood": "Menu/Hollywood",
+            "Menu/Horizon Lunar Colony": "Menu/Horizon Lunar Colony",
+            "Menu/Junkertown": "Menu/Junkertown",
+            "Menu/Kings Row": "Menu/Kings Row",
+            "Menu/Kings Row (Archives)": "Menu/Kings Row (Archives)",
+            "Menu/Kings Row (Winter)": "Menu/Kings Row (Winter)",
+            "Menu/Lijiang (Lunar)": "Menu/Lijiang (Lunar)",
+            "Menu/OWL": "Menu/OWL",
+            "Menu/Paris": "Menu/Paris",
+            "Menu/Paris (Alt)": "Menu/Paris (Alt)",
+            "Menu/Rialto": "Menu/Rialto",
+            "Menu/Rialto (Archives)": "Menu/Rialto (Archives)",
+            "Menu/Route 66 (Alt)": "Menu/Route 66 (Alt)",
+            "Menu/Summer Games (2020)": "Menu/Summer Games (2020)",
+            "Menu/Sydney (Lucioball)": "Menu/Sydney (Lucioball)",
+            "Menu/Temple of Anubis (Alt)": "Menu/Temple of Anubis (Alt)",
+            "Menu/Volskaya": "Menu/Volskaya",
+            "Menu/World Cup": "Menu/World Cup",
             "Necropolis": "NECROPOLIS",
             "Nepal": "NEPAL",
             "Nepal Sanctum": "NEPAL SANCTUM",
@@ -383,6 +462,7 @@
             "Rialto": "RIALTO",
             "Route 66": "ROUTE 66",
             "Sydney Harbour Arena": "SYDNEY HARBOUR ARENA",
+            "Sydney Harbour Arena Classic": "SYDNEY HARBOUR ARENA CLASSIC",
             "Temple of Anubis": "TEMPLE OF ANUBIS",
             "Tutorial": "チュートリアル",
             "VPP Green Room": "VPP Green Room",
@@ -390,16 +470,19 @@
             "Watchpoint: Gibraltar": "WATCHPOINT: GIBRALTAR",
             "Workshop Chamber": "WORKSHOP CHAMBER",
             "Workshop Expanse": "WORKSHOP EXPANSE",
-            "Workshop Island": "WORKSHOP ISLAND"
+            "Workshop Expanse (Night)": "WORKSHOP EXPANSE（NIGHT）",
+            "Workshop Green Screen": "WORKSHOP GREEN SCREEN",
+            "Workshop Island": "WORKSHOP ISLAND",
+            "Workshop Island (Night)": "WORKSHOP ISLAND（NIGHT）"
         },
-        "not_updated_yet": "今日のアーケードは、まだ更新されていません"
+        "not_updated_yet": "今日のアーケードはまだ更新されていません"
     },
     "profile": {
         "about": "About",
-        "contributor_subline": "{date}寄付の合計以来、コントリビュータ{amount}",
+        "contributor_subline": "以来の貢献者{date}合計{amount}貢献",
         "favourite_arcade_heroes": "好きなヒーロー",
-        "favourite_arcade_maps": "好きなマップ",
-        "favourite_arcade_modes": "好きなアーケードモード",
+        "favourite_arcade_maps": "お気に入りの地図",
+        "favourite_arcade_modes": "お気に入りのアーケードモード",
         "last_submit": "Last submit"
     }
 }

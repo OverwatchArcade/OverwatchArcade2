@@ -1,9 +1,9 @@
 {
     "footer": {
-        "contributors": "상기에 의해 유지",
-        "copyright_materials": "게임 컨텐츠와 자료는 상표 및 해당 게시자 및 그 라이센스 제공자의 저작권입니다. 판권 소유.",
-        "copyright_site": "이 사이트는 하에서 허가 된입니다",
-        "made_by": "이 사이트는에 의해 재미를 위해 만들어"
+        "contributors": "에 의해 유지",
+        "copyright_materials": "게임 콘텐츠 및 자료는 해당 게시자 및 해당 라이선스 제공자의 상표 및 저작권입니다. 판권 소유.",
+        "copyright_site": "이 사이트는",
+        "made_by": "이 사이트는 재미를 위해 만들어졌습니다."
     },
     "general": {
         "contributors": "contributors",
@@ -17,6 +17,10 @@
         "arcademodes": {
             "Almost No Limits6v6": {
                 "Name": "똑같은 영웅도 거의 환영",
+                "Players": "6대6"
+            },
+            "Assault Test6v6": {
+                "Name": "점령 테스트",
                 "Players": "6대6"
             },
             "Assault6v6": {
@@ -87,6 +91,10 @@
                 "Name": "섬멸전 경쟁전",
                 "Players": "6대6"
             },
+            "Competitive No Limits6v6": {
+                "Name": "똑같은 영웅도 환영 경쟁전",
+                "Players": "6대6"
+            },
             "Competitive Open Queue6v6": {
                 "Name": "자유 경쟁전",
                 "Players": "6대6"
@@ -114,6 +122,10 @@
             "Elimination6v6": {
                 "Name": "섬멸전",
                 "Players": "6대6"
+            },
+            "Frenzied StampedeCo-op": {
+                "Name": "광란의 밤",
+                "Players": "협동전"
             },
             "Glass CannonCo-op": {
                 "Name": "유리 대포",
@@ -167,6 +179,10 @@
                 "Name": "저중력",
                 "Players": "6대6"
             },
+            "Lúcioball Remix3v3": {
+                "Name": "루시우볼 리믹스",
+                "Players": "3대3"
+            },
             "Lúcioball3v3": {
                 "Name": "루시우볼",
                 "Players": "3대3"
@@ -199,6 +215,10 @@
                 "Name": "수수께끼의 영웅",
                 "Players": "6대6"
             },
+            "Mystery SwapCo-op": {
+                "Name": "수수께끼의 생존자",
+                "Players": "협동전"
+            },
             "No Limits Payloads6v6": {
                 "Name": "똑같은 영웅도 환영 호위",
                 "Players": "6대6"
@@ -227,9 +247,17 @@
                 "Name": "응징의 날 (스토리)",
                 "Players": "협동전"
             },
+            "RetributionCo-op": {
+                "Name": "응징의 날",
+                "Players": "협동전"
+            },
             "Rialto6v6": {
                 "Name": "리알토",
                 "Players": "6대6"
+            },
+            "Shocking SurpriseCo-op": {
+                "Name": "짜릿한 최후",
+                "Players": "협동전"
             },
             "Skirmish6v6": {
                 "Name": "연습 전투",
@@ -251,6 +279,10 @@
                 "Name": "폭풍의 서막 (스토리)",
                 "Players": "협동전"
             },
+            "Storm RisingCo-op": {
+                "Name": "폭풍의 서막",
+                "Players": "협동전"
+            },
             "Surgical StrikeCo-op": {
                 "Name": "정확한 일격",
                 "Players": "협동전"
@@ -258,6 +290,10 @@
             "Team Deathmatch4v4": {
                 "Name": "팀 데스매치",
                 "Players": "4대4"
+            },
+            "Three They WereCo-op": {
+                "Name": "세 명이 오리라",
+                "Players": "협동전"
             },
             "Total Mayhem6v6": {
                 "Name": "완전 난장판",
@@ -271,6 +307,18 @@
                 "Name": "옴닉의 반란 (스토리)",
                 "Players": "협동전"
             },
+            "UprisingCo-op": {
+                "Name": "옴닉의 반란",
+                "Players": "협동전"
+            },
+            "Vengeful GhostCo-op": {
+                "Name": "앙심 품은 유령",
+                "Players": "협동전"
+            },
+            "Volatile ZomnicsCo-op": {
+                "Name": "불안정한 좀닉",
+                "Players": "협동전"
+            },
             "Winter Mystery6v6": {
                 "Name": "수수께끼의 겨울",
                 "Players": "6대6"
@@ -280,7 +328,7 @@
                 "Players": "5대1"
             }
         },
-        "day_resets_in": "날 재설정에서",
+        "day_resets_in": "요일 재설정",
         "heroes": {
             "Ana": "아나",
             "Ashe": "애쉬",
@@ -345,6 +393,7 @@
             "Busan Downtown": "부산 시내",
             "Busan Sanctuary": "부산 사찰",
             "Busan Stadium": "부산 스타디움",
+            "Busan Stadium Classic": "부산 스타디움 클래식",
             "Castillo": "카스티요",
             "Château Guillard": "샤토 기야르",
             "Dorado": "도라도",
@@ -366,6 +415,36 @@
             "Lijiang Garden": "리장 정원",
             "Lijiang Night Market": "리장 야시장",
             "Lijiang Tower": "리장 타워",
+            "Menu/Anniversary": "Menu/Anniversary",
+            "Menu/Black Forest (Winter) (Day)": "Menu/Black Forest (Winter) (Day)",
+            "Menu/Black Forest (Winter) (Night)": "Menu/Black Forest (Winter) (Night)",
+            "Menu/Busan (Lucioball)": "Menu/Busan (Lucioball)",
+            "Menu/Busan (Lunar)": "Menu/Busan (Lunar)",
+            "Menu/Chateau (Halloween)": "Menu/Chateau (Halloween)",
+            "Menu/Eichenwalde (Alt)": "Menu/Eichenwalde (Alt)",
+            "Menu/Eichenwalde (Halloween)": "Menu/Eichenwalde (Halloween)",
+            "Menu/Gibraltar": "Menu/Gibraltar",
+            "Menu/Hanamura": "Menu/Hanamura",
+            "Menu/Havana": "Menu/Havana",
+            "Menu/Havana (Archives)": "Menu/Havana (Archives)",
+            "Menu/Hollywood": "Menu/Hollywood",
+            "Menu/Horizon Lunar Colony": "Menu/Horizon Lunar Colony",
+            "Menu/Junkertown": "Menu/Junkertown",
+            "Menu/Kings Row": "Menu/Kings Row",
+            "Menu/Kings Row (Archives)": "Menu/Kings Row (Archives)",
+            "Menu/Kings Row (Winter)": "Menu/Kings Row (Winter)",
+            "Menu/Lijiang (Lunar)": "Menu/Lijiang (Lunar)",
+            "Menu/OWL": "Menu/OWL",
+            "Menu/Paris": "Menu/Paris",
+            "Menu/Paris (Alt)": "Menu/Paris (Alt)",
+            "Menu/Rialto": "Menu/Rialto",
+            "Menu/Rialto (Archives)": "Menu/Rialto (Archives)",
+            "Menu/Route 66 (Alt)": "Menu/Route 66 (Alt)",
+            "Menu/Summer Games (2020)": "Menu/Summer Games (2020)",
+            "Menu/Sydney (Lucioball)": "Menu/Sydney (Lucioball)",
+            "Menu/Temple of Anubis (Alt)": "Menu/Temple of Anubis (Alt)",
+            "Menu/Volskaya": "Menu/Volskaya",
+            "Menu/World Cup": "Menu/World Cup",
             "Necropolis": "네크로폴리스",
             "Nepal": "네팔",
             "Nepal Sanctum": "네팔 성소",
@@ -383,6 +462,7 @@
             "Rialto": "리알토",
             "Route 66": "66번 국도",
             "Sydney Harbour Arena": "시드니 하버 아레나",
+            "Sydney Harbour Arena Classic": "시드니 하버 아레나 클래식",
             "Temple of Anubis": "아누비스 신전",
             "Tutorial": "튜토리얼",
             "VPP Green Room": "VPP Green Room",
@@ -390,15 +470,18 @@
             "Watchpoint: Gibraltar": "감시 기지: 지브롤터",
             "Workshop Chamber": "워크샵 방",
             "Workshop Expanse": "워크샵 개활지",
-            "Workshop Island": "워크샵 섬"
+            "Workshop Expanse (Night)": "워크샵 개활지 (밤)",
+            "Workshop Green Screen": "워크샵 그린 스크린",
+            "Workshop Island": "워크샵 섬",
+            "Workshop Island (Night)": "워크샵 섬 (밤)"
         },
         "not_updated_yet": "오늘의 아케이드는 아직 업데이트되지 않았습니다"
     },
     "profile": {
         "about": "About",
-        "contributor_subline": "{date} 공헌의 총 이후 기여자 {amount}",
+        "contributor_subline": "{date} 이후 기여자 {amount} 총 기여도",
         "favourite_arcade_heroes": "좋아하는 영웅",
-        "favourite_arcade_maps": "즐겨 찾기지도",
+        "favourite_arcade_maps": "즐겨 찾는지도",
         "favourite_arcade_modes": "좋아하는 아케이드 모드",
         "last_submit": "Last submit"
     }

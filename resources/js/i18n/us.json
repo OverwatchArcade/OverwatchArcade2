@@ -19,6 +19,10 @@
                 "Name": "Almost No Limits",
                 "Players": "6v6"
             },
+            "Assault Test6v6": {
+                "Name": "Assault Test",
+                "Players": "6v6"
+            },
             "Assault6v6": {
                 "Name": "Assault",
                 "Players": "6v6"
@@ -87,6 +91,10 @@
                 "Name": "Competitive Elimination",
                 "Players": "6v6"
             },
+            "Competitive No Limits6v6": {
+                "Name": "Competitive No Limits",
+                "Players": "6v6"
+            },
             "Competitive Open Queue6v6": {
                 "Name": "Competitive Open Queue",
                 "Players": "6v6"
@@ -114,6 +122,10 @@
             "Elimination6v6": {
                 "Name": "Elimination",
                 "Players": "6v6"
+            },
+            "Frenzied StampedeCo-op": {
+                "Name": "Frenzied Stampede",
+                "Players": "Co-op"
             },
             "Glass CannonCo-op": {
                 "Name": "Glass Cannon",
@@ -167,6 +179,10 @@
                 "Name": "Low Gravity",
                 "Players": "6v6"
             },
+            "Lúcioball Remix3v3": {
+                "Name": "Lúcioball Remix",
+                "Players": "3v3"
+            },
             "Lúcioball3v3": {
                 "Name": "Lúcioball",
                 "Players": "3v3"
@@ -199,6 +215,10 @@
                 "Name": "Mystery Heroes",
                 "Players": "6v6"
             },
+            "Mystery SwapCo-op": {
+                "Name": "Mystery Swap",
+                "Players": "Co-op"
+            },
             "No Limits Payloads6v6": {
                 "Name": "No Limits Payloads",
                 "Players": "6v6"
@@ -227,9 +247,17 @@
                 "Name": "Retribution (Story)",
                 "Players": "Co-op"
             },
+            "RetributionCo-op": {
+                "Name": "Retribution",
+                "Players": "Co-op"
+            },
             "Rialto6v6": {
                 "Name": "Rialto",
                 "Players": "6v6"
+            },
+            "Shocking SurpriseCo-op": {
+                "Name": "Shocking Surprise",
+                "Players": "Co-op"
             },
             "Skirmish6v6": {
                 "Name": "Skirmish",
@@ -251,6 +279,10 @@
                 "Name": "Storm Rising (Story)",
                 "Players": "Co-op"
             },
+            "Storm RisingCo-op": {
+                "Name": "Storm Rising",
+                "Players": "Co-op"
+            },
             "Surgical StrikeCo-op": {
                 "Name": "Surgical Strike",
                 "Players": "Co-op"
@@ -258,6 +290,10 @@
             "Team Deathmatch4v4": {
                 "Name": "Team Deathmatch",
                 "Players": "4v4"
+            },
+            "Three They WereCo-op": {
+                "Name": "Three They Were",
+                "Players": "Co-op"
             },
             "Total Mayhem6v6": {
                 "Name": "Total Mayhem",
@@ -271,6 +307,18 @@
                 "Name": "Uprising (Story)",
                 "Players": "Co-op"
             },
+            "UprisingCo-op": {
+                "Name": "Uprising",
+                "Players": "Co-op"
+            },
+            "Vengeful GhostCo-op": {
+                "Name": "Vengeful Ghost",
+                "Players": "Co-op"
+            },
+            "Volatile ZomnicsCo-op": {
+                "Name": "Volatile Zomnics",
+                "Players": "Co-op"
+            },
             "Winter Mystery6v6": {
                 "Name": "Winter Mystery",
                 "Players": "6v6"
@@ -280,7 +328,7 @@
                 "Players": "5v1"
             }
         },
-        "day_resets_in": "Day resets in",
+        "day_resets_in": "Day resets at",
         "heroes": {
             "Ana": "Ana",
             "Ashe": "Ashe",
@@ -345,6 +393,7 @@
             "Busan Downtown": "Busan Downtown",
             "Busan Sanctuary": "Busan Sanctuary",
             "Busan Stadium": "Busan Stadium",
+            "Busan Stadium Classic": "Busan Stadium Classic",
             "Castillo": "Castillo",
             "Château Guillard": "Château Guillard",
             "Dorado": "Dorado",
@@ -366,6 +415,36 @@
             "Lijiang Garden": "Lijiang Garden",
             "Lijiang Night Market": "Lijiang Night Market",
             "Lijiang Tower": "Lijiang Tower",
+            "Menu/Anniversary": "Menu/Anniversary",
+            "Menu/Black Forest (Winter) (Day)": "Menu/Black Forest (Winter) (Day)",
+            "Menu/Black Forest (Winter) (Night)": "Menu/Black Forest (Winter) (Night)",
+            "Menu/Busan (Lucioball)": "Menu/Busan (Lucioball)",
+            "Menu/Busan (Lunar)": "Menu/Busan (Lunar)",
+            "Menu/Chateau (Halloween)": "Menu/Chateau (Halloween)",
+            "Menu/Eichenwalde (Alt)": "Menu/Eichenwalde (Alt)",
+            "Menu/Eichenwalde (Halloween)": "Menu/Eichenwalde (Halloween)",
+            "Menu/Gibraltar": "Menu/Gibraltar",
+            "Menu/Hanamura": "Menu/Hanamura",
+            "Menu/Havana": "Menu/Havana",
+            "Menu/Havana (Archives)": "Menu/Havana (Archives)",
+            "Menu/Hollywood": "Menu/Hollywood",
+            "Menu/Horizon Lunar Colony": "Menu/Horizon Lunar Colony",
+            "Menu/Junkertown": "Menu/Junkertown",
+            "Menu/Kings Row": "Menu/Kings Row",
+            "Menu/Kings Row (Archives)": "Menu/Kings Row (Archives)",
+            "Menu/Kings Row (Winter)": "Menu/Kings Row (Winter)",
+            "Menu/Lijiang (Lunar)": "Menu/Lijiang (Lunar)",
+            "Menu/OWL": "Menu/OWL",
+            "Menu/Paris": "Menu/Paris",
+            "Menu/Paris (Alt)": "Menu/Paris (Alt)",
+            "Menu/Rialto": "Menu/Rialto",
+            "Menu/Rialto (Archives)": "Menu/Rialto (Archives)",
+            "Menu/Route 66 (Alt)": "Menu/Route 66 (Alt)",
+            "Menu/Summer Games (2020)": "Menu/Summer Games (2020)",
+            "Menu/Sydney (Lucioball)": "Menu/Sydney (Lucioball)",
+            "Menu/Temple of Anubis (Alt)": "Menu/Temple of Anubis (Alt)",
+            "Menu/Volskaya": "Menu/Volskaya",
+            "Menu/World Cup": "Menu/World Cup",
             "Necropolis": "Necropolis",
             "Nepal": "Nepal",
             "Nepal Sanctum": "Nepal Sanctum",
@@ -383,6 +462,7 @@
             "Rialto": "Rialto",
             "Route 66": "Route 66",
             "Sydney Harbour Arena": "Sydney Harbour Arena",
+            "Sydney Harbour Arena Classic": "Sydney Harbour Arena Classic",
             "Temple of Anubis": "Temple of Anubis",
             "Tutorial": "Tutorial",
             "VPP Green Room": "VPP Green Room",
@@ -390,7 +470,10 @@
             "Watchpoint: Gibraltar": "Watchpoint: Gibraltar",
             "Workshop Chamber": "Workshop Chamber",
             "Workshop Expanse": "Workshop Expanse",
-            "Workshop Island": "Workshop Island"
+            "Workshop Expanse (Night)": "Workshop Expanse (Night)",
+            "Workshop Green Screen": "Workshop Green Screen",
+            "Workshop Island": "Workshop Island",
+            "Workshop Island (Night)": "Workshop Island (Night)"
         },
         "not_updated_yet": "Today's arcade has not been updated yet"
     },

@@ -1,9 +1,9 @@
 {
     "footer": {
-        "contributors": "并通过维持",
-        "copyright_materials": "游戏内容和材料是商标和它们各自的发行商和其授权的版权。版权所有。",
-        "copyright_site": "这个网站是下一个许可",
-        "made_by": "这个网站是由为了好玩做"
+        "contributors": "并由",
+        "copyright_materials": "游戏内容和材料是其各自发行者及其许可者的商标和版权。版权所有。",
+        "copyright_site": "本网站的许可根据",
+        "made_by": "这个网站是由"
     },
     "general": {
         "contributors": "contributors",
@@ -17,6 +17,10 @@
         "arcademodes": {
             "Almost No Limits6v6": {
                 "Name": "几乎没有限制",
+                "Players": "6v6"
+            },
+            "Assault Test6v6": {
+                "Name": "攻防测试",
                 "Players": "6v6"
             },
             "Assault6v6": {
@@ -87,6 +91,10 @@
                 "Name": "决斗先锋竞技比赛",
                 "Players": "6v6"
             },
+            "Competitive No Limits6v6": {
+                "Name": "竞技自由乱斗",
+                "Players": "6v6"
+            },
             "Competitive Open Queue6v6": {
                 "Name": "开放排位竞技比赛",
                 "Players": "6v6"
@@ -114,6 +122,10 @@
             "Elimination6v6": {
                 "Name": "决斗先锋",
                 "Players": "6v6"
+            },
+            "Frenzied StampedeCo-op": {
+                "Name": "夺命狂奔",
+                "Players": "合作"
             },
             "Glass CannonCo-op": {
                 "Name": "玻璃大炮",
@@ -167,6 +179,10 @@
                 "Name": "失重环境",
                 "Players": "6v6"
             },
+            "Lúcioball Remix3v3": {
+                "Name": "动感斗球REMIX",
+                "Players": "3v3"
+            },
             "Lúcioball3v3": {
                 "Name": "动感斗球",
                 "Players": "3v3"
@@ -199,6 +215,10 @@
                 "Name": "未知英雄",
                 "Players": "6v6"
             },
+            "Mystery SwapCo-op": {
+                "Name": "神秘命运",
+                "Players": "合作"
+            },
             "No Limits Payloads6v6": {
                 "Name": "无限运载目标",
                 "Players": "6v6"
@@ -227,9 +247,17 @@
                 "Name": "威尼斯行动（剧情模式）",
                 "Players": "合作"
             },
+            "RetributionCo-op": {
+                "Name": "威尼斯行动",
+                "Players": "合作"
+            },
             "Rialto6v6": {
                 "Name": "里阿尔托",
                 "Players": "6v6"
+            },
+            "Shocking SurpriseCo-op": {
+                "Name": "雷电惊喜",
+                "Players": "合作"
             },
             "Skirmish6v6": {
                 "Name": "突击模式",
@@ -251,6 +279,10 @@
                 "Name": "哈瓦那行动（剧情模式）",
                 "Players": "合作"
             },
+            "Storm RisingCo-op": {
+                "Name": "哈瓦那行动",
+                "Players": "合作"
+            },
             "Surgical StrikeCo-op": {
                 "Name": "精准打击",
                 "Players": "合作"
@@ -258,6 +290,10 @@
             "Team Deathmatch4v4": {
                 "Name": "团队死斗",
                 "Players": "4v4"
+            },
+            "Three They WereCo-op": {
+                "Name": "三人成行",
+                "Players": "合作"
             },
             "Total Mayhem6v6": {
                 "Name": "战斗狂欢",
@@ -271,6 +307,18 @@
                 "Name": "国王行动（剧情模式）",
                 "Players": "合作"
             },
+            "UprisingCo-op": {
+                "Name": "国王行动",
+                "Players": "合作"
+            },
+            "Vengeful GhostCo-op": {
+                "Name": "复仇之魂",
+                "Players": "合作"
+            },
+            "Volatile ZomnicsCo-op": {
+                "Name": "爆裂僵尸",
+                "Players": "合作"
+            },
             "Winter Mystery6v6": {
                 "Name": "神秘圣诞",
                 "Players": "6v6"
@@ -280,7 +328,7 @@
                 "Players": "5v1"
             }
         },
-        "day_resets_in": "日在复位",
+        "day_resets_in": "每天的重置时间为",
         "heroes": {
             "Ana": "安娜",
             "Ashe": "艾什",
@@ -345,6 +393,7 @@
             "Busan Downtown": "釜山城区",
             "Busan Sanctuary": "釜山寺院",
             "Busan Stadium": "釜山体育场",
+            "Busan Stadium Classic": "釜山体育场（经典）",
             "Castillo": "城堡",
             "Château Guillard": "吉拉德堡",
             "Dorado": "多拉多",
@@ -366,6 +415,36 @@
             "Lijiang Garden": "漓江塔庭院",
             "Lijiang Night Market": "漓江塔夜市",
             "Lijiang Tower": "漓江塔",
+            "Menu/Anniversary": "Menu/Anniversary",
+            "Menu/Black Forest (Winter) (Day)": "Menu/Black Forest (Winter) (Day)",
+            "Menu/Black Forest (Winter) (Night)": "Menu/Black Forest (Winter) (Night)",
+            "Menu/Busan (Lucioball)": "Menu/Busan (Lucioball)",
+            "Menu/Busan (Lunar)": "Menu/Busan (Lunar)",
+            "Menu/Chateau (Halloween)": "Menu/Chateau (Halloween)",
+            "Menu/Eichenwalde (Alt)": "Menu/Eichenwalde (Alt)",
+            "Menu/Eichenwalde (Halloween)": "Menu/Eichenwalde (Halloween)",
+            "Menu/Gibraltar": "Menu/Gibraltar",
+            "Menu/Hanamura": "Menu/Hanamura",
+            "Menu/Havana": "Menu/Havana",
+            "Menu/Havana (Archives)": "Menu/Havana (Archives)",
+            "Menu/Hollywood": "Menu/Hollywood",
+            "Menu/Horizon Lunar Colony": "Menu/Horizon Lunar Colony",
+            "Menu/Junkertown": "Menu/Junkertown",
+            "Menu/Kings Row": "Menu/Kings Row",
+            "Menu/Kings Row (Archives)": "Menu/Kings Row (Archives)",
+            "Menu/Kings Row (Winter)": "Menu/Kings Row (Winter)",
+            "Menu/Lijiang (Lunar)": "Menu/Lijiang (Lunar)",
+            "Menu/OWL": "Menu/OWL",
+            "Menu/Paris": "Menu/Paris",
+            "Menu/Paris (Alt)": "Menu/Paris (Alt)",
+            "Menu/Rialto": "Menu/Rialto",
+            "Menu/Rialto (Archives)": "Menu/Rialto (Archives)",
+            "Menu/Route 66 (Alt)": "Menu/Route 66 (Alt)",
+            "Menu/Summer Games (2020)": "Menu/Summer Games (2020)",
+            "Menu/Sydney (Lucioball)": "Menu/Sydney (Lucioball)",
+            "Menu/Temple of Anubis (Alt)": "Menu/Temple of Anubis (Alt)",
+            "Menu/Volskaya": "Menu/Volskaya",
+            "Menu/World Cup": "Menu/World Cup",
             "Necropolis": "墓园",
             "Nepal": "尼泊尔",
             "Nepal Sanctum": "尼泊尔圣所",
@@ -383,20 +462,24 @@
             "Rialto": "里阿尔托",
             "Route 66": "66号公路",
             "Sydney Harbour Arena": "悉尼海港竞技场",
+            "Sydney Harbour Arena Classic": "悉尼海港竞技场（经典）",
             "Temple of Anubis": "阿努比斯神殿",
             "Tutorial": "教学模式",
             "VPP Green Room": "VPP Green Room",
             "Volskaya Industries": "沃斯卡娅工业区",
             "Watchpoint: Gibraltar": "监测站：直布罗陀",
             "Workshop Chamber": "地图工坊室内",
-            "Workshop Expanse": "地图工坊室外",
-            "Workshop Island": "地图工坊岛屿"
+            "Workshop Expanse": "地图工坊空地",
+            "Workshop Expanse (Night)": "地图工坊空地（夜间）",
+            "Workshop Green Screen": "地图工坊绿幕",
+            "Workshop Island": "地图工坊岛屿",
+            "Workshop Island (Night)": "地图工坊岛屿（夜间）"
         },
-        "not_updated_yet": "如今的街机尚未更新"
+        "not_updated_yet": "今天的街机尚未更新"
     },
     "profile": {
         "about": "About",
-        "contributor_subline": "因为贡献者{date}总的贡献{amount}",
+        "contributor_subline": "自{date}以来的贡献者，总计{amount}",
         "favourite_arcade_heroes": "最喜欢的英雄",
         "favourite_arcade_maps": "最喜欢的地图",
         "favourite_arcade_modes": "最喜欢的街机模式",

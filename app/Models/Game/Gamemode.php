@@ -17,7 +17,7 @@ class Gamemode extends Model
      */
     public function getTileImage()
     {
-        $image = 'img/gamemodes/' . md5($this->name . $this->players) . ".jpg";
+        $image = 'img/gamemodes/' . strtoupper(md5($this->name . $this->players)) . ".jpg";
         if (File::exists($image)) {
             return URL::secure($image);
         } else {

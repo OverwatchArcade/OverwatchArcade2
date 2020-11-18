@@ -1,9 +1,9 @@
 {
     "footer": {
-        "contributors": "I utrzymuje",
-        "copyright_materials": "Zawartość gry i materiały są znakami towarowymi i prawami autorskimi ich odpowiednich wydawcy i jej licencjodawców. wszelkie prawa zastrzeżone.",
-        "copyright_site": "Ta strona jest na licencji",
-        "made_by": "Ta strona jest dla zabawy przez"
+        "contributors": "I utrzymywane przez",
+        "copyright_materials": "Treść i materiały gry są znakami towarowymi i prawami autorskimi ich odpowiednich wydawców i ich licencjodawców. wszelkie prawa zastrzeżone.",
+        "copyright_site": "Ta witryna jest licencjonowana pod a",
+        "made_by": "Ta strona jest stworzona dla zabawy przez"
     },
     "general": {
         "contributors": "contributors",
@@ -17,6 +17,10 @@
         "arcademodes": {
             "Almost No Limits6v6": {
                 "Name": "Prawie bez ograniczeń",
+                "Players": "6 na 6"
+            },
+            "Assault Test6v6": {
+                "Name": "Testowy Szturm",
                 "Players": "6 na 6"
             },
             "Assault6v6": {
@@ -87,6 +91,10 @@
                 "Name": "Rywalizacja w trybie Eliminacji",
                 "Players": "6 na 6"
             },
+            "Competitive No Limits6v6": {
+                "Name": "Rywalizacja bez ograniczeń",
+                "Players": "6 na 6"
+            },
             "Competitive Open Queue6v6": {
                 "Name": "Otwarta Rywalizacja",
                 "Players": "6 na 6"
@@ -114,6 +122,10 @@
             "Elimination6v6": {
                 "Name": "Eliminacja",
                 "Players": "6 na 6"
+            },
+            "Frenzied StampedeCo-op": {
+                "Name": "Szalony Spęd",
+                "Players": "Współpraca"
             },
             "Glass CannonCo-op": {
                 "Name": "Szklane działo",
@@ -167,6 +179,10 @@
                 "Name": "Niska grawitacja",
                 "Players": "6 na 6"
             },
+            "Lúcioball Remix3v3": {
+                "Name": "Remix Futbolúcio",
+                "Players": "3 na 3"
+            },
             "Lúcioball3v3": {
                 "Name": "Futbolúcio",
                 "Players": "3 na 3"
@@ -199,6 +215,10 @@
                 "Name": "Tajemniczy bohaterowie",
                 "Players": "6 na 6"
             },
+            "Mystery SwapCo-op": {
+                "Name": "Tajemnicza Zamiana",
+                "Players": "Współpraca"
+            },
             "No Limits Payloads6v6": {
                 "Name": "Brak ograniczeń ładunków",
                 "Players": "6 na 6"
@@ -227,9 +247,17 @@
                 "Name": "Odwet (fabuła)",
                 "Players": "Współpraca"
             },
+            "RetributionCo-op": {
+                "Name": "Odwet",
+                "Players": "Współpraca"
+            },
             "Rialto6v6": {
                 "Name": "Rialto",
                 "Players": "6 na 6"
+            },
+            "Shocking SurpriseCo-op": {
+                "Name": "Szokująca Niespodzianka",
+                "Players": "Współpraca"
             },
             "Skirmish6v6": {
                 "Name": "Potyczka",
@@ -251,6 +279,10 @@
                 "Name": "Czarne Chmury (fabuła)",
                 "Players": "Współpraca"
             },
+            "Storm RisingCo-op": {
+                "Name": "Czarne Chmury",
+                "Players": "Współpraca"
+            },
             "Surgical StrikeCo-op": {
                 "Name": "Precyzyjne uderzenie",
                 "Players": "Współpraca"
@@ -258,6 +290,10 @@
             "Team Deathmatch4v4": {
                 "Name": "Drużynowy Deathmatch",
                 "Players": "4 na 4"
+            },
+            "Three They WereCo-op": {
+                "Name": "Ich Troje",
+                "Players": "Współpraca"
             },
             "Total Mayhem6v6": {
                 "Name": "Totalna Masakra",
@@ -271,6 +307,18 @@
                 "Name": "Insurekcja (fabuła)",
                 "Players": "Współpraca"
             },
+            "UprisingCo-op": {
+                "Name": "Insurekcja",
+                "Players": "Współpraca"
+            },
+            "Vengeful GhostCo-op": {
+                "Name": "Mściwy Duch",
+                "Players": "Współpraca"
+            },
+            "Volatile ZomnicsCo-op": {
+                "Name": "Wybuchowe Złomniki",
+                "Players": "Współpraca"
+            },
             "Winter Mystery6v6": {
                 "Name": "Zimowa tajemnica",
                 "Players": "6 na 6"
@@ -280,7 +328,7 @@
                 "Players": "5 NA 1"
             }
         },
-        "day_resets_in": "Resetuje dnia w",
+        "day_resets_in": "Dzień resetuje się o",
         "heroes": {
             "Ana": "Ana",
             "Ashe": "Ashe",
@@ -335,7 +383,7 @@
         "labels": {
             "Daily": "Codziennie",
             "Permanent": "Stały",
-            "Weekly": "Co tydzień"
+            "Weekly": "Tygodniowo"
         },
         "maps": {
             "Ayutthaya": "Ayutthaya",
@@ -345,6 +393,7 @@
             "Busan Downtown": "Pusan: Centrum",
             "Busan Sanctuary": "Pusan: Sanktuarium",
             "Busan Stadium": "Stadion Pusan",
+            "Busan Stadium Classic": "Klasyczny Stadion Pusan",
             "Castillo": "Castillo",
             "Château Guillard": "Château Guillard",
             "Dorado": "Dorado",
@@ -366,6 +415,36 @@
             "Lijiang Garden": "Wieża Lijiang: Ogród",
             "Lijiang Night Market": "Wieża Lijiang: Nocny bazar",
             "Lijiang Tower": "Wieża Lijiang",
+            "Menu/Anniversary": "Menu/Anniversary",
+            "Menu/Black Forest (Winter) (Day)": "Menu/Black Forest (Winter) (Day)",
+            "Menu/Black Forest (Winter) (Night)": "Menu/Black Forest (Winter) (Night)",
+            "Menu/Busan (Lucioball)": "Menu/Busan (Lucioball)",
+            "Menu/Busan (Lunar)": "Menu/Busan (Lunar)",
+            "Menu/Chateau (Halloween)": "Menu/Chateau (Halloween)",
+            "Menu/Eichenwalde (Alt)": "Menu/Eichenwalde (Alt)",
+            "Menu/Eichenwalde (Halloween)": "Menu/Eichenwalde (Halloween)",
+            "Menu/Gibraltar": "Menu/Gibraltar",
+            "Menu/Hanamura": "Menu/Hanamura",
+            "Menu/Havana": "Menu/Havana",
+            "Menu/Havana (Archives)": "Menu/Havana (Archives)",
+            "Menu/Hollywood": "Menu/Hollywood",
+            "Menu/Horizon Lunar Colony": "Menu/Horizon Lunar Colony",
+            "Menu/Junkertown": "Menu/Junkertown",
+            "Menu/Kings Row": "Menu/Kings Row",
+            "Menu/Kings Row (Archives)": "Menu/Kings Row (Archives)",
+            "Menu/Kings Row (Winter)": "Menu/Kings Row (Winter)",
+            "Menu/Lijiang (Lunar)": "Menu/Lijiang (Lunar)",
+            "Menu/OWL": "Menu/OWL",
+            "Menu/Paris": "Menu/Paris",
+            "Menu/Paris (Alt)": "Menu/Paris (Alt)",
+            "Menu/Rialto": "Menu/Rialto",
+            "Menu/Rialto (Archives)": "Menu/Rialto (Archives)",
+            "Menu/Route 66 (Alt)": "Menu/Route 66 (Alt)",
+            "Menu/Summer Games (2020)": "Menu/Summer Games (2020)",
+            "Menu/Sydney (Lucioball)": "Menu/Sydney (Lucioball)",
+            "Menu/Temple of Anubis (Alt)": "Menu/Temple of Anubis (Alt)",
+            "Menu/Volskaya": "Menu/Volskaya",
+            "Menu/World Cup": "Menu/World Cup",
             "Necropolis": "Nekropolia",
             "Nepal": "Nepal",
             "Nepal Sanctum": "Nepal: Sanktuarium",
@@ -383,6 +462,7 @@
             "Rialto": "Rialto",
             "Route 66": "Droga 66",
             "Sydney Harbour Arena": "Sydney Harbour Park",
+            "Sydney Harbour Arena Classic": "Klasyczny Sydney Harbour Park",
             "Temple of Anubis": "Świątynia Anubisa",
             "Tutorial": "Samouczek",
             "VPP Green Room": "VPP Green Room",
@@ -390,16 +470,19 @@
             "Watchpoint: Gibraltar": "Posterunek: Gibraltar",
             "Workshop Chamber": "Warsztat: Komnata",
             "Workshop Expanse": "Warsztat: Przestwór",
-            "Workshop Island": "Warsztat: Wyspa"
+            "Workshop Expanse (Night)": "Warsztat: Przestwór (noc)",
+            "Workshop Green Screen": "Zielony ekran Warsztatu",
+            "Workshop Island": "Warsztat: Wyspa",
+            "Workshop Island (Night)": "Warsztat: Wyspa (noc)"
         },
-        "not_updated_yet": "Dzisiejsze zręcznościowa nie została jeszcze zaktualizowana"
+        "not_updated_yet": "Dzisiejszy salon gier nie został jeszcze zaktualizowany"
     },
     "profile": {
         "about": "About",
-        "contributor_subline": "Specjalista od {date} w sumie {amount} składek",
-        "favourite_arcade_heroes": "Ulubione bohaterowie",
+        "contributor_subline": "Współtwórca od {date} z sumą {amount} składek",
+        "favourite_arcade_heroes": "Ulubieni bohaterowie",
         "favourite_arcade_maps": "Ulubione mapy",
-        "favourite_arcade_modes": "Ulubione zręcznościowe tryby",
+        "favourite_arcade_modes": "Ulubione tryby zręcznościowe",
         "last_submit": "Last submit"
     }
 }
