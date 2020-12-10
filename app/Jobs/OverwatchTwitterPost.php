@@ -39,23 +39,14 @@ class OverwatchTwitterPost implements ShouldQueue
 
     public function createScreenshot()
     {
-        try {
-            $params = http_build_query(array(
-                "access_key" => env('APIFLASH_KEY'),
-                "url" => route('API_OW_SCREENSHOT'),
-                "ttl" => 0,
-                "fresh" => true
-            ));
-            $file = file_get_contents("https://api.apiflash.com/v1/urltoimage?" . $params);
-        } catch (\Exception $e) {
-            $params = http_build_query(array(
-                "access_key" => env('SCREENSHOT_KEY'),
-                "url" => route('API_OW_SCREENSHOT'),
-                "ttl" => 0,
-                "force" => 1
-            ));
-            $file = file_get_contents("http://api.screenshotlayer.com/api/capture?" . $params);
-        }
+        $params = http_build_query(array(
+            "access_key" => env('APIFLASH_KEY'),
+            "url" => route('API_OW_SCREENSHOT'),
+            "user_agent" => env('APIFLASH_USER_AGENT'),
+            "ttl" => 0,
+            "fresh" => true
+        ));
+        $file = file_get_contents("https://api.apiflash.com/v1/urltoimage?" . $params);
         Storage::disk('public')->put(self::SCREENSHOT_FILE, $file);
     }
 
