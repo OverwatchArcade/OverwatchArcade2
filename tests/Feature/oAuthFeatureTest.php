@@ -18,5 +18,4 @@ class oAuthFeatureTest extends TestCase
         $response->assertStatus(302);
     }
 
-
 }
