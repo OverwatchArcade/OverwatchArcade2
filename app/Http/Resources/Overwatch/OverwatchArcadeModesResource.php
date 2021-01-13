@@ -16,6 +16,7 @@ class OverwatchArcadeModesResource extends JsonResource
     public function toArray($request)
     {
         return [
+            "notice" => "WARNING - This API will be deprecated and change breaking soon. I'm rewriting everything. Keep an eye out for changes on https://github.com/OverwatchArcade.",
             "id" => $this->id,
             "name" => $this->name,
             "players" => $this->players,

@@ -22,6 +22,7 @@ class DailyOverwatchResource extends JsonResource
         $created_at = Carbon::parse($this->created_at)->setTimezone('UTC');
 
         return [
+            "notice" => "WARNING - This API will be deprecated and change breaking soon. I'm rewriting everything. Keep an eye out for changes on https://github.com/OverwatchArcade.",
             'created_at' => $created_at->toIso8601String(),
             'is_today' => $created_at->isToday(),
             'user' => [
