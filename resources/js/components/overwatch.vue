@@ -31,24 +31,22 @@
                 </div>
                 <div class="col-xl-8 col-md-12">
                     <div class="row mb-4">
-                        <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4 mb-4 mb-xl-0">
+                        <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4 mb-4 mb-xl-4">
                             <card :gamemode="daily.modes.tile_2"></card>
                         </div>
-                        <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4 mb-4 mb-xl-0">
+                        <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4 mb-4 mb-xl-4">
                             <card :gamemode="daily.modes.tile_3"></card>
                         </div>
-                        <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4 mb-4 mb-xl-0">
+                        <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4 mb-4 mb-xl-4">
                             <card :gamemode="daily.modes.tile_4"></card>
                         </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4 mb-4 mb-xl-0">
+                        <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4 mb-4 mb-xl-4">
                             <card :gamemode="daily.modes.tile_5"></card>
                         </div>
-                        <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4 mb-4 mb-xl-0">
+                        <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4 mb-4 mb-xl-4">
                             <card :gamemode="daily.modes.tile_6"></card>
                         </div>
-                        <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4 mb-4 mb-xl-0">
+                        <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4 mb-4 mb-xl-4">
                             <card :gamemode="daily.modes.tile_7"></card>
                         </div>
                     </div>
