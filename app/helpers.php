@@ -12,7 +12,7 @@ function getRandomBackground()
 {
     $files = Storage::disk('public')->allFiles('img/backgrounds/' . env('BACKGROUND_MODE', 'default'));
 
-    return URL::secure(Arr::random($files));
+    return URL::asset(Arr::random($files));
 }
 
 /** Returns all the available countries that have translatable files

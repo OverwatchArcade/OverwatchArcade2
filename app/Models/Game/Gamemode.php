@@ -19,9 +19,9 @@ class Gamemode extends Model
     {
         $image = 'img/gamemodes/' . strtoupper(md5($this->name . $this->players)) . ".jpg";
         if (File::exists($image)) {
-            return URL::secure($image);
+            return URL::asset($image);
         } else {
-            return URL::secure('img/gamemodes/404.jpg');
+            return URL::asset('img/gamemodes/404.jpg');
         }
     }
 }

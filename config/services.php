@@ -35,9 +35,9 @@ return [
     ],
 
     'battlenet' => [
-        'client_id' => env('BATTLE.NET_KEY'),
-        'client_secret' => env('BATTLE.NET_SECRET'),
-        'redirect' => env('BATTLE.NET_REDIRECT_URI')
+        'client_id' => env('BATTLENET_KEY'),
+        'client_secret' => env('BATTLENET_SECRET'),
+        'redirect' => env('BATTLENET_REDIRECT_URI')
     ],
 
 ];
