@@ -13,11 +13,11 @@
 
     <meta property="og:title" content="Overwatch arcade gamemodes - daily updated and get notified easily">
     <meta property="og:site_name" content="OverwatchArcade.today">
-    <meta property="og:url" content="{{env('APP_URL')}}">
+    <meta property="og:url" content="{{config('app.url')}}">
     <meta property="og:description"
           content="Discover daily Overwatch arcade gamemodes without having to login to Overwatch. Arcade modes are posted daily. Also get notified by following the Overwatch arcade Twitter or Discord server. Overwatch arcade today also provides a free API so you can create your own implementation. Special thanks to all the contributors">
     <meta property="og:type" content="website">
-    <meta property="og:image" content="{{env('APP_URL')}}/img/ogimage.jpg">
+    <meta property="og:image" content="{{config('app.url')}}/img/ogimage.jpg">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
@@ -25,7 +25,7 @@
     <meta property="twitter:title" content="Overwatch arcade gamemodes - daily updated and get notified easily">
     <meta property="twitter:description"
           content="Discover daily Overwatch arcade gamemodes without having to login to Overwatch. Arcade modes are posted daily. Also get notified by following the Overwatch arcade Twitter or Discord server. Overwatch arcade today also provides a free API so you can create your own implementation. Special thanks to all the contributors">
-    <meta property="twitter:image" content="{{env('APP_URL')}}/img/ogimage-twitter.jpg">
+    <meta property="twitter:image" content="{{config('app.url')}}/img/ogimage-twitter.jpg">
 
     <link rel="shortcut icon" href="/favicon.ico"/>
     <link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32x32.png">
