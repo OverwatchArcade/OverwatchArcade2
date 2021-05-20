@@ -40,9 +40,9 @@ class OverwatchTwitterPost implements ShouldQueue
     public function createScreenshot()
     {
         $params = http_build_query(array(
-            "access_key" => env('APIFLASH_KEY'),
+            "access_key" => config('screenshot.apiflash_key'),
             "url" => route('API_OW_SCREENSHOT'),
-            "user_agent" => env('APIFLASH_USER_AGENT'),
+            "user_agent" => config('screenshot.apiflash_user_agent'),
             "ttl" => 0,
             "fresh" => true
         ));
@@ -58,8 +58,8 @@ class OverwatchTwitterPost implements ShouldQueue
     public function handle()
     {
         $this->createScreenshot();
-        $twitter = new TwitterOAuth(env('TWITTER_CONSUMER_KEY'), env('TWITTER_CONSUMER_SECRET'),
-            env('TWITTER_ACCESS_TOKEN'), env('TWITTER_ACCESS_TOKEN_SECRET'));
+        $twitter = new TwitterOAuth(config('twitter.consumer_key'), config('twitter.consumer_secret'),
+            config('twitter.access_token'), config('twitter.secret_token'));
         $media = $twitter->upload('media/upload',
             ['media' => Storage::disk('public')->path(self::SCREENSHOT_FILE)]);
         $parameters = [

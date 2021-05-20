@@ -10,7 +10,7 @@ use Illuminate\Support\Facades\URL;
  */
 function getRandomBackground()
 {
-    $files = Storage::disk('public')->allFiles('img/backgrounds/' . env('BACKGROUND_MODE', 'default'));
+    $files = Storage::disk('public')->allFiles('img/backgrounds/' . config('owarcade.theme'));
 
     return URL::asset(Arr::random($files));
 }
